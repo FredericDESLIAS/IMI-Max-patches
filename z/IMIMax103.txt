@@ -1,0 +1,51 @@
+1, <category> 1 Projection;
+2, IMI_simple_video_player "Simple video player (GL)";
+3, IMI_gridshape "Shapes in 3D";
+4, IMI_texture "Textures";
+5, GLsmooth "Optimised Video player (GL)";
+6, renderMaster "Render effects on GL scene";
+7, keystonev23 "Keystone + crop tool";
+
+10, -----------------------;
+11, <category> 2 Exhibition;
+12, IMI_video_twoscreens "IMI Video player for 2 screens";
+14, IMI_multi-layered_video "IMI multi-layered video";
+15, IMI_iCinema "iCinema.maxpat";
+16, IMI_OSC2VPT "Control VPT from Max";
+17, VPT_start "Video Projection Tool 5.1";
+
+20, -----------------------;
+21, <category> 3 Internet;
+22, IMI_weather_report "Using XML in Max";
+23, IMI_pachube2OSC "Read a Pachube feed";
+24, BBCnews "Reading BBCnews";
+25, twitter_read "Reading and parsing XML/twitter"; 
+26, regexp_tutorial "Regular expression";
+
+30, -----------------------;
+31, <category> 4 DbN2D;
+32, IMI_lcd_sketch "LCD Sketch";
+33, IMI_lcd_animation "LCD animation";
+34, IMI_lcd_motion "Motion using counter";
+35, IMI_lcd_oscillation "Oscillation using sin/cos";
+36, IMI_noise2lcd "Noise to Sketch position";
+37, Drawagent "Drawagent";
+
+40, -----------------------;
+41, <category> 5 DbN3D;
+42, IMI_noise2GLSketch "Noise to GLSketch tutorial";
+43, GLSketch "GL Sketch using slide";
+44, IMI_matrix2GL.maxpat "matrix to GL world";
+45, GLGeometry "Gridshape Geometry 101";
+46, GLNurbs_sound "GL nurbs + sound";
+
+50, -----------------------;
+51, <category> 6 DbN3D.2;
+52, IMI_jitexpr "basic jit.expr";
+53, IMI_fractals "fractals using jit.bfg";
+54, IMI_screenworld "interact with a 3D object";
+55, GLNurbs "Matrix to GL Nurbs";
+56, GLMultiple "control multiple gridshape";
+57, Video2GLMesh "transforms a video into GLMesh";
+60, -----------------------;
+
