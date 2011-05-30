@@ -98,6 +98,10 @@ if [ -e "/Applications/Max5" ]; then
 	whichVersion=1;
 fi
 
+if [ -e "/Applications/Max5/_abstract/IMIpatches" ]; then
+	whichVersion=2;
+fi
+
 if [[ $whichVersion == 0 ]]; then
 	echo "Max 5 is not installed in the Applications folder. The automatic installation is not possible.";
 	exit 1;
@@ -116,11 +120,23 @@ if [[ $whichVersion == 1 ]]; then
 	do5Installation;
 fi
 
+if [[ $whichVersion == 2 ]]; then
+
+	echo "MaxMSP 5 is installed, this is the alumni version.";
+	echo ""
+	maxAppFolder="/Applications/Max5";
+	C74Folder="$maxAppFolder/Cycling '74";
+	IMIpatches="$maxAppFolder/_abstract/IMIpatches";
+	IMIextra="$maxAppFolder/patches/extras/";
+	do5Installation;
+fi
+
+
 ################################
 # End of the installation
 echo -ne "\nend of the installation... enjoy!\n"
 echo -ne "(you can quit the Terminal now...)\n"
 
-sleep 5 # under Snow Leopard it seems to quit really fast the terminal after installing
+sleep 5;
 
 exit 0;
