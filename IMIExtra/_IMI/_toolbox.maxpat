@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 0.0, 44.0, 285.0, 49.0 ],
+		"rect" : [ 0.0, 44.0, 154.0, 24.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 44.0, 285.0, 49.0 ],
+		"defrect" : [ 0.0, 44.0, 154.0, 24.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -28,7 +28,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 34.0, 166.0, 63.0, 18.0 ],
+					"patching_rect" : [ 7.0, 153.0, 63.0, 18.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -44,7 +44,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 145.0, 43.0, 16.0 ],
+					"patching_rect" : [ 7.0, 132.0, 43.0, 16.0 ],
 					"text" : "dispose"
 				}
 
@@ -59,7 +59,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 34.0, 118.0, 54.0, 18.0 ],
+					"patching_rect" : [ 7.0, 108.0, 54.0, 18.0 ],
 					"text" : "delay 300"
 				}
 
@@ -74,7 +74,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 34.0, 65.0, 52.0, 18.0 ],
+					"patching_rect" : [ 7.0, 11.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -89,7 +89,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 92.0, 52.0, 18.0 ],
+					"patching_rect" : [ 7.0, 61.0, 52.0, 18.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -104,7 +104,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 94.0, 307.0, 16.0 ],
+					"patching_rect" : [ 7.0, 36.0, 307.0, 16.0 ],
 					"text" : "osascript /Applications/Max5/_abstract/IMIpatches/z/SToolbox.scpt"
 				}
 
@@ -117,10 +117,10 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 34.0, 92.0, 32.0, 18.0 ],
-					"text" : "shell"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 83.0, 50.0, 18.0 ],
+					"text" : "aka.shell"
 				}
 
 			}
