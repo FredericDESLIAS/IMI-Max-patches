@@ -21,13 +21,44 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-57",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 17.0, 138.0, 87.0, 18.0 ],
+					"text" : "load TuioClient"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-54",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 101.0, 111.0, 70.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 131.0, 112.0, 100.0, 20.0 ],
+					"text" : "TuioClient"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-48",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 95.0, 84.0, 111.0, 21.0 ],
+					"patching_rect" : [ 101.0, 82.0, 111.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 58.0, 100.0, 20.0 ],
 					"text" : "MMF-Fantastick"
@@ -44,8 +75,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 95.0, 84.0, 119.0, 18.0 ],
-					"presentation_rect" : [ 146.0, 59.0, 0.0, 0.0 ],
+					"patching_rect" : [ 95.0, 82.0, 119.0, 18.0 ],
 					"text" : "help MMF-Fantastick"
 				}
 
@@ -60,8 +90,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 95.0, 84.0, 52.0, 20.0 ],
-					"presentation_rect" : [ 146.0, 57.0, 0.0, 0.0 ],
+					"patching_rect" : [ 95.0, 82.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -74,8 +103,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 84.0, 175.0, 23.0 ],
-					"presentation_rect" : [ 230.0, 85.0, 0.0, 0.0 ],
+					"patching_rect" : [ 231.0, 82.0, 175.0, 23.0 ],
 					"text" : "Fantastick (iPhone)"
 				}
 
@@ -89,7 +117,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 17.0, 84.0, 72.0, 20.0 ],
+					"patching_rect" : [ 17.0, 82.0, 72.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 105.0, 88.0, 100.0, 20.0 ],
 					"text" : "Fantastick"
@@ -106,8 +134,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 84.0, 138.0, 18.0 ],
-					"presentation_rect" : [ 105.0, 88.0, 0.0, 0.0 ],
+					"patching_rect" : [ 17.0, 82.0, 138.0, 18.0 ],
 					"text" : "load FantaStickv2.3-help"
 				}
 
@@ -122,8 +149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 84.0, 52.0, 20.0 ],
-					"presentation_rect" : [ 105.0, 88.0, 0.0, 0.0 ],
+					"patching_rect" : [ 17.0, 82.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -170,7 +196,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 356.0, 110.0, 23.0 ],
+					"patching_rect" : [ 231.0, 356.0, 110.0, 23.0 ],
 					"text" : "Bluetooth Witilt"
 				}
 
@@ -229,7 +255,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 327.0, 236.0, 23.0 ],
+					"patching_rect" : [ 231.0, 327.0, 236.0, 23.0 ],
 					"text" : "GPS reading and parsing bluetooth"
 				}
 
@@ -288,7 +314,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 508.0, 236.0, 23.0 ],
+					"patching_rect" : [ 231.0, 508.0, 236.0, 23.0 ],
 					"text" : "Osculator application"
 				}
 
@@ -319,7 +345,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 17.0, 198.0, 81.0, 19.0 ],
+					"patching_rect" : [ 17.0, 196.0, 81.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 122.0, 197.0, 100.0, 20.0 ],
 					"text" : "Jitter2DMX"
@@ -349,7 +375,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 229.0, 198.0, 230.0, 23.0 ],
+					"patching_rect" : [ 231.0, 196.0, 230.0, 23.0 ],
 					"text" : "using Jitter for DMX"
 				}
 
@@ -362,7 +388,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 410.0, 225.0, 23.0 ],
+					"patching_rect" : [ 231.0, 410.0, 225.0, 23.0 ],
 					"text" : "osc-to-VPT (video projection tool)"
 				}
 
@@ -405,7 +431,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 442.0, 149.0, 23.0 ],
+					"patching_rect" : [ 231.0, 442.0, 149.0, 23.0 ],
 					"text" : "osc-from-processing"
 				}
 
@@ -418,7 +444,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 476.0, 236.0, 23.0 ],
+					"patching_rect" : [ 231.0, 476.0, 236.0, 23.0 ],
 					"text" : "osc protocol (open sound control)"
 				}
 
@@ -479,7 +505,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 17.0, 57.0, 71.0, 19.0 ],
+					"patching_rect" : [ 17.0, 55.0, 71.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 189.0, 207.0, 100.0, 20.0 ],
 					"text" : "C74"
@@ -495,10 +521,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 17.0, 113.0, 70.0, 22.0 ],
+					"patching_rect" : [ 17.0, 111.0, 74.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 189.0, 180.0, 100.0, 20.0 ],
-					"text" : "Tuio"
+					"text" : "TuioDemo"
 				}
 
 			}
@@ -510,7 +536,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 229.0, 275.0, 221.0, 23.0 ],
+					"patching_rect" : [ 231.0, 275.0, 221.0, 23.0 ],
 					"text" : "updsend (network messages)"
 				}
 
@@ -523,7 +549,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 233.0, 113.0, 210.0, 23.0 ],
+					"patching_rect" : [ 231.0, 111.0, 210.0, 23.0 ],
 					"text" : "Tuio (tangible user interfaces)"
 				}
 
@@ -536,7 +562,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 229.0, 167.0, 230.0, 23.0 ],
+					"patching_rect" : [ 231.0, 168.0, 230.0, 23.0 ],
 					"text" : "DMX protocol (lighting, ...)"
 				}
 
@@ -549,7 +575,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 229.0, 57.0, 175.0, 23.0 ],
+					"patching_rect" : [ 231.0, 55.0, 175.0, 23.0 ],
 					"text" : "C74 (iPhone to Max)"
 				}
 
@@ -564,7 +590,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 113.0, 88.0, 18.0 ],
+					"patching_rect" : [ 17.0, 137.0, 88.0, 18.0 ],
 					"text" : "load TuioDemo"
 				}
 
@@ -579,7 +605,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 113.0, 52.0, 20.0 ],
+					"patching_rect" : [ 17.0, 111.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -592,7 +618,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 229.0, 245.0, 304.0, 23.0 ],
+					"patching_rect" : [ 231.0, 245.0, 304.0, 23.0 ],
 					"text" : "jit.net.send (sends video, audio and messages)"
 				}
 
@@ -714,7 +740,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 57.0, 101.0, 18.0 ],
+					"patching_rect" : [ 17.0, 55.0, 101.0, 18.0 ],
 					"text" : "help c74"
 				}
 
@@ -729,7 +755,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 57.0, 52.0, 20.0 ],
+					"patching_rect" : [ 17.0, 55.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -942,7 +968,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 26.5, 85.0, 26.5, 85.0 ],
+					"midpoints" : [ 26.5, 83.0, 26.5, 83.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1023,7 +1049,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 104.5, 88.0, 104.5, 88.0 ],
+					"midpoints" : [ 104.5, 86.0, 104.5, 86.0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -1032,7 +1058,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 26.5, 59.0, 26.5, 59.0 ],
+					"midpoints" : [ 26.5, 57.0, 26.5, 57.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1052,6 +1078,24 @@
 					"hidden" : 1,
 					"midpoints" : [ 26.5, 359.0, 26.5, 359.0 ],
 					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-57", 0 ]
 				}
 
 			}
