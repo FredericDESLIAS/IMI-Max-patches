@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 515.0, 525.0, 90.0, 21.0 ],
+					"patching_rect" : [ 515.0, 525.0, 90.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 644.0, 484.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -588,8 +588,8 @@
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -640,7 +640,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 446.0, 525.0, 65.0, 20.0 ],
+					"patching_rect" : [ 446.0, 525.0, 65.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 626.0, 178.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -762,8 +762,8 @@
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"globalpatchername" : "",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0
 					}
@@ -980,8 +980,8 @@
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}

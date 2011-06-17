@@ -523,10 +523,10 @@
 					"patching_rect" : [ 520.0, 512.662476, 86.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -638,7 +638,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 30.0, 559.0, 21.0 ],
+					"patching_rect" : [ 4.0, 29.0, 559.0, 21.0 ],
 					"text" : "Use the photoshop transfer (or blending) modes. This version uses OpenGL (gl.slab)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -655,7 +655,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 2.0, 170.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 170.0, 30.0 ],
 					"text" : "Transfer modes",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -698,7 +698,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 115.0, 215.0, 82.0, 20.0 ],
+					"patching_rect" : [ 111.0, 215.0, 82.0, 20.0 ],
 					"pattrmode" : 1,
 					"types" : [  ]
 				}
@@ -713,7 +713,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 147.0, 240.0, 126.0, 20.0 ],
+					"patching_rect" : [ 143.0, 240.0, 126.0, 20.0 ],
 					"text" : "sprintf read co.%s.jxs"
 				}
 
@@ -1135,7 +1135,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 156.5, 268.0, 23.5, 268.0 ],
+					"midpoints" : [ 152.5, 268.0, 23.5, 268.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

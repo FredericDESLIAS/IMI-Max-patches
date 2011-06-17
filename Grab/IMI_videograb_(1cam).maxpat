@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 2.0, 44.0, 507.0, 561.0 ],
+		"rect" : [ 2.0, 44.0, 420.0, 551.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 2.0, 44.0, 507.0, 561.0 ],
+		"defrect" : [ 2.0, 44.0, 420.0, 551.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.595187,
@@ -31,7 +31,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 383.0, 525.5, 108.0, 20.0 ],
+					"patching_rect" : [ 306.0, 521.0, 108.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 701.0, 253.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -46,27 +46,13 @@
 					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-26",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 385.0, 495.0, 115.0, 16.0 ],
-					"text" : "IMI_videograb+.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.0, 473.0, 69.0, 18.0 ],
-					"text" : "prepend load"
+					"patching_rect" : [ 299.0, 514.0, 115.0, 27.0 ],
+					"text" : "load IMI_videograb+.maxpat"
 				}
 
 			}
@@ -80,7 +66,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.0, 450.0, 52.0, 20.0 ],
+					"patching_rect" : [ 301.0, 514.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -127,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 13.0, 513.0, 80.0, 35.0 ]
+					"patching_rect" : [ 13.0, 504.0, 80.0, 35.0 ]
 				}
 
 			}
@@ -249,7 +235,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 501.0, 49.0 ],
+					"patching_rect" : [ 3.0, 3.0, 413.0, 49.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -266,19 +252,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ],
-					"source" : [ "obj-33", 0 ]
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}

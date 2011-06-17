@@ -31,7 +31,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 6.0, 622.5, 117.0, 20.0 ],
+					"patching_rect" : [ 586.0, 628.5, 117.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -50,23 +50,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.0, 625.0, 83.0, 15.0 ],
-					"text" : "jit_unpack_planes"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"hidden" : 1,
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 138.0, 625.0, 64.0, 17.0 ],
-					"text" : "prepend load"
+					"patching_rect" : [ 586.0, 628.5, 102.0, 15.0 ],
+					"text" : "load jit_unpack_planes"
 				}
 
 			}
@@ -80,7 +65,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 138.0, 625.0, 44.0, 17.0 ],
+					"patching_rect" : [ 586.0, 628.5, 44.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -367,15 +352,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 620.0, 621.5, 82.0, 23.0 ],
+					"patching_rect" : [ 9.0, 628.5, 82.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 18.0,
 						"fontface" : 0,
-						"fontsize" : 18.0,
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontsize" : 18.0
 					}
 ,
 					"text" : "p example"
@@ -390,7 +375,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 586.0, 191.0, 19.0 ],
+					"patching_rect" : [ 9.0, 574.0, 191.0, 19.0 ],
 					"text" : "Alexander Refsum Jensenius, May 2004"
 				}
 
@@ -403,7 +388,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 571.0, 247.0, 19.0 ],
+					"patching_rect" : [ 9.0, 559.0, 247.0, 19.0 ],
 					"text" : "Department of Music and Theatre (University of Oslo)"
 				}
 
@@ -510,13 +495,13 @@
 ,
 					"patching_rect" : [ 490.0, 269.0, 119.0, 31.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p image-size"
@@ -532,7 +517,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 380.0, 410.0, 55.0 ],
+					"patching_rect" : [ 9.0, 354.0, 347.0, 55.0 ],
 					"text" : "Thus to represent a colour image, it is necessary with 4 values for each pixel."
 				}
 
@@ -546,7 +531,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 214.0, 414.0, 55.0 ],
+					"patching_rect" : [ 9.0, 189.0, 414.0, 55.0 ],
 					"text" : "Typically, images are saved with 8 bits, so there are 256 values to choose from (0-255)."
 				}
 
@@ -556,12 +541,12 @@
 					"fontname" : "Geneva",
 					"fontsize" : 18.0,
 					"id" : "obj-4",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 121.0, 413.0, 79.0 ],
-					"text" : "Analogous to traditional film, a digital video is \"moving\" images, or a collection of changing matrices."
+					"patching_rect" : [ 9.0, 121.0, 393.0, 55.0 ],
+					"text" : "A digital video is \"moving\" images. In jitter, \nit's a collection of changing matrices."
 				}
 
 			}
@@ -574,7 +559,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 53.0, 408.0, 55.0 ],
+					"patching_rect" : [ 9.0, 53.0, 377.0, 55.0 ],
 					"text" : "A digital image is represented as a matrix with numbers representing each pixel."
 				}
 
@@ -601,7 +586,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 284.0, 409.0, 79.0 ],
+					"patching_rect" : [ 9.0, 257.0, 393.0, 79.0 ],
 					"text" : "Colours are represented in ARGB where A is the Alpha channel (transparency), and \nRGB means Red, Green, Blue."
 				}
 
@@ -628,7 +613,7 @@
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 441.0, 337.0, 119.0 ]
+					"patching_rect" : [ 9.0, 429.0, 337.0, 119.0 ]
 				}
 
 			}
@@ -675,7 +660,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
+					"destination" : [ "obj-21", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-16", 0 ]
@@ -688,15 +673,6 @@
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-33", 0 ]
 				}
 
 			}

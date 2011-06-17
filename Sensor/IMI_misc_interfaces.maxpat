@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 2.0, 44.0, 540.0, 552.0 ],
+		"rect" : [ 2.0, 44.0, 542.0, 578.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 2.0, 44.0, 540.0, 552.0 ],
+		"defrect" : [ 2.0, 44.0, 542.0, 578.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -19,6 +19,53 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-63",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 231.0, 441.0, 226.0, 23.0 ],
+					"presentation_rect" : [ 231.0, 444.0, 0.0, 0.0 ],
+					"text" : "osc objects (CNMAT)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"border" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-58",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 18.0, 441.0, 89.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 141.0, 408.0, 100.0, 20.0 ],
+					"text" : "OSC objects"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-59",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 18.0, 441.0, 115.0, 16.0 ],
+					"presentation_rect" : [ 265.0, 538.0, 0.0, 0.0 ],
+					"text" : "load o.overview.maxpat"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
@@ -164,7 +211,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 17.0, 476.0, 138.0, 21.0 ],
+					"patching_rect" : [ 17.0, 507.0, 138.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 387.0, 419.0, 100.0, 20.0 ],
 					"text" : "Open Sound Control"
@@ -314,7 +361,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 231.0, 508.0, 236.0, 23.0 ],
+					"patching_rect" : [ 231.0, 539.0, 145.0, 23.0 ],
 					"text" : "Osculator application"
 				}
 
@@ -329,7 +376,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 17.0, 508.0, 149.0, 20.0 ],
+					"patching_rect" : [ 17.0, 539.0, 149.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 307.0, 100.0, 20.0 ],
 					"text" : "OSCulator application"
@@ -418,7 +465,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 476.0, 93.0, 16.0 ],
+					"patching_rect" : [ 17.0, 507.0, 93.0, 16.0 ],
 					"text" : "load 00-OSC_intro"
 				}
 
@@ -431,7 +478,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 231.0, 442.0, 149.0, 23.0 ],
+					"patching_rect" : [ 231.0, 473.0, 141.0, 23.0 ],
 					"text" : "osc-from-processing"
 				}
 
@@ -444,7 +491,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 231.0, 476.0, 236.0, 23.0 ],
+					"patching_rect" : [ 231.0, 507.0, 236.0, 23.0 ],
 					"text" : "osc protocol (open sound control)"
 				}
 
@@ -459,7 +506,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 17.0, 442.0, 121.0, 22.0 ],
+					"patching_rect" : [ 17.0, 473.0, 121.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 42.0, 494.0, 100.0, 20.0 ],
 					"text" : "OSC2Processing"
@@ -476,7 +523,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 442.0, 141.0, 18.0 ],
+					"patching_rect" : [ 17.0, 473.0, 141.0, 18.0 ],
 					"text" : "load osc-from-processing"
 				}
 
@@ -788,7 +835,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 508.0, 206.0, 36.0 ],
+					"patching_rect" : [ 17.0, 539.0, 206.0, 36.0 ],
 					"text" : ";\rmax launchbrowser \\\"file://///Applications/OSCulator/OSCulator.app\\\""
 				}
 
@@ -1096,6 +1143,24 @@
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-59", 0 ]
 				}
 
 			}

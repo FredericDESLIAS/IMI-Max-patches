@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 2.0, 44.0, 593.0, 706.0 ],
+		"rect" : [ 2.0, 44.0, 592.0, 693.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 2.0, 44.0, 593.0, 706.0 ],
+		"defrect" : [ 2.0, 44.0, 592.0, 693.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -23,12 +23,101 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"hidden" : 1,
+					"id" : "obj-30",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 355.0, 643.0, 95.0, 16.0 ],
+					"text" : "help cv.jit.centroids"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-29",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 354.0, 661.5, 102.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 360.0, 675.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "cv.jit.centroids",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-24",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 471.0, 662.5, 108.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "2up.jit.centroids",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-25",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 471.0, 643.0, 108.0, 16.0 ],
+					"text" : "help 2up.jit.centroids"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 471.0, 622.0, 52.0, 20.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 57.0, 80.0, 32.5, 18.0 ],
+					"patching_rect" : [ 52.0, 66.0, 32.5, 18.0 ],
 					"text" : "sel 1"
 				}
 
@@ -43,8 +132,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 32.0, 439.0, 20.0 ],
-					"text" : "Returns the centroids, or the center of mass of a greyscale image or object",
+					"patching_rect" : [ 3.0, 29.0, 439.0, 20.0 ],
+					"text" : "returns the centroids, or the center of mass of a greyscale image or object",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[2]"
 				}
@@ -75,8 +164,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 269.0, 296.0, 27.0 ],
-					"text" : "Converts from RGB to monochrome"
+					"patching_rect" : [ 128.0, 255.0, 296.0, 27.0 ],
+					"text" : "converts from RGB to monochrome"
 				}
 
 			}
@@ -88,8 +177,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 218.0, 284.0, 27.0 ],
-					"text" : "Goes into matrix with reduced size"
+					"patching_rect" : [ 229.0, 203.0, 284.0, 27.0 ],
+					"text" : "goes into matrix with reduced size"
 				}
 
 			}
@@ -102,7 +191,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 21.0, 650.0, 82.0, 43.0 ]
+					"patching_rect" : [ 16.0, 636.0, 82.0, 43.0 ]
 				}
 
 			}
@@ -117,7 +206,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 110.0, 458.0, 70.0, 27.0 ],
+					"patching_rect" : [ 105.0, 444.0, 70.0, 27.0 ],
 					"triscale" : 0.9
 				}
 
@@ -130,8 +219,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 460.0, 52.0, 27.0 ],
-					"text" : "Mass"
+					"patching_rect" : [ 173.0, 445.0, 52.0, 27.0 ],
+					"text" : "mass"
 				}
 
 			}
@@ -149,7 +238,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 21.0, 520.0, 162.0, 121.0 ],
+					"patching_rect" : [ 16.0, 506.0, 162.0, 121.0 ],
 					"rightmargin" : 4,
 					"rightvalue" : 160,
 					"topmargin" : 4,
@@ -166,7 +255,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 56.0, 423.0, 127.0, 27.0 ],
+					"patching_rect" : [ 51.0, 409.0, 127.0, 27.0 ],
 					"text" : "cv.jit.centroids"
 				}
 
@@ -180,7 +269,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 21.0, 269.0, 104.0, 27.0 ],
+					"patching_rect" : [ 16.0, 255.0, 104.0, 27.0 ],
 					"text" : "jit.rgb2luma"
 				}
 
@@ -194,8 +283,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 322.0, 231.0, 48.0 ],
-					"text" : "Change thresholding value to obtain a binary image"
+					"patching_rect" : [ 228.0, 298.0, 300.0, 48.0 ],
+					"text" : "change thresholding value to obtain a binary image"
 				}
 
 			}
@@ -207,7 +296,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 20.0, 519.0, 160.0, 120.0 ]
+					"patching_rect" : [ 15.0, 505.0, 160.0, 120.0 ]
 				}
 
 			}
@@ -222,7 +311,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 184.0, 312.0, 39.0, 27.0 ],
+					"patching_rect" : [ 179.0, 298.0, 39.0, 27.0 ],
 					"triscale" : 0.9
 				}
 
@@ -236,7 +325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 21.0, 347.0, 182.0, 27.0 ],
+					"patching_rect" : [ 16.0, 333.0, 182.0, 27.0 ],
 					"text" : "jit.op @op > @val 50"
 				}
 
@@ -250,8 +339,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 417.0, 316.0, 69.0 ],
-					"text" : "Returns the centroids, or the center of mass of a greyscale image or object.\rAlso returns the mass."
+					"patching_rect" : [ 244.0, 407.0, 316.0, 69.0 ],
+					"text" : "returns the centroids, or the center of mass of a greyscale image or object.\rAlso returns the mass."
 				}
 
 			}
@@ -264,7 +353,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 21.0, 218.0, 206.0, 27.0 ],
+					"patching_rect" : [ 16.0, 204.0, 206.0, 27.0 ],
 					"text" : "jit.matrix 4 char 160 120"
 				}
 
@@ -278,7 +367,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 114.0, 42.0, 21.0 ],
+					"patching_rect" : [ 173.0, 100.0, 42.0, 21.0 ],
 					"text" : "close"
 				}
 
@@ -292,7 +381,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 127.0, 114.0, 40.0, 21.0 ],
+					"patching_rect" : [ 122.0, 100.0, 40.0, 21.0 ],
 					"text" : "open"
 				}
 
@@ -304,7 +393,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 21.0, 76.0, 22.0, 22.0 ]
+					"patching_rect" : [ 16.0, 62.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -317,7 +406,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 21.0, 112.0, 92.0, 27.0 ],
+					"patching_rect" : [ 16.0, 98.0, 84.0, 27.0 ],
 					"text" : "qmetro 2"
 				}
 
@@ -331,7 +420,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 21.0, 171.0, 158.0, 27.0 ],
+					"patching_rect" : [ 16.0, 157.0, 158.0, 27.0 ],
 					"text" : "jit.qt.grab 360 240"
 				}
 
@@ -343,7 +432,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.0, 417.0, 193.0, 78.0 ],
+					"patching_rect" : [ 47.0, 403.0, 183.0, 73.0 ],
 					"rounded" : 30
 				}
 
@@ -356,8 +445,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 184.0, 611.0, 266.0, 27.0 ],
-					"text" : "Centroids change knob position"
+					"patching_rect" : [ 175.0, 600.0, 266.0, 27.0 ],
+					"text" : "centroids change knob position"
 				}
 
 			}
@@ -369,8 +458,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 184.0, 585.0, 115.0, 27.0 ],
-					"text" : "Binary image"
+					"patching_rect" : [ 175.0, 574.0, 115.0, 27.0 ],
+					"text" : "binary image"
 				}
 
 			}
@@ -385,7 +474,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 586.0, 52.0 ],
+					"patching_rect" : [ 2.0, 2.0, 588.0, 49.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -395,7 +484,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 193.5, 343.0, 193.5, 343.0 ],
+					"midpoints" : [ 188.5, 329.0, 188.5, 329.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -413,7 +502,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 30.5, 410.0, 65.5, 410.0 ],
+					"midpoints" : [ 25.5, 396.0, 60.5, 396.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -431,7 +520,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 187.5, 149.0, 30.5, 149.0 ],
+					"midpoints" : [ 182.5, 135.0, 25.5, 135.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -440,7 +529,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 136.5, 149.0, 30.5, 149.0 ],
+					"midpoints" : [ 131.5, 135.0, 25.5, 135.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -476,7 +565,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 30.5, 190.0, 30.5, 190.0 ],
+					"midpoints" : [ 25.5, 191.0, 25.5, 191.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -485,7 +574,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 80.0, 104.5, 187.5, 104.5 ],
+					"midpoints" : [ 75.0, 90.5, 182.5, 90.5 ],
 					"source" : [ "obj-21", 1 ]
 				}
 
@@ -494,8 +583,44 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 66.5, 104.5, 136.5, 104.5 ],
+					"midpoints" : [ 61.5, 90.5, 131.5, 90.5 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -521,7 +646,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 65.5, 459.0, 30.5, 459.0 ],
+					"midpoints" : [ 60.5, 445.0, 25.5, 445.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

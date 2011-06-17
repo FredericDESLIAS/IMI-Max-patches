@@ -24,12 +24,11 @@
 
 30, -----------------------;
 31, <category> 4 DbN2D;
-32, IMI_lcd_sketch "LCD Sketch";
-33, IMI_lcd_animation "LCD animation";
-34, IMI_lcd_motion "Motion using counter";
-35, IMI_lcd_oscillation "Oscillation using sin/cos";
-36, IMI_noise2lcd "Noise to Sketch position";
-37, Drawagent "Drawagent";
+32, IMI_jit_lcd+ "LCD Sketch";
+33, IMI_lcd_motion "Motion using counter";
+34, IMI_lcd_oscillation "Oscillation using sin/cos";
+35, IMI_noise2lcd "Noise to Sketch position";
+36, Drawagent "Drawagent";
 
 40, -----------------------;
 41, <category> 5 DbN3D;

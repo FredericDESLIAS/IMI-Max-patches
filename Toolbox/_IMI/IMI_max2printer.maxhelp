@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 0.0, 44.0, 526.0, 354.0 ],
+		"rect" : [ 593.0, 44.0, 526.0, 354.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 44.0, 526.0, 354.0 ],
+		"defrect" : [ 593.0, 44.0, 526.0, 354.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,9 +28,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 509.0, 44.0, 604.0, 655.0 ],
+						"rect" : [ 531.0, 44.0, 604.0, 655.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 509.0, 44.0, 604.0, 655.0 ],
+						"defrect" : [ 531.0, 44.0, 604.0, 655.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -244,13 +244,13 @@
 ,
 									"patching_rect" : [ 104.0, 390.0, 94.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 14.0,
-										"fontname" : "Arial",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 14.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial"
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 14.0,
+										"fontface" : 0,
+										"fontsize" : 14.0
 									}
 ,
 									"text" : "p shell2menu"
@@ -839,15 +839,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 363.0, 315.0, 125.0, 23.0 ],
+					"patching_rect" : [ 390.0, 316.0, 125.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p print_in_practice"
@@ -895,7 +895,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 271.0, 199.0, 243.0, 23.0 ],
+					"patching_rect" : [ 271.0, 193.0, 243.0, 23.0 ],
 					"text" : "format the whole thing %s is for string"
 				}
 
@@ -908,7 +908,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 314.0, 159.0, 23.0 ],
+					"patching_rect" : [ 54.0, 313.0, 159.0, 23.0 ],
 					"text" : "send the unix command"
 				}
 
@@ -921,7 +921,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 271.0, 240.38324, 50.0, 23.0 ],
+					"patching_rect" : [ 271.0, 234.38324, 50.0, 23.0 ],
 					"text" : "output"
 				}
 
@@ -934,7 +934,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 271.0, 166.0, 220.0, 23.0 ],
+					"patching_rect" : [ 271.0, 160.0, 220.0, 23.0 ],
 					"text" : "trigger bang string  (the file name)"
 				}
 
@@ -948,7 +948,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 63.0, 161.0, 59.5, 23.0 ],
+					"patching_rect" : [ 63.0, 155.0, 59.5, 23.0 ],
 					"text" : "t b s"
 				}
 
@@ -962,7 +962,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 122.0, 130.0, 21.0 ],
+					"patching_rect" : [ 13.0, 116.0, 130.0, 21.0 ],
 					"text" : "/Users/imi/Desktop/"
 				}
 
@@ -975,7 +975,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 271.0, 120.383255, 181.0, 23.0 ],
+					"patching_rect" : [ 271.0, 114.383255, 181.0, 23.0 ],
 					"text" : "Insert directory +  file name"
 				}
 
@@ -989,7 +989,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.313873, 240.624451, 224.0, 21.0 ],
+					"patching_rect" : [ 31.313873, 234.624451, 224.0, 21.0 ],
 					"text" : "lpr /Users/imi/Desktop/zoo.rtf"
 				}
 
@@ -1003,7 +1003,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.099152, 121.383255, 57.0, 21.0 ],
+					"patching_rect" : [ 158.099152, 115.383255, 57.0, 21.0 ],
 					"text" : "zoo.rtf"
 				}
 
@@ -1017,7 +1017,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.857941, 198.088104, 110.0, 23.0 ],
+					"patching_rect" : [ 12.857941, 192.088104, 110.0, 23.0 ],
 					"text" : "sprintf lpr %s%s"
 				}
 
@@ -1029,7 +1029,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 13.0, 67.5, 30.0, 30.0 ]
+					"patching_rect" : [ 13.0, 61.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -1042,7 +1042,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 277.5, 68.0, 23.0 ],
+					"patching_rect" : [ 13.0, 274.5, 68.0, 23.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -1082,7 +1082,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 167.599152, 155.69162, 72.5, 155.69162 ],
+					"midpoints" : [ 167.599152, 149.69162, 72.5, 149.69162 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1109,7 +1109,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 72.5, 191.544052, 22.357941, 191.544052 ],
+					"midpoints" : [ 72.5, 185.544052, 22.357941, 185.544052 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -1127,7 +1127,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 22.5, 108.44162, 167.599152, 108.44162 ],
+					"midpoints" : [ 22.5, 102.44162, 167.599152, 102.44162 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1136,7 +1136,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 22.5, 108.75, 22.5, 108.75 ],
+					"midpoints" : [ 22.5, 102.75, 22.5, 102.75 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1145,7 +1145,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 22.357941, 232.856262, 245.813873, 232.856262 ],
+					"midpoints" : [ 22.357941, 226.856262, 245.813873, 226.856262 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

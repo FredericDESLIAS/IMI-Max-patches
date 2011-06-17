@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 5.0, 44.0, 512.0, 245.0 ],
+		"rect" : [ 2.0, 44.0, 511.0, 232.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 5.0, 44.0, 512.0, 245.0 ],
+		"defrect" : [ 2.0, 44.0, 511.0, 232.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -25,13 +25,79 @@
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-4",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 11.0, 143.5, 82.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 23.0, 141.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "silhouettes",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-44",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 11.0, 99.5, 103.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 419.0, 756.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "median-motion",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-46",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 11.0, 56.5, 121.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 731.0, 283.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "frame-differences",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-49",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 295.0, 207.0, 76.0, 19.0 ],
+					"patching_rect" : [ 299.0, 202.0, 76.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 596.0, 148.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -50,7 +116,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 8.0, 226.0, 24.0, 20.0 ],
+					"patching_rect" : [ 4.0, 221.0, 24.0, 20.0 ],
 					"text" : "t b"
 				}
 
@@ -66,47 +132,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 229.0, 460.0, 29.0 ],
+					"patching_rect" : [ 30.0, 224.0, 460.0, 29.0 ],
 					"text" : ";\rmax launchbrowser http://cycling74.com/2009/10/26/making-connections-camera-data/"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
-					"id" : "obj-21",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 140.0, 84.0, 23.0 ],
-					"text" : "silhouettes"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
-					"id" : "obj-20",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 100.0, 111.0, 23.0 ],
-					"text" : "median-motion"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
-					"id" : "obj-18",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 61.0, 128.0, 23.0 ],
-					"text" : "frame-differences"
 				}
 
 			}
@@ -120,7 +147,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 153.0, 185.0, 69.0, 18.0 ],
+					"patching_rect" : [ 157.0, 180.0, 69.0, 18.0 ],
 					"text" : "prepend load"
 				}
 
@@ -133,7 +160,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 205.0, 320.0, 23.0 ],
+					"patching_rect" : [ 12.0, 200.0, 320.0, 23.0 ],
 					"text" : "Read the article on the Cycling74 web page :"
 				}
 
@@ -146,7 +173,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.0, 100.0, 306.0, 23.0 ],
+					"patching_rect" : [ 153.0, 99.5, 306.0, 23.0 ],
 					"text" : "make a silhouette in front of a white background"
 				}
 
@@ -159,7 +186,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 62.0, 206.0, 23.0 ],
+					"patching_rect" : [ 152.0, 56.5, 206.0, 23.0 ],
 					"text" : "the simplest, frame differencing"
 				}
 
@@ -172,44 +199,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.0, 140.0, 250.0, 23.0 ],
+					"patching_rect" : [ 153.0, 143.5, 250.0, 23.0 ],
 					"text" : "background removal, any background"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"handoff" : "",
-					"id" : "obj-19",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 8.0, 140.0, 87.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"handoff" : "",
-					"id" : "obj-13",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 8.0, 100.0, 110.0, 23.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"handoff" : "",
-					"id" : "obj-23",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 8.0, 61.0, 130.0, 24.0 ]
 				}
 
 			}
@@ -223,7 +214,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 171.0, 107.0, 18.0 ],
+					"patching_rect" : [ 12.0, 166.0, 107.0, 18.0 ],
 					"text" : "silhouettes.maxpat"
 				}
 
@@ -238,7 +229,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 207.0, 137.0, 18.0 ],
+					"patching_rect" : [ 12.0, 202.0, 137.0, 18.0 ],
 					"text" : "median-motion.maxpat"
 				}
 
@@ -253,7 +244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 153.0, 205.0, 52.0, 20.0 ],
+					"patching_rect" : [ 157.0, 200.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -268,7 +259,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 187.0, 138.0, 18.0 ],
+					"patching_rect" : [ 12.0, 182.0, 138.0, 18.0 ],
 					"text" : "framedifferences.maxpat"
 				}
 
@@ -283,8 +274,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 7.0, 485.0, 30.0 ],
-					"text" : "Cycling74 - Camera data tutorial",
+					"patching_rect" : [ 2.0, 2.0, 336.0, 30.0 ],
+					"text" : "Cycling74 - camera data tutorial",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -301,7 +292,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 7.0, 500.0, 31.0 ],
+					"patching_rect" : [ 2.0, 2.0, 507.0, 31.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -313,33 +304,6 @@
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-23", 0 ]
 				}
 
 			}
@@ -367,6 +331,33 @@
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-46", 0 ]
 				}
 
 			}
