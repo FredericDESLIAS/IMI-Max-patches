@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 1.0, 44.0, 592.0, 656.0 ],
+		"rect" : [ 1.0, 44.0, 587.0, 663.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1.0, 44.0, 592.0, 656.0 ],
+		"defrect" : [ 1.0, 44.0, 587.0, 663.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,7 +28,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 520.0, 627.0, 60.0, 20.0 ],
+					"patching_rect" : [ 520.0, 649.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -58,7 +58,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 427.0, 627.0, 111.0, 18.0 ],
+					"patching_rect" : [ 427.0, 649.0, 111.0, 18.0 ],
 					"text" : "read toolbox.txt"
 				}
 
@@ -215,13 +215,13 @@
 ,
 					"patching_rect" : [ 209.0, 39.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p info"
@@ -253,7 +253,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 82.0, 625.0, 112.0, 20.0 ],
+					"patching_rect" : [ 82.0, 647.0, 112.0, 20.0 ],
 					"text" : "sprintf %s.maxhelp"
 				}
 
@@ -268,7 +268,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 625.0, 82.0, 20.0 ],
+					"patching_rect" : [ 197.0, 647.0, 82.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -283,7 +283,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 283.0, 625.0, 54.0, 20.0 ],
+					"patching_rect" : [ 283.0, 647.0, 54.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -298,7 +298,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 625.0, 64.0, 20.0 ],
+					"patching_rect" : [ 8.0, 647.0, 64.0, 20.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -351,18 +351,22 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 30,
+						"count" : 32,
 						"data" : [ 							{
+								"key" : "IMI_filtering_change",
+								"value" : [ "change to filter out repetitions" ]
+							}
+, 							{
 								"key" : "IMI_counter_uzi_line",
 								"value" : [ "various methods for counting in max" ]
 							}
 , 							{
-								"key" : "IMI_modulo",
-								"value" : [ "usage of modulo %" ]
+								"key" : "IMI_spray_cycle_gate",
+								"value" : [ "methods to pass numbers" ]
 							}
 , 							{
-								"key" : "IMI_table",
-								"value" : [ "usage of table and uzi" ]
+								"key" : "IMI_modulo",
+								"value" : [ "usage of modulo %" ]
 							}
 , 							{
 								"key" : "IMI_max2printer",
@@ -374,11 +378,7 @@
 							}
 , 							{
 								"key" : "imi.draw",
-								"value" : [ "lcd drawing (centre) : use with paintoval, frameoval, framerect, paintrect" ]
-							}
-, 							{
-								"key" : "imi.drawcorner",
-								"value" : [ "lcd drawing (corner) : use with paintoval, frameoval, framerect, paintrect" ]
+								"value" : [ "lcd drawing tool : use with paintoval, frameoval, framerect, paintrect" ]
 							}
 , 							{
 								"key" : "imi.matrixinfo",
@@ -405,36 +405,28 @@
 								"value" : [ "triangle, circle, math help" ]
 							}
 , 							{
-								"key" : "MRgeometry",
-								"value" : [ "geometry tools" ]
+								"key" : "tweening",
+								"value" : [ "simple tweening" ]
 							}
 , 							{
 								"key" : "MAtsuitween",
 								"value" : [ "tweening in Max/MSP" ]
 							}
 , 							{
-								"key" : "tweening",
-								"value" : [ "simple tweening" ]
+								"key" : "function_interpolation",
+								"value" : [ "tweening using a function" ]
 							}
 , 							{
 								"key" : "Pattr_animation",
 								"value" : [ "use presets to make animation" ]
 							}
 , 							{
-								"key" : "asyncread_export",
-								"value" : [ "asyncread export (with antialiasing)" ]
-							}
-, 							{
 								"key" : "–––––––––––––––––––––––",
 								"value" : [ "" ]
 							}
 , 							{
-								"key" : "z.grid",
-								"value" : [ "z.grid quantises the incoming x/y pixel coordinates into new x/y grids of variable size" ]
-							}
-, 							{
 								"key" : "z.urn",
-								"value" : [ "non-repeating Random Int/Float Number Generator (with changeable min and max)" ]
+								"value" : [ "non-repeating random number generator (with changeable min and max)" ]
 							}
 , 							{
 								"key" : "dot.urn",
@@ -445,12 +437,12 @@
 								"value" : [ "random Int/Float Number Generator (with changeable min and max)" ]
 							}
 , 							{
-								"key" : "z.metroUzi",
-								"value" : [ "like uzi but with a control on speed (metro+counter)" ]
-							}
-, 							{
 								"key" : "dot.for",
 								"value" : [ "a combination of uzi and counter, safer than uzi" ]
+							}
+, 							{
+								"key" : "z.metroUzi",
+								"value" : [ "like uzi but with a control on speed (metro+counter)" ]
 							}
 , 							{
 								"key" : "dot.probgate",
@@ -469,8 +461,24 @@
 								"value" : [ "get paths on a specific machine" ]
 							}
 , 							{
+								"key" : "path_patcher",
+								"value" : [ "get all patches in the same folder" ]
+							}
+, 							{
 								"key" : "shell",
 								"value" : [ "interface to the UNIX shell (printer, scanner)" ]
+							}
+, 							{
+								"key" : "–––––––––––––––––––––––",
+								"value" : [ "" ]
+							}
+, 							{
+								"key" : "asyncread_export",
+								"value" : [ "asyncread export (with antialiasing)" ]
+							}
+, 							{
+								"key" : "Jitter2Syphon",
+								"value" : [ "basic patch to use Syphon" ]
 							}
  ]
 					}
@@ -483,7 +491,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 344.0, 625.0, 79.0, 20.0 ],
+					"patching_rect" : [ 344.0, 647.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -494,7 +502,7 @@
 			}
 , 			{
 				"box" : 				{
-					"coldef" : [ [ 1, 468, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ], [ 0, 121, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+					"coldef" : [ [ 1, 416, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ], [ 0, 159, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
 					"cols" : 2,
 					"colwidth" : 120,
 					"fgcolor" : [ 0.0, 0.0, 0.0, 0.913725 ],
@@ -507,9 +515,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 8.0, 65.0, 578.0, 573.0 ],
+					"patching_rect" : [ 8.0, 65.0, 574.0, 594.0 ],
 					"rowhead" : 1,
-					"rows" : 30,
+					"rows" : 32,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -526,7 +534,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 5.0, 145.0, 30.0 ],
-					"text" : "misc toolbox",
+					"text" : "imi toolbox",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -559,7 +567,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 4.0, 579.0, 52.0 ],
+					"patching_rect" : [ 7.0, 4.0, 576.0, 52.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
