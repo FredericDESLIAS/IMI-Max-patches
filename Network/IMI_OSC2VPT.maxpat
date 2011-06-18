@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 2.0, 44.0, 862.0, 498.0 ],
+		"rect" : [ 2.0, 44.0, 748.0, 463.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 2.0, 44.0, 862.0, 498.0 ],
+		"defrect" : [ 2.0, 44.0, 748.0, 463.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -21,12 +21,73 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"rect" : [ 806.0, 44.0, 519.0, 615.0 ],
+						"bglocked" : 0,
+						"defrect" : [ 806.0, 44.0, 519.0, 615.0 ],
+						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
+						"openinpresentation" : 0,
+						"default_fontsize" : 14.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
+									"id" : "obj-2",
+									"linecount" : 37,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 9.0, 4.0, 500.0, 602.0 ],
+									"text" : "osc parameters to the moviesources:\n/video /rate /trig /scrub /in /out /loop /loopreset /loopreport /unique /unirefr /argb /start /stop /dim /vol /pan /clipnr /random\n\nosc parameters to the layers:\n/fade /pos_x /pos_y /scale_x /scale_y /x1 /y1 /x2 /y2 /x3 /y3 /x4 /y4 /red /green /blue /txrot /blur /levels /avig /edge /mask /solo /blendmode /source /cpreset /name /ratio /solotrig /sourcenr\n\nosc parameters to the mixers:\n/A /B /out /mix\n\nosc parameters to the lfos:\n/on /phase /speed /wave /wnormal /val /range /lfomix\n\nosc parameters to the built in fx module:\n/blur /blurlevel /mblur /mblurlevel /mblur_down /brcosa /br /co /sa /scalebias /scale_r /scale_g /scale_ b /bias_r /bias_g /bias_b /in /out\n\nosc parameters to buffer:\n/source /fill /play /dir /speed /range /frame\n\nosc parameters to textmodule (/text1):\n/on /message /font /size /align /posx /posy /rotx /roty /rotz /fade /red /green /blue /layer /next /line /linetempo\n\nosc parameters to noise:\n/dimx /dimy /speed\n\nosc parameters to sound module:\n/matrix /1amp /2amp /3amp /4amp /5amp /6amp /7amp /8amp\n\nosc to serial out (/serialout)\n/s1 /s2 /s3 /s4 /s5 /s6 /s7 /s8\n\nosc to VPT (/vpt)\n/preset /cue /blackout /fullscreen"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 644.829346, 282.557251, 88.0, 23.0 ],
+					"presentation_rect" : [ 632.829346, 356.557251, 0.0, 0.0 ],
+					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0
+					}
+,
+					"text" : "p OSC2VPT"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 221.0, 314.0, 166.0, 20.0 ],
+					"patching_rect" : [ 235.0, 301.0, 166.0, 20.0 ],
 					"text" : "send text to the text module"
 				}
 
@@ -40,7 +101,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 221.0, 292.0, 155.0, 18.0 ],
+					"patching_rect" : [ 221.0, 281.0, 155.0, 18.0 ],
 					"text" : "/text1/message remote text"
 				}
 
@@ -56,7 +117,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.094118, 0.113725, 0.137255, 0.568627 ],
-					"patching_rect" : [ 102.0, 264.0, 20.0, 20.0 ]
+					"patching_rect" : [ 98.0, 253.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -69,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.0, 293.0, 115.0, 18.0 ],
+					"patching_rect" : [ 98.0, 281.0, 115.0, 18.0 ],
 					"text" : "/vpt/fullscreen bang"
 				}
 
@@ -87,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 705.0, 463.0, 127.0, 20.0 ],
+					"patching_rect" : [ 602.0, 433.0, 127.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 611.0, 163.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -106,9 +167,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 868.0, 44.0, 335.0, 266.0 ],
+						"rect" : [ 806.0, 44.0, 335.0, 266.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 868.0, 44.0, 335.0, 266.0 ],
+						"defrect" : [ 806.0, 44.0, 335.0, 266.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -132,7 +193,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 28.170654, 34.0, 57.0, 27.0 ]
+									"patching_rect" : [ 28.170654, 39.0, 57.0, 27.0 ]
 								}
 
 							}
@@ -231,18 +292,18 @@
  ]
 					}
 ,
-					"patching_rect" : [ 703.829346, 431.557251, 130.0, 23.0 ],
+					"patching_rect" : [ 599.829346, 401.557251, 134.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"default_fontsize" : 14.0
 					}
 ,
-					"text" : "p OSCroute tutorial"
+					"text" : "p OSCroute_tutorial"
 				}
 
 			}
@@ -256,23 +317,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 661.0, 424.0, 102.0, 16.0 ],
-					"text" : "UDPreceiver.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 661.0, 443.0, 69.0, 18.0 ],
-					"text" : "prepend load"
+					"patching_rect" : [ 603.0, 434.0, 122.0, 16.0 ],
+					"text" : "load UDPreceiver.maxpat"
 				}
 
 			}
@@ -286,7 +332,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 661.0, 464.0, 52.0, 20.0 ],
+					"patching_rect" : [ 602.0, 433.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -300,7 +346,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 10.0, 206.0, 21.0 ],
+					"patching_rect" : [ 534.0, 7.0, 206.0, 21.0 ],
 					"text" : "(open VPT first then this patch !)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -312,12 +358,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-39",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.0, 303.0, 137.0, 39.0 ],
-					"text" : "place the video into \nthe canvas (layerx)"
+					"patching_rect" : [ 452.0, 285.0, 107.0, 23.0 ],
+					"text" : "canvas (layerx)"
 				}
 
 			}
@@ -330,7 +375,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 291.0, 49.0, 23.0 ],
+					"patching_rect" : [ 40.0, 280.0, 49.0, 23.0 ],
 					"text" : "r layer"
 				}
 
@@ -343,7 +388,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 650.0, 270.0, 52.0, 23.0 ],
+					"patching_rect" : [ 610.0, 223.0, 52.0, 23.0 ],
 					"text" : "s layer"
 				}
 
@@ -371,8 +416,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 249.0, 409.0, 379.0, 55.0 ],
-					"text" : "sends message over a network\n\"localhost\" means the same computer (same as 127.0.0.1)\n\"6666\" is the port used by VPT"
+					"patching_rect" : [ 242.0, 401.0, 307.0, 55.0 ],
+					"text" : "send OSC message over the network\n\"localhost\" is this computer (same as 127.0.0.1)\n\"6666\" is the port used by VPT"
 				}
 
 			}
@@ -384,8 +429,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 372.0, 218.0, 23.0 ],
-					"text" : "translates between max and osc"
+					"patching_rect" : [ 185.0, 362.0, 176.0, 23.0 ],
+					"text" : "translate from max to OSC"
 				}
 
 			}
@@ -398,7 +443,7 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 493.0, 268.0, 102.0, 21.0 ],
+					"patching_rect" : [ 453.0, 227.0, 102.0, 21.0 ],
 					"size" : 1.0
 				}
 
@@ -413,7 +458,7 @@
 					"numoutlets" : 1,
 					"orientation" : 2,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 651.0, 151.0, 39.0, 55.0 ],
+					"patching_rect" : [ 611.0, 134.0, 39.0, 55.0 ],
 					"size" : 2.0
 				}
 
@@ -428,7 +473,7 @@
 					"numoutlets" : 1,
 					"orientation" : 2,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 492.0, 150.0, 39.0, 55.0 ],
+					"patching_rect" : [ 452.0, 134.0, 39.0, 55.0 ],
 					"size" : 2.0
 				}
 
@@ -443,7 +488,7 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 650.0, 76.0, 102.0, 21.0 ],
+					"patching_rect" : [ 610.0, 77.0, 102.0, 21.0 ],
 					"size" : 2.0
 				}
 
@@ -458,7 +503,7 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.0, 77.0, 102.0, 21.0 ],
+					"patching_rect" : [ 451.0, 78.0, 102.0, 21.0 ],
 					"size" : 2.0
 				}
 
@@ -466,13 +511,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.593473,
+					"fontsize" : 14.0,
 					"id" : "obj-31",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.170593, 114.557251, 217.0, 26.0 ],
+					"patching_rect" : [ 19.170593, 114.557251, 166.0, 21.0 ],
 					"text" : "/moviesource_01/video 3"
 				}
 
@@ -480,13 +525,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.593473,
+					"fontsize" : 14.0,
 					"id" : "obj-30",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.170593, 145.557251, 217.0, 26.0 ],
+					"patching_rect" : [ 19.170593, 145.557251, 166.0, 21.0 ],
 					"text" : "/moviesource_01/video 2"
 				}
 
@@ -494,13 +539,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.593473,
+					"fontsize" : 14.0,
 					"id" : "obj-24",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 277.170593, 178.557251, 112.0, 26.0 ],
+					"patching_rect" : [ 197.170593, 175.557251, 87.0, 21.0 ],
 					"text" : "/sequence 1"
 				}
 
@@ -508,13 +553,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.593473,
+					"fontsize" : 14.0,
 					"id" : "obj-21",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 493.170593, 299.557251, 134.0, 26.0 ],
+					"patching_rect" : [ 453.170593, 253.557251, 103.0, 21.0 ],
 					"text" : "/layer1/fade $1"
 				}
 
@@ -522,13 +567,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.593473,
+					"fontsize" : 14.0,
 					"id" : "obj-19",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 651.170593, 216.557251, 160.0, 26.0 ],
+					"patching_rect" : [ 611.170593, 195.557251, 123.0, 21.0 ],
 					"text" : "/layer1/scale_y $1"
 				}
 
@@ -536,13 +581,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.593473,
+					"fontsize" : 14.0,
 					"id" : "obj-20",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 650.170593, 107.557251, 160.0, 26.0 ],
+					"patching_rect" : [ 610.170593, 104.557251, 123.0, 21.0 ],
 					"text" : "/layer1/scale_x $1"
 				}
 
@@ -550,13 +595,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.593473,
+					"fontsize" : 14.0,
 					"id" : "obj-13",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 492.170593, 217.557251, 147.0, 26.0 ],
+					"patching_rect" : [ 452.170593, 195.557251, 113.0, 21.0 ],
 					"text" : "/layer1/pos_y $1"
 				}
 
@@ -564,13 +609,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.593473,
+					"fontsize" : 14.0,
 					"id" : "obj-11",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.170593, 108.557251, 147.0, 26.0 ],
+					"patching_rect" : [ 451.170593, 105.557251, 113.0, 21.0 ],
 					"text" : "/layer1/pos_x $1"
 				}
 
@@ -578,13 +623,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.593473,
+					"fontsize" : 14.0,
 					"id" : "obj-6",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.170593, 214.557251, 88.0, 26.0 ],
+					"patching_rect" : [ 220.170593, 207.557251, 69.0, 21.0 ],
 					"text" : "/preset 1."
 				}
 
@@ -598,7 +643,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 19.0, 334.0, 37.0, 23.0 ],
+					"patching_rect" : [ 19.0, 323.0, 37.0, 23.0 ],
 					"text" : "t b s"
 				}
 
@@ -606,13 +651,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.593473,
+					"fontsize" : 14.0,
 					"id" : "obj-2",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.170593, 175.557251, 217.0, 26.0 ],
+					"patching_rect" : [ 19.170593, 175.557251, 166.0, 21.0 ],
 					"text" : "/moviesource_01/video 1"
 				}
 
@@ -626,7 +671,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "OSCTimeTag" ],
-					"patching_rect" : [ 28.0, 371.0, 154.0, 27.0 ],
+					"patching_rect" : [ 27.0, 360.0, 154.0, 27.0 ],
 					"text" : "opensoundcontrol"
 				}
 
@@ -634,13 +679,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.593473,
+					"fontsize" : 14.0,
 					"id" : "obj-7",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.170593, 207.557251, 217.0, 26.0 ],
+					"patching_rect" : [ 19.170593, 207.557251, 166.0, 21.0 ],
 					"text" : "/moviesource_01/video 0"
 				}
 
@@ -653,7 +698,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.383881, 407.206085, 209.0, 28.0 ],
+					"patching_rect" : [ 27.383881, 396.206085, 209.0, 28.0 ],
 					"text" : "udpsend localhost 6666"
 				}
 
@@ -684,8 +729,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 33.0, 763.0, 21.0 ],
-					"text" : "Send intructions to the video projection tool using OSC. VPT has 8 moviesources and 16 layers. Test with UPD receiver (see below)",
+					"patching_rect" : [ 3.0, 30.0, 556.0, 21.0 ],
+					"text" : "send intructions to the video projection tool using OSC. VPT has 8 moviesources and 16 layers.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -702,7 +747,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 479.0, 67.0, 361.0, 275.0 ],
+					"patching_rect" : [ 439.0, 68.0, 303.0, 241.0 ],
 					"rounded" : 42,
 					"varname" : "autohelp_top_panel[1]"
 				}
@@ -719,7 +764,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 834.0, 54.0 ],
+					"patching_rect" : [ 4.0, 3.0, 740.0, 50.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -774,7 +819,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 111.5, 326.0, 28.5, 326.0 ],
+					"midpoints" : [ 107.5, 315.0, 28.5, 315.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -783,7 +828,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 230.5, 326.5, 28.5, 326.5 ],
+					"midpoints" : [ 230.5, 315.5, 28.5, 315.5 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -828,7 +873,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 286.670593, 255.778625, 28.5, 255.778625 ],
+					"midpoints" : [ 206.670593, 244.778625, 28.5, 244.778625 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -837,14 +882,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 49.5, 326.5, 28.5, 326.5 ],
+					"midpoints" : [ 49.5, 315.5, 28.5, 315.5 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-3", 0 ]
@@ -934,18 +979,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 309.670593, 255.778625, 28.5, 255.778625 ],
+					"midpoints" : [ 229.670593, 244.778625, 28.5, 244.778625 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
