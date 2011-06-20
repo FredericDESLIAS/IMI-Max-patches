@@ -182,9 +182,9 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 530.0, 361.0, 465.0, 325.0 ],
+						"rect" : [ 520.0, 358.0, 465.0, 325.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 530.0, 361.0, 465.0, 325.0 ],
+						"defrect" : [ 520.0, 358.0, 465.0, 325.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -333,7 +333,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 149.0, 119.0, 65.0, 17.0 ],
-									"text" : "pos 530 45"
+									"text" : "pos 520 45"
 								}
 
 							}
@@ -664,13 +664,13 @@
 ,
 					"patching_rect" : [ 20.0, 334.662506, 86.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p ESC-fullscreen"
