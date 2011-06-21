@@ -120,13 +120,13 @@
 ,
 					"patching_rect" : [ 70.0, 618.0, 43.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p web"
@@ -330,13 +330,13 @@
 ,
 					"patching_rect" : [ 205.0, 38.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p info"
@@ -421,18 +421,18 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 29,
+						"count" : 31,
 						"data" : [ 							{
 								"key" : "http://jmpelletier.com/cvjit/",
 								"value" : [ "computer vision (cv.jit)" ]
 							}
 , 							{
-								"key" : "http://jmpelletier.com/freenect/",
-								"value" : [ "kinect" ]
-							}
-, 							{
 								"key" : "http://2uptech.com/zip/2up.jit.centroids.03Nov08.zip",
 								"value" : [ "2up.jit.centroids" ]
+							}
+, 							{
+								"key" : "http://jmpelletier.com/freenect/",
+								"value" : [ "kinect" ]
 							}
 , 							{
 								"key" : "––––––––––––––––––––––––––––––––––––––––––",
@@ -452,7 +452,7 @@
 							}
 , 							{
 								"key" : "http://www.martin-ritter.com/Software.html",
-								"value" : [ "Martin Ritter plugins" ]
+								"value" : [ "Martin Ritter objects" ]
 							}
 , 							{
 								"key" : "http://www.alexanderjharker.co.uk/Software.html",
@@ -464,11 +464,15 @@
 							}
 , 							{
 								"key" : "http://cycling74.com/toolbox/bernstein-shell/",
-								"value" : [ "shell" ]
+								"value" : [ "Max to Unix" ]
 							}
 , 							{
-								"key" : "http://www.iamas.ac.jp/~aka/max/",
-								"value" : [ "aka objects" ]
+								"key" : "http://www.iamas.ac.jp/~aka/max/#aka_shell",
+								"value" : [ "Max to Unix (aka)" ]
+							}
+, 							{
+								"key" : "http://www.iamas.ac.jp/~aka/max/#aka_wiiremote",
+								"value" : [ "connect the Wii" ]
 							}
 , 							{
 								"key" : "http://www.nr74.org/c74.html",
@@ -480,7 +484,7 @@
 							}
 , 							{
 								"key" : "http://syphon.v002.info/",
-								"value" : [ "syphon" ]
+								"value" : [ "GL sharing" ]
 							}
 , 							{
 								"key" : "http://hcgilje.wordpress.com/vpt/",
@@ -489,26 +493,6 @@
 , 							{
 								"key" : "http://001.vade.info/v001/downloads/v001ShadersB2.zip",
 								"value" : [ "Vade's shaders beta 2" ]
-							}
-, 							{
-								"key" : "––––––––––––––––––––––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "http://jamoma.org/",
-								"value" : [ "janoma" ]
-							}
-, 							{
-								"key" : "http://ftm.ircam.fr/index.php/Download",
-								"value" : [ "FTM" ]
-							}
-, 							{
-								"key" : "http://cnmat.berkeley.edu/downloads",
-								"value" : [ "CNMAT tools" ]
-							}
-, 							{
-								"key" : "http://shop.electrotap.com/products/taptools",
-								"value" : [ "taptools" ]
 							}
 , 							{
 								"key" : "––––––––––––––––––––––––––––––––––––––––––",
@@ -537,6 +521,30 @@
 , 							{
 								"key" : "http://charles.bascou.free.fr/box2d/dwn/box2d-max5-OSX-alpha3.zip",
 								"value" : [ "box2d alpha3" ]
+							}
+, 							{
+								"key" : "http://s373.net/code/a-objects/a-objects0x10b10ub.dmg.zip",
+								"value" : [ "a-objects" ]
+							}
+, 							{
+								"key" : "––––––––––––––––––––––––––––––––––––––––––",
+								"value" : [ "" ]
+							}
+, 							{
+								"key" : "http://jamoma.org/",
+								"value" : [ "janoma" ]
+							}
+, 							{
+								"key" : "http://ftm.ircam.fr/index.php/Download",
+								"value" : [ "FTM" ]
+							}
+, 							{
+								"key" : "http://cnmat.berkeley.edu/downloads",
+								"value" : [ "CNMAT tools" ]
+							}
+, 							{
+								"key" : "http://shop.electrotap.com/products/taptools",
+								"value" : [ "taptools (payware)" ]
 							}
  ]
 					}
@@ -575,7 +583,7 @@
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 3.0, 58.0, 576.0, 573.0 ],
 					"rowhead" : 1,
-					"rows" : 29,
+					"rows" : 31,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -592,7 +600,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 4.0, 305.0, 30.0 ],
-					"text" : "plugins download",
+					"text" : "plugins download for IMI",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -607,8 +615,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 420.0, 21.0 ],
-					"text" : "click on the URL to download the objects",
+					"patching_rect" : [ 4.0, 31.0, 539.0, 21.0 ],
+					"text" : "click on the URL to download the objects and install them in Max folder.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}

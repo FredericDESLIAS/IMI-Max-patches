@@ -51,7 +51,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 268.0, 666.0, 122.0, 18.0 ],
-					"presentation_rect" : [ 235.0, 639.0, 0.0, 0.0 ],
 					"text" : "help tap.jit.colortrack"
 				}
 
@@ -553,13 +552,13 @@
 ,
 					"patching_rect" : [ 12.0, 500.0, 83.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p colourbox"
@@ -657,7 +656,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 691.0, 79.0, 18.0 ],
-					"text" : "159.5 120.5"
+					"text" : "159.5 140.5"
 				}
 
 			}
@@ -808,7 +807,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 12.0, 91.0, 64.0, 20.0 ],
-					"text" : "qmetro 40"
+					"text" : "qmetro 2"
 				}
 
 			}
@@ -835,8 +834,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 12.0, 167.0, 70.0, 20.0 ],
-					"text" : "jit.qt.movie"
+					"patching_rect" : [ 12.0, 167.0, 185.0, 20.0 ],
+					"text" : "jit.qt.movie @adapt 1 @unique 1"
 				}
 
 			}

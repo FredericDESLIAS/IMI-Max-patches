@@ -198,18 +198,18 @@
  ]
 					}
 ,
-					"patching_rect" : [ 529.0, 59.0, 88.0, 23.0 ],
+					"patching_rect" : [ 580.0, 59.0, 40.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0
+						"globalpatchername" : ""
 					}
 ,
-					"text" : "p loadbangs"
+					"text" : "p init"
 				}
 
 			}
@@ -226,7 +226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 527.0, 594.5, 86.0, 20.0 ],
+					"patching_rect" : [ 527.0, 597.5, 86.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 626.0, 178.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -246,7 +246,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 563.5, 118.0, 27.0 ],
+					"patching_rect" : [ 495.0, 566.5, 118.0, 27.0 ],
 					"text" : "load IMI_text_alpha+.maxpat"
 				}
 

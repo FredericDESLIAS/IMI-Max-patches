@@ -141,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 14.0, 183.0, 103.0, 63.0 ],
+					"patching_rect" : [ 14.0, 183.0, 100.0, 60.0 ],
 					"precision" : 4,
 					"rowheight" : 20,
 					"rows" : 3,

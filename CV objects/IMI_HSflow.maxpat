@@ -219,13 +219,13 @@
 ,
 					"patching_rect" : [ 676.0, 633.333313, 43.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 14.0,
-						"fontsize" : 14.0
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p value"
@@ -430,13 +430,13 @@
 ,
 					"patching_rect" : [ 563.0, 633.333313, 43.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 14.0,
-						"fontsize" : 14.0
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p value"
@@ -669,13 +669,13 @@
 ,
 					"patching_rect" : [ 442.0, 633.333313, 43.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 14.0,
-						"fontsize" : 14.0
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p value"
@@ -880,13 +880,13 @@
 ,
 					"patching_rect" : [ 329.0, 633.333313, 43.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 14.0,
-						"fontsize" : 14.0
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p value"
@@ -1417,7 +1417,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 173.0, 149.0, 27.0 ],
+					"patching_rect" : [ 24.0, 173.0, 110.0, 27.0 ],
 					"text" : "Smaller matrices yield much better results.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2026,13 +2026,13 @@
 ,
 					"patching_rect" : [ 11.0, 306.0, 61.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 10.0,
-						"fontsize" : 10.0
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p visualizer"

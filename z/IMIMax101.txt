@@ -22,7 +22,7 @@
 32, IMI_jit_lcd "Intro to LCD";
 33, IMI_jit_lcd+ "LCD and compositing";
 34, IMI_lcd_drawing "Drawing with the LCD object";
-35, IMI_lcd_paintoval "Understanding the LCD drawing";
+35, IMI_lcd_processing "Drawing like Processing";
 40, -----------------------;
 41, <category> 5 Text;
 42, IMI_text_basics "Text basics";
@@ -34,7 +34,7 @@
 50, -----------------------;
 51, <category> 6 Global;
 52, IMI_max5 "Global help";
-53, misc_toolbox "Useful objects for Max";
+53, IMI_toolbox "Useful objects for Max";
 53, list_toolbox "Useful objects to handle lists";
 54, Jitter_overview "Jitter overview";
 55, MSP_overview "MSP overview";

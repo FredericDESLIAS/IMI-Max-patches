@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 2.0, 44.0, 600.0, 476.0 ],
+		"rect" : [ 2.0, 44.0, 607.0, 518.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 2.0, 44.0, 600.0, 476.0 ],
+		"defrect" : [ 2.0, 44.0, 607.0, 518.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -19,6 +19,20 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"id" : "obj-17",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 573.0, 177.0, 81.0, 18.0 ],
+					"text" : "offset -6504 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -43,8 +57,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 29.0, 467.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 29.0, 462.0, 21.0 ],
-					"text" : "a few rules to help you patching",
+					"presentation_rect" : [ 5.0, 29.0, 317.0, 21.0 ],
+					"text" : "11 rules to help you patching with Max",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
 				}
@@ -59,7 +73,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 460.0, 176.0, 81.0, 18.0 ],
+					"patching_rect" : [ 488.0, 176.0, 81.0, 18.0 ],
 					"text" : "offset -5914 0"
 				}
 
@@ -193,7 +207,7 @@
 					"patching_rect" : [ 490.0, 29.0, 63.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 529.0, 31.0, 63.0, 18.0 ],
-					"text" : "revision 001",
+					"text" : "revision 002",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}
@@ -206,10 +220,10 @@
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 11,
-					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 3.0, 146.0, 476.0, 20.0 ],
-					"text" : "sel 0 1 2 3 4 5 6 7 8 9"
+					"numoutlets" : 12,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 3.0, 146.0, 672.5, 20.0 ],
+					"text" : "sel 0 1 2 3 4 5 6 7 8 9 10"
 				}
 
 			}
@@ -263,10 +277,10 @@
 					"name" : "patching_rules.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -8.0, 0.0 ],
+					"offset" : [ -4139.0, 0.0 ],
 					"patching_rect" : [ 3.0, 210.0, 588.0, 313.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.274536, 153.0, 583.0, 314.0 ]
+					"presentation_rect" : [ 7.274536, 156.0, 583.0, 345.0 ]
 				}
 
 			}
@@ -283,7 +297,7 @@
 					"patching_rect" : [ 3.0, 110.0, 907.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 62.0, 565.0, 80.0 ],
-					"tabs" : [ "Object", "Experiment", "Hack", "Simulation", "Bang", "Filter", "Route", "Automatise", "Construction", "Optimise", "Version" ]
+					"tabs" : [ "object", "experiment", "hack", "simulation", "bang", "filter", "route", "automatise", "clean", "optimise", "construction", "version" ]
 				}
 
 			}
@@ -366,6 +380,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-12", 10 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-12", 11 ]
 				}
 
 			}
@@ -456,6 +479,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}

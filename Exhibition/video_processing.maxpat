@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 4.0, 44.0, 546.0, 301.0 ],
+		"rect" : [ 4.0, 44.0, 529.0, 299.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 546.0, 301.0 ],
+		"defrect" : [ 4.0, 44.0, 529.0, 299.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -20,14 +20,144 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 3,
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-7",
+					"fontsize" : 20.871338,
+					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 223.0, 509.0, 23.0 ],
-					"text" : "These are the most efficient methods for reading movies and applying effects."
+					"patching_rect" : [ 3.0, 4.0, 399.0, 30.0 ],
+					"text" : "Cycling74 - video processing system",
+					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"varname" : "autohelp_top_title[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.754705,
+					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4.0, 32.0, 448.0, 21.0 ],
+					"text" : "These are the most efficient methods for reading movies and applying effects.",
+					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"varname" : "autohelp_top_digest"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-30",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 295.0, 265.5, 163.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 278.0, 404.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "video processing system",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-10",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 7.0, 192.5, 76.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 23.0, 207.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "VPS-4",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-24",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 7.0, 154.5, 76.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 23.0, 141.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "VPS-3",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-44",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 7.0, 113.5, 76.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 419.0, 756.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "VPS-2",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-46",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 7.0, 75.5, 77.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 731.0, 283.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "VPS-1",
+					"texton" : "Stop"
 				}
 
 			}
@@ -39,33 +169,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 83.0, 183.0, 306.0, 23.0 ],
+					"patching_rect" : [ 95.0, 192.5, 306.0, 23.0 ],
 					"text" : "same with cue list and optional movie recording"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
-					"id" : "obj-2",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 183.0, 52.0, 23.0 ],
-					"text" : "VPS-4"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"handoff" : "",
-					"id" : "obj-3",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 17.0, 183.0, 51.0, 23.0 ]
 				}
 
 			}
@@ -79,47 +184,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 217.0, 85.0, 18.0 ],
+					"patching_rect" : [ 4.0, 227.0, 85.0, 18.0 ],
 					"text" : "VPS-4.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
-					"id" : "obj-21",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 144.0, 51.0, 23.0 ],
-					"text" : "VPS-3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
-					"id" : "obj-20",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 104.0, 52.0, 23.0 ],
-					"text" : "VPS-2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
-					"id" : "obj-18",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 65.0, 54.0, 23.0 ],
-					"text" : "VPS-1"
 				}
 
 			}
@@ -133,36 +199,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 113.0, 217.0, 69.0, 18.0 ],
+					"patching_rect" : [ 100.0, 227.0, 69.0, 18.0 ],
 					"text" : "prepend load"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
-					"id" : "obj-15",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 301.0, 261.0, 176.0, 23.0 ],
-					"text" : "video processing system"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"handoff" : "",
-					"hilite" : 0,
-					"id" : "obj-9",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 302.0, 260.0, 177.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 245.0, 325.0, 87.0, 31.0 ]
 				}
 
 			}
@@ -174,7 +212,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 261.0, 320.0, 23.0 ],
+					"patching_rect" : [ 4.0, 265.0, 320.0, 23.0 ],
 					"text" : "Read the article on the Cycling74 web page :"
 				}
 
@@ -187,7 +225,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 83.0, 104.0, 347.0, 23.0 ],
+					"patching_rect" : [ 95.0, 113.5, 347.0, 23.0 ],
 					"text" : "same but with luma curve, color balance and blur "
 				}
 
@@ -200,7 +238,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 83.0, 66.0, 335.0, 23.0 ],
+					"patching_rect" : [ 95.0, 76.0, 335.0, 23.0 ],
 					"text" : "one camera and/or one movie + a compositor"
 				}
 
@@ -213,44 +251,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 83.0, 144.0, 279.0, 23.0 ],
+					"patching_rect" : [ 95.0, 154.5, 279.0, 23.0 ],
 					"text" : "same with LFO (tweening) and frame delay"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"handoff" : "",
-					"id" : "obj-19",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 17.0, 144.0, 54.0, 23.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"handoff" : "",
-					"id" : "obj-13",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 17.0, 104.0, 56.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"handoff" : "",
-					"id" : "obj-23",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 17.0, 65.0, 56.0, 23.0 ]
 				}
 
 			}
@@ -264,7 +266,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 218.0, 85.0, 18.0 ],
+					"patching_rect" : [ 4.0, 228.0, 85.0, 18.0 ],
 					"text" : "VPS-1.maxpat"
 				}
 
@@ -279,7 +281,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 218.0, 92.0, 18.0 ],
+					"patching_rect" : [ 4.0, 228.0, 92.0, 18.0 ],
 					"text" : "VPS-2a.maxpat"
 				}
 
@@ -294,7 +296,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 191.0, 216.0, 52.0, 20.0 ],
+					"patching_rect" : [ 178.0, 226.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -309,25 +311,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 218.0, 85.0, 18.0 ],
+					"patching_rect" : [ 4.0, 228.0, 85.0, 18.0 ],
 					"text" : "VPS-3.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 13.0, 387.0, 30.0 ],
-					"text" : "Cycling74 - Video Processing System",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
 				}
 
 			}
@@ -342,7 +327,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 258.0, 520.0, 31.0 ],
+					"patching_rect" : [ 4.0, 262.0, 520.0, 31.0 ],
 					"text" : ";\rmax launchbrowser http://cycling74.com/2008/12/22/the-video-processing-system-part-1/"
 				}
 
@@ -358,7 +343,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 13.0, 520.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 524.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -375,6 +360,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ],
@@ -384,28 +378,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-23", 0 ]
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -420,10 +396,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-38", 0 ],
 					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-3", 0 ]
+					"midpoints" : [ 304.5, 290.0, 13.5, 290.0 ],
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -438,19 +414,28 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ],
-					"source" : [ "obj-5", 0 ]
+					"source" : [ "obj-44", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
+					"destination" : [ "obj-31", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 311.5, 290.0, 26.5, 290.0 ],
-					"source" : [ "obj-9", 0 ]
+					"midpoints" : [  ],
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}

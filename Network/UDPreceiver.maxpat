@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 867.0, 44.0, 487.0, 311.0 ],
+		"rect" : [ 756.0, 44.0, 487.0, 311.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 867.0, 44.0, 487.0, 311.0 ],
+		"defrect" : [ 756.0, 44.0, 487.0, 311.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -22,12 +22,25 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 132.0, 238.0, 118.0, 23.0 ],
+					"text" : "then route /video"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
 					"id" : "obj-26",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 177.0, 78.0, 302.0, 55.0 ],
+					"patching_rect" : [ 174.0, 68.0, 302.0, 55.0 ],
 					"text" : "receives message over a network\n\"6666\" is the port used by VPT\n\"cnmat\" reads full packet messages"
 				}
 
@@ -41,8 +54,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 205.0, 204.0, 204.0, 39.0 ],
-					"text" : "see the messages coming \nfrom /moviesource_01/video x"
+					"patching_rect" : [ 202.0, 192.0, 188.0, 39.0 ],
+					"text" : "route the messages coming \nfrom /moviesource_01/"
 				}
 
 			}
@@ -54,7 +67,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.0, 165.0, 127.0, 23.0 ],
+					"patching_rect" : [ 250.0, 153.0, 127.0, 23.0 ],
 					"text" : "see all messages"
 				}
 
@@ -85,7 +98,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 33.0, 383.0, 21.0 ],
+					"patching_rect" : [ 5.0, 29.0, 383.0, 21.0 ],
 					"text" : "test your OSC communication, use this patch with IMI OSC2VPT",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -101,8 +114,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.0, 166.0, 175.0, 21.0 ],
-					"text" : "/layer1/scale_y -1."
+					"patching_rect" : [ 68.0, 154.0, 175.0, 21.0 ],
+					"text" : "/moviesource_01/video 3"
 				}
 
 			}
@@ -115,7 +128,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "OSCTimeTag" ],
-					"patching_rect" : [ 11.0, 118.0, 122.0, 23.0 ],
+					"patching_rect" : [ 11.0, 106.0, 122.0, 23.0 ],
 					"text" : "opensoundcontrol"
 				}
 
@@ -129,7 +142,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 81.0, 156.0, 23.0 ],
+					"patching_rect" : [ 11.0, 69.0, 156.0, 23.0 ],
 					"text" : "udpreceive 6666 cnmat"
 				}
 
@@ -143,7 +156,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 15.0, 274.0, 50.0, 23.0 ]
+					"patching_rect" : [ 15.0, 273.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -156,7 +169,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 239.0, 110.0, 23.0 ],
+					"patching_rect" : [ 15.0, 238.0, 110.0, 23.0 ],
 					"text" : "osc-route /video"
 				}
 
@@ -170,7 +183,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 204.0, 179.0, 23.0 ],
+					"patching_rect" : [ 15.0, 192.0, 179.0, 23.0 ],
 					"text" : "osc-route /moviesource_01"
 				}
 
@@ -186,7 +199,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 478.0, 53.0 ],
+					"patching_rect" : [ 4.0, 3.0, 478.0, 50.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

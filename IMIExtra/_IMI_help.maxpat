@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 4.0, 44.0, 771.0, 548.0 ],
+		"rect" : [ 3.0, 44.0, 771.0, 548.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 771.0, 548.0 ],
+		"defrect" : [ 3.0, 44.0, 771.0, 548.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -136,7 +136,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 221.0, 38.0, 116.0, 16.0 ],
-					"text" : "IMI Max patches v2.10"
+					"text" : "IMI Max patches v2.11"
 				}
 
 			}
@@ -213,7 +213,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 50.0, 203.0, 18.0 ],
-					"text" : "Nicolas Marechal, v2.10 (06/2011)",
+					"text" : "Nicolas Marechal, v2.11 (07/2011)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
 				}
 
@@ -537,13 +537,13 @@
 ,
 					"patching_rect" : [ 528.0, 503.0, 20.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 9.0,
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -938,13 +938,13 @@
 ,
 					"patching_rect" : [ 277.0, 508.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 9.0,
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -1339,13 +1339,13 @@
 ,
 					"patching_rect" : [ 24.0, 508.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 9.0,
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -1740,13 +1740,13 @@
 ,
 					"patching_rect" : [ 530.0, 274.0, 19.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 9.0,
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -2143,13 +2143,13 @@
 ,
 					"patching_rect" : [ 279.0, 276.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 9.0,
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -2544,13 +2544,13 @@
 ,
 					"patching_rect" : [ 21.0, 278.0, 19.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 9.0,
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -4116,13 +4116,13 @@
 ,
 					"patching_rect" : [ 402.0, 53.0, 57.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 9.0,
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p Content"

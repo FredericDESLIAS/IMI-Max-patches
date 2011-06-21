@@ -28,9 +28,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 25.0, 69.0, 677.0, 632.0 ],
+						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 25.0, 69.0, 677.0, 632.0 ],
+						"defrect" : [ 0.0, 0.0, 640.0, 480.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -45,7 +45,6 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -55,7 +54,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 8.5, 87.0, 18.0 ],
+									"patching_rect" : [ 53.0, 106.5, 87.0, 18.0 ],
 									"text" : "z.glNav2b.html"
 								}
 
@@ -70,7 +69,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 52.0, 7.5, 60.0, 20.0 ],
+									"patching_rect" : [ 90.0, 105.5, 60.0, 20.0 ],
 									"text" : "loadbang"
 								}
 
@@ -186,15 +185,15 @@
  ]
 									}
 ,
-									"patching_rect" : [ 12.0, 8.5, 36.0, 20.0 ],
+									"patching_rect" : [ 50.0, 106.5, 36.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"fontface" : 0,
+										"default_fontsize" : 14.0,
+										"fontsize" : 14.0,
 										"default_fontface" : 0,
 										"fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontname" : "Arial",
-										"default_fontsize" : 14.0,
-										"fontface" : 0,
-										"fontsize" : 14.0
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p file"
@@ -211,7 +210,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 12.0, 34.5, 639.0, 741.0 ],
+									"patching_rect" : [ 50.0, 132.5, 639.0, 741.0 ],
 									"res_report" : 1,
 									"scrollbars" : 1,
 									"textcolor" : [  ],
@@ -252,13 +251,13 @@
 ,
 					"patching_rect" : [ 398.0, 164.5, 82.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"default_fontsize" : 14.0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p local-html"
@@ -439,13 +438,13 @@
 ,
 					"patching_rect" : [ 417.0, 205.0, 57.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"default_fontsize" : 14.0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p safari"
@@ -749,13 +748,13 @@
 ,
 					"patching_rect" : [ 500.0, 68.0, 189.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"default_fontsize" : 14.0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p width-column-cols-rows"

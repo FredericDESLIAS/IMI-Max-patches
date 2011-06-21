@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 50.0, 94.0, 420.0, 391.0 ],
+		"rect" : [ 1.0, 44.0, 420.0, 391.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 50.0, 94.0, 420.0, 391.0 ],
+		"defrect" : [ 1.0, 44.0, 420.0, 391.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -27,7 +27,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 182.0, 298.0, 187.0, 23.0 ],
-					"presentation_rect" : [ 182.0, 298.0, 0.0, 0.0 ],
 					"text" : "value platform (mac or pc)"
 				}
 
@@ -697,13 +696,13 @@
 ,
 									"patching_rect" : [ 67.0, 125.5, 91.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"fontname" : "Arial",
 										"default_fontface" : 0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p unix format"
@@ -828,13 +827,13 @@
 ,
 					"patching_rect" : [ 95.0, 237.0, 121.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : ""
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p path and plateform"
@@ -1046,13 +1045,13 @@
 ,
 					"patching_rect" : [ 45.0, 187.0, 73.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : ""
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p is runtime"

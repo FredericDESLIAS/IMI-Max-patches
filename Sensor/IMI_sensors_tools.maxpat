@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 10.0, 44.0, 587.0, 446.0 ],
+		"rect" : [ 4.0, 44.0, 581.0, 516.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 10.0, 44.0, 587.0, 446.0 ],
+		"defrect" : [ 4.0, 44.0, 581.0, 516.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,7 +28,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 524.0, 432.0, 60.0, 20.0 ],
+					"patching_rect" : [ 459.0, 493.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -58,7 +58,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 424.0, 432.0, 96.0, 18.0 ],
+					"patching_rect" : [ 404.0, 492.0, 96.0, 18.0 ],
 					"text" : "read sensors.txt"
 				}
 
@@ -216,10 +216,10 @@
 					"patching_rect" : [ 206.0, 39.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0
 					}
@@ -253,7 +253,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 79.0, 432.0, 71.0, 20.0 ],
+					"patching_rect" : [ 79.0, 493.0, 71.0, 20.0 ],
 					"text" : "sprintf %s"
 				}
 
@@ -268,7 +268,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 194.0, 432.0, 81.0, 20.0 ],
+					"patching_rect" : [ 194.0, 493.0, 81.0, 20.0 ],
 					"text" : "prepend help"
 				}
 
@@ -283,7 +283,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 432.0, 54.0, 20.0 ],
+					"patching_rect" : [ 280.0, 493.0, 54.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -298,7 +298,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 5.0, 432.0, 64.0, 20.0 ],
+					"patching_rect" : [ 5.0, 493.0, 64.0, 20.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -351,7 +351,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 20,
+						"count" : 24,
 						"data" : [ 							{
 								"key" : "IMI_filtering_change",
 								"value" : [ "change to filter out repetitions" ]
@@ -425,6 +425,22 @@
 								"value" : [ "" ]
 							}
 , 							{
+								"key" : "speedlim",
+								"value" : [ "limit the speed at which messages can pass through" ]
+							}
+, 							{
+								"key" : "Lqueue",
+								"value" : [ "an object to slow data down" ]
+							}
+, 							{
+								"key" : "–––––––––––––––––––––––",
+								"value" : [ "" ]
+							}
+, 							{
+								"key" : "z.grid",
+								"value" : [ "z.grid quantises the incoming x/y pixel coordinates into new x/y grids of variable size" ]
+							}
+, 							{
 								"key" : "z.scale",
 								"value" : [ "the scale object, but with a 5th argument that makes sense (for exp or log curves)" ]
 							}
@@ -443,7 +459,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 341.0, 432.0, 79.0, 20.0 ],
+					"patching_rect" : [ 341.0, 493.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -467,9 +483,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 5.0, 59.0, 572.0, 378.0 ],
+					"patching_rect" : [ 5.0, 59.0, 572.0, 449.0 ],
 					"rowhead" : 1,
-					"rows" : 20,
+					"rows" : 24,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -519,7 +535,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 4.0, 579.0, 50.0 ],
+					"patching_rect" : [ 4.0, 4.0, 573.0, 50.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

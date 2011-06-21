@@ -27,7 +27,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 661.0, 71.0, 58.0, 23.0 ],
-					"presentation_rect" : [ 661.0, 83.0, 0.0, 0.0 ],
 					"text" : "4. start"
 				}
 
@@ -200,13 +199,13 @@
 ,
 					"patching_rect" : [ 691.0, 131.0, 61.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p camera"
@@ -531,13 +530,13 @@
 ,
 					"patching_rect" : [ 611.0, 574.0, 101.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p multiple_text"
@@ -700,13 +699,13 @@
 ,
 					"patching_rect" : [ 687.0, 475.0, 112.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p cells2numbers"
@@ -1466,13 +1465,13 @@
 ,
 					"patching_rect" : [ 712.0, 208.0, 99.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"

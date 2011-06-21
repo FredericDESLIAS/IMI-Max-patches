@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 601.0, 44.0, 396.0, 380.0 ],
+		"rect" : [ 594.0, 44.0, 396.0, 380.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 601.0, 44.0, 396.0, 380.0 ],
+		"defrect" : [ 594.0, 44.0, 396.0, 380.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -196,13 +196,13 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 33.0, 339.0, 110.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"signed" : 0,
 						"size" : 255,
-						"range" : 460,
-						"notename" : 0,
-						"embed" : 0,
 						"name" : "imi_table",
-						"showeditor" : 0
+						"range" : 460,
+						"showeditor" : 0,
+						"embed" : 0,
+						"notename" : 0,
+						"signed" : 0
 					}
 ,
 					"showeditor" : 0,

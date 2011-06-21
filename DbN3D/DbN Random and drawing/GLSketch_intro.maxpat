@@ -106,12 +106,12 @@
 ,
 					"patching_rect" : [ 12.0, 320.0, 100.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial"
 					}
 ,
@@ -129,9 +129,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 518.0, 44.0, 430.0, 402.0 ],
+						"rect" : [ 512.0, 44.0, 430.0, 394.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 518.0, 44.0, 430.0, 402.0 ],
+						"defrect" : [ 512.0, 44.0, 430.0, 394.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -148,15 +148,12 @@
 						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"autofit" : 1,
-									"data" : [ 7530, "", "IBkSG0fBZn....PCIgDQRA..AXG..DPJHX....vgFlvQ....DLmPIQEBHf.B7g.YHB..cDRRDEDU3wY6c+GaadeXmG+iSTVkpMknSSZjk1UQs1YIgUbhFQQyCGtSjvEnI6vjo9mKC0.Rz.pHdvNWnaqwl6eDKk+HtXdAVAvE0Cwnhz.dyoG1jrBPh+C6ST28GwUVdl7.1DkKVE0tIYEjzZRQkHmT6S2eXymHJRIQJ96G99EfQEeH4i9Z3z29q+97UObGqt5pqJfJDACFTRRs2d6E4QBP9ySTrG..ERgCGVgCGtXOL.xqHriJJABDPABDnXOL.xqHriJJ986W986uXOL.xq1AqwNpjr6cuaIIcu6cuh7HAH+gYriJFACFTQhDQQhDw3hnBXFQXGULV6Rvvxw.yLB6nhwniNpwWSXGlYrF6nhPznQkUqVS3XQhDQ0UWcEoQDP9CyXGUDR0LzYV6vrhvNpHr1kgYyNFfY.KECpHr6cuaEIRjDNlUqVYaOBSIlwNL874yWRQcoGsF6974qHLh.xuHrCSuMaIWX4XfYDKECL0lat4jMa11zWS3vgUSM0TgY.AT.vL1golWudyIuFfxILicXp0byMuk2ldsYyllc1YKLCHfBfpJ1C.f7o0OabOd7n.ABngFZHY2t8hyfBHOivNJKDMZTEHP.YylsjVO7M645pqtR3ww+oO0tc6I8b.lErF6nrPc0UmFXfAja2tS54FXfAjKWtR5VF.PkJB6nrgWudke+9SXumO2byogFZH40qWtuu.7XD1QYilZpIMv.CnAFX.EMZTII41sa4vgCcvCdvh7nCnzAgcTRZG6XGo73m5TmRRRCMzP5JW4JJPf.rcEAVGt3onriWudkCGNjMa1jGOd3GtHf0gvNJYD+itt3lXhIjzi1IKs2d6FGuqt5Rtc6V9862XF7.3KQXGkL750qBDHfwiGXfAjzi1Zhm8rmMgWqMa11xaU..UpHriRFqMduicrCM93iWDGM.ku3hmB.XxvL1QIo3KCyFI9EOE.IivNJIsUWTzt5pKtk..rAXoXPEivCdF8WFXNcVUm1Yf+kh8vAHugaaunhP3AOiBOvecBGqi.90tZ+OpHMh.xeJYB6974ieBBQdSuAlUMG4SS3X9s800D195EoQDLyR0VzsPpjYM1CGNrhXwpr2cOE6gBLgdpXWT5VAS3X07ceIYqi+iEoQDLqVbloUfotQQcLTxD1kjr1Pip4N5rXOLfIzGchcq56++tpZ4kkjzx68aoO+H8qlKxiKXNEtHG14hmhJBeZK+g5W99+B8S16djGEU+Cm3unXOj.xaHriJFOzhEMikpUP86J1CEf7pRpkhAnbxsGaDYqiN0tanwM80M83WSKNSHUeKsp1b9cR4yaqiNUMVpURRyN0jx+4OmbbjikzRS9Am4zZwYlNoyQqNOf9SNTeYwuafYByXGXaXkXKoqdlSqHKL+l959YubOx+4+oRRx+4+o5m8xIu4.twktnQTO9iCeqap.iMRRu1EmYZYsgFkiibLieYu6G883Cujujd8nxDyXGHCb2YlVW8LmVgu0M2xW6zieMc+XKoi7tinZrTq1+g5Um+k6QSO90Ll49cmYZUeKsY7dVI1RJj+qKWC9l5pm4zZkXKkPzWJ0axfHKLuBM90YV6PRLicfMzsGaDcu0Mi73yV186r0yNdwYBkvRrTikZksN5TKNSHiWSfwFU161kwiCM90k08zf12i21ugF+5o0X89whopW2eA.pbwL1A1.AFaDYsgFSXMzqwRso8VxM7TSJaq60ZsgFU3olz3wKNyzZOsbRiGeiKcQs+C0qjdz5lGZ7qaD4iKxByqYWy43QyV+Z5O+rmK8+MGL0HrCTjr9kg4dKLuV7NgTqOdYZZ04Azk+AuZRKGS3olLg01OxByqpsTqrtEWDWT4fvNvZb6wFw3hVt3LgzUOyoU0VrHIoCegKlQmqMZoQhe70uLL23RO57Oz+0D24LAFajDV6b6c2ibdjiY73UhsjN+K2SJmcOpLQXGXMr0QmFy78pm4zxd2tRXV0Yh5ao0DVOcIYrsGezWm3xvDZ7qoW7G8WkPD+CNyoUfwFcSunn073YquU6PGT4fKdJvZr6GuiSZtiNU0Vrn5aoMiGmNt8Xina+3Y72pyCnvSMot6i2242cloU3olTs57.IsLLyN0jJxcWHo6UR161kV7NgR5h3BrYHrCjCEXMKkydZoMYu6dj296SC2euxa+8I6c2i1SKsoPie8DVFl.iMhZ0wARZqMtmVZSV2SCobOsuVq+hxhJakL21dGbvAk+69wIr1g.4ZC2euJ7stob+N9JX2v4VI1RFKAS7v8cmYZsms4R7fRayN0jJ7kFtn9gwNqwNPdVp1hjD0Q9DKEC.fICgc..SFB6..lLD1A.LYHrC.XxPXG.vjgvN.fICgc..SFB6..lLD1KwriG7.siG7fh8v..kwHrWB5oCET6Z94J1CC.TlhvdIlUqpJ8YOWiZWyOmd1.+R8Ut2mTrGR.nLCg8RPq7r0quvRc5I+hOW69W8unmd5f5I+76WrGV.nLAg8RTK2XSFe8uWrn5YCNorL2+Jq+N.1RD1KQ8E0ZUq7LOWBGamez75YC9K0Wcw+8hznB.kC39wdAP7OnERkpsXYCu2buz23apux89D8DO7gFG6Id3CUs+a+ZsyEmWQ+CZQeQsVyKiY.T9hvdAPjElW9O+4R53w+T04vW3ho78sZUUoOq9e+TtCYdxu3y0SG5+itu0ulh0z2TO7qTcNebCfxSD1K.1SKskT7d5wult7O3U09OTua56c4FaR07wKpm7K97T97UG42npi7azxM1j9zmqQsZU7Go.U5XM1KBt2ByqQe8er1+2qW0lyuyV95Wpou4V9Z107yoeuXQxECO.TlivdQvkO9wj0FZTuzINYZ85+7c+L5KrT2l9Zh17d0mu6mIWL7.PYNB6EXevYNshrv7x8E7kQuuk9Fa7r1WtwlzJOa8Y6PC.lDrfr4AC2+Wtt4u3INowtdY5wultwe2Ek62wmpwRsYz47A6bW5SetF0N+n4S549pK9uq6a8qoGryckcCb.XJPXOOvwQNlwWasgFkzWtt5Ndkipl6nys04c4FaR07IKZr8GW5a7GnZ9jORO0m8o5oCET+1Vam3N.HrmOjpv8kO9wT8szpbtlnelZ0ppRK2XSp1+sesh17d0JOa8Zkmod8zgBRbG.FHrW.7gWxmV7Ngz9+d8pwW29Y2ZCMp80cOo845yp+2WO7qTswEJc0ppR+1Vam3N.LvEOs.n9VZSNdkippsXImb9V+teIdb+28U2odhG9P8zgBpp9zkyIeu.P4GlwdAPycz41dc0SWLyc.DGyX2DgYtC.IB6lND2A.gcSHh6.U1HraRQbGnxEgcSLh6.UlHraxQbGnxCg8J.D2AprPXuBAwcfJGD1qfPbGnx.g8JLD2AL+HrWAh3Nf4Fg8JTD2ALuHrWAi3Nf4Dg8JbD2ALeHrCh6.lLD1gjHtCXlPXGFHtCXNPXGIf3NP4OB6HID2AJuQXGoDwcfxWD1wFh3NP4IB6XSQbGn7CgcrkHtCTdgvNRKD2AJePXGoMh6.kGHriLBwcfReD1QFi3NPoMB6Xag3NPoKB6Xai3NPoIB6HqPbGnzCgcj0HtCTZgvNxIHtCT5fvNxYHtCTZfvNxoHtCT7QXG4bD2AJtHri7Bh6.EOD1QdCwcfhCB6Huh3NPgGgcj2QbGnvhvNJHHtCT3PXGELD2AJLHriBJh6.4eD1QAGwcf7KB6nnf3NP9CgcTzPbGH+fvNJpHtCj6QXGEcD2AxsHriRBD2AxcHriRFD2AxMHriRJD2AxdD1QIGh6.YGB6njDwcfsOB6njEwcfsGB6njFwcfLGgcTxi3NPlgvNJKPbG4SyN0jo0q6dKLeZ+ZKlHrixFD2Q9v8VXd48622l9ZVI1RZ396Ud6uW4+7mSm9+bm51iMRAZDl4J6C6+rWtms7uAc5wul9YubO5T6qM8yd4dzziesBznC4ZD2QtxrSMo9fybZ4s+d2xWafwFQ2OVLcj2cDc3KbQ8hm3j5pm4zEfQ41SYYXekXKY7GJKdmPa5q8dKLut7O3U09OTuZvaOs1+g5UW9G7p5dKLeAZzhbMh6HSsQS9qZKVjsN5bKe+gF+5xd2tTMVpURR6q6d1zyawVYYXOxByK+m+bZwYldKesgF+Zx1y+BF+Aw95tGY64eAEhYsWVi3NxDoZoVZtiNkyibLY+wsgMyhyDR02RaIbr5ao0zpAULTVF12SKsoCegKpCegKtku1EmITR+Mx15nSs3La9L8QoOh6nP49KGK0GOVpOdwVUE6AP9VjElWVanwTdbT9Kdb+oCETO0m8o5oCET+1VaWOXm6pXOzPQ1sGajD9+mO94Omjjr1PiF+K3MqJ4C62drQTfGe0mquk1zKchSVjGQnTCwcjuY64egjlLXjElOsVe9hgR9vtsN5zXF2UawRF+9quk1R5etz8iEKo0KCk2Hti0asyJ2+e6OUNOxwxn2+rSMor1PiZ2Mznpuk1Tnwutw47tyLshb2ET8szZNcLmqTxuF66tgFUyczoZtiN0d1Fw35aoUEdcW45vSMYI6effsOVycjK4862mwpEr+C0qBO0j5u+3GSie9yIu82m1+2qWicISolR9v91wv82qF9w6M0Vcd.EYg40Hu9I0rSMoF40Oohrv7pUmGnHOJQ9.wcjJteGea3yUeKslxm2863yXGyr6FZTdd+qYzMbeAe4skEdt4lKqOGYUX2mOexoSmY8fHa33UNZRWbT6c2iwefTikZ0Qd2QT0VpU9O+4T0O9wkp+MsH6QbGqWyaxZgWikZS4y2bGcpcul1RMVpU6q6djyibrs0pGjtrYylb5zo74ai+Ki1JY7ZrGLXPMzPCoQGcTEIRjs823bkTstYq+Jdu6FZjK5ZElMZM2AJG32ue42ue4wiG4xkK4wiG0d6o++8aZMi8fACpie7iqlatYY2tc40q2bZTO7fmQeWuWQ8M1+S80F++cN67hJaoZl6O4W74E6gELw14L+JcfyeQ8WFXNE5vupdPzkxpyWjHQjWudkc61UyM2rN9wOtlXhI1x22NVc0UWc8GLZznxue+ZzQGU986WgCGdSOIo3Tj1BO3YT3A9qS3X25x+b8os7GtsOm.q0NdvCLl49a8Vuktyctib+N91z+44.YpmLVL8G+m9eSUs7WtreOiq+T8sGIyVRkcricrkuFqVsJGNbX7q0Oa9cr5pqtZvfAU3vgMl9ef.AxnAR13rpNYWOUBGyq9L4SeVAaL.yuZpoF8C+g+P8K9E+Bcm6bmh8vAlPsqmRCo5R53N0mj2+da0pUY2tc4vgCY2tcUkOe9Lh5ABDnfut4Kq+eIcrE0CKniAX9sxJqn25sdqh8v.lXEqVlc61Mh51rYSc0UWIuTLACFzXl6986OsB8YyRwrbv+YEvwA0ChD8QOdueK8O8tCusOe.alg6uWE9V2TRRUuKKx8E7kW2gCnxxde82T0+defwi+1idQ8LG7kxnywVsTLVsZUtb4xXYXZpolR9bjp0XestxUthw5suQq0d1D1kjdPzkz477iTveSD07a7FY04BXyDOrW8trn6ubLh6HmK1Xum93Q9enyO5+fpto+CY76OUgca1rIWtbI2tcmV6NlsbWwbvCdPc1ydVM6ryJ+98K2tcKqVslwC1MSU0UqhZqQEtgudN87BrQb8Fuopeusp6ubL4s+9zcKQu8qhxOeRCOmly5N2VQ80ysa2ZzQGUyN6r5rm8ro8VdLi9ATpqt5RCO7vJb3vFaAGfxQUaoV49B9HtiRN1rYyXKkO7vCqCdvClwmis0O4o0UWcpu95S2912tftCZ.xkpg3NJAM6ryp95qOUWcIuCaRWY88JlL4mFJfRMD2gYjo7l.FPlf3NLaHrCHh6vbgvNviQbGlED1AVCh6vLHkg832m0iFMZRGumd5IoiCXlPbGEKACFTNc5Lo6fiwOdvfASqySJC680WeJRjHxsa2FGat4lSd73QNb3Hq1FN.kCHtihg1aucY2tc41s6Dl.c7evPy5e.k750qFczQ0UtxULNwNb3Pu1q8ZY4PGn7.wcTLLv.Cjv+6fCNnw8k8z0FF1au810.CLfb61sFbvAUf.AxnSLfY.wcjuL2bykxO96pqt5jWud0PCMjd629s0.CLf750aFsRIa5EO8Tm5TxlMaaqSLfYAwcjOD+VyRpzUWcIOd7X7qt5pqL5b+DQiFUSLwDF+B.Ii3NJmTU3vgMVKGIowGebiudvAGTwed2tcqvgCyr1QEq3wcu82mV7Ngj296ia4uHi4zoSI8nOOSCGNrwic61s5qu9jjzDSLgFZngzPCMjwGn0Yxr1qp81aOgXdbACFTCLv.ZzQGUG7fGz3V16HiLRN32Z.kmHtirU7IRG+5VF+w1rYSRO5ybZ2tcKOd7nW60dMicnXf.AR6IVmx0XOZznxkKWxkKWF2xHGZngRXWx.TohkkAYit5pK0UWcI61sKqVsZ733eRHEealGO36wimDdb5HkgcOd7jz1qYs6RlzcSxCXVQbG4C974SiN5nIrYUV6tjIU6hlTYK+nwqPYvAGT9u6GKmG4XE6gBLwh+Qim62wmZtiNy5y2JwVxXYY3iYOHIM6TSpvWZ3TtD2EJbuhAHKvL2QoHB6.YIh6nTCgcfb.h6nTBgcfbDh6nTAgcfbHh6nT.gcfbLh6nXivNPd.wcTLQXGHOg3NJVHrCjGQbGECD1AxyHtiBMB6.E.D2QgDgcfBDh6nPgvNPADwcTHPXGn.i3Nx2HrCTDPbG4SD1AJRHti7EB6.EQD2Q9.gcfhLh6HWivNPI.h6HWhvNPIBh6HWgvNPIDh6HWfvNPIFh6HaQXGnDDwcjMHrCThh3N1tHrCTBi3N1NHrCThi3NxTD1AJCPbGYBB6.kIHtizEgcfxHD2Q5fvNPYFh6XqPXGnLDwcrYHrCTlh3N1HD1AJiQbGoBgcfxbD2w5QXGvDf3NVKB6.lDD2QbD1ALQHtCIB6.lND2Agc.SHh6U1HrCXRQbuxEgc.SLh6UlHrCXxQbuxCgcfJ.D2qrPXGnBAw8JGD1ApfPbux.gcfJLD2M+HrCTAh3t4FgcfJTD2MuHrCTAi3t4DgcfJbD2MeHrC.h6lLD1AfjHtalPXG.FHtaNPXG.If3d4OB6.HID2KuQXG.oDw8xWUUrG..nzU73t296SKdmPxa+8I2Wvm1SKsY7Z9fybZ43HGU0Xo1r962cmYZc0yb5T9b02Ra5kNwIy5uGUBHrCfM0lE2G40OoB7dip6GaI0yaj5fblvZCMJGG4XIbr6GaIM5q+ik0FZLqO+UJHrCfsTph615nSEx+0kjTf2aTs+C0aByje698o4N5Lgi82e7iopsXQuHyVOswZrCfzx5Wy83Q831nkPYiL6TSpYmZxM807gWxmB4+55O+rmKmrTOUJHrCfzVMVpU02Rqo74BeqapoG+Zo84J7TSpvaRX+tyLst5eyOQtF7My5+k.UZHrCfzV70Teib0ybZsRrkx5uOqDaIc4ieLY+Oyk1W28j0muJMrF6.Hsb6wFYSi5RRQt6B5FW5hx45t.nws1c8RjElWRxXV6u3INowLyG80+wpZK0x5puMQXG.ok80cOxZCMpqdlSqEuSnM70ciKcQYu6dztSwtXYs65k.iMhjjr+3YjGeWu7gWxmBO0jx8E7w5puMwRw.fzVyczo9Kd2QzK9i9qT06xRJeM2e4Xx+4OWJet365kl6nSYsgFk0FZz3w0XoVi0UesydGYNB6.Hi8mbn9jm2+ZZ+eudS4yG38FcK2wKoRnwezNsYzS8i0o1WaI7qg6O0euPxXoX.v1RMVpUuzINo1+g5Ui95mTgu0MS348e9yoluvE2v2epVGdmG4Xa35yizGyXG.Ykc2Pi5vW3hx863SV2SCFGO7stot8iWGcTXQXG.4DM2Qm53u+0kiW4nFq+dtZ6OhLCgc.jS47HGSdd+qI6+Ytz8WNltwk13kiA4GD1APNWMVpU87FmVG4x+iJ7TSp6838rNJL3hmBf7l8zRa5vaxEPE4GLic..SFB6..lLD1A.LYHrC.XxvEOEnDv8VXdEYg4S5SOHIkxez7q1hEtWpfMDgcfzzJwVR+j+K+wZvaO8l95F+7mSAFaDE4tKnVcb.43HGMoH7v82aB6Vj3+H4ejK+Olzq062uOU+daUUa4Kuoas3Lgj0FZj6.hHkHrCrEt2ByqEmYZEXrM+dQtzitmkeiKcwD9vd9xG+X53u+W9wH2zieM0pyCjv4O7stor87ufBL1nZOmH4Yh+hm3jILa9UhsjN+K2iBM904ChBjDVicfsP3olT23RWz3CFhMSnwudBenN2yabZE4tKn6NyzI7ZZ042YMO9Zp981p1+g503dT9VoFK0JqMzXZMlPkGB6.ag80cO5vW3ho0mlOKNyzx15VmbaO+KnEm4K+foHxBymvGBE23RWT6+P8Jaczot+xwRqO2PWI1RZwYBkz2K.IVJFfbpH2cgTe7GOy50uLL2cloezZw67.pFK0pVcb.EZ7qq1VyL5kdzMSq0uF66+P8lxK1J.gcf03CNyo0hOdYSr2cO470uNz3W23iFNoGMacq6oAiaTV2O1RJ7TSpUhsTBWTT6c6R0ulKpZfGuV9buKGoBgcf0vd2tz8i8nYTaMEelctUpeusp6utaSs2OVLUeKsJojWFlGsd6e4L3s0QmZwYBkzEEs9VZKgYm2bGcpSsu1zrSMIyZGIgvNvZjs6M75aoUEdpaZrTJqDaIs3cBo5aosjVFl3qk9KdhSlvryirv7raWPVgKdJPV5T6qMM9i+va1d28na72cQ8gWxmlcpIk296S1d9WP6tgFSZ2vDXrQMVa80pUmGPg7e8z5Cnh0+uN.PhYrCj1r1PixwqbzjNtiW4nF6Nkl6nS49c7o.iMhBM90k8tcI6Odl2VanwDVFl5ao0DlAebs476HGuxQUjElW0zRsxwqbzTtrPtF7MyU+VClL6X0UWc0h8fPRZvAGT9u6GyECB4UC2euJ7stob+N9XsoQdwrSMoBeog03iOdQaLvRw..XxPXG.vjgvN.fICgcTwnoy+y0Ym4izYUc5aMyutXOb.xaHriJBMc9etZ5ucXYc4OS10So+S+M+TsyY9UE6gEPdQI01cLxBymxOTA.xV6c7+WIcrm7RWVy182sHLZfY1hyr42u9KDJYB61rYSV86WguzvE6gBLgdvW7YIcrE++9ux+8FxKra2dQ86eIy9XGHeZ4f+yJfiCpGDIpjj1k8us531Eu8YLP9DqwNpHrq1+iz9C+OIu1aVdTT8oCMPwdHAj2PXGULpptZ0bV2oBpeWwdn.jWQXG.vjgvN.fICgc..SFB6..lLD1A.LYHrC.XxPXG.vjgvN.fICgc..SFB6..lLD1A.LYHrC.XxPXG.vjg6G6njUvfAUjHQTWc0UF8bwEMZTYylMEIRjM86iUqV08t28x5wKPoBlwNJYEIRD4vgCMwDSjvwmat4jCGNje+92z2ec0Umb4x0V98wsa2YwnDnzCyXGkzN7gOr762ulc1YS3XABDP2912dKe+ACFbK+XJKb3vpolZJqGq.kJXF6nj1PCMjhDIhd629skjzDSLg750qFZngRq2e6s29lF1sa2NQcX5PXGkzpqt5zPCMjFXfATznQkGOdjGOd1z0Ve81rkZwiGO4fQIPoEVJFTVvoSmJb3vJRjHJb3vpt5pKseuQiFUVsZMkOWjHQxnyEP4.lwNJY3zoSieELXvDdNud8pvgCqgFZnLNDuQWDUWtbQTGlRUUrG..wMv.CX701rYKgmK95fu9imtb4xkFczQS5X.lQD1QIiLYcyyTNb3HoiQXGlUrTLnhPSM0TB6NFGNbvxv.SKB6nrw.CLv1doXjRbV6oZF7.lErqXPEiIlXBifdf.AT6s2dwc.AjmPXGUT1wN1gjj3+rGlYbwSQEEVBFTIfvNpnX2t8M7GVI.yBB6nhBgcTIfvNpnXylMB6vz6+OfX8S0NoMARg.....jTQNQjqBAlf" ],
-									"embed" : 1,
-									"id" : "obj-2",
+									"id" : "obj-1",
 									"maxclass" : "fpic",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 32.0, 22.0, 344.0, 276.0 ],
-									"pic" : "coords_ws.gif"
+									"patching_rect" : [ 14.0, 9.0, 375.0, 299.0 ],
+									"pic" : "coords_ws.jpg"
 								}
 
 							}
@@ -170,7 +167,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 13.0, 314.0, 398.0, 71.0 ],
-									"text" : "When using 3D, you (the viewer) are located on the Z axis\nThe X and Y axis are between -1 and +1 with 0 at the center.\n\nIt's the 3D cartesian coordinate system."
+									"text" : "When using 3D, you (the viewer) is located on the Z axis\nThe X and Y axis are between -1 and +1 with 0 at the center.\n\nIt's the 3D cartesian coordinate system."
 								}
 
 							}
@@ -180,12 +177,12 @@
 ,
 					"patching_rect" : [ 12.0, 290.0, 82.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial"
 					}
 ,
@@ -420,12 +417,12 @@
 ,
 					"patching_rect" : [ 131.0, 139.0, 97.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial"
 					}
 ,
@@ -969,12 +966,12 @@
 ,
 					"patching_rect" : [ 315.0, 290.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial"
 					}
 ,
@@ -1078,7 +1075,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.0, 162.0, 46.0, 20.0 ],
+					"patching_rect" : [ 359.0, 156.0, 46.0, 20.0 ],
 					"text" : "s draw"
 				}
 
@@ -1092,7 +1089,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 315.0, 237.0, 65.0, 36.0 ]
+					"patching_rect" : [ 315.0, 231.0, 65.0, 36.0 ]
 				}
 
 			}
@@ -1116,7 +1113,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 315.0, 105.0, 65.0, 20.0 ],
+					"patching_rect" : [ 315.0, 99.0, 65.0, 20.0 ],
 					"text" : "qmetro 16"
 				}
 
@@ -1130,7 +1127,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 315.0, 134.0, 106.0, 20.0 ],
+					"patching_rect" : [ 315.0, 128.0, 106.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -1144,7 +1141,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 315.0, 205.0, 174.0, 20.0 ],
+					"patching_rect" : [ 315.0, 199.0, 174.0, 20.0 ],
 					"text" : "jit.gl.render noname @ortho 1"
 				}
 
@@ -1233,7 +1230,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 411.5, 196.5, 324.5, 196.5 ],
+					"midpoints" : [ 411.5, 190.5, 324.5, 190.5 ],
 					"source" : [ "obj-26", 2 ]
 				}
 

@@ -215,13 +215,13 @@
 ,
 					"patching_rect" : [ 209.0, 39.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p info"
@@ -351,7 +351,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 37,
+						"count" : 38,
 						"data" : [ 							{
 								"key" : "imi_zl",
 								"value" : [ "graphic overview of the ZL object" ]
@@ -377,12 +377,12 @@
 								"value" : [ "store and edit a collection of different messages" ]
 							}
 , 							{
-								"key" : "itervsgroup",
+								"key" : "coll_tools",
 								"value" : [ "the iter object vs the group object" ]
 							}
 , 							{
-								"key" : "idx",
-								"value" : [ "indexer, prepends numerical indices" ]
+								"key" : "–––––––––––––––––––––––",
+								"value" : [ "" ]
 							}
 , 							{
 								"key" : "jit.cellblock",
@@ -393,8 +393,8 @@
 								"value" : [ "copy a coll into a cellblock" ]
 							}
 , 							{
-								"key" : "f0.duplicates_in_coll",
-								"value" : [ "remove duplicate data in coll objects" ]
+								"key" : "cellblock2csv",
+								"value" : [ "copy a cellblock into a csv file" ]
 							}
 , 							{
 								"key" : "–––––––––––––––––––––––",
@@ -405,7 +405,7 @@
 								"value" : [ "store a collection of messages" ]
 							}
 , 							{
-								"key" : "lh.collstrore",
+								"key" : "lh.collstore",
 								"value" : [ "save and load multiple [coll]s into one" ]
 							}
 , 							{
@@ -459,6 +459,10 @@
 , 							{
 								"key" : "dot.listinterpolate4",
 								"value" : [ "interpolates/extrapolates between four lists of equal length" ]
+							}
+, 							{
+								"key" : "dot.squeuedlim",
+								"value" : [ "limits the speed of messages passing through for list" ]
 							}
 , 							{
 								"key" : "zsa.dist",
@@ -535,9 +539,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 8.0, 65.0, 491.0, 684.0 ],
+					"patching_rect" : [ 8.0, 59.0, 491.0, 684.0 ],
 					"rowhead" : 1,
-					"rows" : 37,
+					"rows" : 38,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
