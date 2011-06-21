@@ -100,9 +100,9 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 710.0, 348.0, 445.0, 85.0 ],
+						"rect" : [ 258.0, 443.0, 445.0, 85.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 710.0, 348.0, 445.0, 85.0 ],
+						"defrect" : [ 258.0, 443.0, 445.0, 85.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -434,13 +434,13 @@
 ,
 					"patching_rect" : [ 404.0, 345.0, 51.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontface" : 0,
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontname" : "Arial"
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p drivers"
@@ -520,7 +520,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 69.0, 229.0, 55.0 ],
+					"patching_rect" : [ 10.0, 69.0, 233.0, 55.0 ],
 					"text" : "1. sflist is a cue list, put your sounds in the cue position 2, 3, 4 (preload 2, 3, 4)"
 				}
 
@@ -689,9 +689,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 854.0, 44.0, 412.0, 382.0 ],
+						"rect" : [ 846.0, 44.0, 412.0, 382.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 854.0, 44.0, 412.0, 382.0 ],
+						"defrect" : [ 846.0, 44.0, 412.0, 382.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 18.0,
@@ -1282,13 +1282,13 @@
 ,
 					"patching_rect" : [ 197.0, 412.0, 112.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 18.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontface" : 0,
+						"default_fontsize" : 18.0,
 						"fontface" : 0,
-						"fontsize" : 18.0,
-						"default_fontname" : "Arial"
+						"fontsize" : 18.0
 					}
 ,
 					"text" : "p multi_sound+"
@@ -1321,8 +1321,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 553.0, 21.0 ],
-					"text" : "Play sounds from a cuelist named play (1), one by one (2) or randomly (3)",
+					"patching_rect" : [ 4.0, 31.0, 719.0, 21.0 ],
+					"text" : "Play sounds from a cuelist named play (1), one by one (2) or randomly (3) and add auto fade in / fade out (4)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}
