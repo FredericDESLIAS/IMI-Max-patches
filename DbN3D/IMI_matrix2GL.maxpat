@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 3.0, 44.0, 427.0, 181.0 ],
+		"rect" : [ 3.0, 44.0, 439.0, 254.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 44.0, 427.0, 181.0 ],
+		"defrect" : [ 3.0, 44.0, 439.0, 254.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -20,6 +20,126 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.754705,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 29.0, 399.0, 21.0 ],
+					"text" : " jit.gl.sketch object records a list of 3-D drawing commands",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"varname" : "autohelp_top_digest"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 222.5, 319.0, 23.0 ],
+					"presentation_rect" : [ 149.0, 386.5, 0.0, 0.0 ],
+					"text" : "see also IMI gridshape (anchor and assembling) :"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 11.0, 203.0, 109.0, 18.0 ],
+					"presentation_rect" : [ 117.0, 201.0, 0.0, 0.0 ],
+					"text" : "load IMI_gridshape"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-7",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 329.0, 224.5, 101.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 56.0, 161.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "IMI_gridshape",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 172.0, 134.5, 253.0, 23.0 ],
+					"presentation_rect" : [ 198.0, 125.0, 0.0, 0.0 ],
+					"text" : "drawobject and drawmatrix in gl.sketch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, 204.0, 161.0, 18.0 ],
+					"presentation_rect" : [ 150.0, 162.0, 0.0, 0.0 ],
+					"text" : "load GLSketch_part3.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-1",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 9.0, 134.5, 117.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 34.0, 130.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "GLSketch_part 3",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -31,7 +151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 9.0, 92.5, 117.0, 21.0 ],
+					"patching_rect" : [ 9.0, 100.5, 117.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 378.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -53,7 +173,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 9.0, 130.5, 63.0, 22.0 ],
+					"patching_rect" : [ 9.0, 168.5, 63.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 419.0, 756.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -75,7 +195,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 9.0, 52.5, 117.0, 22.0 ],
+					"patching_rect" : [ 9.0, 66.5, 117.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 731.0, 283.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -92,8 +212,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 201.0, 130.5, 136.0, 23.0 ],
-					"text" : "jit.map to jit.gl.mesh"
+					"patching_rect" : [ 172.0, 168.5, 176.0, 23.0 ],
+					"text" : "jit.gl.mesh for direct matrix"
 				}
 
 			}
@@ -105,8 +225,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 201.0, 91.0, 139.0, 23.0 ],
-					"text" : "using jit.spill / vexpr"
+					"patching_rect" : [ 172.0, 100.5, 207.0, 23.0 ],
+					"text" : "using jit.spill / vexpr to gl.sketch"
 				}
 
 			}
@@ -118,8 +238,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 201.0, 53.0, 143.0, 23.0 ],
-					"text" : "using jit.map / jit.iter"
+					"patching_rect" : [ 172.0, 66.5, 208.0, 23.0 ],
+					"text" : "using jit.map / jit.iter to gl.sketch"
 				}
 
 			}
@@ -133,7 +253,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 135.0, 121.0, 18.0 ],
+					"patching_rect" : [ 10.0, 204.0, 121.0, 18.0 ],
 					"text" : "load GLMesh.maxpat"
 				}
 
@@ -148,7 +268,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 134.0, 161.0, 18.0 ],
+					"patching_rect" : [ 12.0, 204.0, 161.0, 18.0 ],
 					"text" : "load GLSketch_part2.maxpat"
 				}
 
@@ -163,7 +283,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 132.0, 161.0, 18.0 ],
+					"patching_rect" : [ 11.0, 204.0, 161.0, 18.0 ],
 					"text" : "load GLSketch_part1.maxpat"
 				}
 
@@ -178,7 +298,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 176.0, 133.0, 52.0, 20.0 ],
+					"patching_rect" : [ 178.0, 203.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -211,13 +331,31 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 422.0, 32.0 ],
+					"patching_rect" : [ 2.0, 2.0, 434.0, 49.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"hidden" : 1,
@@ -250,6 +388,24 @@
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
