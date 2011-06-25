@@ -27,8 +27,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 231.0, 441.0, 226.0, 23.0 ],
-					"presentation_rect" : [ 231.0, 444.0, 0.0, 0.0 ],
-					"text" : "osc objects (CNMAT)"
+					"text" : "o. objects for OSC (CNMAT)"
 				}
 
 			}
@@ -42,7 +41,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 18.0, 441.0, 89.0, 20.0 ],
+					"patching_rect" : [ 17.0, 441.0, 87.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 141.0, 408.0, 100.0, 20.0 ],
 					"text" : "OSC objects"
@@ -59,8 +58,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 441.0, 115.0, 16.0 ],
-					"presentation_rect" : [ 265.0, 538.0, 0.0, 0.0 ],
+					"patching_rect" : [ 17.0, 441.0, 115.0, 16.0 ],
 					"text" : "load o.overview.maxpat"
 				}
 
@@ -211,7 +209,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 17.0, 507.0, 138.0, 21.0 ],
+					"patching_rect" : [ 17.0, 507.0, 136.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 387.0, 419.0, 100.0, 20.0 ],
 					"text" : "Open Sound Control"
@@ -376,7 +374,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 17.0, 539.0, 149.0, 20.0 ],
+					"patching_rect" : [ 17.0, 539.0, 145.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 307.0, 100.0, 20.0 ],
 					"text" : "OSCulator application"
@@ -409,7 +407,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 168.0, 93.0, 18.0 ],
+					"patching_rect" : [ 17.0, 167.0, 93.0, 18.0 ],
 					"text" : "load Jitter2DMX"
 				}
 
@@ -506,7 +504,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 17.0, 473.0, 121.0, 22.0 ],
+					"patching_rect" : [ 17.0, 473.0, 116.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 42.0, 494.0, 100.0, 20.0 ],
 					"text" : "OSC2Processing"
@@ -609,7 +607,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 231.0, 168.0, 230.0, 23.0 ],
+					"patching_rect" : [ 231.0, 167.0, 230.0, 23.0 ],
 					"text" : "DMX protocol (lighting, ...)"
 				}
 
@@ -725,7 +723,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 17.0, 168.0, 69.0, 18.0 ],
+					"patching_rect" : [ 17.0, 167.0, 69.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 326.0, 100.0, 20.0 ],
 					"text" : "DMX"
@@ -757,7 +755,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 168.0, 79.0, 18.0 ],
+					"patching_rect" : [ 17.0, 167.0, 79.0, 18.0 ],
 					"text" : "load imp.dmx"
 				}
 

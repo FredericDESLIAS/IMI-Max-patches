@@ -42,9 +42,9 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 970.0, 366.0, 481.0, 372.0 ],
+						"rect" : [ 954.0, 311.0, 481.0, 372.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 970.0, 366.0, 481.0, 372.0 ],
+						"defrect" : [ 954.0, 311.0, 481.0, 372.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -193,7 +193,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 164.0, 134.0, 65.0, 17.0 ],
-									"text" : "pos 970 45"
+									"text" : "pos 950 45"
 								}
 
 							}
@@ -524,13 +524,13 @@
 ,
 					"patching_rect" : [ 9.0, 212.662506, 86.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -884,13 +884,13 @@
 ,
 									"patching_rect" : [ 268.0, 189.0, 69.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p makeList"
@@ -1117,13 +1117,13 @@
 ,
 									"patching_rect" : [ 95.0, 189.0, 69.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p makeList"
@@ -1442,13 +1442,13 @@
 ,
 					"patching_rect" : [ 497.0, 258.0, 100.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p avg&normalize"
@@ -1567,8 +1567,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 236.5, 260.0, 20.0 ],
-					"text" : "jit.window generic @depthbuffer 1 @pos 10 50"
+					"patching_rect" : [ 9.0, 236.5, 105.0, 20.0 ],
+					"text" : "jit.window generic"
 				}
 
 			}
