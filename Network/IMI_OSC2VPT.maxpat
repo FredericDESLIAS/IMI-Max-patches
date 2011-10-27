@@ -28,9 +28,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 806.0, 44.0, 519.0, 615.0 ],
+						"rect" : [ 760.0, 44.0, 519.0, 615.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 806.0, 44.0, 519.0, 615.0 ],
+						"defrect" : [ 760.0, 44.0, 519.0, 615.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -64,15 +64,14 @@
 					}
 ,
 					"patching_rect" : [ 644.829346, 282.557251, 88.0, 23.0 ],
-					"presentation_rect" : [ 632.829346, 356.557251, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"globalpatchername" : "",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p OSC2VPT"
@@ -167,9 +166,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 806.0, 44.0, 335.0, 266.0 ],
+						"rect" : [ 760.0, 44.0, 335.0, 266.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 806.0, 44.0, 335.0, 266.0 ],
+						"defrect" : [ 760.0, 44.0, 335.0, 266.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -294,13 +293,13 @@
 ,
 					"patching_rect" : [ 599.829346, 401.557251, 134.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"globalpatchername" : "",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p OSCroute_tutorial"
@@ -416,7 +415,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 242.0, 401.0, 307.0, 55.0 ],
+					"patching_rect" : [ 242.0, 401.0, 308.0, 55.0 ],
 					"text" : "send OSC message over the network\n\"localhost\" is this computer (same as 127.0.0.1)\n\"6666\" is the port used by VPT"
 				}
 

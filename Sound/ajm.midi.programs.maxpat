@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 889.0, 44.0, 269.0, 516.0 ],
+		"rect" : [ 599.0, 44.0, 269.0, 516.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 889.0, 44.0, 269.0, 516.0 ],
+		"defrect" : [ 599.0, 44.0, 269.0, 516.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,

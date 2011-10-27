@@ -27,7 +27,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 355.0, 323.0, 81.0, 20.0 ],
-					"presentation_rect" : [ 404.0, 223.0, 0.0, 0.0 ],
 					"text" : "receive audio"
 				}
 
@@ -42,9 +41,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 746.0, 124.0, 345.0, 189.0 ],
+						"rect" : [ 1029.0, 44.0, 345.0, 189.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 746.0, 124.0, 345.0, 189.0 ],
+						"defrect" : [ 1029.0, 44.0, 345.0, 189.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -235,12 +234,12 @@
 					"patching_rect" : [ 440.0, 321.0, 109.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
+						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
-						"fontname" : "Arial"
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p receive_audio"
@@ -270,9 +269,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 25.0, 69.0, 440.0, 281.0 ],
+						"rect" : [ 938.0, 44.0, 440.0, 281.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 25.0, 69.0, 440.0, 281.0 ],
+						"defrect" : [ 938.0, 44.0, 440.0, 281.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -356,12 +355,12 @@
 									"patching_rect" : [ 11.0, 13.0, 49.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 14.0,
+										"fontname" : "Arial",
 										"default_fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 14.0,
-										"fontname" : "Arial"
+										"fontface" : 0,
+										"fontsize" : 14.0
 									}
 ,
 									"text" : "p more"
@@ -493,11 +492,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-20",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 283.0, 105.0, 59.0, 18.0 ]
+									"patching_rect" : [ 283.0, 105.0, 59.0, 32.0 ],
+									"text" : "1 2 4.5 foo"
 								}
 
 							}
@@ -562,7 +563,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 124.0, 144.0, 140.0, 18.0 ],
-									"text" : "no more 22 bang"
+									"text" : "some please 44"
 								}
 
 							}
@@ -722,12 +723,12 @@
 					"patching_rect" : [ 464.0, 356.0, 132.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
+						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
-						"fontname" : "Arial"
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p receive_message"

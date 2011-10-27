@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 21.0, 44.0, 707.0, 605.0 ],
+		"rect" : [ 4.0, 44.0, 707.0, 605.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 21.0, 44.0, 707.0, 605.0 ],
+		"defrect" : [ 4.0, 44.0, 707.0, 605.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -523,12 +523,12 @@
 ,
 					"patching_rect" : [ 70.0, 548.0, 51.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 10.0,
+						"fontface" : 0,
 						"fontsize" : 10.0
 					}
 ,

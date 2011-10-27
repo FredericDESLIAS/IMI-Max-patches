@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 3.0, 44.0, 622.0, 384.0 ],
+		"rect" : [ 568.0, 44.0, 678.0, 441.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 44.0, 622.0, 384.0 ],
+		"defrect" : [ 568.0, 44.0, 678.0, 441.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -19,6 +19,136 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-159",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 5351.0, 293.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-157",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5420.0, 289.0, 268.0, 39.0 ],
+					"text" : "after 2000 ms, do something (bang) and stop counting (message 0 to toggle)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-156",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5598.0, 240.0, 242.0, 23.0 ],
+					"text" : "advanced video effects with shaders"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-155",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5598.0, 205.0, 193.0, 23.0 ],
+					"text" : "quicktime through openGL"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-154",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5598.0, 169.0, 193.0, 23.0 ],
+					"text" : "advanced quicktime playback"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-152",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5377.0, 293.0, 32.5, 21.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-150",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 5351.0, 260.0, 72.0, 23.0 ],
+					"text" : "past 2000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-149",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"patching_rect" : [ 5351.0, 230.0, 50.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-141",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 5351.0, 170.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 5351.0, 199.0, 82.0, 23.0 ],
+					"text" : "clocker 100"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-148",
 					"maxclass" : "button",
@@ -165,7 +295,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 5465.0, 175.0, 118.0, 20.0 ],
+					"patching_rect" : [ 5475.0, 242.0, 110.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5698.0, 190.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -184,7 +314,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5338.0, 223.0, 169.0, 18.0 ],
+					"patching_rect" : [ 5458.0, 267.0, 169.0, 18.0 ],
 					"text" : "load shader_overview_v001"
 				}
 
@@ -202,11 +332,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 5588.0, 175.0, 168.0, 21.0 ],
+					"patching_rect" : [ 5475.0, 207.0, 106.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5522.0, 129.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "IMI_simple_video_player",
+					"text" : "quicktime to GL",
 					"texton" : "Stop"
 				}
 
@@ -221,7 +351,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5338.0, 222.0, 169.0, 18.0 ],
+					"patching_rect" : [ 5458.0, 270.0, 169.0, 18.0 ],
 					"text" : "load IMI_simple_video_player"
 				}
 
@@ -239,7 +369,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 5338.0, 175.0, 119.0, 21.0 ],
+					"patching_rect" : [ 5475.0, 170.0, 119.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 502.0, 870.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -258,7 +388,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5338.0, 224.0, 133.0, 18.0 ],
+					"patching_rect" : [ 5458.0, 269.0, 133.0, 18.0 ],
 					"text" : "load quicktime_smooth"
 				}
 
@@ -273,7 +403,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5338.0, 249.0, 52.0, 20.0 ],
+					"patching_rect" : [ 5458.0, 297.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -287,8 +417,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5332.0, 48.0, 571.0, 92.0 ],
-					"text" : "Patch is too slow ? See the quicktime smooth (video) patch.\nUse GL.objects (Max103) rather than jitter objects, if possible. \n\nFor video effects, have a look at shaders. "
+					"patching_rect" : [ 5332.0, 48.0, 577.0, 92.0 ],
+					"text" : "Patch is too slow ? The easiest is to close the processes that you don't need. Optimise your video playback using the quicktime smooth patch or change your rendering methods using the GL objects rather than the jitter objects. For video effects, have a look at shaders. "
 				}
 
 			}
@@ -302,7 +432,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 6508.0, 47.0, 570.0, 135.0 ],
-					"text" : "Record your progression, save your patch with a version number : \n\nalpha versions (not all features ) : v001\nbeta versions (all features but buggy) : v100 \nrelease candidates : RC1, RC2, ... \ngolden master : GM."
+					"text" : "Record your progression, save your patch with a version number : \n\nalpha versions (not all features ) : v001\nbeta versions (all features but buggy) : v100 \nrelease candidates : RC1, RC2, ... \ngolden master : GM or ƒ (alt-f)."
 				}
 
 			}
@@ -330,7 +460,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1980.0, 225.0, 290.0, 39.0 ],
+					"patching_rect" : [ 1972.0, 186.0, 290.0, 39.0 ],
 					"text" : "values between -30 and 0 will play the movie frames between 0 and 251 (zmap object)"
 				}
 
@@ -370,8 +500,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 779.0, 259.0, 307.0, 23.0 ],
-					"text" : "@autostart 0 will not start the movie upon read"
+					"patching_rect" : [ 779.0, 259.0, 312.0, 23.0 ],
+					"text" : "@autostart 0 will NOT start the movie upon read"
 				}
 
 			}
@@ -670,13 +800,13 @@
 ,
 					"patching_rect" : [ 4878.0, 145.5, 123.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 14.0,
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p counter_modulo"
@@ -812,7 +942,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2673.0, 201.0, 146.0, 39.0 ],
+					"patching_rect" : [ 2669.0, 205.0, 146.0, 39.0 ],
 					"text" : "bang when you reach the end of the video"
 				}
 
@@ -824,7 +954,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2557.0, 237.0, 20.0, 20.0 ]
+					"patching_rect" : [ 2557.0, 233.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -837,7 +967,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2557.0, 209.0, 106.0, 23.0 ],
+					"patching_rect" : [ 2557.0, 205.0, 106.0, 23.0 ],
 					"text" : "route loopnotify"
 				}
 
@@ -849,7 +979,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2381.0, 120.0, 20.0, 20.0 ]
+					"patching_rect" : [ 2381.0, 116.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -862,7 +992,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2381.0, 145.0, 66.0, 23.0 ],
+					"patching_rect" : [ 2381.0, 141.0, 66.0, 23.0 ],
 					"text" : "metro 40"
 				}
 
@@ -874,7 +1004,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2381.0, 209.0, 160.0, 120.0 ],
+					"patching_rect" : [ 2381.0, 205.0, 160.0, 120.0 ],
 					"presentation_rect" : [ 30.0, 30.0, 160.0, 120.0 ]
 				}
 
@@ -888,7 +1018,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2455.0, 145.0, 114.0, 21.0 ],
+					"patching_rect" : [ 2455.0, 141.0, 114.0, 21.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -902,7 +1032,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 2381.0, 179.0, 195.0, 23.0 ],
+					"patching_rect" : [ 2381.0, 175.0, 195.0, 23.0 ],
 					"text" : "jit.qt.movie @loopreport 1"
 				}
 
@@ -1315,8 +1445,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1192.0, 47.0, 572.0, 71.0 ],
-					"text" : "Copy the object with the arguments you need. Example messages :\nread to open the video, frame to access a specific frame, ...) into your own patch. Test !"
+					"patching_rect" : [ 1192.0, 47.0, 579.0, 71.0 ],
+					"text" : "Copy the object with the arguments you need into your own patch. Example : message <read> to open the video, <frame> to access a specific frame, ... Test !"
 				}
 
 			}
@@ -2292,7 +2422,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-111", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 2464.5, 173.0, 2390.5, 173.0 ],
+					"midpoints" : [ 2464.5, 169.0, 2390.5, 169.0 ],
 					"source" : [ "obj-110", 0 ]
 				}
 
@@ -2373,7 +2503,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-124", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 5597.5, 212.5, 5347.5, 212.5 ],
+					"midpoints" : [ 5484.5, 231.5, 5467.5, 231.5 ],
 					"source" : [ "obj-123", 0 ]
 				}
 
@@ -2454,7 +2584,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-135", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 5474.5, 212.5, 5347.5, 212.5 ],
+					"midpoints" : [ 5484.5, 269.5, 5467.5, 269.5 ],
 					"source" : [ "obj-131", 0 ]
 				}
 
@@ -2515,6 +2645,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-141", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-133", 1 ],
 					"hidden" : 0,
 					"midpoints" : [ 4887.5, 173.75, 4937.5, 173.75 ],
@@ -2546,6 +2685,42 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-146", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-150", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-149", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-152", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-150", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-159", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-150", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-141", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 5386.5, 321.0, 5339.5, 321.0, 5339.5, 164.0, 5360.5, 164.0 ],
+					"source" : [ "obj-152", 0 ]
 				}
 
 			}
@@ -2618,6 +2793,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-149", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-33", 0 ]
 				}
 
 			}
@@ -2823,7 +3007,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
 					"hidden" : 1,
-					"midpoints" : [  ],
+					"midpoints" : [ 5484.5, 198.0, 5467.5, 198.0 ],
 					"source" : [ "obj-95", 0 ]
 				}
 

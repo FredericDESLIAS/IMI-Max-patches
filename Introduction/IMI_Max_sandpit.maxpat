@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 3.0, 44.0, 459.0, 351.0 ],
+		"rect" : [ 3.0, 44.0, 458.0, 351.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 44.0, 459.0, 351.0 ],
+		"defrect" : [ 3.0, 44.0, 458.0, 351.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -317,7 +317,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 6.0, 385.0, 31.0 ],
+					"patching_rect" : [ 5.0, 6.0, 387.0, 31.0 ],
 					"text" : "IMI Max sandpit : your first 20 objects ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
