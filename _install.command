@@ -1,14 +1,15 @@
 #!/bin/bash
 # This file must be saved in UTF-8 (because of the shortcuts)
+# Based on the eijes installer, thanks !
 
 ####################################
-# IMI Max patches Installation v1.0
+# IMI Max patches Installation v1.1
 # Nicolas Marechal
 # n.marechal@lcc.arts.ac.uk
 ####################################
 
 function do5Installation {
-	echo "- Installing IMI tools (version 2.1 and over) for Max 5";
+	echo "- Installing IMI tools for Max 5";
 	echo ""
 	echo "- Quitting Max..."
 	killall MaxMSP;
@@ -19,7 +20,7 @@ function do5Installation {
 
 function doInstallation {
 
-	if [ -e "$C74Folder" ] ; then
+	if [ -e "$C74Examples" ] ; then
 
 		if [[ ! -e "$IMIpatches" ]] ; then
 			mkdir "$IMIpatches";
@@ -65,6 +66,17 @@ function doInstallation {
 		cp -R "$InstallFolder/IMIextra/" "$IMIextra" && echo -ne "... done.\n";
 		echo ""
 
+		if [ -e "/Applications/Max5/_abstract/IMIpatches" ] ; then
+			cp -R "/Applications/Max5/_abstract/IMIpatches/Media files" "$IMIpatches";
+			cp -R "/Applications/Max5/_abstract/IMIpatches/Plugins_anim" "$IMIpatches";
+			cp -R "/Applications/Max5/_abstract/IMIpatches/Plugins_communication" "$IMIpatches";
+			cp -R "/Applications/Max5/_abstract/IMIpatches/Plugins_janoma" "$IMIpatches";
+			cp -R "/Applications/Max5/_abstract/IMIpatches/Plugins_sound" "$IMIpatches";
+			cp -R "/Applications/Max5/_abstract/IMIpatches/Plugins_tools" "$IMIpatches";
+			rm -r -f "/Applications/Max5/_abstract/IMIpatches";
+			echo ""
+		fi
+
 		echo -ne "\n";
 
 	fi
@@ -95,11 +107,20 @@ InstallFolder=$(dirname "$InstallFolderPath")
 whichVersion=0;
 
 if [ -e "/Applications/Max5" ]; then
-	whichVersion=1;
+	whichVersion=1; # got Max 5
 fi
 
 if [ -e "/Applications/Max5/_abstract/IMIpatches" ]; then
-	whichVersion=2;
+	whichVersion=2; # alumni version
+fi
+
+if [ -e "/Applications/Max6" ]; then
+	if [[ $whichVersion == 1 || $whichVersion == 2 ]]; then
+		whichVersion=4;	# got Max 5 and 6
+	else
+		whichVersion=3; # got Max 6 only
+	fi
+
 fi
 
 if [[ $whichVersion == 0 ]]; then
@@ -114,8 +135,8 @@ if [[ $whichVersion == 1 ]]; then
 	echo "MaxMSP 5 is installed.";
 	echo ""
 	maxAppFolder="/Applications/Max5";
-	C74Folder="$maxAppFolder/Cycling '74";
-	IMIpatches="$maxAppFolder/IMIpatches";
+	C74Examples="$maxAppFolder/examples/";
+	IMIpatches="$maxAppFolder/examples/IMIpatches";
 	IMIextra="$maxAppFolder/patches/extras/";
 	do5Installation;
 fi
@@ -125,12 +146,22 @@ if [[ $whichVersion == 2 ]]; then
 	echo "MaxMSP 5 is installed, this is the alumni version.";
 	echo ""
 	maxAppFolder="/Applications/Max5";
-	C74Folder="$maxAppFolder/Cycling '74";
+	C74Examples="$maxAppFolder/examples";
 	IMIpatches="$maxAppFolder/_abstract/IMIpatches";
 	IMIextra="$maxAppFolder/patches/extras/";
 	do5Installation;
 fi
 
+if [[ $whichVersion == 3 || $whichVersion == 4 ]]; then
+
+	echo "MaxMSP 6 is installed.";
+	echo ""
+	maxAppFolder="/Applications/Max6";
+	C74Examples="$maxAppFolder/examples/";
+	IMIpatches="$maxAppFolder/examples/IMIpatches";
+	IMIextra="$maxAppFolder/patches/extras/";
+	do5Installation;
+fi
 
 ################################
 # End of the installation
