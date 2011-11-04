@@ -9,10 +9,11 @@
 ####################################
 
 function do5Installation {
-	echo "- Installing IMI tools for Max 5";
+	echo "- Installing IMI tools for Max";
 	echo ""
 	echo "- Quitting Max..."
 	killall MaxMSP;
+	killall Max;
 	echo ""
 	sleep 1;
 	doInstallation;
@@ -27,7 +28,7 @@ function doInstallation {
 		fi
 
 		cd "$IMIpatches";
-		echo -ne "- Install IMI patches folder in ($IMIpatches).\n";
+		echo -ne "- Install IMI patches folder in ($IMIpatches)\n";
 		cp -R "$InstallFolder/Computer Vision" "$IMIpatches" && echo -ne "... Computer Vision.\n";
 		cp -R "$InstallFolder/CV objects" "$IMIpatches" && echo -ne "... CV objects.\n";
 		cp -R "$InstallFolder/DbN2D" "$IMIpatches" && echo -ne "... DbN2D.\n";
@@ -53,8 +54,7 @@ function doInstallation {
 		cp -R "$InstallFolder/Video" "$IMIpatches" && echo -ne "... Video.\n";
 		cp -R "$InstallFolder/z" "$IMIpatches";
 		cp -R "$InstallFolder/zpatches" "$IMIpatches";
-		cp "$InstallFolder/_IMI_Read me.rtf" "$IMIpatches" && echo -ne "... done.\n";
-		echo ""
+		cp "$InstallFolder/_IMI_Read me.rtf" "$IMIpatches" && echo -ne "... Read me file.\n";
 
 		if [ -e "$IMIextra/_IMI_help.maxpat" ] ; then
 			rm "$IMIextra/_IMI_help.maxpat";
@@ -74,7 +74,7 @@ function doInstallation {
 			cp -R "/Applications/Max5/_abstract/IMIpatches/Plugins_sound" "$IMIpatches";
 			cp -R "/Applications/Max5/_abstract/IMIpatches/Plugins_tools" "$IMIpatches";
 			rm -r -f "/Applications/Max5/_abstract/IMIpatches";
-			echo ""
+			echo -ne "- Copy the alumni files into the example folder";
 		fi
 
 		echo -ne "\n";
@@ -152,7 +152,23 @@ if [[ $whichVersion == 2 ]]; then
 	do5Installation;
 fi
 
-if [[ $whichVersion == 3 || $whichVersion == 4 ]]; then
+if [[ $whichVersion == 4 ]]; then
+
+	echo "MaxMSP 5 and 6 are installed.";
+	echo ""
+	maxAppFolder="/Applications/Max5";
+	C74Examples="$maxAppFolder/examples/";
+	IMIpatches="$maxAppFolder/examples/IMIpatches";
+	IMIextra="$maxAppFolder/patches/extras/";
+	do5Installation;
+	maxAppFolder="/Applications/Max6";
+	C74Examples="$maxAppFolder/examples/";
+	IMIpatches="$maxAppFolder/examples/IMIpatches";
+	IMIextra="$maxAppFolder/patches/extras/";
+	do5Installation;
+fi
+
+if [[ $whichVersion == 3 ]]; then
 
 	echo "MaxMSP 6 is installed.";
 	echo ""
@@ -162,6 +178,8 @@ if [[ $whichVersion == 3 || $whichVersion == 4 ]]; then
 	IMIextra="$maxAppFolder/patches/extras/";
 	do5Installation;
 fi
+
+
 
 ################################
 # End of the installation
