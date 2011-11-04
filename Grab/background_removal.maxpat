@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 3.0, 44.0, 767.0, 762.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 0.0, 44.0, 767.0, 762.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 44.0, 767.0, 762.0 ],
+		"defrect" : [ 0.0, 44.0, 767.0, 762.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -51,7 +57,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 490.0, 713.0, 122.0, 16.0 ],
-					"presentation_rect" : [ 419.0, 707.0, 0.0, 0.0 ],
 					"text" : "load a-jit.humans.maxpat"
 				}
 
@@ -369,7 +374,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 177.0, 626.0, 188.0, 64.0 ],
+					"patching_rect" : [ 176.0, 626.0, 188.0, 64.0 ],
 					"text" : "this mask could be improved using erode/ dilate morphological operations. \n\nsee jit.convolve-morphop.pat example or Jean marc Pelletier's cv.jit externals"
 				}
 
@@ -463,7 +468,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 515.0, 69.0, 20.0 ],
+					"patching_rect" : [ 172.0, 515.0, 69.0, 20.0 ],
 					"text" : "threshold"
 				}
 

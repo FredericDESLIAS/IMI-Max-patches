@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 594.0, 44.0, 542.0, 736.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 2.0, 44.0, 542.0, 736.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 594.0, 44.0, 542.0, 736.0 ],
+		"defrect" : [ 2.0, 44.0, 542.0, 736.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -171,6 +177,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 1152.0, 44.0, 399.0, 439.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 1152.0, 44.0, 399.0, 439.0 ],
@@ -211,6 +223,12 @@
 									"numoutlets" : 0,
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 1150.0, 44.0, 818.0, 485.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 1150.0, 44.0, 818.0, 485.0 ],
@@ -253,13 +271,13 @@
 													"outlettype" : [ "int", "bang" ],
 													"patching_rect" : [ 519.0, 141.0, 46.5, 20.0 ],
 													"saved_object_attributes" : 													{
-														"size" : 128,
+														"signed" : 0,
 														"name" : "",
+														"size" : 128,
 														"range" : 128,
 														"showeditor" : 0,
 														"embed" : 0,
-														"notename" : 0,
-														"signed" : 0
+														"notename" : 0
 													}
 ,
 													"showeditor" : 0,
@@ -830,13 +848,13 @@
 ,
 									"patching_rect" : [ 9.0, 396.0, 89.0, 23.0 ],
 									"saved_object_attributes" : 									{
+										"fontface" : 0,
+										"fontsize" : 14.0,
 										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 14.0,
-										"fontface" : 0,
-										"fontsize" : 14.0
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p uzi_graph"
@@ -1151,13 +1169,13 @@
 ,
 					"patching_rect" : [ 417.0, 705.0, 109.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p fast_counter"

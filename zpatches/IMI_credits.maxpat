@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 6.0, 44.0, 649.0, 459.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 6.0, 44.0, 648.0, 457.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 6.0, 44.0, 649.0, 459.0 ],
+		"defrect" : [ 6.0, 44.0, 648.0, 457.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -27,7 +33,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 420.849884, 437.0, 27.0 ],
-					"presentation_rect" : [ 5.0, 428.849884, 0.0, 0.0 ],
 					"text" : "Special thanks to : Nicolas Collins for the inspiration."
 				}
 
@@ -42,6 +47,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 678.0, 44.0, 634.0, 167.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 678.0, 44.0, 634.0, 167.0 ],
@@ -79,13 +90,13 @@
 ,
 					"patching_rect" : [ 502.0, 420.849884, 141.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p plugins credits"
@@ -95,13 +106,13 @@
 , 			{
 				"box" : 				{
 					"handoff" : "",
-					"hilite" : 0,
+					"hltcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"id" : "obj-6",
 					"maxclass" : "ubutton",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 271.0, 158.0, 226.0, 19.0 ],
+					"patching_rect" : [ 398.0, 158.0, 226.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 325.0, 87.0, 31.0 ]
 				}
@@ -118,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 364.0, 178.0, 207.0, 26.0 ],
+					"patching_rect" : [ 391.0, 178.0, 207.0, 26.0 ],
 					"text" : ";\rmax launchbrowser http://cycling74.com/forums/"
 				}
 
@@ -132,8 +143,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 356.849884, 635.0, 48.0 ],
-					"text" : "Video : James Gilpin and Holly Yoon, Maximo Recio, Eri Sawatari, Anna Szumiec and iMal Belgium."
+					"patching_rect" : [ 6.0, 356.849884, 536.0, 48.0 ],
+					"text" : "Video : James Gilpin and Holly Yoon, Maximo Recio, Eri Sawatari, Anna Szumiec, iMal Belgium."
 				}
 
 			}
@@ -147,7 +158,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 134.0, 636.0, 69.0 ],
-					"text" : "The patches that start with IMI were improved or entirely made by Nicolas Maréchal. Others were found on http://cycling74.com/forums/ or simplified\nhelp files from the original Max application."
+					"text" : "The patches that start with IMI were improved or entirely made by Nicolas Maréchal. Others were great examples found on http://cycling74.com/forums/\nor simplified help files from the original Max application."
 				}
 
 			}
@@ -174,8 +185,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 45.0, 637.0, 69.0 ],
-					"text" : "The IMI Max patches is a self-learning tool and a repository for some of the Max patches made or used at the design for interaction and moving image pathway (graphic and media design / lcc)."
+					"patching_rect" : [ 5.0, 45.0, 641.0, 69.0 ],
+					"text" : "The IMI Max patches is a self-learning tool and a repository for some of the Max patches made or used at the BA design for interaction and moving image  (London College of Communication, United Kingdom)."
 				}
 
 			}

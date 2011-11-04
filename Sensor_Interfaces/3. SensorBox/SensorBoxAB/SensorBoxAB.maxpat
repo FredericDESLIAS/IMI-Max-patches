@@ -1,10 +1,16 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 1044.0, 222.0, 426.0, 457.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 4.0, 44.0, 426.0, 457.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1044.0, 222.0, 426.0, 457.0 ],
+		"defrect" : [ 4.0, 44.0, 426.0, 457.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 24.0,
@@ -25,6 +31,29 @@
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"color" : [ 0.8, 0.84, 0.71, 1.0 ],
 					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-10",
+					"ignoreclick" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 243.0, 52.0, 63.0, 20.0 ],
+					"presentation" : 0,
+					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"text" : "closebang",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue Bold",
 					"fontsize" : 18.0,
 					"hidden" : 0,
@@ -35,9 +64,15 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 25.0, 69.0, 408.0, 456.0 ],
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
+						"rect" : [ 437.0, 44.0, 393.0, 462.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 25.0, 69.0, 408.0, 456.0 ],
+						"defrect" : [ 437.0, 44.0, 393.0, 462.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -56,13 +91,14 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-10",
-									"linecount" : 77,
-									"maxclass" : "comment",
+									"id" : "obj-3",
+									"linecount" : 73,
+									"maxclass" : "textedit",
 									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 11.0, 8.0, 368.0, 1069.0 ],
-									"text" : "// Code for Getting all the Arduino inputs into MaxMSP\n//Andrew Benson\n//http://pixlpa.com\n\nchar analogValue[12];//array of analog values\nchar current=0;//current position of analog value in array\nint digVal;//digital pins bits are packed into a single variable\nchar imask = 128;//index bytes start with 1\nchar theEnd = 255;//byte to signal message end to Max patch\n\nvoid setup(void) {\n  Serial.begin(57600);\n  digVal=0;\n  for (int i = 2;i<14;i++){\n    digitalWrite(i,HIGH);//enable pullups\n  }\n  while (establishContact()==0){delay(100);}  //wait for 99 byte\n}\n  \n//uses serial.write() to avoid needless symbol creation in MaxMSP  \nvoid loop() {\n  digVal=0; //reset digital value to 0\n  //read digital pins\n  for (int i = 0;i<11;i++){\n     digVal |= (digitalRead(i+2)<<i);\n  }\n  \n  //read analog pins\n  for (int g = 0;g<6;g++){ \n    packValue(g);\n  }\n  char total = current+1;\n  sendOFF(total);//send everything to Max\n  current=0;//reset analog value counter\n  delay(10);//wait 10 milliseconds\n  //see if someone tried to turn us off:\n  if(establishContact()==1) {\n    while(establishContact()==0) {delay(100);}//go into idle mode\n  }\n}\n\nvoid sendOFF(char total){\n  //Send analog values in the format 0x81 a1 a2.....0xFF\n  Serial.write(imask|1);\n  for (int i = 0;i<total;i++){\n      Serial.write(analogValue[i]);   \n  }\n  Serial.write(theEnd);//ends analog stream\n  \n  Serial.write((imask|2));\n  Serial.write((digVal&127));\n  Serial.write(digVal>>7);\n  Serial.write(theEnd);//ends digital message\n}\n\n//read an analog pin and then pack into low/high bytes\nvoid packValue(int index) {\n      int tempA = analogRead(index);\n      analogValue[current]=tempA & 127;\n      current++;\n      analogValue[current] = (tempA>>7);\n      current++;\n}\n\n\nchar establishContact(void){\n    if (Serial.available() > 0) {\n      char checkup = Serial.read();\n      if (checkup==99) return 1;\n      else return 0;\n    }\n    else return 0;\n}\n\n\n\n\n"
+									"numoutlets" : 4,
+									"outlettype" : [ "", "int", "", "" ],
+									"patching_rect" : [ 8.0, 8.0, 373.0, 445.0 ],
+									"text" : "// Code for Getting all the Arduino inputs into MaxMSP\n//Andrew Benson\n//http://pixlpa.com\n\nchar analogValue[12];//array of analog values\nchar current=0;//current position of analog value in array\nint digVal;//digital pins bits are packed into a single variable\nchar imask = 128;//index bytes start with 1\nchar theEnd = 255;//byte to signal message end to Max patch\n\nvoid setup(void) {\n  Serial.begin(57600);\n  digVal=0;\n  for (int i = 2;i<14;i++){\n    digitalWrite(i,HIGH);//enable pullups\n  }\n  while (establishContact()==0){delay(100);}  //wait for 99 byte\n}\n  \n//uses serial.write() to avoid needless symbol creation in MaxMSP  \nvoid loop() {\n  digVal=0; //reset digital value to 0\n  //read digital pins\n  for (int i = 0;i<11;i++){\n     digVal |= (digitalRead(i+2)<<i);\n  }\n  \n  //read analog pins\n  for (int g = 0;g<6;g++){ \n    packValue(g);\n  }\n  char total = current+1;\n  sendOFF(total);//send everything to Max\n  current=0;//reset analog value counter\n  delay(10);//wait 10 milliseconds\n  //see if someone tried to turn us off:\n  if(establishContact()==1) {\n    while(establishContact()==0) {delay(100);}//go into idle mode\n  }\n}\n\nvoid sendOFF(char total){\n  //Send analog values in the format 0x81 a1 a2.....0xFF\n  Serial.write(imask|1);\n  for (int i = 0;i<total;i++){\n      Serial.write(analogValue[i]);   \n  }\n  Serial.write(theEnd);//ends analog stream\n  \n  Serial.write((imask|2));\n  Serial.write((digVal&127));\n  Serial.write(digVal>>7);\n  Serial.write(theEnd);//ends digital message\n}\n\n//read an analog pin and then pack into low/high bytes\nvoid packValue(int index) {\n      int tempA = analogRead(index);\n      analogValue[current]=tempA & 127;\n      current++;\n      analogValue[current] = (tempA>>7);\n      current++;\n}\n\n\nchar establishContact(void){\n    if (Serial.available() > 0) {\n      char checkup = Serial.read();\n      if (checkup==99) return 1;\n      else return 0;\n    }\n    else return 0;\n}"
 								}
 
 							}
@@ -74,8 +110,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
 						"fontface" : 0,
@@ -197,7 +233,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.0, 212.0, 86.0, 19.0 ],
+					"patching_rect" : [ 309.0, 205.0, 86.0, 19.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "andrew benson",
@@ -220,7 +256,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 133.0, 168.0, 266.0, 65.0 ],
+					"patching_rect" : [ 133.0, 159.0, 266.0, 65.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "SensorBox",
@@ -316,6 +352,12 @@
 					"outlettype" : [ "list", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 25.0, 69.0, 407.0, 525.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 69.0, 407.0, 525.0 ],
@@ -357,6 +399,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 377.0, 44.0, 439.0, 223.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 377.0, 44.0, 439.0, 223.0 ],
@@ -1203,8 +1251,8 @@
 ,
 									"patching_rect" : [ 165.0, 348.0, 71.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Helvetica",
 										"default_fontname" : "Helvetica",
+										"fontname" : "Helvetica",
 										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
@@ -1706,8 +1754,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Helvetica",
 						"default_fontname" : "Helvetica",
+						"fontname" : "Helvetica",
 						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
@@ -1754,7 +1802,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 334.0, 53.0, 67.0, 18.0 ],
+					"patching_rect" : [ 336.0, 53.0, 67.0, 18.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "prepend port",
@@ -1779,9 +1827,15 @@
 					"outlettype" : [ "clear" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
+						"rect" : [ 25.0, 69.0, 167.0, 301.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"defrect" : [ 25.0, 69.0, 167.0, 301.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1937,8 +1991,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Helvetica",
 						"default_fontname" : "Helvetica",
+						"fontname" : "Helvetica",
 						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
@@ -1980,7 +2034,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 288.0, 32.0, 111.0, 18.0 ],
+					"patching_rect" : [ 288.0, 32.0, 115.0, 18.0 ],
 					"pattrmode" : 0,
 					"prefix" : "",
 					"prefix_mode" : 0,
@@ -2519,6 +2573,16 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-22", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-23", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
@@ -2781,7 +2845,7 @@
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-1", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 343.5, 82.0, 19.5, 82.0 ],
+					"midpoints" : [ 345.5, 82.0, 19.5, 82.0 ],
 					"source" : [ "obj-97", 0 ]
 				}
 

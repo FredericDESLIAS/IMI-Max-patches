@@ -16,11 +16,12 @@
 
 20, -----------------------;
 21, <category> 3 Internet;
-22, IMI_weather_report "using XML in Max";
-23, IMI_pachube2OSC "read a Pachube feed";
-24, BBCnews "read the BBCnews";
-25, twitter_read "read and parse XML/twitter"; 
-26, regexp_tutorial "regular expression";
+22, IMI_xml "using XML in Max";
+23, IMI_weather_report "an example with detox";
+24, IMI_pachube2OSC "read a Pachube feed";
+25, BBCnews "read the BBCnews";
+26, twitter_read "read and parse XML/twitter"; 
+27, regexp_tutorial "regular expression";
 
 30, -----------------------;
 31, <category> 4 DbN2D;
@@ -33,11 +34,10 @@
 40, -----------------------;
 41, <category> 5 DbN3D;
 42, IMI_noise2GLSketch "noise to GLSketch tutorial";
-43, GLSketch "GL sketch using slide";
-44, IMI_matrix2GL "matrix to GL world";
+43, IMI_matrix2GL "matrix to GL world";
 45, GLGeometry "gridshape geometry advanced";
 46, GLNurbs_sound "GL nurbs + sound";
-
+47, GLsketchpad "Program in OpenGL";
 50, -----------------------;
 51, <category> 6 DbN3D.2;
 52, IMI_jitexpr "basic jit.expr";

@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 593.0, 44.0, 526.0, 354.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 588.0, 44.0, 526.0, 354.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 593.0, 44.0, 526.0, 354.0 ],
+		"defrect" : [ 588.0, 44.0, 526.0, 354.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,9 +34,15 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 531.0, 44.0, 604.0, 655.0 ],
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
+						"rect" : [ 588.0, 44.0, 604.0, 655.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 531.0, 44.0, 604.0, 655.0 ],
+						"defrect" : [ 588.0, 44.0, 604.0, 655.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -45,16 +57,18 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 14.0,
 									"id" : "obj-45",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 435.0, 84.0, 23.0 ],
-									"text" : "(3) choose"
+									"patching_rect" : [ 16.0, 435.0, 84.0, 39.0 ],
+									"text" : "(3) choose\na printer"
 								}
 
 							}
@@ -63,7 +77,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
 									"id" : "obj-33",
-									"items" : [ "Brother_HL_2030_series", ",", "EPSON_Perfection_1240", ",", "HP_LaserJet_1320_series", ",", "IMI_NOT_A_PRINTER", ",", "Primera_Technology_Inc__Disc_Publisher_se" ],
+									"items" : [ "Brother_HL_2030_series", ",", "EPSON_Perfection_1240", ",", "HP_Color_LaserJet_5550", ",", "HP_LaserJet_1320_series", ",", "IMI_NOT_A_PRINTER", ",", "Primera_Technology_Inc__Disc_Publisher_se" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -84,6 +98,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 0.0, 44.0, 338.0, 291.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 0.0, 44.0, 338.0, 291.0 ],
@@ -244,13 +264,13 @@
 ,
 									"patching_rect" : [ 104.0, 390.0, 94.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 14.0,
 										"fontface" : 0,
-										"fontsize" : 14.0
+										"fontsize" : 14.0,
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p shell2menu"
@@ -841,13 +861,13 @@
 ,
 					"patching_rect" : [ 390.0, 316.0, 125.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p print_in_practice"

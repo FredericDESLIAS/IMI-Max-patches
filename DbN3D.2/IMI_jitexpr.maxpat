@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 7.0, 44.0, 568.0, 533.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 1.0, 44.0, 568.0, 533.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 7.0, 44.0, 568.0, 533.0 ],
+		"defrect" : [ 1.0, 44.0, 568.0, 533.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -31,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 442.0, 506.0, 101.0, 20.0 ],
+					"patching_rect" : [ 462.0, 506.0, 101.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 671.0, 223.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -67,23 +73,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 444.0, 479.5, 98.0, 16.0 ],
-					"text" : "IMI_jitexpr+.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 443.0, 457.5, 69.0, 18.0 ],
-					"text" : "prepend load"
+					"patching_rect" : [ 439.0, 507.5, 120.0, 16.0 ],
+					"text" : "load IMI_jitexpr+.maxpat"
 				}
 
 			}
@@ -97,7 +88,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 443.0, 434.5, 52.0, 20.0 ],
+					"patching_rect" : [ 439.0, 504.5, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -434,7 +425,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-26", 0 ]
@@ -447,15 +438,6 @@
 					"hidden" : 1,
 					"midpoints" : [ 143.5, 352.0, 19.5, 352.0 ],
 					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-33", 0 ]
 				}
 
 			}

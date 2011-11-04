@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 4.0, 44.0, 485.0, 498.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 4.0, 44.0, 482.0, 489.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 485.0, 498.0 ],
+		"defrect" : [ 4.0, 44.0, 482.0, 489.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,8 +33,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 351.0, 422.0, 106.0, 34.0 ],
-					"presentation_rect" : [ 284.0, 239.0, 0.0, 0.0 ],
+					"patching_rect" : [ 349.0, 420.0, 106.0, 34.0 ],
 					"text" : "faster version (or bigger database)"
 				}
 
@@ -46,7 +51,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 351.0, 458.5, 108.0, 20.0 ],
+					"patching_rect" : [ 349.0, 456.5, 108.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 701.0, 253.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -65,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.0, 432.0, 117.0, 16.0 ],
+					"patching_rect" : [ 351.0, 430.0, 117.0, 16.0 ],
 					"text" : "IMI_text_search.maxpat"
 				}
 
@@ -80,7 +85,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 352.0, 410.0, 69.0, 18.0 ],
+					"patching_rect" : [ 350.0, 408.0, 69.0, 18.0 ],
 					"text" : "prepend load"
 				}
 
@@ -95,7 +100,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 352.0, 387.0, 52.0, 20.0 ],
+					"patching_rect" : [ 350.0, 385.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -108,7 +113,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.0, 458.0, 216.0, 20.0 ],
+					"patching_rect" : [ 79.0, 456.0, 216.0, 20.0 ],
 					"text" : "And see the bang when there is match"
 				}
 
@@ -122,7 +127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 284.0, 147.0, 177.0, 34.0 ],
+					"patching_rect" : [ 282.0, 145.0, 177.0, 34.0 ],
 					"text" : "Write the words hello, vow, law or there and watch the bang"
 				}
 
@@ -136,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 160.0, 384.0, 55.0, 21.0 ],
+					"patching_rect" : [ 158.0, 382.0, 55.0, 21.0 ],
 					"text" : "embed"
 				}
 
@@ -150,7 +155,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.0, 384.0, 43.0, 21.0 ],
+					"patching_rect" : [ 95.0, 382.0, 43.0, 21.0 ],
 					"text" : "open"
 				}
 
@@ -166,6 +171,12 @@
 					"outlettype" : [ "bang" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 567.0, 44.0, 424.0, 481.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 567.0, 44.0, 424.0, 481.0 ],
@@ -614,15 +625,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 34.985199, 412.173462, 144.0, 27.0 ],
+					"patching_rect" : [ 32.985199, 410.173462, 144.0, 27.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p compare_coll"
@@ -638,7 +649,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 31.0, 456.0, 21.0 ],
+					"patching_rect" : [ 3.0, 29.0, 456.0, 21.0 ],
 					"text" : "Input a text in the <textedit> object and compare with a list of words in a <coll> ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -655,7 +666,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 5.0, 191.0, 31.0 ],
+					"patching_rect" : [ 2.0, 3.0, 191.0, 31.0 ],
 					"text" : "IMI text compare",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -669,7 +680,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 35.0, 454.0, 29.0, 29.0 ]
+					"patching_rect" : [ 33.0, 452.0, 29.0, 29.0 ]
 				}
 
 			}
@@ -683,7 +694,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 131.0, 100.0, 42.0, 18.0 ],
+					"patching_rect" : [ 129.0, 98.0, 42.0, 18.0 ],
 					"text" : "select"
 				}
 
@@ -698,7 +709,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 68.0, 69.0, 60.0, 20.0 ],
+					"patching_rect" : [ 66.0, 67.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -713,7 +724,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.0, 99.0, 37.0, 18.0 ],
+					"patching_rect" : [ 66.0, 97.0, 37.0, 18.0 ],
 					"text" : "clear"
 				}
 
@@ -726,7 +737,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.0, 204.0, 45.0, 20.0 ],
+					"patching_rect" : [ 170.0, 202.0, 45.0, 20.0 ],
 					"text" : "s keys"
 				}
 
@@ -740,7 +751,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 108.0, 274.0, 28.0, 20.0 ],
+					"patching_rect" : [ 106.0, 272.0, 28.0, 20.0 ],
 					"text" : "+ 2"
 				}
 
@@ -754,7 +765,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.0, 348.0, 98.0, 21.0 ],
+					"patching_rect" : [ 50.0, 346.0, 98.0, 21.0 ],
 					"text" : "there"
 				}
 
@@ -768,7 +779,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 35.0, 307.0, 92.0, 27.0 ],
+					"patching_rect" : [ 33.0, 305.0, 92.0, 27.0 ],
 					"text" : "zl nth 11"
 				}
 
@@ -782,7 +793,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 108.0, 243.0, 54.0, 20.0 ],
+					"patching_rect" : [ 106.0, 241.0, 54.0, 20.0 ],
 					"text" : "counter"
 				}
 
@@ -796,7 +807,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.0, 204.0, 58.0, 20.0 ],
+					"patching_rect" : [ 106.0, 202.0, 58.0, 20.0 ],
 					"text" : "match 32"
 				}
 
@@ -808,7 +819,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 36.0, 96.0, 20.0, 20.0 ]
+					"patching_rect" : [ 34.0, 94.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -822,7 +833,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
-					"patching_rect" : [ 36.0, 140.0, 235.0, 51.0 ],
+					"patching_rect" : [ 34.0, 138.0, 235.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 125.0, 149.0, 474.0, 183.0 ]
 				}
@@ -839,7 +850,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 4.0, 477.0, 51.0 ],
+					"patching_rect" : [ 2.0, 2.0, 477.0, 51.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -849,7 +860,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 117.5, 234.0, 20.0, 234.0, 20.0, 72.0, 45.5, 72.0 ],
+					"midpoints" : [ 115.5, 232.0, 18.0, 232.0, 18.0, 70.0, 43.5, 70.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -930,7 +941,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 117.5, 199.0, 181.5, 199.0 ],
+					"midpoints" : [ 115.5, 197.0, 179.5, 197.0 ],
 					"source" : [ "obj-20", 1 ]
 				}
 
@@ -948,7 +959,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-27", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 44.5, 340.0, 140.5, 340.0 ],
+					"midpoints" : [ 42.5, 338.0, 138.5, 338.0 ],
 					"source" : [ "obj-23", 0 ]
 				}
 

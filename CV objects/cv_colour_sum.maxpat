@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 9.0, 44.0, 474.0, 543.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 0.0, 44.0, 474.0, 543.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 9.0, 44.0, 474.0, 543.0 ],
+		"defrect" : [ 0.0, 44.0, 474.0, 543.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -29,6 +35,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 25.0, 69.0, 277.0, 328.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 69.0, 277.0, 328.0 ],
@@ -350,15 +362,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 222.0, 236.0, 79.0, 20.0 ],
+					"patching_rect" : [ 222.0, 228.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"globalpatchername" : "",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p calculation"

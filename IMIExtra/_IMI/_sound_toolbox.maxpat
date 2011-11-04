@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 4.0, 44.0, 588.0, 613.0 ],
+		"rect" : [ 4.0, 44.0, 587.0, 616.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 588.0, 613.0 ],
+		"defrect" : [ 4.0, 44.0, 587.0, 616.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -216,12 +216,12 @@
 					"patching_rect" : [ 209.0, 39.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontsize" : 14.0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p info"
@@ -373,14 +373,6 @@
 								"value" : [ "outputs bangs when the signal exceeds a specified value" ]
 							}
 , 							{
-								"key" : "1-freeze-frame.maxpat",
-								"value" : [ "freeze frame" ]
-							}
-, 							{
-								"key" : "2-stochastic-freeze-8frames",
-								"value" : [ "freeze 8 frames" ]
-							}
-, 							{
 								"key" : "–––––––––––––––––––––––",
 								"value" : [ "" ]
 							}
@@ -410,7 +402,7 @@
 							}
 , 							{
 								"key" : "34-harmonics~",
-								"value" : [ "generates a number of harmonically related sinusoidal oscillators" ]
+								"value" : [ "harmonics~ generates a number of harmonically related sinusoidal oscillators" ]
 							}
 , 							{
 								"key" : "35-oscillators~",
@@ -453,12 +445,12 @@
 								"value" : [ "surround object" ]
 							}
 , 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
 								"key" : "jscope_help~",
 								"value" : [ "signal-oscilloscope using jitter" ]
+							}
+, 							{
+								"key" : "–––––––––––––––––––––––",
+								"value" : [ "" ]
 							}
 , 							{
 								"key" : "buffer",
@@ -467,6 +459,14 @@
 , 							{
 								"key" : "GLbuffer~",
 								"value" : [ "show buffer~ data in OpenGL" ]
+							}
+, 							{
+								"key" : "1-freeze-frame.maxpat",
+								"value" : [ "freeze frame" ]
+							}
+, 							{
+								"key" : "2-stochastic-freeze-8frames",
+								"value" : [ "freeze 8 frames" ]
 							}
  ]
 					}
@@ -490,7 +490,7 @@
 			}
 , 			{
 				"box" : 				{
-					"coldef" : [ [ 1, 468, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ], [ 0, 170, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+					"coldef" : [ [ 1, 468, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ], [ 0, 156, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
 					"cols" : 2,
 					"colwidth" : 120,
 					"fgcolor" : [ 0.0, 0.0, 0.0, 0.913725 ],

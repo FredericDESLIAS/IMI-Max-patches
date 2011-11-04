@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 3.0, 44.0, 525.0, 510.0 ],
+		"rect" : [ 3.0, 44.0, 500.0, 502.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 44.0, 525.0, 510.0 ],
+		"defrect" : [ 3.0, 44.0, 500.0, 502.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.595187,
@@ -20,13 +20,74 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"rect" : [ 508.0, 44.0, 176.0, 133.0 ],
+						"bglocked" : 0,
+						"defrect" : [ 508.0, 44.0, 176.0, 133.0 ],
+						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
+						"openinpresentation" : 0,
+						"default_fontsize" : 14.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"linecount" : 8,
+									"maxclass" : "textedit",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "int", "", "" ],
+									"patching_rect" : [ 3.0, 3.0, 169.0, 124.0 ],
+									"text" : "// Example 1-1: stroke and fill\n\nsize(200,200);\nbackground(255);\nstroke(0); \nfill(150);\nrectMode(center);\nrect(50,50,75,100);"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 213.0, 475.0, 108.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"default_fontface" : 0
+					}
+,
+					"text" : "p processing_code"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.0, 227.0, 96.0, 20.0 ],
+					"patching_rect" : [ 199.0, 225.0, 96.0, 20.0 ],
 					"text" : "size (200, 200);"
 				}
 
@@ -39,7 +100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 149.0, 275.0, 20.0 ],
+					"patching_rect" : [ 149.0, 149.0, 275.0, 20.0 ],
 					"text" : "rectMode(center) ; choose 'center' or 'corner'"
 				}
 
@@ -133,20 +194,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
-					"id" : "obj-11",
-					"linecount" : 7,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 212.0, 296.0, 161.0, 100.0 ],
-					"text" : "// Example 1-1: stroke and fill\nsize(200,200);\nbackground(255);\nstroke(0); \nfill(150);\nrectMode(center);\nrect(50,50,75,100);"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.595187,
 					"id" : "obj-2",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -197,7 +244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 8.0, 222.0, 193.0, 27.0 ],
+					"patching_rect" : [ 8.0, 222.0, 186.0, 27.0 ],
 					"text" : "jit.lcd 4 char 200 200"
 				}
 
@@ -227,7 +274,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 519.0, 48.0 ],
+					"patching_rect" : [ 3.0, 4.0, 494.0, 48.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

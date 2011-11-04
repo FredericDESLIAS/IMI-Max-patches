@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 1.0, 44.0, 621.0, 619.0 ],
+		"rect" : [ 2.0, 44.0, 599.0, 535.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1.0, 44.0, 621.0, 619.0 ],
+		"defrect" : [ 2.0, 44.0, 599.0, 535.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.595187,
@@ -19,6 +19,67 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"rect" : [ 609.0, 44.0, 226.0, 389.0 ],
+						"bglocked" : 0,
+						"defrect" : [ 609.0, 44.0, 226.0, 389.0 ],
+						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
+						"openinpresentation" : 0,
+						"default_fontsize" : 14.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-8",
+									"linecount" : 26,
+									"maxclass" : "textedit",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "int", "", "" ],
+									"patching_rect" : [ 4.0, 5.0, 215.0, 374.0 ],
+									"text" : "// Example 1-5: Zoog\n\nsize(200,200);\nbackground(255);\nsmooth();\nellipseMode(CENTER);\nrectMode(CENTER); \n\n// BODY\nstroke(0);\nfill(150);\nrect(100,100,20,100);\n\n// HEAD\nfill(255);\nellipse(100,70,60,60); \n\n// EYES\nfill(0); \nellipse(81,70,16,32); \nellipse(119,70,16,32);\n\n// LEGS\nstroke(0);\nline(90,150,80,160);\nline(110,150,120,160);\t"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 239.0, 504.0, 108.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0
+					}
+,
+					"text" : "p processing_code"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -261,20 +322,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.595187,
-					"id" : "obj-11",
-					"linecount" : 21,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 324.0, 135.0, 286.0 ],
-					"text" : "// Example 1-5: Zoog\nsize(200,200);\nbackground(255);\nsmooth();\nellipseMode(CENTER);\nrectMode(CENTER); \n// BODY\nstroke(0);\nfill(150);\nrect(100,100,20,100);\n// HEAD\nfill(255);\nellipse(100,70,60,60); \n// EYES\nfill(0); \nellipse(81,70,16,32); \nellipse(119,70,16,32);\n// LEGS\nstroke(0);\nline(90,150,80,160);\nline(110,150,120,160);\t"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 11.595184,
 					"id" : "obj-3",
@@ -384,7 +431,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 615.0, 48.0 ],
+					"patching_rect" : [ 3.0, 3.0, 594.0, 47.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

@@ -1,10 +1,16 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 3.0, 44.0, 771.0, 548.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 0.0, 44.0, 771.0, 548.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 44.0, 771.0, 548.0 ],
+		"defrect" : [ 0.0, 44.0, 771.0, 548.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -136,7 +142,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 221.0, 38.0, 116.0, 16.0 ],
-					"text" : "IMI Max patches v2.11"
+					"text" : "IMI Max patches v2.13"
 				}
 
 			}
@@ -213,7 +219,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 50.0, 203.0, 18.0 ],
-					"text" : "Nicolas Marechal, v2.11 (07/2011)",
+					"text" : "Nicolas Marechal, v2.13 (11/2011)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
 				}
 
@@ -231,6 +237,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -537,13 +549,13 @@
 ,
 					"patching_rect" : [ 528.0, 503.0, 20.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontsize" : 9.0,
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p"
@@ -560,7 +572,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-24",
 					"ignoreclick" : 1,
-					"items" : "Global",
+					"items" : "DbN3D.2",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -582,7 +594,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-25",
 					"ignoreclick" : 1,
-					"items" : [ ",", "Global help", ",", "Useful objects for Max", ",", "Useful objects to handle lists", ",", "Jitter overview", ",", "MSP overview" ],
+					"items" : [ ",", "basic jit.expr", ",", "fractals using jit.bfg", ",", "interact with a 3D object", ",", "matrix to GL Nurbs", ",", "control multiple gridshape", ",", "transforms a video into GL Mesh" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -613,7 +625,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 535.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.235294, 0.235294, 0.235294, 0.478431 ],
-					"tabs" : [ "IMI_max5", "misc_toolbox", "list_toolbox", "Jitter_overview", "MSP_overview" ],
+					"tabs" : [ "IMI_jitexpr", "IMI_fractals", "IMI_screenworld", "GLNurbs", "GLMultiple", "Video2GLMesh" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[6]"
 				}
@@ -632,6 +644,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -938,13 +956,13 @@
 ,
 					"patching_rect" : [ 277.0, 508.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontsize" : 9.0,
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p"
@@ -961,7 +979,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-19",
 					"ignoreclick" : 1,
-					"items" : "Text",
+					"items" : "DbN3D",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -983,7 +1001,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-20",
 					"ignoreclick" : 1,
-					"items" : [ ",", "Text basics", ",", "Text + alpha layer", ",", "Typing text in a window", ",", "Compare text against a database", ",", "a simple patch to place text", ",", "Interactive text patch" ],
+					"items" : [ ",", "noise to GLSketch tutorial", ",", "matrix to GL world", ",", "gridshape geometry advanced", ",", "GL nurbs + sound", ",", "Program in OpenGL" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1014,7 +1032,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 283.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.235294, 0.235294, 0.235294, 0.478431 ],
-					"tabs" : [ "IMI_text_basics", "IMI_text_alpha", "IMI_type_text", "IMI_text_compare", "IMI_coll2text2d", "IMI_text_passingtime" ],
+					"tabs" : [ "IMI_noise2GLSketch", "IMI_matrix2GL", "GLGeometry", "GLNurbs_sound", "GLsketchpad" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[5]"
 				}
@@ -1033,6 +1051,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -1339,13 +1363,13 @@
 ,
 					"patching_rect" : [ 24.0, 508.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontsize" : 9.0,
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p"
@@ -1362,7 +1386,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-14",
 					"ignoreclick" : 1,
-					"items" : "LCD",
+					"items" : "DbN2D",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1384,7 +1408,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-15",
 					"ignoreclick" : 1,
-					"items" : [ ",", "Intro to LCD", ",", "LCD and compositing", ",", "Drawing with the LCD object", ",", "Understanding the LCD drawing" ],
+					"items" : [ ",", "LCD sketch", ",", "motion using counter", ",", "oscillation using sin/cos", ",", "noise to jit.sketch position", ",", "drawagent" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1415,7 +1439,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 30.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.235294, 0.235294, 0.235294, 0.478431 ],
-					"tabs" : [ "IMI_jit_lcd", "IMI_jit_lcd+", "IMI_lcd_drawing", "IMI_lcd_paintoval" ],
+					"tabs" : [ "IMI_jit_lcd+", "IMI_lcd_motion", "IMI_lcd_oscillation", "IMI_noise2lcd", "Drawagent" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[4]"
 				}
@@ -1434,6 +1458,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -1740,13 +1770,13 @@
 ,
 					"patching_rect" : [ 530.0, 274.0, 19.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontsize" : 9.0,
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p"
@@ -1763,7 +1793,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-9",
 					"ignoreclick" : 1,
-					"items" : "Sound",
+					"items" : "Internet",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1785,7 +1815,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-10",
 					"ignoreclick" : 1,
-					"items" : [ ",", "Sound player using jit.qt.movie", ",", "Sound player using sfplay", ",", "Multi sound player using sfplay", ",", "simple loop maker", ",", "sound toolbox" ],
+					"items" : [ ",", "using XML in Max", ",", "an example with detox", ",", "read a Pachube feed", ",", "read the BBCnews", ",", "read and parse XML/twitter", ",", "regular expression" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1818,7 +1848,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 534.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.235294, 0.235294, 0.235294, 0.478431 ],
-					"tabs" : [ "IMI_sound_player_qtmovie", "IMI_sound_player_sfplay", "IMI_multi_sound_player", "loop_maker", "sound_toolbox" ],
+					"tabs" : [ "IMI_xml", "IMI_weather_report", "IMI_pachube2OSC", "BBCnews", "twitter_read", "regexp_tutorial" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[3]"
 				}
@@ -1837,6 +1867,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -2143,13 +2179,13 @@
 ,
 					"patching_rect" : [ 279.0, 276.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontsize" : 9.0,
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p"
@@ -2166,7 +2202,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-4",
 					"ignoreclick" : 1,
-					"items" : "Video",
+					"items" : "Exhibition",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2188,7 +2224,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-7",
 					"ignoreclick" : 1,
-					"items" : [ ",", "Help for jit.qt.movie", ",", "A bit more help for jit.qt.movie", ",", "Sound to animation", ",", "Advanced quicktime play" ],
+					"items" : [ ",", "video player for multi screens", ",", "multi-layered video", ",", "iCinema", ",", "control VPT from Max", ",", "Video Projection Tool 5.1" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2219,7 +2255,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 282.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.235294, 0.235294, 0.235294, 0.478431 ],
-					"tabs" : [ "IMI_quicktime", "IMI_quicktime+", "IMI_sound_to_animation", "quicktime_smooth" ],
+					"tabs" : [ "IMI_video_twoscreens", "IMI_multi-layered_video", "IMI_iCinema", "IMI_OSC2VPT", "VPT_start" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[2]"
 				}
@@ -2238,6 +2274,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 777.0, 141.0, 294.0, 167.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 777.0, 141.0, 294.0, 167.0 ],
@@ -2544,13 +2586,13 @@
 ,
 					"patching_rect" : [ 21.0, 278.0, 19.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontsize" : 9.0,
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p"
@@ -2567,7 +2609,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-45",
 					"ignoreclick" : 1,
-					"items" : "Introduction",
+					"items" : "Projection",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2589,7 +2631,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-47",
 					"ignoreclick" : 1,
-					"items" : [ ",", "Intro to Max", ",", "Max sandpit", ",", "A few rules to help you patching", ",", "Credits" ],
+					"items" : [ ",", "simple GL video player", ",", "shapes in 3D", ",", "using textures in GL", ",", "optimised GL video player", ",", "render effects on GL scene", ",", "keystone + crop tool" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2620,7 +2662,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 30.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.235294, 0.235294, 0.235294, 0.478431 ],
-					"tabs" : [ "IMI_introduction", "IMI_Max_sandpit", "Max_patching_rules", "IMI_credits" ],
+					"tabs" : [ "IMI_simple_video_player", "IMI_gridshape", "IMI_texture", "GLsmooth", "renderMaster", "keystonev23" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[1]"
 				}
@@ -2759,6 +2801,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 1416.0, 647.0, 914.0, 674.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 1416.0, 647.0, 914.0, 674.0 ],
@@ -4116,13 +4164,13 @@
 ,
 					"patching_rect" : [ 402.0, 53.0, 57.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontsize" : 9.0,
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p Content"

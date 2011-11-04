@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 0.0, 44.0, 618.0, 435.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 0.0, 44.0, 618.0, 429.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 44.0, 618.0, 435.0 ],
+		"defrect" : [ 0.0, 44.0, 618.0, 429.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -19,6 +25,51 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.67451, 0.270588, 0.270588, 0.0 ],
+					"fontname" : "Helvetica",
+					"fontsize" : 12.0,
+					"id" : "obj-22",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 184.0, 229.0, 161.0, 30.0 ],
+					"text" : "connect to the Arduino on the port usbserial-A6008hpd"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.67451, 0.270588, 0.270588, 0.0 ],
+					"fontname" : "Helvetica",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 145.0, 268.0, 161.0, 30.0 ],
+					"text" : "connects to port a (first one)\nat a speed of 9600 bauds"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 270.0, 236.0, 67.0, 20.0 ],
+					"text" : "closebang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -42,21 +93,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 221.0, 202.0, 119.0, 20.0 ],
+					"patching_rect" : [ 221.0, 195.0, 119.0, 20.0 ],
 					"text" : "list available ports"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 237.0, 114.0, 20.0 ],
-					"text" : "enter port manually"
 				}
 
 			}
@@ -68,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.0, 320.0, 54.0, 20.0 ],
+					"patching_rect" : [ 66.0, 313.0, 54.0, 20.0 ],
 					"text" : "data ?"
 				}
 
@@ -129,8 +167,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 401.0, 148.0, 205.0, 42.0 ],
-					"text" : "osascript /Applications/Max5/_abstract/IMIpatches/z/IMIsensors.scpt"
+					"patching_rect" : [ 401.0, 148.0, 213.0, 42.0 ],
+					"text" : "osascript /Applications/Max5/examples/IMIpatches/z/IMIsensors.scpt"
 				}
 
 			}
@@ -193,6 +231,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 6.0, 46.0, 416.0, 265.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 6.0, 46.0, 416.0, 265.0 ],
@@ -375,15 +419,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 20.0, 360.0, 81.0, 20.0 ],
+					"patching_rect" : [ 20.0, 353.0, 81.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"default_fontsize" : 14.0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0,
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p serial_read"
@@ -401,7 +445,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 20.0, 397.0, 67.0, 23.0 ],
+					"patching_rect" : [ 20.0, 390.0, 67.0, 23.0 ],
 					"triscale" : 0.9
 				}
 
@@ -416,7 +460,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 223.0, 208.0, 38.5, 20.0 ],
+					"patching_rect" : [ 223.0, 201.0, 38.5, 20.0 ],
 					"text" : "sel 0"
 				}
 
@@ -431,7 +475,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.0, 244.0, 42.0, 16.0 ],
+					"patching_rect" : [ 223.0, 237.0, 42.0, 16.0 ],
 					"text" : "close"
 				}
 
@@ -443,7 +487,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 41.0, 318.0, 24.0, 24.0 ]
+					"patching_rect" : [ 41.0, 311.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -458,6 +502,12 @@
 					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 624.0, 44.0, 250.0, 377.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 624.0, 44.0, 250.0, 377.0 ],
@@ -511,6 +561,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 10.0, 59.0, 381.0, 284.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 10.0, 59.0, 381.0, 284.0 ],
@@ -690,13 +746,13 @@
 ,
 									"patching_rect" : [ 50.0, 146.0, 52.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"default_fontsize" : 12.0,
-										"fontsize" : 12.0,
-										"default_fontface" : 0,
+										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"default_fontname" : "Arial"
+										"globalpatchername" : "",
+										"default_fontsize" : 12.0,
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p devices"
@@ -832,15 +888,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 38.0, 167.0, 87.0, 20.0 ],
+					"patching_rect" : [ 38.0, 160.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"default_fontsize" : 14.0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0,
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p serial_select"
@@ -852,12 +908,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"items" : [ "Bluetooth-PDA-Sync", ",", "hubbles-Bluetooth-PDA-S-1", ",", "Bluetooth-Modem" ],
+					"items" : [ "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 38.0, 202.0, 179.0, 20.0 ],
+					"patching_rect" : [ 38.0, 195.0, 179.0, 20.0 ],
 					"pattrmode" : 1,
 					"types" : [  ]
 				}
@@ -870,7 +926,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 20.0, 87.0, 23.0, 23.0 ]
+					"patching_rect" : [ 20.0, 83.0, 23.0, 23.0 ]
 				}
 
 			}
@@ -883,7 +939,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.0, 239.0, 141.0, 16.0 ],
+					"patching_rect" : [ 36.0, 232.0, 141.0, 16.0 ],
 					"text" : "port usbserial-A6008hpd"
 				}
 
@@ -898,7 +954,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 20.0, 130.0, 55.0, 20.0 ],
+					"patching_rect" : [ 20.0, 123.0, 51.0, 20.0 ],
 					"text" : "metro 5"
 				}
 
@@ -913,23 +969,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 20.0, 275.0, 118.0, 27.0 ],
+					"patching_rect" : [ 20.0, 268.0, 118.0, 27.0 ],
 					"text" : "serial a 9600"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.67451, 0.270588, 0.270588, 0.0 ],
-					"fontname" : "Helvetica",
-					"fontsize" : 12.0,
-					"id" : "obj-44",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 147.0, 274.0, 136.0, 30.0 ],
-					"text" : "connects to port a \nat a baud rate of 9600"
 				}
 
 			}
@@ -1006,7 +1047,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 45.5, 266.5, 29.5, 266.5 ],
+					"midpoints" : [ 45.5, 259.5, 29.5, 259.5 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -1024,7 +1065,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 29.5, 158.0, 29.5, 158.0 ],
+					"midpoints" : [ 29.5, 151.0, 29.5, 151.0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -1051,7 +1092,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 232.5, 266.5, 29.5, 266.5 ],
+					"midpoints" : [ 232.5, 259.5, 29.5, 259.5 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -1060,7 +1101,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 29.5, 309.0, 50.5, 309.0 ],
+					"midpoints" : [ 29.5, 302.0, 50.5, 302.0 ],
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -1105,7 +1146,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 29.5, 121.5, 232.5, 121.5 ],
+					"midpoints" : [ 29.5, 114.5, 232.5, 114.5 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1116,6 +1157,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -1132,7 +1182,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 115.5, 194.5, 29.5, 194.5 ],
+					"midpoints" : [ 115.5, 187.5, 29.5, 187.5 ],
 					"source" : [ "obj-64", 1 ]
 				}
 

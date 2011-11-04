@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 4.0, 44.0, 707.0, 605.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 2.0, 44.0, 707.0, 605.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 707.0, 605.0 ],
+		"defrect" : [ 2.0, 44.0, 707.0, 605.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -124,7 +130,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 34.0, 680.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 680.0, 21.0 ],
 					"text" : "Making one sound loop using the record~object, the buffer~ and the groove~ object (playing a loop called \"looper\")",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -189,6 +195,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 710.0, 348.0, 445.0, 85.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 710.0, 348.0, 445.0, 85.0 ],
@@ -523,13 +535,13 @@
 ,
 					"patching_rect" : [ 70.0, 548.0, 51.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 10.0,
-						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p drivers"
@@ -950,7 +962,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 700.0, 54.0 ],
+					"patching_rect" : [ 3.0, 3.0, 700.0, 52.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

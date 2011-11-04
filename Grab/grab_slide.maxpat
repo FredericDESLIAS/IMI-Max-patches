@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 3.0, 44.0, 488.0, 431.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 3.0, 44.0, 488.0, 431.0 ],
@@ -27,7 +33,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 237.0, 259.0, 122.0, 23.0 ],
-					"presentation_rect" : [ 237.0, 281.0, 0.0, 0.0 ],
 					"text" : "slide up and down"
 				}
 
@@ -72,6 +77,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 501.0, 360.0, 481.0, 372.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 501.0, 360.0, 481.0, 372.0 ],
@@ -554,13 +565,13 @@
 ,
 					"patching_rect" : [ 32.0, 358.662506, 109.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontface" : 0,
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ESC-fullscreen"

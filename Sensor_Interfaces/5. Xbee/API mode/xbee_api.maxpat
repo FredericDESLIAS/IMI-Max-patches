@@ -436,13 +436,13 @@
 ,
 									"patching_rect" : [ 320.0, 176.0, 150.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 14.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 14.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 14.0,
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -927,13 +927,13 @@
 ,
 									"patching_rect" : [ 320.0, 130.0, 150.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 14.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 14.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 14.0,
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -1577,13 +1577,13 @@
 ,
 									"patching_rect" : [ 387.0, 249.0, 150.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 14.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 14.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 14.0,
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -2068,13 +2068,13 @@
 ,
 									"patching_rect" : [ 231.0, 249.0, 150.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 14.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 14.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 14.0,
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -2850,13 +2850,13 @@
 ,
 					"patching_rect" : [ 356.0, 294.0, 360.5, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p 1output"
@@ -3601,13 +3601,13 @@
 ,
 									"patching_rect" : [ 384.0, 240.5, 150.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 14.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 14.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 14.0,
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -4092,13 +4092,13 @@
 ,
 									"patching_rect" : [ 227.0, 240.5, 150.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 14.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 14.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 14.0,
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -4887,13 +4887,13 @@
 ,
 					"patching_rect" : [ 358.0, 156.5, 495.5, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p 2output"
@@ -4908,8 +4908,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 182.0, 192.0, 111.0, 20.0 ],
-					"text" : "Xbee Xplorer USB"
+					"patching_rect" : [ 181.0, 192.0, 129.0, 20.0 ],
+					"text" : "IMI Xbee Xplorer USB"
 				}
 
 			}
@@ -5180,13 +5180,13 @@
 ,
 									"patching_rect" : [ 50.0, 146.0, 52.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p devices"
@@ -5324,13 +5324,13 @@
 ,
 					"patching_rect" : [ 37.0, 124.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p serial_select"
@@ -5342,7 +5342,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-170",
-					"items" : [ "Bluetooth-PDA-Sync", ",", "hubbles-Bluetooth-PDA-S-1", ",", "Bluetooth-Modem" ],
+					"items" : [ "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

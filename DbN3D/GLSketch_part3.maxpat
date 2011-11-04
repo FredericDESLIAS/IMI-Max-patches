@@ -215,13 +215,13 @@
 ,
 					"patching_rect" : [ 476.0, 569.0, 138.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p object_commands"
@@ -238,7 +238,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 198.0, 455.0, 224.0, 33.0 ],
+					"patching_rect" : [ 198.0, 455.0, 223.0, 33.0 ],
 					"text" : "jit.gl.gridshape pointy @name squeamish @shape torus"
 				}
 
@@ -336,12 +336,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-31",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 163.0, 367.0, 249.0, 31.0 ],
+					"patching_rect" : [ 163.0, 367.0, 394.0, 18.0 ],
 					"text" : "reset, drawmatrix blotto line_strip, dimorient 1, drawmatrix blotto line_strip"
 				}
 
@@ -414,9 +413,9 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 641.0, 360.0, 481.0, 372.0 ],
+						"rect" : [ 635.0, 360.0, 481.0, 372.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 641.0, 360.0, 481.0, 372.0 ],
+						"defrect" : [ 635.0, 360.0, 481.0, 372.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -565,7 +564,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 164.0, 134.0, 65.0, 17.0 ],
-									"text" : "pos 640 45"
+									"text" : "pos 635 45"
 								}
 
 							}
@@ -896,13 +895,13 @@
 ,
 					"patching_rect" : [ 495.0, 246.662506, 86.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ESC-fullscreen"

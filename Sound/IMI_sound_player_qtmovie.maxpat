@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 9.0, 45.0, 576.0, 554.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 1.0, 45.0, 576.0, 554.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 9.0, 45.0, 576.0, 554.0 ],
+		"defrect" : [ 1.0, 45.0, 576.0, 554.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -54,7 +60,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 521.0, 293.0, 20.0 ],
+					"patching_rect" : [ 109.0, 516.0, 293.0, 20.0 ],
 					"text" : "@loop 1 : loop the sound"
 				}
 
@@ -167,7 +173,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 501.0, 293.0, 20.0 ],
+					"patching_rect" : [ 109.0, 496.0, 293.0, 20.0 ],
 					"text" : "@autostart 0 ; do not start the sound with the patch"
 				}
 

@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 7.0, 44.0, 522.0, 216.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 0.0, 44.0, 522.0, 216.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 7.0, 44.0, 522.0, 216.0 ],
+		"defrect" : [ 0.0, 44.0, 522.0, 216.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,

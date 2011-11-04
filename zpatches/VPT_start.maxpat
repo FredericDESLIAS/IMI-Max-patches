@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 2.0, 44.0, 378.0, 71.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 2.0, 44.0, 364.0, 65.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 2.0, 44.0, 378.0, 71.0 ],
+		"defrect" : [ 2.0, 44.0, 364.0, 65.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -28,7 +34,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 126.0, 88.0, 385.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.0, 20.0, 323.0, 28.0 ],
+					"presentation_rect" : [ 21.0, 18.0, 323.0, 28.0 ],
 					"text" : "Video Projection Tools is loading..."
 				}
 
@@ -100,8 +106,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.0, 48.0, 378.0, 25.0 ],
-					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max5/_abstract/IMIpatches/VPT_5.1/VPT_5.1.app\\\""
+					"patching_rect" : [ 48.0, 48.0, 380.0, 25.0 ],
+					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max5/_abstract/IMIpatches/VPT6/VPT_6r05m.app\\\""
 				}
 
 			}
@@ -114,7 +120,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 127.0, 183.0, 318.0, 69.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.0, 17.0, 334.0, 34.0 ],
+					"presentation_rect" : [ 14.0, 15.0, 334.0, 34.0 ],
 					"rounded" : 29
 				}
 

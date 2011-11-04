@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 6.0, 44.0, 328.0, 496.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 6.0, 44.0, 328.0, 496.0 ],
@@ -41,6 +47,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 835.0, 44.0, 455.0, 339.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 835.0, 44.0, 455.0, 339.0 ],
@@ -82,6 +94,12 @@
 									"numoutlets" : 0,
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 405.0, 44.0, 600.0, 426.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 405.0, 44.0, 600.0, 426.0 ],
@@ -109,6 +127,12 @@
 													"numoutlets" : 0,
 													"patcher" : 													{
 														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 5,
+															"minor" : 1,
+															"revision" : 9
+														}
+,
 														"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
 														"bglocked" : 0,
 														"defrect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -250,12 +274,12 @@
 ,
 													"patching_rect" : [ 315.0, 330.0, 79.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"globalpatchername" : "",
 														"default_fontface" : 0
 													}
 ,
@@ -273,6 +297,12 @@
 													"numoutlets" : 0,
 													"patcher" : 													{
 														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 5,
+															"minor" : 1,
+															"revision" : 9
+														}
+,
 														"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
 														"bglocked" : 0,
 														"defrect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -517,12 +547,12 @@
 ,
 													"patching_rect" : [ 315.0, 300.0, 63.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"globalpatchername" : "",
 														"default_fontface" : 0
 													}
 ,
@@ -540,6 +570,12 @@
 													"numoutlets" : 0,
 													"patcher" : 													{
 														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 5,
+															"minor" : 1,
+															"revision" : 9
+														}
+,
 														"rect" : [ 204.0, 168.0, 730.0, 535.0 ],
 														"bglocked" : 0,
 														"defrect" : [ 204.0, 168.0, 730.0, 535.0 ],
@@ -1111,12 +1147,12 @@
 ,
 													"patching_rect" : [ 316.0, 276.0, 43.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"globalpatchername" : "",
 														"default_fontface" : 0
 													}
 ,
@@ -1134,6 +1170,12 @@
 													"numoutlets" : 0,
 													"patcher" : 													{
 														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 5,
+															"minor" : 1,
+															"revision" : 9
+														}
+,
 														"rect" : [ 214.0, 115.0, 701.0, 476.0 ],
 														"bglocked" : 0,
 														"defrect" : [ 214.0, 115.0, 701.0, 476.0 ],
@@ -1175,6 +1217,12 @@
 																	"outlettype" : [ "" ],
 																	"patcher" : 																	{
 																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 5,
+																			"minor" : 1,
+																			"revision" : 9
+																		}
+,
 																		"rect" : [ 10.0, 59.0, 515.0, 485.0 ],
 																		"bglocked" : 0,
 																		"defrect" : [ 10.0, 59.0, 515.0, 485.0 ],
@@ -1552,12 +1600,12 @@
 ,
 																	"patching_rect" : [ 480.0, 314.0, 77.0, 17.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
 																		"default_fontname" : "Arial",
+																		"fontname" : "Arial",
+																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"globalpatchername" : "",
 																		"default_fontface" : 0
 																	}
 ,
@@ -2024,12 +2072,12 @@
 ,
 													"patching_rect" : [ 316.0, 252.0, 39.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"globalpatchername" : "",
 														"default_fontface" : 0
 													}
 ,
@@ -2102,6 +2150,12 @@
 													"numoutlets" : 0,
 													"patcher" : 													{
 														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 5,
+															"minor" : 1,
+															"revision" : 9
+														}
+,
 														"rect" : [ 174.0, 44.0, 830.0, 704.0 ],
 														"bglocked" : 0,
 														"defrect" : [ 174.0, 44.0, 830.0, 704.0 ],
@@ -2251,6 +2305,12 @@
 																	"outlettype" : [ "" ],
 																	"patcher" : 																	{
 																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 5,
+																			"minor" : 1,
+																			"revision" : 9
+																		}
+,
 																		"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
 																		"bglocked" : 0,
 																		"defrect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -2407,12 +2467,12 @@
 ,
 																	"patching_rect" : [ 617.0, 372.0, 73.0, 17.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
 																		"default_fontname" : "Arial",
+																		"fontname" : "Arial",
+																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"globalpatchername" : "",
 																		"default_fontface" : 0
 																	}
 ,
@@ -2449,6 +2509,12 @@
 																	"outlettype" : [ "" ],
 																	"patcher" : 																	{
 																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 5,
+																			"minor" : 1,
+																			"revision" : 9
+																		}
+,
 																		"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
 																		"bglocked" : 0,
 																		"defrect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -2605,12 +2671,12 @@
 ,
 																	"patching_rect" : [ 404.0, 372.0, 73.0, 17.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
 																		"default_fontname" : "Arial",
+																		"fontname" : "Arial",
+																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"globalpatchername" : "",
 																		"default_fontface" : 0
 																	}
 ,
@@ -3444,12 +3510,12 @@
 ,
 													"patching_rect" : [ 316.0, 206.0, 91.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"globalpatchername" : "",
 														"default_fontface" : 0
 													}
 ,
@@ -3467,6 +3533,12 @@
 													"numoutlets" : 0,
 													"patcher" : 													{
 														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 5,
+															"minor" : 1,
+															"revision" : 9
+														}
+,
 														"rect" : [ 266.0, 145.0, 724.0, 505.0 ],
 														"bglocked" : 0,
 														"defrect" : [ 266.0, 145.0, 724.0, 505.0 ],
@@ -3880,12 +3952,12 @@
 ,
 													"patching_rect" : [ 316.0, 181.0, 65.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"globalpatchername" : "",
 														"default_fontface" : 0
 													}
 ,
@@ -3903,6 +3975,12 @@
 													"numoutlets" : 0,
 													"patcher" : 													{
 														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 5,
+															"minor" : 1,
+															"revision" : 9
+														}
+,
 														"rect" : [ 273.0, 44.0, 659.0, 527.0 ],
 														"bglocked" : 0,
 														"defrect" : [ 273.0, 44.0, 659.0, 527.0 ],
@@ -4214,6 +4292,12 @@
 																	"outlettype" : [ "" ],
 																	"patcher" : 																	{
 																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 5,
+																			"minor" : 1,
+																			"revision" : 9
+																		}
+,
 																		"rect" : [ 30.0, 89.0, 503.0, 781.0 ],
 																		"bglocked" : 0,
 																		"defrect" : [ 30.0, 89.0, 503.0, 781.0 ],
@@ -4969,12 +5053,12 @@
 ,
 																	"patching_rect" : [ 406.0, 246.0, 109.0, 17.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
 																		"default_fontname" : "Arial",
+																		"fontname" : "Arial",
+																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"globalpatchername" : "",
 																		"default_fontface" : 0
 																	}
 ,
@@ -5281,12 +5365,12 @@
 ,
 													"patching_rect" : [ 316.0, 229.0, 42.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"globalpatchername" : "",
 														"default_fontface" : 0
 													}
 ,
@@ -5304,6 +5388,12 @@
 													"numoutlets" : 0,
 													"patcher" : 													{
 														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 5,
+															"minor" : 1,
+															"revision" : 9
+														}
+,
 														"rect" : [ 397.0, 44.0, 600.0, 426.0 ],
 														"bglocked" : 0,
 														"defrect" : [ 397.0, 44.0, 600.0, 426.0 ],
@@ -5673,12 +5763,12 @@
 ,
 													"patching_rect" : [ 316.0, 158.0, 44.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"globalpatchername" : "",
 														"default_fontface" : 0
 													}
 ,
@@ -5696,6 +5786,12 @@
 													"numoutlets" : 0,
 													"patcher" : 													{
 														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 5,
+															"minor" : 1,
+															"revision" : 9
+														}
+,
 														"rect" : [ 603.0, 44.0, 740.0, 738.0 ],
 														"bglocked" : 0,
 														"defrect" : [ 603.0, 44.0, 740.0, 738.0 ],
@@ -6287,12 +6383,12 @@
 ,
 													"patching_rect" : [ 316.0, 135.0, 62.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"globalpatchername" : "",
 														"default_fontface" : 0
 													}
 ,
@@ -6427,12 +6523,12 @@
 ,
 									"patching_rect" : [ 243.0, 232.0, 60.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"globalpatchername" : "",
 										"default_fontface" : 0
 									}
 ,
@@ -6450,6 +6546,12 @@
 									"numoutlets" : 0,
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 23.0, 44.0, 797.0, 775.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 23.0, 44.0, 797.0, 775.0 ],
@@ -7131,12 +7233,12 @@
 ,
 									"patching_rect" : [ 136.0, 232.0, 63.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"globalpatchername" : "",
 										"default_fontface" : 0
 									}
 ,
@@ -7164,12 +7266,12 @@
 ,
 					"patching_rect" : [ 18.0, 407.0, 50.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0
 					}
 ,
@@ -7200,6 +7302,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 207.0, 178.0, 600.0, 426.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 207.0, 178.0, 600.0, 426.0 ],
@@ -7394,12 +7502,12 @@
 ,
 					"patching_rect" : [ 18.0, 467.0, 85.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0
 					}
 ,
@@ -7417,6 +7525,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 282.0, 135.0, 471.0, 476.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 282.0, 135.0, 471.0, 476.0 ],
@@ -7547,6 +7661,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 299.0, 96.0, 709.0, 610.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 299.0, 96.0, 709.0, 610.0 ],
@@ -8621,12 +8741,12 @@
 ,
 									"patching_rect" : [ 47.0, 344.0, 38.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"globalpatchername" : "",
 										"default_fontface" : 0
 									}
 ,
@@ -8720,12 +8840,12 @@
 ,
 					"patching_rect" : [ 18.0, 347.0, 67.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0
 					}
 ,
@@ -8743,6 +8863,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 148.0, 238.0, 600.0, 426.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 148.0, 238.0, 600.0, 426.0 ],
@@ -9026,12 +9152,12 @@
 ,
 					"patching_rect" : [ 18.0, 328.0, 39.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0
 					}
 ,
@@ -9049,6 +9175,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 441.0, 176.0, 600.0, 426.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 441.0, 176.0, 600.0, 426.0 ],
@@ -9303,12 +9435,12 @@
 ,
 					"patching_rect" : [ 18.0, 290.0, 55.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0
 					}
 ,
@@ -9326,6 +9458,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 60.0, 79.0, 750.0, 513.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 60.0, 79.0, 750.0, 513.0 ],
@@ -9732,12 +9870,12 @@
 ,
 					"patching_rect" : [ 18.0, 309.0, 49.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0
 					}
 ,
@@ -9766,6 +9904,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 393.0, 223.0, 450.0, 350.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 393.0, 223.0, 450.0, 350.0 ],
@@ -9986,12 +10130,12 @@
 ,
 					"patching_rect" : [ 18.0, 184.0, 87.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0
 					}
 ,
@@ -10009,9 +10153,15 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 389.0, 44.0, 651.0, 287.0 ],
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
+						"rect" : [ 339.0, 44.0, 651.0, 287.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 389.0, 44.0, 651.0, 287.0 ],
+						"defrect" : [ 339.0, 44.0, 651.0, 287.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -10113,6 +10263,12 @@
 									"numoutlets" : 0,
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 438.0, 115.0, 600.0, 426.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 438.0, 115.0, 600.0, 426.0 ],
@@ -10471,12 +10627,12 @@
 ,
 									"patching_rect" : [ 55.0, 51.0, 115.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"globalpatchername" : "",
 										"default_fontface" : 0
 									}
 ,
@@ -10758,12 +10914,12 @@
 ,
 					"patching_rect" : [ 18.0, 126.0, 135.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0
 					}
 ,
@@ -10779,7 +10935,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 17.0, 219.0, 48.0 ],
+					"patching_rect" : [ 5.0, 3.0, 219.0, 48.0 ],
 					"text" : "Fantastick"
 				}
 
@@ -10792,7 +10948,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 59.0, 219.0, 17.0 ],
+					"patching_rect" : [ 6.0, 45.0, 219.0, 17.0 ],
 					"text" : "http://pinktwins.com/fantastick"
 				}
 
@@ -10804,7 +10960,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 6.0, 238.0, 79.0 ],
+					"patching_rect" : [ 2.0, 2.0, 322.0, 73.0 ],
 					"rounded" : 20
 				}
 

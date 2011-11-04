@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 3.0, 44.0, 540.0, 619.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 3.0, 44.0, 540.0, 619.0 ],
@@ -281,7 +287,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 18.0, 102.0, 350.0, 17.0 ],
-					"text" : "osascript /Applications/Max5/_abstract/IMIpatches/z/SSensors.scpt"
+					"text" : "osascript /Applications/Max5/examples/IMIpatches/z/SSensors.scpt"
 				}
 
 			}
@@ -521,7 +527,7 @@
 					"patching_rect" : [ 17.0, 285.0, 112.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 326.0, 100.0, 20.0 ],
-					"text" : "3. Maxuino 009"
+					"text" : "3. Maxuino 011"
 				}
 
 			}
@@ -535,8 +541,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 287.0, 149.0, 18.0 ],
-					"text" : "load maxuino_help.maxpat"
+					"patching_rect" : [ 16.0, 285.0, 146.0, 18.0 ],
+					"text" : "load maxuino.help.maxpat"
 				}
 
 			}

@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 5.0, 44.0, 646.0, 406.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 5.0, 44.0, 646.0, 406.0 ],
@@ -169,8 +175,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 383.0, 58.0, 160.0, 23.0 ],
-					"text" : "enter your Pachube API"
+					"patching_rect" : [ 382.0, 58.0, 186.0, 23.0 ],
+					"text" : "enter your Pachube API :"
 				}
 
 			}
@@ -186,6 +192,12 @@
 					"outlettype" : [ "bang" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 665.0, 44.0, 505.0, 682.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 665.0, 44.0, 505.0, 682.0 ],
@@ -911,13 +923,13 @@
 ,
 					"patching_rect" : [ 10.0, 148.0, 77.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"default_fontsize" : 10.0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p xml2coll"
@@ -936,6 +948,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 665.0, 44.0, 1022.0, 446.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 665.0, 44.0, 1022.0, 446.0 ],
@@ -1957,13 +1975,13 @@
 ,
 					"patching_rect" : [ 10.0, 197.0, 182.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"default_fontsize" : 10.0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p read_the_colls"
@@ -2177,6 +2195,12 @@
 					"outlettype" : [ "bang", "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 660.0, 44.0, 509.0, 540.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 660.0, 44.0, 509.0, 540.0 ],
@@ -2834,13 +2858,13 @@
 ,
 					"patching_rect" : [ 92.0, 148.0, 100.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"default_fontsize" : 10.0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p csv2coll"

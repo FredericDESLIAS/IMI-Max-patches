@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 7.0, 44.0, 573.0, 503.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 7.0, 44.0, 574.0, 479.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 7.0, 44.0, 573.0, 503.0 ],
+		"defrect" : [ 7.0, 44.0, 574.0, 479.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -29,6 +35,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 8.0, 44.0, 407.0, 519.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 8.0, 44.0, 407.0, 519.0 ],
@@ -109,6 +121,12 @@
 									"outlettype" : [ "", "int" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 25.0, 69.0, 260.0, 453.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 25.0, 69.0, 260.0, 453.0 ],
@@ -439,13 +457,13 @@
 ,
 									"patching_rect" : [ 296.0, 333.0, 81.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
+										"default_fontname" : "Arial",
 										"default_fontsize" : 14.0,
+										"fontname" : "Arial",
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 14.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial"
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p count+read"
@@ -850,13 +868,13 @@
 ,
 					"patching_rect" : [ 2.0, 128.0, 119.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p uldl2regexp"
@@ -876,7 +894,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 468.0, 469.0, 84.0, 21.0 ],
+					"patching_rect" : [ 468.0, 447.0, 84.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 626.0, 178.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -895,7 +913,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.0, 396.0, 37.0, 16.0 ],
+					"patching_rect" : [ 468.0, 450.0, 37.0, 16.0 ],
 					"text" : "twitter"
 				}
 
@@ -910,7 +928,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.0, 420.0, 69.0, 18.0 ],
+					"patching_rect" : [ 468.0, 449.0, 69.0, 18.0 ],
 					"text" : "prepend help"
 				}
 
@@ -918,14 +936,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.0, 443.0, 52.0, 20.0 ],
+					"patching_rect" : [ 468.0, 449.0, 48.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -937,12 +955,19 @@
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 591.0, 44.0, 627.0, 281.0 ],
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
+						"rect" : [ 591.0, 44.0, 545.0, 157.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 591.0, 44.0, 627.0, 281.0 ],
+						"defrect" : [ 591.0, 44.0, 545.0, 157.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -959,6 +984,18 @@
 						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"comment" : "",
+									"hidden" : 1,
+									"id" : "obj-5",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 14.0, 104.0, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 11.0,
 									"hidden" : 1,
@@ -967,7 +1004,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 584.0, 185.0, 24.0, 20.0 ],
+									"patching_rect" : [ 499.0, 39.0, 24.0, 20.0 ],
 									"text" : "t b"
 								}
 
@@ -978,13 +1015,13 @@
 									"fontsize" : 10.0,
 									"hidden" : 1,
 									"id" : "obj-6",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 345.0, 215.0, 264.0, 53.0 ],
-									"text" : ";\rmax launchbrowser http://apiwiki.twitter.com/Twitter-API-Documentation"
+									"patching_rect" : [ 360.0, 71.0, 163.0, 41.0 ],
+									"text" : ";\rmax launchbrowser https://dev.twitter.com/docs"
 								}
 
 							}
@@ -997,20 +1034,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 583.0, 6.0, 25.0, 25.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-4",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 75.0, 253.0, 20.0 ],
-									"text" : "private timeline : replace the screen name"
+									"patching_rect" : [ 499.0, 6.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1022,7 +1046,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 13.0, 138.0, 87.0, 20.0 ],
+									"patching_rect" : [ 14.0, 30.0, 87.0, 20.0 ],
 									"text" : "public timeline"
 								}
 
@@ -1035,7 +1059,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 196.0, 87.0, 20.0 ],
+									"patching_rect" : [ 14.0, 78.0, 87.0, 20.0 ],
 									"text" : "public timeline"
 								}
 
@@ -1049,8 +1073,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.0, 174.0, 255.0, 18.0 ],
-									"text" : "http://twitter.com/statuses/public_timeline.xml"
+									"patching_rect" : [ 14.0, 56.0, 341.0, 18.0 ],
+									"text" : "download http://twitter.com/statuses/public_timeline.xml matrix"
 								}
 
 							}
@@ -1063,22 +1087,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.0, 112.0, 385.0, 18.0 ],
-									"text" : "http://twitter.com/statuses/user_timeline/nnimar.xml?count=1&since=0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 14.0,
-									"id" : "obj-30",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 12.0, 50.0, 531.0, 21.0 ],
-									"text" : "download http://twitter.com/statuses/user_timeline.xml?screen_name=nnimar matrix"
+									"patching_rect" : [ 14.0, 9.0, 472.0, 18.0 ],
+									"text" : "download http://twitter.com/statuses/user_timeline/nnimar.xml?count=1&since=0 matrix"
 								}
 
 							}
@@ -1094,9 +1104,27 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"hidden" : 1,
+									"midpoints" : [  ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"hidden" : 1,
+									"midpoints" : [  ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 593.5, 209.5, 354.5, 209.5 ],
+									"midpoints" : [ 508.5, 63.5, 369.5, 63.5 ],
 									"source" : [ "obj-37", 0 ]
 								}
 
@@ -1106,13 +1134,13 @@
 ,
 					"patching_rect" : [ 430.0, 95.0, 103.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p examples"
@@ -1152,6 +1180,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1232,13 +1266,13 @@
 ,
 					"patching_rect" : [ 211.0, 329.0, 48.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p clear"
@@ -1292,13 +1326,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-17",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 404.0, 433.0, 46.0 ],
-					"text" : "\"My favourite bakery is next to a church it's like getting bread without a sermon.\""
+					"patching_rect" : [ 4.0, 404.0, 433.0, 67.0 ],
+					"text" : "\"RT @BorisKodjoe Come on people! Dedicate 10 min each to: Meditation exercise prayer. Your mental physical and ... http://t.co/4XQUIBrQ\""
 				}
 
 			}
@@ -1345,6 +1379,12 @@
 					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 25.0, 69.0, 205.0, 337.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 69.0, 205.0, 337.0 ],
@@ -1489,13 +1529,13 @@
 ,
 					"patching_rect" : [ 162.0, 233.0, 115.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p description_count"
@@ -1540,7 +1580,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 2.0, 392.0, 31.0 ],
-					"text" : "Twitter (read and parse v1.2)",
+					"text" : "Twitter (read and parse)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -1676,6 +1716,15 @@
 					"hidden" : 1,
 					"midpoints" : [ 17.5, 400.0, 116.5, 400.0, 116.5, 325.0, 171.5, 325.0 ],
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"hidden" : 1,
+					"midpoints" : [ 439.5, 123.0, 225.5, 123.0, 225.5, 93.0, 11.5, 93.0 ],
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}

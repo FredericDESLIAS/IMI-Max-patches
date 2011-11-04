@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ -1.0, 44.0, 644.0, 634.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 0.0, 44.0, 640.0, 634.0 ],
 		"bglocked" : 0,
-		"defrect" : [ -1.0, 44.0, 644.0, 634.0 ],
+		"defrect" : [ 0.0, 44.0, 640.0, 634.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -29,9 +35,15 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 659.0, 366.0, 481.0, 372.0 ],
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
+						"rect" : [ 649.0, 360.0, 481.0, 372.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 659.0, 366.0, 481.0, 372.0 ],
+						"defrect" : [ 649.0, 360.0, 481.0, 372.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -180,7 +192,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 178.0, 134.0, 65.0, 17.0 ],
-									"text" : "pos 660 45"
+									"text" : "pos 650 45"
 								}
 
 							}
@@ -511,13 +523,13 @@
 ,
 					"patching_rect" : [ 9.0, 207.662506, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -925,7 +937,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 204.0, 159.0, 102.0, 20.0 ],
+					"patching_rect" : [ 204.0, 159.0, 113.0, 20.0 ],
 					"text" : "buffer~ #0_buffer"
 				}
 
@@ -939,7 +951,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 204.0, 339.0, 114.0, 20.0 ],
+					"patching_rect" : [ 204.0, 339.0, 125.0, 20.0 ],
 					"text" : "jit.buffer~ #0_buffer"
 				}
 
@@ -1073,7 +1085,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 296.5, 183.5, 213.5, 183.5 ],
+					"midpoints" : [ 307.5, 183.5, 213.5, 183.5 ],
 					"source" : [ "obj-4", 1 ]
 				}
 

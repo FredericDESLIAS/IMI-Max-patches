@@ -203,12 +203,12 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"id" : "obj-46",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.0, 69.0, 36.0, 18.0 ],
+					"patching_rect" : [ 202.0, 69.0, 43.0, 20.0 ],
 					"text" : "speed"
 				}
 
@@ -277,8 +277,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 349.0, 260.0, 134.0, 34.0 ],
-					"text" : "origin  to LCD's center \n(200 / 2 = 100)"
+					"patching_rect" : [ 350.0, 260.0, 134.0, 34.0 ],
+					"text" : "origin to LCD's center \n(200 / 2 = 100)"
 				}
 
 			}
@@ -290,7 +290,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 231.0, 42.0, 20.0 ],
+					"patching_rect" : [ 344.0, 231.0, 42.0, 20.0 ],
 					"text" : "radius"
 				}
 

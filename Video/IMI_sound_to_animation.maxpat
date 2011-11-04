@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 9.0, 44.0, 558.0, 690.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 1.0, 44.0, 558.0, 690.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 9.0, 44.0, 558.0, 690.0 ],
+		"defrect" : [ 1.0, 44.0, 558.0, 690.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -69,9 +75,15 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 578.0, 360.0, 481.0, 372.0 ],
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
+						"rect" : [ 571.0, 359.0, 481.0, 372.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 578.0, 360.0, 481.0, 372.0 ],
+						"defrect" : [ 571.0, 359.0, 481.0, 372.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -220,7 +232,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 164.0, 134.0, 65.0, 17.0 ],
-									"text" : "pos 580 45"
+									"text" : "pos 570 45"
 								}
 
 							}
@@ -551,13 +563,13 @@
 ,
 					"patching_rect" : [ 230.0, 524.662476, 99.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -588,7 +600,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 343.0, 133.0, 142.0, 18.0 ],
-					"text" : "attack 300, release 3000"
+					"text" : "attack 300, release 600"
 				}
 
 			}
@@ -721,6 +733,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 710.0, 348.0, 445.0, 85.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 710.0, 348.0, 445.0, 85.0 ],
@@ -1055,13 +1073,13 @@
 ,
 					"patching_rect" : [ 8.0, 139.0, 51.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p drivers"
@@ -1078,8 +1096,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 5.0, 355.0, 30.0 ],
-					"text" : "IMI jit.qt.movie sound to animation",
+					"patching_rect" : [ 5.0, 5.0, 419.0, 30.0 ],
+					"text" : "IMI jit.qt.movie - sound to animation",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -1136,7 +1154,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 358.0, 302.0, 181.0, 34.0 ],
+					"patching_rect" : [ 358.0, 302.0, 183.0, 34.0 ],
 					"text" : "map the sound (-35dB to 10 dB)\nto a frame number (0 to 240)"
 				}
 

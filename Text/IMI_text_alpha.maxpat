@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 1.0, 44.0, 626.0, 629.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 1.0, 44.0, 626.0, 629.0 ],
@@ -28,9 +34,15 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 636.0, 44.0, 273.0, 253.0 ],
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
+						"rect" : [ 632.0, 44.0, 273.0, 253.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 636.0, 44.0, 273.0, 253.0 ],
+						"defrect" : [ 632.0, 44.0, 273.0, 253.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -200,13 +212,13 @@
 ,
 					"patching_rect" : [ 580.0, 59.0, 40.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
-						"globalpatchername" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p init"

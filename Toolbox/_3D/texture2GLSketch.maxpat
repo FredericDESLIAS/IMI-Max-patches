@@ -27,7 +27,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 136.0, 257.0, 93.0, 20.0 ],
-					"presentation_rect" : [ 136.0, 255.0, 0.0, 0.0 ],
 					"text" : "use coordinates"
 				}
 
@@ -68,7 +67,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 337.0, 366.0, 71.0, 20.0 ],
-					"presentation_rect" : [ 488.0, 228.0, 0.0, 0.0 ],
 					"text" : "s to_render"
 				}
 
@@ -579,13 +577,13 @@
 ,
 					"patching_rect" : [ 272.0, 262.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ESC-fullscreen"

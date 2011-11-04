@@ -906,13 +906,13 @@
 ,
 					"patching_rect" : [ 258.0, 498.0, 73.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 14.0,
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p more_fx"
@@ -1004,7 +1004,7 @@
 					"patching_rect" : [ 411.0, 513.0, 95.0, 21.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-91", "toggle", "int", 1, 5, "obj-81", "number", "int", 160, 5, "obj-80", "number", "int", 120, 5, "obj-73", "flonum", "float", 10.0, 5, "obj-72", "flonum", "float", 10.0, 5, "<invalid>", "number", "int", -119, 5, "<invalid>", "number", "int", 0, 5, "obj-67", "flonum", "float", 10.0, 5, "<invalid>", "flonum", "float", 1.0, 5, "<invalid>", "flonum", "float", 1.0, 5, "<invalid>", "flonum", "float", 1.0, 5, "<invalid>", "flonum", "float", 1.0, 5, "<invalid>", "flonum", "float", 0.0, 5, "<invalid>", "flonum", "float", 0.0, 5, "<invalid>", "flonum", "float", 0.0, 5, "<invalid>", "flonum", "float", 0.0, 5, "<invalid>", "flonum", "float", 1.0, 5, "<invalid>", "flonum", "float", 1.0, 5, "<invalid>", "flonum", "float", 1.0, 5, "<invalid>", "flonum", "float", 1.0, 5, "<invalid>", "flonum", "float", 0.0, 5, "<invalid>", "flonum", "float", 0.0, 5, "<invalid>", "flonum", "float", 0.0, 5, "<invalid>", "flonum", "float", 0.0, 5, "<invalid>", "number", "int", 1 ]
+							"data" : [ 5, "obj-91", "toggle", "int", 1, 5, "obj-81", "number", "int", 160, 5, "obj-80", "number", "int", 120, 5, "obj-73", "flonum", "float", 0.5, 5, "obj-72", "flonum", "float", 0.5, 5, "obj-67", "flonum", "float", 0.5, 5, "obj-3", "flonum", "float", 16.0, 5, "obj-1", "flonum", "float", 0.279246 ]
 						}
  ]
 				}

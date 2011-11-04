@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 6.0, 44.0, 581.0, 421.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 2.0, 44.0, 579.0, 407.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 6.0, 44.0, 581.0, 421.0 ],
+		"defrect" : [ 2.0, 44.0, 579.0, 407.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 453.0, 387.0, 115.0, 19.0 ],
+					"patching_rect" : [ 452.0, 379.0, 115.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 626.0, 178.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -50,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 453.0, 285.0, 24.0, 20.0 ],
+					"patching_rect" : [ 452.0, 277.0, 24.0, 20.0 ],
 					"text" : "t b"
 				}
 
@@ -66,7 +72,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 453.0, 310.0, 120.0, 71.0 ],
+					"patching_rect" : [ 452.0, 302.0, 120.0, 71.0 ],
 					"text" : ";\rmax launchbrowser http://www.arduino.cc/playground/Code/Messenger"
 				}
 
@@ -82,7 +88,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 479.0, 29.0, 85.0, 27.0 ],
+					"patching_rect" : [ 478.0, 28.0, 85.0, 27.0 ],
 					"text" : ";\rmax maxwindow"
 				}
 
@@ -97,7 +103,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 479.0, 6.0, 60.0, 20.0 ],
+					"patching_rect" : [ 478.0, 5.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -110,7 +116,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 156.0, 142.0, 20.0 ],
+					"patching_rect" : [ 145.0, 145.0, 142.0, 20.0 ],
 					"text" : "pinMode (13, OUTPUT)"
 				}
 
@@ -123,7 +129,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 178.0, 217.0, 177.0, 20.0 ],
+					"patching_rect" : [ 162.0, 206.0, 177.0, 20.0 ],
 					"text" : "digitalWrite (13, LOW or HIGH)"
 				}
 
@@ -136,7 +142,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 178.0, 289.0, 111.0, 20.0 ],
+					"patching_rect" : [ 162.0, 278.0, 111.0, 20.0 ],
 					"text" : "read all digital pins"
 				}
 
@@ -149,7 +155,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 178.0, 253.0, 115.0, 20.0 ],
+					"patching_rect" : [ 162.0, 242.0, 115.0, 20.0 ],
 					"text" : "read all analog pins"
 				}
 
@@ -163,7 +169,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 33.0, 235.0, 21.0 ],
+					"patching_rect" : [ 6.0, 32.0, 235.0, 21.0 ],
 					"text" : "send messages to the Arduino",
 					"textcolor" : [ 0.868223, 0.868086, 0.868238, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
@@ -180,7 +186,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 6.0, 325.0, 31.0 ],
+					"patching_rect" : [ 6.0, 5.0, 325.0, 31.0 ],
 					"text" : "messenger library (version 1.5)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -196,7 +202,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 370.0, 68.0, 209.0, 48.0 ],
+					"patching_rect" : [ 369.0, 67.0, 204.0, 48.0 ],
 					"text" : "Install the messenger library on your Mac and the basic_communication example on your Arduino"
 				}
 
@@ -210,7 +216,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 290.0, 26.5, 18.0 ],
+					"patching_rect" : [ 129.0, 279.0, 26.5, 18.0 ],
 					"text" : "r d"
 				}
 
@@ -224,7 +230,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 136.0, 255.0, 25.5, 18.0 ],
+					"patching_rect" : [ 120.0, 244.0, 25.5, 18.0 ],
 					"text" : "r a"
 				}
 
@@ -236,7 +242,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 108.0, 190.0, 20.0, 20.0 ]
+					"patching_rect" : [ 92.0, 179.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -249,7 +255,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.0, 217.0, 63.0, 18.0 ],
+					"patching_rect" : [ 92.0, 206.0, 63.0, 18.0 ],
 					"text" : "w d 13 $1"
 				}
 
@@ -263,7 +269,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 156.0, 57.0, 18.0 ],
+					"patching_rect" : [ 80.0, 145.0, 57.0, 18.0 ],
 					"text" : "p m 13 1"
 				}
 
@@ -277,7 +283,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 335.0, 267.0, 34.0 ],
+					"patching_rect" : [ 140.0, 324.0, 267.0, 34.0 ],
 					"text" : "argument 1: port.\nargument 2: baud rate (Default baud is 115200)"
 				}
 
@@ -290,7 +296,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 63.0, 387.0, 57.0, 20.0 ],
+					"patching_rect" : [ 47.0, 376.0, 57.0, 20.0 ],
 					"text" : "message"
 				}
 
@@ -303,7 +309,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 116.0, 66.0, 20.0 ],
+					"patching_rect" : [ 80.0, 105.0, 66.0, 20.0 ],
 					"text" : "select port"
 				}
 
@@ -317,7 +323,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.0, 118.0, 41.0, 18.0 ],
+					"patching_rect" : [ 35.0, 107.0, 41.0, 18.0 ],
 					"text" : "port h"
 				}
 
@@ -330,7 +336,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.0, 78.0, 118.0, 20.0 ],
+					"patching_rect" : [ 52.0, 67.0, 118.0, 20.0 ],
 					"text" : "print available ports"
 				}
 
@@ -344,7 +350,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 80.0, 34.0, 18.0 ],
+					"patching_rect" : [ 11.0, 69.0, 34.0, 18.0 ],
 					"text" : "print"
 				}
 
@@ -357,7 +363,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 387.0, 34.0, 20.0 ],
+					"patching_rect" : [ 11.0, 376.0, 34.0, 20.0 ],
 					"text" : "print"
 				}
 
@@ -371,7 +377,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 27.0, 342.0, 122.0, 20.0 ],
+					"patching_rect" : [ 11.0, 331.0, 122.0, 20.0 ],
 					"text" : "messenger a 115200"
 				}
 
@@ -387,7 +393,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 4.0, 572.0, 53.0 ],
+					"patching_rect" : [ 3.0, 3.0, 572.0, 53.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

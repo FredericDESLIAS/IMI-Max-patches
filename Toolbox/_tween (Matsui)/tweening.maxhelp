@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 4.0, 44.0, 556.0, 333.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 2.0, 44.0, 551.0, 321.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 556.0, 333.0 ],
+		"defrect" : [ 2.0, 44.0, 551.0, 321.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -28,7 +34,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 6.0, 179.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 179.0, 30.0 ],
 					"text" : "Simple Tweening",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -46,6 +52,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 25.0, 69.0, 427.0, 425.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 69.0, 427.0, 425.0 ],
@@ -302,15 +314,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 255.0, 195.0, 229.0, 23.0 ],
+					"patching_rect" : [ 252.0, 192.0, 229.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0
+						"default_fontsize" : 14.0,
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p tween"
@@ -326,7 +338,7 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 275.0, 213.0, 35.0 ],
+					"patching_rect" : [ 13.0, 272.0, 213.0, 35.0 ],
 					"size" : 1.0
 				}
 
@@ -340,7 +352,7 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 275.0, 213.0, 35.0 ],
+					"patching_rect" : [ 252.0, 272.0, 213.0, 35.0 ],
 					"size" : 1.0
 				}
 
@@ -352,7 +364,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 16.0, 53.0, 20.0, 20.0 ]
+					"patching_rect" : [ 13.0, 50.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -365,7 +377,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 16.0, 82.0, 75.0, 23.0 ],
+					"patching_rect" : [ 13.0, 79.0, 75.0, 23.0 ],
 					"text" : "metro 100"
 				}
 
@@ -379,7 +391,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 255.0, 238.0, 46.0, 23.0 ]
+					"patching_rect" : [ 252.0, 235.0, 46.0, 23.0 ]
 				}
 
 			}
@@ -392,7 +404,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 16.0, 238.0, 51.0, 23.0 ]
+					"patching_rect" : [ 13.0, 235.0, 51.0, 23.0 ]
 				}
 
 			}
@@ -405,7 +417,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 16.0, 115.0, 116.0, 23.0 ],
+					"patching_rect" : [ 13.0, 112.0, 116.0, 23.0 ],
 					"text" : "counter 0 0 100"
 				}
 
@@ -419,7 +431,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 16.0, 150.0, 58.0, 23.0 ],
+					"patching_rect" : [ 13.0, 147.0, 58.0, 23.0 ],
 					"text" : "/ 100."
 				}
 
@@ -434,7 +446,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 426.0, 163.0, 97.0, 23.0 ],
+					"patching_rect" : [ 423.0, 160.0, 97.0, 23.0 ],
 					"types" : [  ]
 				}
 
@@ -449,7 +461,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 320.0, 163.0, 98.0, 23.0 ],
+					"patching_rect" : [ 317.0, 160.0, 98.0, 23.0 ],
 					"types" : [  ]
 				}
 
@@ -465,7 +477,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 5.0, 547.0, 32.0 ],
+					"patching_rect" : [ 2.0, 2.0, 547.0, 32.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -529,7 +541,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 25.5, 185.0, 264.5, 185.0 ],
+					"midpoints" : [ 22.5, 182.0, 261.5, 182.0 ],
 					"source" : [ "obj-34", 0 ]
 				}
 

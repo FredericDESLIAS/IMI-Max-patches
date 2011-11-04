@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 1.0, 44.0, 420.0, 391.0 ],
+		"rect" : [ 1.0, 44.0, 351.0, 329.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1.0, 44.0, 420.0, 391.0 ],
+		"defrect" : [ 1.0, 44.0, 351.0, 329.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -26,7 +26,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 182.0, 298.0, 187.0, 23.0 ],
+					"patching_rect" : [ 153.0, 295.0, 177.0, 23.0 ],
 					"text" : "value platform (mac or pc)"
 				}
 
@@ -39,7 +39,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 181.0, 271.0, 150.0, 23.0 ],
+					"patching_rect" : [ 152.0, 268.0, 103.0, 23.0 ],
 					"text" : "value root path"
 				}
 
@@ -54,7 +54,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 297.0, 122.0, 20.0 ],
+					"patching_rect" : [ 16.0, 295.0, 122.0, 20.0 ],
 					"text" : "v APP_PLATEFORM"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 274.0, 121.0, 20.0 ],
+					"patching_rect" : [ 16.0, 268.0, 121.0, 20.0 ],
 					"text" : "v APP_ROOT_PATH"
 				}
 
@@ -696,13 +696,13 @@
 ,
 									"patching_rect" : [ 67.0, 125.5, 91.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p unix format"
@@ -825,15 +825,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 95.0, 237.0, 121.0, 20.0 ],
+					"patching_rect" : [ 66.0, 208.0, 121.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p path and plateform"
@@ -851,9 +851,9 @@
 					"outlettype" : [ "path" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 324.0, 285.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"defrect" : [ 25.0, 69.0, 324.0, 285.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -877,7 +877,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 69.0, 79.0, 123.0, 20.0 ],
+									"patching_rect" : [ 56.0, 68.0, 123.0, 20.0 ],
 									"text" : "v APP_IS_RUNTIME"
 								}
 
@@ -891,7 +891,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "path" ],
-									"patching_rect" : [ 50.0, 172.0, 41.0, 20.0 ],
+									"patching_rect" : [ 37.0, 161.0, 41.0, 20.0 ],
 									"text" : "t path"
 								}
 
@@ -905,7 +905,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 50.0, 124.0, 32.0, 20.0 ],
+									"patching_rect" : [ 37.0, 113.0, 32.0, 20.0 ],
 									"text" : "+ 1"
 								}
 
@@ -919,7 +919,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 148.0, 54.0, 20.0 ],
+									"patching_rect" : [ 37.0, 137.0, 54.0, 20.0 ],
 									"text" : "gate 2 0"
 								}
 
@@ -933,7 +933,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 38.0, 113.0, 20.0 ],
+									"patching_rect" : [ 37.0, 27.0, 113.0, 20.0 ],
 									"text" : "r APP_RUNTIME_r"
 								}
 
@@ -948,7 +948,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 85.0, 197.0, 221.0, 32.0 ],
+									"patching_rect" : [ 72.0, 186.0, 221.0, 32.0 ],
 									"text" : ";\rmax sendapppath APP_ROOT_PATH_r"
 								}
 
@@ -961,7 +961,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 85.0, 118.0, 25.0, 25.0 ]
+									"patching_rect" : [ 72.0, 107.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -972,7 +972,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 236.0, 25.0, 25.0 ]
+									"patching_rect" : [ 37.0, 225.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1043,15 +1043,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 45.0, 187.0, 73.0, 20.0 ],
+					"patching_rect" : [ 16.0, 158.0, 73.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p is runtime"
@@ -1068,7 +1068,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 79.0, 110.0, 192.0, 32.0 ],
+					"patching_rect" : [ 50.0, 81.0, 192.0, 32.0 ],
 					"text" : ";\rmax getruntime APP_RUNTIME_r"
 				}
 
@@ -1082,7 +1082,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 45.0, 45.0, 60.0, 20.0 ],
+					"patching_rect" : [ 16.0, 16.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1096,7 +1096,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 45.0, 77.0, 53.0, 20.0 ],
+					"patching_rect" : [ 16.0, 48.0, 53.0, 20.0 ],
 					"text" : "t b b b"
 				}
 
@@ -1111,7 +1111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 62.0, 147.0, 209.0, 32.0 ],
+					"patching_rect" : [ 33.0, 118.0, 209.0, 32.0 ],
 					"text" : ";\rmax getsystem APP_PLATEFORM_r"
 				}
 
@@ -1125,7 +1125,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 45.0, 212.0, 69.0, 20.0 ],
+					"patching_rect" : [ 16.0, 183.0, 69.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}

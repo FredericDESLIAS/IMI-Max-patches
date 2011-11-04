@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 4.0, 44.0, 588.0, 613.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 1.0, 44.0, 583.0, 610.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 588.0, 613.0 ],
+		"defrect" : [ 1.0, 44.0, 583.0, 610.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,7 +34,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 520.0, 613.0, 60.0, 20.0 ],
+					"patching_rect" : [ 516.0, 613.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -43,7 +49,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 95.0, 39.0, 54.0, 18.0 ],
+					"patching_rect" : [ 91.0, 39.0, 54.0, 18.0 ],
 					"text" : "delay 500"
 				}
 
@@ -58,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 400.0, 613.0, 125.0, 18.0 ],
+					"patching_rect" : [ 396.0, 613.0, 125.0, 18.0 ],
 					"text" : "read soundtools.txt"
 				}
 
@@ -75,6 +81,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 619.0, 44.0, 238.0, 329.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 619.0, 44.0, 238.0, 329.0 ],
@@ -213,15 +225,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 209.0, 39.0, 35.0, 18.0 ],
+					"patching_rect" : [ 205.0, 39.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontsize" : 14.0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p info"
@@ -238,7 +250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 39.0, 62.0, 18.0 ],
+					"patching_rect" : [ 336.0, 39.0, 62.0, 18.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -253,7 +265,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.0, 613.0, 112.0, 20.0 ],
+					"patching_rect" : [ 76.0, 613.0, 112.0, 20.0 ],
 					"text" : "sprintf %s.maxpat"
 				}
 
@@ -268,7 +280,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 613.0, 82.0, 20.0 ],
+					"patching_rect" : [ 193.0, 613.0, 82.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -283,7 +295,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 283.0, 613.0, 54.0, 20.0 ],
+					"patching_rect" : [ 279.0, 613.0, 54.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -298,7 +310,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 613.0, 64.0, 20.0 ],
+					"patching_rect" : [ 4.0, 613.0, 64.0, 20.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -313,7 +325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 249.0, 40.0, 88.0, 16.0 ],
+					"patching_rect" : [ 245.0, 40.0, 88.0, 16.0 ],
 					"text" : "mode selmode $1"
 				}
 
@@ -328,7 +340,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 39.0, 73.0, 16.0 ],
+					"patching_rect" : [ 11.0, 39.0, 73.0, 16.0 ],
 					"text" : "refer overview"
 				}
 
@@ -343,7 +355,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 153.0, 39.0, 52.0, 18.0 ],
+					"patching_rect" : [ 149.0, 39.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -373,12 +385,8 @@
 								"value" : [ "outputs bangs when the signal exceeds a specified value" ]
 							}
 , 							{
-								"key" : "1-freeze-frame.maxpat",
-								"value" : [ "freeze frame" ]
-							}
-, 							{
-								"key" : "2-stochastic-freeze-8frames",
-								"value" : [ "freeze 8 frames" ]
+								"key" : "spectral_transformation",
+								"value" : [ "J-F Charles' tutorials" ]
 							}
 , 							{
 								"key" : "–––––––––––––––––––––––",
@@ -421,10 +429,6 @@
 								"value" : [ "Two-pole, two-zero filter (CNMAT version, smoothed)" ]
 							}
 , 							{
-								"key" : "sadam.rand~",
-								"value" : [ "Band-limited random signal" ]
-							}
-, 							{
 								"key" : "sc.crackle",
 								"value" : [ "A noise generator based on a chaotic function" ]
 							}
@@ -433,8 +437,16 @@
 								"value" : [ "Generates random impulses from 0 to +1" ]
 							}
 , 							{
-								"key" : "sc.dust2",
-								"value" : [ "Generates random impulses from -1. to +1" ]
+								"key" : "–––––––––––––––––––––––",
+								"value" : [ "" ]
+							}
+, 							{
+								"key" : "ExamplesOverview",
+								"value" : [ "Cycling'74's examples" ]
+							}
+, 							{
+								"key" : "X.FM~",
+								"value" : [ "FM/AM Synthesizer" ]
 							}
 , 							{
 								"key" : "–––––––––––––––––––––––",
@@ -461,7 +473,7 @@
 								"value" : [ "signal-oscilloscope using jitter" ]
 							}
 , 							{
-								"key" : "buffer",
+								"key" : "buffer_help~",
 								"value" : [ "the buffer~ object" ]
 							}
 , 							{
@@ -479,7 +491,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 337.0, 613.0, 79.0, 20.0 ],
+					"patching_rect" : [ 333.0, 613.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -503,7 +515,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 8.0, 65.0, 572.0, 540.0 ],
+					"patching_rect" : [ 4.0, 65.0, 572.0, 540.0 ],
 					"rowhead" : 1,
 					"rows" : 29,
 					"savemode" : 1,
@@ -521,7 +533,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 5.0, 163.0, 30.0 ],
+					"patching_rect" : [ 5.0, 5.0, 163.0, 30.0 ],
 					"text" : "Sound toolbox",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -537,7 +549,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 33.0, 420.0, 21.0 ],
+					"patching_rect" : [ 5.0, 33.0, 420.0, 21.0 ],
 					"text" : "Useful tools for patching in Max/MSP (click on the object name to open)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -555,7 +567,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 4.0, 574.0, 52.0 ],
+					"patching_rect" : [ 3.0, 4.0, 574.0, 52.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -592,7 +604,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 218.5, 61.5, 17.5, 61.5 ],
+					"midpoints" : [ 214.5, 61.5, 13.5, 61.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -619,7 +631,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 258.5, 61.5, 17.5, 61.5 ],
+					"midpoints" : [ 254.5, 61.5, 13.5, 61.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
