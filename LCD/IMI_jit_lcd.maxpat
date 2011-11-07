@@ -26,7 +26,7 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-21",
 					"maxclass" : "newobj",
@@ -515,15 +515,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 464.0, 546.0, 122.0, 23.0 ],
+					"patching_rect" : [ 469.0, 546.0, 110.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 14.0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"fontname" : "Arial"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p bkg-fg-colours"
@@ -560,7 +560,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-37",
 					"maxclass" : "newobj",
@@ -938,15 +938,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 495.0, 574.0, 90.0, 23.0 ],
+					"patching_rect" : [ 495.0, 574.0, 84.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 18.0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 18.0,
-						"fontname" : "Arial"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 18.0
 					}
 ,
 					"text" : "p more_text"
@@ -992,7 +992,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 428.0, 382.0, 50.0, 20.0 ],
+					"patching_rect" : [ 428.0, 379.0, 50.0, 20.0 ],
 					"text" : "s to_lcd"
 				}
 
@@ -1006,7 +1006,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 466.0, 294.0, 40.0, 18.0 ],
+					"patching_rect" : [ 466.0, 291.0, 40.0, 18.0 ],
 					"text" : "10 10"
 				}
 
@@ -1020,7 +1020,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 428.0, 294.0, 32.5, 18.0 ],
+					"patching_rect" : [ 428.0, 291.0, 32.5, 18.0 ],
 					"text" : "5 5"
 				}
 
@@ -1209,13 +1209,13 @@
 ,
 					"patching_rect" : [ 78.0, 547.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"fontname" : "Arial"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p slider_to_lcd"
@@ -1305,7 +1305,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 572.0, 106.0, 20.0 ],
+					"patching_rect" : [ 186.0, 572.0, 106.0, 20.0 ],
 					"text" : "absolute position"
 				}
 
@@ -1318,7 +1318,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 428.0, 270.0, 97.0, 20.0 ],
+					"patching_rect" : [ 427.0, 267.0, 97.0, 20.0 ],
 					"text" : "relative position"
 				}
 
@@ -1346,8 +1346,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 428.0, 354.0, 88.0, 18.0 ],
-					"text" : "move 5 5"
+					"patching_rect" : [ 428.0, 351.0, 70.0, 18.0 ],
+					"text" : "move 10 10"
 				}
 
 			}
@@ -1378,7 +1378,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 33.0, 546.0, 36.0 ],
+					"patching_rect" : [ 3.0, 33.0, 549.0, 36.0 ],
 					"text" : "The jit.lcd is a simple object for drawing and writing. In this  tutorial, learn how to use colors and place words in jit.pwindow",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1437,7 +1437,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 428.0, 330.0, 69.0, 18.0 ],
+					"patching_rect" : [ 428.0, 327.0, 69.0, 18.0 ],
 					"text" : "move $1 $2"
 				}
 
@@ -1628,7 +1628,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-105", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 475.5, 320.0, 437.5, 320.0 ],
+					"midpoints" : [ 475.5, 317.0, 437.5, 317.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
