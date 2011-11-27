@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 756.0, 44.0, 487.0, 311.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 752.0, 44.0, 485.0, 310.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 756.0, 44.0, 487.0, 311.0 ],
+		"defrect" : [ 752.0, 44.0, 485.0, 310.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -27,7 +33,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 132.0, 238.0, 118.0, 23.0 ],
-					"text" : "then route /video"
+					"text" : "then route /clipnr"
 				}
 
 			}
@@ -41,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 174.0, 68.0, 302.0, 55.0 ],
-					"text" : "receives message over a network\n\"6666\" is the port used by VPT\n\"cnmat\" reads full packet messages"
+					"text" : "receives message over a network\n\"6667\" is the port used by VPT\n\"cnmat\" reads full packet messages"
 				}
 
 			}
@@ -55,7 +61,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 202.0, 192.0, 188.0, 39.0 ],
-					"text" : "route the messages coming \nfrom /moviesource_01/"
+					"text" : "route the messages coming \nfrom /moviesource101/"
 				}
 
 			}
@@ -115,7 +121,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 68.0, 154.0, 175.0, 21.0 ],
-					"text" : "/moviesource_01/video 3"
+					"text" : "/moviesource101/clipnr 4"
 				}
 
 			}
@@ -170,7 +176,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 238.0, 110.0, 23.0 ],
-					"text" : "osc-route /video"
+					"text" : "osc-route /clipnr"
 				}
 
 			}
@@ -184,7 +190,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 192.0, 179.0, 23.0 ],
-					"text" : "osc-route /moviesource_01"
+					"text" : "osc-route /moviesource101"
 				}
 
 			}
