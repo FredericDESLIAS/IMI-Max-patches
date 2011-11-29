@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 447.0, 44.0, 480.0, 961.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 447.0, 44.0, 480.0, 961.0 ],
@@ -516,7 +522,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 17.0, 172.0, 136.0, 23.0 ],
-					"text" : "jit.noise 1 flot32 4"
+					"text" : "jit.noise 1 float32 4"
 				}
 
 			}
