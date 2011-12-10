@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 2.0, 44.0, 364.0, 65.0 ],
+		"rect" : [ 2.0, 44.0, 363.0, 60.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 2.0, 44.0, 364.0, 65.0 ],
+		"defrect" : [ 2.0, 44.0, 363.0, 60.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -107,7 +107,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 48.0, 48.0, 380.0, 25.0 ],
-					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max5/_abstract/IMIpatches/VPT6/VPT_6r05m.app\\\""
+					"text" : ";\rmax launchbrowser \\\"file:////Applications/VPT6/VPT_6r05m.app\\\""
 				}
 
 			}

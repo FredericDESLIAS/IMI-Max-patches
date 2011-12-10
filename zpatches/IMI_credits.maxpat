@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 6.0, 44.0, 648.0, 457.0 ],
+		"rect" : [ 6.0, 44.0, 648.0, 479.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 6.0, 44.0, 648.0, 457.0 ],
+		"defrect" : [ 6.0, 44.0, 648.0, 479.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -32,8 +32,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 420.849884, 437.0, 27.0 ],
-					"text" : "Special thanks to : Nicolas Collins for the inspiration."
+					"patching_rect" : [ 5.0, 446.849884, 437.0, 27.0 ],
+					"text" : "Special thanks to : Nicolas Collins"
 				}
 
 			}
@@ -88,15 +88,15 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 502.0, 420.849884, 141.0, 27.0 ],
+					"patching_rect" : [ 502.0, 446.849884, 141.0, 27.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p plugins credits"
@@ -143,7 +143,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 356.849884, 536.0, 48.0 ],
+					"patching_rect" : [ 6.0, 376.849884, 540.0, 48.0 ],
 					"text" : "Video : James Gilpin and Holly Yoon, Maximo Recio, Eri Sawatari, Anna Szumiec, iMal Belgium."
 				}
 
@@ -167,12 +167,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-3",
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 214.0, 635.0, 131.0 ],
-					"text" : "Credits also goes to the IMI students who have helped improving this patch.\nParticular thanks to : Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011)"
+					"patching_rect" : [ 5.0, 214.0, 635.0, 151.0 ],
+					"text" : "Credits also goes to the IMI students who have helped improving this patch.\nParticular thanks to : Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim (2012)"
 				}
 
 			}
@@ -186,7 +186,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 45.0, 641.0, 69.0 ],
-					"text" : "The IMI Max patches is a self-learning tool and a repository for some of the Max patches made or used at the BA design for interaction and moving image  (London College of Communication, United Kingdom)."
+					"text" : "The IMI Max patches is a self-learning tool and a repository for some of the Max patches made or used at the BA design for interaction and moving image  at the London College of Communication (United Kingdom)."
 				}
 
 			}
