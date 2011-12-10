@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 6.0, 44.0, 648.0, 479.0 ],
+		"rect" : [ 6.0, 44.0, 648.0, 498.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 6.0, 44.0, 648.0, 479.0 ],
+		"defrect" : [ 6.0, 44.0, 648.0, 498.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -32,7 +32,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 446.849884, 437.0, 27.0 ],
+					"patching_rect" : [ 5.0, 468.849884, 437.0, 27.0 ],
 					"text" : "Special thanks to : Nicolas Collins"
 				}
 
@@ -70,6 +70,7 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -88,15 +89,15 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 502.0, 446.849884, 141.0, 27.0 ],
+					"patching_rect" : [ 502.0, 468.849884, 141.0, 27.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p plugins credits"
@@ -112,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 398.0, 158.0, 226.0, 19.0 ],
+					"patching_rect" : [ 313.0, 158.0, 226.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 325.0, 87.0, 31.0 ]
 				}
@@ -129,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 391.0, 178.0, 207.0, 26.0 ],
+					"patching_rect" : [ 313.0, 151.0, 207.0, 26.0 ],
 					"text" : ";\rmax launchbrowser http://cycling74.com/forums/"
 				}
 
@@ -143,7 +144,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 376.849884, 540.0, 48.0 ],
+					"patching_rect" : [ 6.0, 398.849884, 540.0, 48.0 ],
 					"text" : "Video : James Gilpin and Holly Yoon, Maximo Recio, Eri Sawatari, Anna Szumiec, iMal Belgium."
 				}
 
@@ -153,12 +154,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-1",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 134.0, 636.0, 69.0 ],
-					"text" : "The patches that start with IMI were improved or entirely made by Nicolas Maréchal. Others were great examples found on http://cycling74.com/forums/\nor simplified help files from the original Max application."
+					"patching_rect" : [ 5.0, 134.0, 642.0, 89.0 ],
+					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great examples found on http://cycling74.com/forums/\nor simplified help files from the original Max application. Also, quite a few patches are taken from Andrew Benson's excellent Jitter tutorials."
 				}
 
 			}
@@ -171,7 +172,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 214.0, 635.0, 151.0 ],
+					"patching_rect" : [ 5.0, 236.0, 635.0, 151.0 ],
 					"text" : "Credits also goes to the IMI students who have helped improving this patch.\nParticular thanks to : Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim (2012)"
 				}
 
