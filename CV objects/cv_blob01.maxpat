@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 3.0, 44.0, 600.0, 425.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 2.0, 44.0, 600.0, 425.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 44.0, 600.0, 425.0 ],
+		"defrect" : [ 2.0, 44.0, 600.0, 425.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -29,6 +35,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 247.0, 44.0, 354.0, 380.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 247.0, 44.0, 354.0, 380.0 ],
@@ -50,14 +62,38 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-1",
-									"linecount" : 2,
+									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 104.672241, 254.0, 73.0, 34.0 ],
-									"presentation_rect" : [ 105.672241, 261.0, 0.0, 0.0 ],
-									"text" : "put the label first"
+									"patching_rect" : [ 172.672241, 121.129028, 37.0, 20.0 ],
+									"text" : "label"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 65.672241, 121.129028, 73.0, 20.0 ],
+									"text" : "coordinates"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 100.672241, 260.0, 105.0, 20.0 ],
+									"text" : "put the label first :"
 								}
 
 							}
@@ -70,7 +106,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 177.672241, 156.129028, 115.0, 34.0 ],
+									"patching_rect" : [ 174.672241, 168.129028, 115.0, 34.0 ],
 									"text" : "from coordinates to width and height"
 								}
 
@@ -209,7 +245,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 116.0, 20.0 ],
+									"patching_rect" : [ 50.0, 100.0, 240.0, 20.0 ],
 									"text" : "jit.iter"
 								}
 
@@ -332,7 +368,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-29", 2 ],
 									"hidden" : 0,
-									"midpoints" : [ 108.0, 129.0, 170.5, 129.0 ],
+									"midpoints" : [ 170.0, 129.0, 170.5, 129.0 ],
 									"source" : [ "obj-4", 1 ]
 								}
 
@@ -360,13 +396,13 @@
 ,
 					"patching_rect" : [ 10.990173, 355.294617, 65.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p iter-stuff"

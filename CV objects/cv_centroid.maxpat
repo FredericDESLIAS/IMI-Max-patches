@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 3.0, 44.0, 528.0, 626.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 3.0, 44.0, 528.0, 605.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 44.0, 528.0, 626.0 ],
+		"defrect" : [ 3.0, 44.0, 528.0, 605.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -20,21 +26,6 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-30",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 299.0, 578.0, 95.0, 16.0 ],
-					"text" : "help cv.jit.centroids"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -46,12 +37,27 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 298.0, 596.5, 102.0, 22.0 ],
+					"patching_rect" : [ 308.0, 573.5, 102.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 360.0, 675.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
 					"text" : "cv.jit.centroids",
 					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-30",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 309.0, 578.0, 95.0, 16.0 ],
+					"text" : "help cv.jit.centroids"
 				}
 
 			}
@@ -68,7 +74,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 415.0, 597.5, 108.0, 20.0 ],
+					"patching_rect" : [ 415.0, 574.5, 108.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -102,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 415.0, 557.0, 52.0, 20.0 ],
+					"patching_rect" : [ 415.0, 575.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -124,7 +130,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
@@ -134,8 +139,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 29.0, 439.0, 20.0 ],
 					"text" : "returns the centroids, or the center of mass of a greyscale image or object",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_title[2]"
+					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ]
 				}
 
 			}

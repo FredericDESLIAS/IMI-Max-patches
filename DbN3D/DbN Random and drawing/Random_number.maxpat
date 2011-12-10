@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 446.0, 44.0, 464.0, 378.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 506.0, 44.0, 464.0, 378.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 446.0, 44.0, 464.0, 378.0 ],
+		"defrect" : [ 506.0, 44.0, 464.0, 378.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -81,7 +87,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 2.0, 354.0, 30.0 ],
-					"text" : "DbN Random and Drawing (part 1)",
+					"text" : "Random numbers",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}

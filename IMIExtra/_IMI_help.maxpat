@@ -141,8 +141,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 221.0, 38.0, 116.0, 16.0 ],
-					"text" : "IMI Max patches v2.13"
+					"patching_rect" : [ 221.0, 38.0, 111.0, 16.0 ],
+					"text" : "IMI Max patches v2.14"
 				}
 
 			}
@@ -219,7 +219,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 50.0, 203.0, 18.0 ],
-					"text" : "Nicolas Marechal, v2.13 (11/2011)",
+					"text" : "Nicolas Marechal, v2.14 (01/2012)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
 				}
 
@@ -549,13 +549,13 @@
 ,
 					"patching_rect" : [ 528.0, 503.0, 20.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 9.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"default_fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -956,13 +956,13 @@
 ,
 					"patching_rect" : [ 277.0, 508.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 9.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"default_fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -1363,13 +1363,13 @@
 ,
 					"patching_rect" : [ 24.0, 508.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 9.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"default_fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -1770,13 +1770,13 @@
 ,
 					"patching_rect" : [ 530.0, 274.0, 19.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 9.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"default_fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -2179,13 +2179,13 @@
 ,
 					"patching_rect" : [ 279.0, 276.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 9.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"default_fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -2224,7 +2224,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-7",
 					"ignoreclick" : 1,
-					"items" : [ ",", "video player for multi screens", ",", "multi-layered video", ",", "iCinema", ",", "control VPT from Max", ",", "Video Projection Tool 5.1" ],
+					"items" : [ ",", "video player for multi screens", ",", "multi-layered video", ",", "a very light space mapping", ",", "iCinema", ",", "control VPT from Max", ",", "Video Projection Tool 6r05" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2255,7 +2255,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 282.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.235294, 0.235294, 0.235294, 0.478431 ],
-					"tabs" : [ "IMI_video_twoscreens", "IMI_multi-layered_video", "IMI_iCinema", "IMI_OSC2VPT", "VPT_start" ],
+					"tabs" : [ "IMI_video_twoscreens", "IMI_multi-layered_video", "IMI_space_mapping", "IMI_iCinema", "IMI_OSC2VPT", "VPT_start" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[2]"
 				}
@@ -2586,13 +2586,13 @@
 ,
 					"patching_rect" : [ 21.0, 278.0, 19.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 9.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"default_fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -4164,13 +4164,13 @@
 ,
 					"patching_rect" : [ 402.0, 53.0, 57.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 9.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"default_fontsize" : 9.0
 					}
 ,
 					"text" : "p Content"

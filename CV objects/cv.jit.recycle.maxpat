@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 5.0, 44.0, 851.0, 606.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 619.0, 44.0, 851.0, 603.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 5.0, 44.0, 851.0, 606.0 ],
+		"defrect" : [ 619.0, 44.0, 851.0, 603.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -20,6 +26,21 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-23",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4.0, 32.0, 736.0, 20.0 ],
+					"text" : "recycle is an abstraction that works with cv.jit.touches. It recycles blobs ID when released rather than ever increasing them",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
@@ -29,7 +50,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 3.0, 321.0, 30.0 ],
-					"text" : "CV.jit recycle for cv.jit.touches",
+					"text" : "cv.jit recycle for cv.jit.touches",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -45,9 +66,15 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
+						"rect" : [ 865.0, 44.0, 397.0, 378.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"defrect" : [ 865.0, 44.0, 397.0, 378.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -67,12 +94,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-11",
-									"linecount" : 20,
+									"linecount" : 22,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 100.0, 374.0, 328.0 ],
-									"text" : "cv.jit.touches, a new object added in the 1.7.0 release, tracks the movement of bright spots in a greyscale image and reports “touch”, “drag” and “release” information – when regions appear, move or disappear. Each region is assigned a unique ID number, so that even if they move, you can always know where an object is from frame to frame. This is unlike using cv.jit.label-based blob analysis, where you are never guaranteed that the same object in a scene will end up with the same index.\n\nBy default, cv.jit.touches outputs ever-increasing indices, although the counter is always reset to 0 when there are no active regions. For some applications, this is a reasonable approach: every touch event has its own unique ID. However, some may wish to recycle IDs. If you’re in this situation, I made an abstraction that renumbers the IDs coming out of cv.jit.touches to re-use release IDs, and keep their values as low as possible. It will always output the smallest value that isn’t currently assigned to another active region. Jean-Marc Pelletier"
+									"patching_rect" : [ 9.0, 7.0, 374.0, 361.0 ],
+									"text" : "cv.jit.touches, a new object added in the 1.7.0 release, tracks the movement of bright spots in a greyscale image and reports “touch”, “drag” and “release” information – when regions appear, move or disappear. Each region is assigned a unique ID number, so that even if they move, you can always know where an object is from frame to frame. This is unlike using cv.jit.label-based blob analysis, where you are never guaranteed that the same object in a scene will end up with the same index.\n\nBy default, cv.jit.touches outputs ever-increasing indices, although the counter is always reset to 0 when there are no active regions. For some applications, this is a reasonable approach: every touch event has its own unique ID. However, some may wish to recycle IDs. If you’re in this situation, I made an abstraction that renumbers the IDs coming out of cv.jit.touches to re-use release IDs, and keep their values as low as possible. It will always output the smallest value that isn’t currently assigned to another active region. \n\nJean-Marc Pelletier"
 								}
 
 							}
@@ -80,15 +107,15 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 8.0, 573.0, 64.0, 23.0 ],
+					"patching_rect" : [ 9.0, 568.0, 64.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p tutorial"
@@ -103,7 +130,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 603.0, 62.0, 79.0, 21.0 ],
+					"patching_rect" : [ 603.0, 61.0, 79.0, 21.0 ],
 					"text" : "Three blobs"
 				}
 
@@ -116,7 +143,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 434.0, 62.0, 73.0, 21.0 ],
+					"patching_rect" : [ 434.0, 61.0, 73.0, 21.0 ],
 					"text" : "Two blobs"
 				}
 
@@ -129,7 +156,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 62.0, 73.0, 21.0 ],
+					"patching_rect" : [ 270.0, 61.0, 73.0, 21.0 ],
 					"text" : "One blob"
 				}
 
@@ -142,7 +169,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 62.0, 73.0, 21.0 ],
+					"patching_rect" : [ 189.0, 61.0, 73.0, 21.0 ],
 					"text" : "No blobs"
 				}
 
@@ -157,7 +184,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 604.0, 88.0, 183.0, 64.0 ],
+					"patching_rect" : [ 604.0, 87.0, 183.0, 64.0 ],
 					"text" : "clear, paintoval 50 50 100 100, paintoval 150 150 200 200, paintoval 150 60 200 110, bang, bang, bang"
 				}
 
@@ -171,7 +198,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 3.0, 65.0, 64.0, 21.0 ],
+					"patching_rect" : [ 3.0, 62.0, 64.0, 21.0 ],
 					"text" : "loadbang"
 				}
 
@@ -185,7 +212,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 517.0, 322.0, 205.0, 21.0 ],
+					"patching_rect" : [ 517.0, 321.0, 205.0, 21.0 ],
 					"text" : "cv.jit.touches.draw"
 				}
 
@@ -197,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 517.0, 355.0, 320.0, 240.0 ],
+					"patching_rect" : [ 517.0, 354.0, 320.0, 240.0 ],
 					"prototypename" : "320by240"
 				}
 
@@ -211,7 +238,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 517.0, 292.0, 143.0, 21.0 ],
+					"patching_rect" : [ 517.0, 291.0, 143.0, 21.0 ],
 					"text" : "cv.jit.touches.recycle"
 				}
 
@@ -225,7 +252,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 186.0, 322.0, 120.0, 21.0 ],
+					"patching_rect" : [ 186.0, 321.0, 120.0, 21.0 ],
 					"text" : "cv.jit.touches.draw"
 				}
 
@@ -240,7 +267,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 186.0, 88.0, 79.0, 34.0 ],
+					"patching_rect" : [ 186.0, 87.0, 79.0, 34.0 ],
 					"text" : "clear, bang, bang, bang"
 				}
 
@@ -252,7 +279,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 186.0, 355.0, 320.0, 240.0 ],
+					"patching_rect" : [ 186.0, 354.0, 320.0, 240.0 ],
 					"prototypename" : "320by240"
 				}
 
@@ -266,7 +293,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 186.0, 194.0, 78.0, 21.0 ],
+					"patching_rect" : [ 186.0, 193.0, 78.0, 21.0 ],
 					"text" : "jit.rgb2luma"
 				}
 
@@ -280,7 +307,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 88.0, 175.0, 19.0 ],
+					"patching_rect" : [ 3.0, 87.0, 175.0, 19.0 ],
 					"text" : "brgb 0 0 0, frgb 255 255 255"
 				}
 
@@ -295,7 +322,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 433.0, 87.0, 169.0, 49.0 ],
+					"patching_rect" : [ 433.0, 86.0, 169.0, 49.0 ],
 					"text" : "clear, paintoval 50 50 100 100, paintoval 150 150 200 200, bang, bang, bang"
 				}
 
@@ -310,7 +337,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.0, 88.0, 160.0, 34.0 ],
+					"patching_rect" : [ 267.0, 87.0, 160.0, 34.0 ],
 					"text" : "clear, paintoval 50 50 100 100, bang, bang, bang"
 				}
 
@@ -324,7 +351,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 186.0, 165.0, 130.0, 21.0 ],
+					"patching_rect" : [ 186.0, 164.0, 130.0, 21.0 ],
 					"text" : "jit.lcd 4 char 320 240"
 				}
 
@@ -338,7 +365,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 186.0, 238.0, 86.0, 21.0 ],
+					"patching_rect" : [ 186.0, 237.0, 86.0, 21.0 ],
 					"text" : "cv.jit.touches"
 				}
 
@@ -354,7 +381,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 847.0, 33.0 ],
+					"patching_rect" : [ 1.0, 2.0, 847.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -391,7 +418,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-60", 2 ],
 					"hidden" : 0,
-					"midpoints" : [ 262.5, 275.0, 650.5, 275.0 ],
+					"midpoints" : [ 262.5, 274.0, 650.5, 274.0 ],
 					"source" : [ "obj-1", 2 ]
 				}
 
@@ -400,7 +427,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-60", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 229.0, 275.0, 588.5, 275.0 ],
+					"midpoints" : [ 229.0, 274.0, 588.5, 274.0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -409,7 +436,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 195.5, 275.0, 526.5, 275.0 ],
+					"midpoints" : [ 195.5, 274.0, 526.5, 274.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -436,7 +463,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 276.5, 159.0, 195.5, 159.0 ],
+					"midpoints" : [ 276.5, 158.0, 195.5, 158.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -445,7 +472,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 442.5, 159.5, 195.5, 159.5 ],
+					"midpoints" : [ 442.5, 158.5, 195.5, 158.5 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -454,7 +481,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 12.5, 159.0, 195.5, 159.0 ],
+					"midpoints" : [ 12.5, 158.0, 195.5, 158.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -508,7 +535,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 613.5, 159.5, 195.5, 159.5 ],
+					"midpoints" : [ 613.5, 158.5, 195.5, 158.5 ],
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -526,7 +553,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 3 ],
 					"hidden" : 0,
-					"midpoints" : [ 195.5, 228.0, 296.5, 228.0 ],
+					"midpoints" : [ 195.5, 227.0, 296.5, 227.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -535,7 +562,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-61", 3 ],
 					"hidden" : 0,
-					"midpoints" : [ 195.5, 228.5, 712.5, 228.5 ],
+					"midpoints" : [ 195.5, 227.5, 712.5, 227.5 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -544,7 +571,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 195.5, 155.0, 195.5, 155.0 ],
+					"midpoints" : [ 195.5, 154.0, 195.5, 154.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 

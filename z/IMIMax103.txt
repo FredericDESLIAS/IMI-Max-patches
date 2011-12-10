@@ -1,18 +1,18 @@
 1, <category> 1 Projection;
 2, IMI_simple_video_player "simple GL video player";
-3, IMI_gridshape "shapes in 3D";
-4, IMI_texture "using textures in GL";
-5, GLsmooth "optimised GL video player";
-6, renderMaster "render effects on GL scene";
-7, keystonev23 "keystone + crop tool";
+3, IMI_screenworld "interact with a 3D object";
+4, GLsmooth "optimised GL video player";
+5, renderMaster "render effects on GL scene";
+6, keystonev23 "keystone + crop tool";
 
 10, -----------------------;
 11, <category> 2 Exhibition;
 12, IMI_video_twoscreens "video player for multi screens";
 14, IMI_multi-layered_video "multi-layered video";
-15, IMI_iCinema "iCinema";
-16, IMI_OSC2VPT "control VPT from Max";
-17, VPT_start "Video Projection Tool 5.1";
+15, IMI_space_mapping "a very light space mapping";
+16, IMI_iCinema "iCinema";
+17, IMI_OSC2VPT "control VPT from Max";
+18, VPT_start "Video Projection Tool";
 
 20, -----------------------;
 21, <category> 3 Internet;
@@ -33,18 +33,19 @@
 
 40, -----------------------;
 41, <category> 5 DbN3D;
-42, IMI_noise2GLSketch "noise to GLSketch tutorial";
-43, IMI_matrix2GL "matrix to GL world";
-45, GLGeometry "gridshape geometry advanced";
-46, GLNurbs_sound "GL nurbs + sound";
-47, GLsketchpad "Program in OpenGL";
+42, jittervsGL "welcome to 3d world";
+43, GLgridshape "shapes in 3D";
+44, GLgeometry "gridshape geometry advanced";
+45, GLsketch "GLSketch and OpenGL";
+46, Noise2GLsketch "noise to GLSketch tutorial";
+47, GLmesh "intro to GLmesh";
+
 50, -----------------------;
 51, <category> 6 DbN3D.2;
 52, IMI_jitexpr "basic jit.expr";
-53, IMI_fractals "fractals using jit.bfg";
-54, IMI_screenworld "interact with a 3D object";
-55, GLNurbs "matrix to GL Nurbs";
-56, GLMultiple "control multiple gridshape";
-57, Video2GLMesh "transforms a video into GL Mesh";
+53, GLnurbs "matrix to GL Nurbs";
+56, GLmultiple "control multiple gridshape";
+57, Video2GLmesh "transforms a video into GL Mesh";
+58, GLmisc "an overview of the GL in Max";
 60, -----------------------;
 

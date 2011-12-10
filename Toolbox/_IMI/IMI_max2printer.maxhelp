@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 588.0, 44.0, 526.0, 354.0 ],
+		"rect" : [ 626.0, 44.0, 525.0, 347.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 588.0, 44.0, 526.0, 354.0 ],
+		"defrect" : [ 626.0, 44.0, 525.0, 347.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -40,9 +40,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 588.0, 44.0, 604.0, 655.0 ],
+						"rect" : [ 625.0, 44.0, 575.0, 629.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 588.0, 44.0, 604.0, 655.0 ],
+						"defrect" : [ 625.0, 44.0, 575.0, 629.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -57,8 +57,34 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
+									"id" : "obj-8",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 235.0, 594.0, 331.0, 23.0 ],
+									"text" : "-o is for options, you need this if you use brightness"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
+									"id" : "obj-10",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 239.0, 569.0, 327.0, 21.0 ],
+									"text" : "lpr -o brightness=200 /Users/imi/Desktop/image.tif"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 14.0,
@@ -67,7 +93,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 435.0, 84.0, 39.0 ],
+									"patching_rect" : [ 4.0, 430.0, 84.0, 39.0 ],
 									"text" : "(3) choose\na printer"
 								}
 
@@ -77,12 +103,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
 									"id" : "obj-33",
-									"items" : [ "Brother_HL_2030_series", ",", "EPSON_Perfection_1240", ",", "HP_Color_LaserJet_5550", ",", "HP_LaserJet_1320_series", ",", "IMI_NOT_A_PRINTER", ",", "Primera_Technology_Inc__Disc_Publisher_se" ],
+									"items" : "Brother_HL_2030_series",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
-									"patching_rect" : [ 104.0, 437.0, 158.0, 20.0 ],
+									"patching_rect" : [ 92.0, 432.0, 158.0, 20.0 ],
 									"types" : [  ]
 								}
 
@@ -262,15 +288,15 @@
  ]
 									}
 ,
-									"patching_rect" : [ 104.0, 390.0, 94.0, 23.0 ],
+									"patching_rect" : [ 92.0, 385.0, 94.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"globalpatchername" : "",
-										"default_fontsize" : 14.0,
 										"fontface" : 0,
 										"fontsize" : 14.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 14.0
 									}
 ,
 									"text" : "p shell2menu"
@@ -286,7 +312,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 27.0, 359.0, 39.0, 21.0 ],
+									"patching_rect" : [ 15.0, 354.0, 39.0, 21.0 ],
 									"text" : "clear"
 								}
 
@@ -300,7 +326,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 104.0, 542.0, 66.0, 21.0 ],
+									"patching_rect" : [ 92.0, 537.0, 66.0, 21.0 ],
 									"text" : "tosymbol"
 								}
 
@@ -313,7 +339,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 55.0, 12.0, 140.0, 23.0 ],
+									"patching_rect" : [ 43.0, 7.0, 140.0, 23.0 ],
 									"text" : "(1) create an image"
 								}
 
@@ -326,7 +352,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 12.0, 244.0, 23.0 ],
+									"patching_rect" : [ 238.0, 7.0, 244.0, 23.0 ],
 									"text" : "(2) export the image to the desktop"
 								}
 
@@ -340,7 +366,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 224.0, 75.0, 266.0, 23.0 ],
+									"patching_rect" : [ 212.0, 70.0, 266.0, 23.0 ],
 									"text" : "sprintf exportimage %s/Desktop/test-print"
 								}
 
@@ -352,7 +378,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 224.0, 12.0, 24.0, 24.0 ]
+									"patching_rect" : [ 212.0, 7.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -365,7 +391,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 224.0, 44.0, 75.0, 23.0 ],
+									"patching_rect" : [ 212.0, 39.0, 75.0, 23.0 ],
 									"text" : "value path"
 								}
 
@@ -379,7 +405,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 300.0, 403.0, 75.0, 23.0 ],
+									"patching_rect" : [ 288.0, 398.0, 75.0, 23.0 ],
 									"text" : "value path"
 								}
 
@@ -393,7 +419,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 242.0, 110.0, 304.0, 21.0 ],
+									"patching_rect" : [ 230.0, 105.0, 304.0, 21.0 ],
 									"text" : "exportimage /Users/nimar/Desktop/test-print"
 								}
 
@@ -406,7 +432,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 511.0, 63.0, 23.0 ],
+									"patching_rect" : [ 4.0, 506.0, 63.0, 23.0 ],
 									"text" : "(4) print"
 								}
 
@@ -418,7 +444,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 80.0, 513.0, 20.0, 20.0 ]
+									"patching_rect" : [ 68.0, 508.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -430,7 +456,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 348.0, 337.0, 217.0, 23.0 ],
+									"patching_rect" : [ 336.0, 332.0, 217.0, 23.0 ],
 									"text" : "get the path to the user's desktop"
 								}
 
@@ -444,7 +470,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 104.0, 512.0, 473.0, 21.0 ],
+									"patching_rect" : [ 92.0, 507.0, 473.0, 21.0 ],
 									"text" : "lp -d Brother_HL_2030_series/Users/hubbles/Desktop/test-print.png"
 								}
 
@@ -458,7 +484,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 280.0, 436.0, 213.0, 23.0 ],
+									"patching_rect" : [ 268.0, 431.0, 213.0, 23.0 ],
 									"text" : "sprintf %s/Desktop/test-print.png"
 								}
 
@@ -473,7 +499,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 280.0, 264.0, 68.0, 23.0 ],
+									"patching_rect" : [ 268.0, 259.0, 68.0, 23.0 ],
 									"text" : "loadbang"
 								}
 
@@ -487,7 +513,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 280.0, 369.0, 83.0, 23.0 ],
+									"patching_rect" : [ 268.0, 364.0, 83.0, 23.0 ],
 									"text" : "route home"
 								}
 
@@ -501,7 +527,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 280.0, 308.0, 45.0, 21.0 ],
+									"patching_rect" : [ 268.0, 303.0, 45.0, 21.0 ],
 									"text" : "dump"
 								}
 
@@ -515,7 +541,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 280.0, 338.0, 65.0, 23.0 ],
+									"patching_rect" : [ 268.0, 333.0, 65.0, 23.0 ],
 									"text" : "getpaths"
 								}
 
@@ -529,7 +555,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 104.0, 472.0, 195.0, 23.0 ],
+									"patching_rect" : [ 92.0, 467.0, 195.0, 23.0 ],
 									"text" : "sprintf lp -d %s%s"
 								}
 
@@ -543,7 +569,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 104.0, 359.0, 63.0, 21.0 ],
+									"patching_rect" : [ 92.0, 354.0, 63.0, 21.0 ],
 									"text" : "lpstat -a"
 								}
 
@@ -557,8 +583,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.0, 314.0, 129.0, 39.0 ],
-									"text" : "displays \nprinters connected"
+									"patching_rect" : [ 93.0, 309.0, 129.0, 39.0 ],
+									"text" : "display the\nprinters connected"
 								}
 
 							}
@@ -570,7 +596,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 104.0, 599.0, 39.0, 21.0 ],
+									"patching_rect" : [ 92.0, 594.0, 39.0, 21.0 ],
 									"text" : "print"
 								}
 
@@ -584,7 +610,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 104.0, 570.0, 42.0, 21.0 ],
+									"patching_rect" : [ 92.0, 565.0, 42.0, 21.0 ],
 									"text" : "shell"
 								}
 
@@ -596,7 +622,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 27.0, 201.0, 80.0, 60.0 ]
+									"patching_rect" : [ 15.0, 196.0, 80.0, 60.0 ]
 								}
 
 							}
@@ -607,7 +633,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 27.0, 12.0, 24.0, 24.0 ]
+									"patching_rect" : [ 15.0, 7.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -620,7 +646,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 27.0, 111.0, 141.0, 23.0 ],
+									"patching_rect" : [ 15.0, 106.0, 141.0, 23.0 ],
 									"text" : "jit.noise 4 char 10 10"
 								}
 
@@ -634,7 +660,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 27.0, 156.0, 226.0, 23.0 ],
+									"patching_rect" : [ 15.0, 151.0, 226.0, 23.0 ],
 									"text" : "jit.matrix 4 char 320 240 @interp 0"
 								}
 
@@ -653,7 +679,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-28", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 289.5, 363.0, 289.5, 363.0 ],
+									"midpoints" : [ 277.5, 358.0, 277.5, 358.0 ],
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -671,7 +697,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-33", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 36.5, 424.0, 113.5, 424.0 ],
+									"midpoints" : [ 24.5, 419.0, 101.5, 419.0 ],
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -680,7 +706,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-36", 1 ],
 									"hidden" : 0,
-									"midpoints" : [ 113.5, 503.0, 567.5, 503.0 ],
+									"midpoints" : [ 101.5, 498.0, 555.5, 498.0 ],
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -716,7 +742,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 289.5, 338.0, 289.5, 338.0 ],
+									"midpoints" : [ 277.5, 333.0, 277.5, 333.0 ],
 									"source" : [ "obj-29", 0 ]
 								}
 
@@ -734,7 +760,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 289.5, 298.5, 36.5, 298.5 ],
+									"midpoints" : [ 277.5, 293.5, 24.5, 293.5 ],
 									"source" : [ "obj-31", 0 ]
 								}
 
@@ -752,7 +778,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 289.5, 298.0, 113.5, 298.0 ],
+									"midpoints" : [ 277.5, 293.0, 101.5, 293.0 ],
 									"source" : [ "obj-31", 0 ]
 								}
 
@@ -761,7 +787,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-23", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 183.0, 462.5, 113.5, 462.5 ],
+									"midpoints" : [ 171.0, 457.5, 101.5, 457.5 ],
 									"source" : [ "obj-33", 1 ]
 								}
 
@@ -824,7 +850,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 233.5, 143.5, 36.5, 143.5 ],
+									"midpoints" : [ 221.5, 138.5, 24.5, 138.5 ],
 									"source" : [ "obj-52", 0 ]
 								}
 
@@ -833,7 +859,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-47", 1 ],
 									"hidden" : 0,
-									"midpoints" : [ 233.5, 103.5, 536.5, 103.5 ],
+									"midpoints" : [ 221.5, 98.5, 524.5, 98.5 ],
 									"source" : [ "obj-52", 0 ]
 								}
 
@@ -861,13 +887,13 @@
 ,
 					"patching_rect" : [ 390.0, 316.0, 125.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p print_in_practice"
@@ -915,7 +941,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 271.0, 193.0, 243.0, 23.0 ],
+					"patching_rect" : [ 130.0, 192.0, 243.0, 23.0 ],
 					"text" : "format the whole thing %s is for string"
 				}
 
@@ -941,7 +967,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 271.0, 234.38324, 50.0, 23.0 ],
+					"patching_rect" : [ 261.0, 234.38324, 50.0, 23.0 ],
 					"text" : "output"
 				}
 
@@ -954,7 +980,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 271.0, 160.0, 220.0, 23.0 ],
+					"patching_rect" : [ 130.0, 155.0, 220.0, 23.0 ],
 					"text" : "trigger bang string  (the file name)"
 				}
 
@@ -995,8 +1021,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 271.0, 114.383255, 181.0, 23.0 ],
-					"text" : "Insert directory +  file name"
+					"patching_rect" : [ 224.0, 114.383255, 181.0, 23.0 ],
+					"text" : "insert directory +  file name"
 				}
 
 			}

@@ -1,0 +1,12 @@
+In Script, Remove from Janoma (or don't install dependencies ?)
+-------------------------
++ install eijes from MAx install 
+(make a temp folder in User/shared) 
+
+ADD ! ------------------
+jit.transpose
+jit.scanwrap
+jit.rota
+jit.dimmap
+jit.repos
+-----------------

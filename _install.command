@@ -45,6 +45,7 @@ function doInstallation {
 		cp -R "$InstallFolder/Introduction" "$IMIpatches" && echo -ne "... Introduction.\n";
 		cp -R "$InstallFolder/LCD" "$IMIpatches" && echo -ne "... LCD.\n";
 		cp -R "$InstallFolder/Network" "$IMIpatches" && echo -ne "... Network.\n";
+		cp -R "$InstallFolder/Plugins_tools" "$IMIpatches" && echo -ne "... Plugins_tools.\n";
 		cp -R "$InstallFolder/Projection" "$IMIpatches" && echo -ne "... Projection.\n";
 		cp -R "$InstallFolder/Sensor" "$IMIpatches" && echo -ne "... Sensor.\n";
 		cp -R "$InstallFolder/Sensor_Interfaces" "$IMIpatches" && echo -ne "... Sensor_Interfaces.\n";
@@ -132,7 +133,7 @@ echo -ne "- Checking version... ";
 
 if [[ $whichVersion == 1 ]]; then
 
-	echo "MaxMSP 5 is installed.";
+	echo "Max 5 is installed.";
 	echo ""
 	maxAppFolder="/Applications/Max5";
 	C74Examples="$maxAppFolder/examples/";
@@ -143,7 +144,7 @@ fi
 
 if [[ $whichVersion == 2 ]]; then
 
-	echo "MaxMSP 5 is installed, this is the alumni version.";
+	echo "Max 5 is installed, this is the alumni version.";
 	echo ""
 	maxAppFolder="/Applications/Max5";
 	C74Examples="$maxAppFolder/examples";
@@ -154,7 +155,7 @@ fi
 
 if [[ $whichVersion == 4 ]]; then
 
-	echo "MaxMSP 5 and 6 are installed.";
+	echo "Max 5 and 6 are installed.";
 	echo ""
 	maxAppFolder="/Applications/Max5";
 	C74Examples="$maxAppFolder/examples/";
@@ -170,7 +171,7 @@ fi
 
 if [[ $whichVersion == 3 ]]; then
 
-	echo "MaxMSP 6 is installed.";
+	echo "Max 6 is installed.";
 	echo ""
 	maxAppFolder="/Applications/Max6";
 	C74Examples="$maxAppFolder/examples/";

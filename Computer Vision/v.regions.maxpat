@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1047.0, 701.0 ],
+		"rect" : [ 1.0, 44.0, 1047.0, 701.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 44.0, 1047.0, 701.0 ],
+		"defrect" : [ 1.0, 44.0, 1047.0, 701.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -204,13 +204,13 @@
 ,
 					"patching_rect" : [ 19.0, 164.789703, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p conversion"
@@ -778,13 +778,13 @@
 ,
 					"patching_rect" : [ 315.0, 605.0, 107.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p more_methods"
@@ -1523,13 +1523,13 @@
 ,
 									"patching_rect" : [ 15.0, 146.0, 198.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"default_fontsize" : 9.0,
+										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 9.0,
-										"default_fontface" : 0
+										"default_fontsize" : 9.0
 									}
 ,
 									"text" : "p draw_zones"
@@ -1738,13 +1738,13 @@
 ,
 					"patching_rect" : [ 848.0, 658.0, 77.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p process"
@@ -1874,8 +1874,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 883.0, 21.0 ],
-					"text" : "v.region uses the frame differencing methods but adds the possibility of creating zones.  The v.region object is adapted from SoftVNS (David Rockeby)",
+					"patching_rect" : [ 4.0, 30.0, 901.0, 21.0 ],
+					"text" : "v.region uses the frame differencing methods but adds the possibility of creating zones.  It was adapted from an object from SoftVNS (David Rokeby)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}

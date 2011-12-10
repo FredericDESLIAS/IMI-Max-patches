@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 3.0, 44.0, 992.0, 719.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 3.0, 44.0, 992.0, 719.0 ],
@@ -73,7 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 3.0, 350.0, 30.0 ],
-					"text" : "janoma's motion capture",
+					"text" : "jamoma's motion capture",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
