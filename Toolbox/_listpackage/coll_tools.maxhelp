@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 3.0, 44.0, 570.0, 369.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 3.0, 44.0, 570.0, 354.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 44.0, 570.0, 369.0 ],
+		"defrect" : [ 3.0, 44.0, 570.0, 354.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -26,7 +32,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.0, 192.0, 219.0, 23.0 ],
+					"patching_rect" : [ 207.0, 181.0, 219.0, 23.0 ],
 					"text" : "remove duplicates (number only)"
 				}
 
@@ -41,6 +47,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 577.0, 44.0, 371.0, 406.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 577.0, 44.0, 371.0, 406.0 ],
@@ -403,15 +415,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 192.0, 140.0, 23.0 ],
+					"patching_rect" : [ 10.0, 181.0, 140.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p remove_duplicates"
@@ -426,7 +438,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.0, 328.0, 342.0, 23.0 ],
+					"patching_rect" : [ 207.0, 317.0, 342.0, 23.0 ],
 					"text" : "an example that removes duplicates and sort a coll"
 				}
 
@@ -441,6 +453,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 582.0, 44.0, 721.0, 786.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 582.0, 44.0, 721.0, 786.0 ],
@@ -1466,15 +1484,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 328.0, 119.0, 23.0 ],
+					"patching_rect" : [ 9.0, 317.0, 119.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p coll_in_practice"
@@ -1489,7 +1507,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.0, 281.0, 238.0, 23.0 ],
+					"patching_rect" : [ 207.0, 270.0, 238.0, 23.0 ],
 					"text" : "uses javascript lh.lsub and lh.lookup"
 				}
 
@@ -1504,6 +1522,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 583.0, 44.0, 526.0, 415.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 583.0, 44.0, 526.0, 415.0 ],
@@ -2012,15 +2036,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 237.0, 178.0, 23.0 ],
+					"patching_rect" : [ 9.0, 226.0, 178.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p coll_search_and_match1"
@@ -2035,7 +2059,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.0, 237.0, 154.0, 23.0 ],
+					"patching_rect" : [ 207.0, 226.0, 154.0, 23.0 ],
 					"text" : "uses zl.sub and zl.nth"
 				}
 
@@ -2048,7 +2072,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.0, 151.0, 219.0, 23.0 ],
+					"patching_rect" : [ 207.0, 140.0, 219.0, 23.0 ],
 					"text" : "save coll on disk with time stamp"
 				}
 
@@ -2061,7 +2085,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.0, 112.0, 227.0, 23.0 ],
+					"patching_rect" : [ 207.0, 101.0, 227.0, 23.0 ],
 					"text" : "output a coll into a group (zl group)"
 				}
 
@@ -2074,7 +2098,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.0, 73.0, 278.0, 23.0 ],
+					"patching_rect" : [ 207.0, 62.0, 278.0, 23.0 ],
 					"text" : "get a list into a coll (listfunnel, iter and idx)"
 				}
 
@@ -2089,6 +2113,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 582.0, 44.0, 567.0, 426.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 582.0, 44.0, 567.0, 426.0 ],
@@ -2633,15 +2663,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 281.0, 178.0, 23.0 ],
+					"patching_rect" : [ 9.0, 270.0, 178.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p coll_search_and_match2"
@@ -2658,6 +2688,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 582.0, 44.0, 318.0, 259.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 582.0, 44.0, 318.0, 259.0 ],
@@ -2841,15 +2877,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 112.0, 87.0, 23.0 ],
+					"patching_rect" : [ 10.0, 101.0, 87.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p coll2group"
@@ -2866,6 +2902,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 579.0, 44.0, 674.0, 180.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 579.0, 44.0, 674.0, 180.0 ],
@@ -3077,15 +3119,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 73.0, 68.0, 23.0 ],
+					"patching_rect" : [ 10.0, 62.0, 68.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p list2coll"
@@ -3102,6 +3144,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 581.0, 44.0, 413.0, 382.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 581.0, 44.0, 413.0, 382.0 ],
@@ -3386,15 +3434,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 151.0, 81.0, 23.0 ],
+					"patching_rect" : [ 10.0, 140.0, 81.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p save_coll"
