@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 0.0, 44.0, 643.0, 504.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 0.0, 44.0, 644.0, 498.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 44.0, 643.0, 504.0 ],
+		"defrect" : [ 0.0, 44.0, 644.0, 498.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -26,7 +32,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 540.0, 350.0, 51.0, 20.0 ],
+					"patching_rect" : [ 550.0, 339.0, 51.0, 20.0 ],
 					"text" : "s metro"
 				}
 
@@ -42,6 +48,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 648.0, 359.0, 481.0, 372.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 648.0, 359.0, 481.0, 372.0 ],
@@ -522,11 +534,11 @@
  ]
 					}
 ,
-					"patching_rect" : [ 516.0, 451.662476, 100.0, 20.0 ],
+					"patching_rect" : [ 525.0, 438.662476, 100.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
@@ -546,7 +558,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 516.0, 476.0, 83.0, 20.0 ],
+					"patching_rect" : [ 525.0, 465.0, 83.0, 20.0 ],
 					"text" : "jit.window foo"
 				}
 
@@ -568,13 +580,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-86",
 					"maxclass" : "jit.fpsgui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 518.0, 403.0, 63.0, 35.0 ]
+					"patching_rect" : [ 527.0, 392.0, 63.0, 36.0 ]
 				}
 
 			}
@@ -585,20 +597,20 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 518.0, 255.0, 20.0, 20.0 ]
+					"patching_rect" : [ 527.0, 244.0, 20.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-89",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 518.0, 281.0, 63.0, 20.0 ],
+					"patching_rect" : [ 527.0, 270.0, 66.0, 20.0 ],
 					"text" : "qmetro 40"
 				}
 
@@ -606,13 +618,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-90",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 518.0, 308.0, 63.0, 20.0 ],
+					"patching_rect" : [ 527.0, 297.0, 65.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -620,13 +632,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-91",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 518.0, 378.0, 85.0, 20.0 ],
+					"patching_rect" : [ 527.0, 367.0, 88.0, 20.0 ],
 					"text" : "jit.gl.render foo"
 				}
 
@@ -934,6 +946,19 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-40",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 517.0, 238.0, 122.147247, 254.0 ],
+					"rounded" : 30
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 180.0,
 					"background" : 1,
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1160,7 +1185,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 571.5, 339.0, 527.5, 339.0 ],
+					"midpoints" : [ 582.5, 328.0, 536.5, 328.0 ],
 					"source" : [ "obj-90", 2 ]
 				}
 
