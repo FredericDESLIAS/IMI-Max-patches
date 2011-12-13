@@ -74,9 +74,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 581.0, 373.0, 465.0, 325.0 ],
+						"rect" : [ 449.0, 371.0, 465.0, 325.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 581.0, 373.0, 465.0, 325.0 ],
+						"defrect" : [ 449.0, 371.0, 465.0, 325.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -225,7 +225,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 149.0, 119.0, 65.0, 17.0 ],
-									"text" : "pos 580 45"
+									"text" : "pos 450 45"
 								}
 
 							}
@@ -556,13 +556,13 @@
 ,
 					"patching_rect" : [ 250.0, 359.662506, 100.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"

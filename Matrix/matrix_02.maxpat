@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 605.0, 44.0, 710.0, 660.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 605.0, 44.0, 710.0, 660.0 ],
@@ -73,13 +79,19 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
+					"fontsize" : 18.0,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 749.0, 357.0, 572.0, 347.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 749.0, 357.0, 572.0, 347.0 ],
@@ -352,13 +364,13 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 628.5, 82.0, 23.0 ],
+					"patching_rect" : [ 9.0, 626.5, 99.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 18.0,
 						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 18.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 18.0
 					}
@@ -420,6 +432,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 832.0, 335.0, 287.0, 188.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 832.0, 335.0, 287.0, 188.0 ],
@@ -495,11 +513,11 @@
 ,
 					"patching_rect" : [ 490.0, 269.0, 119.0, 31.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -586,7 +604,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 257.0, 393.0, 79.0 ],
+					"patching_rect" : [ 9.0, 257.0, 394.0, 79.0 ],
 					"text" : "Colours are represented in ARGB where A is the Alpha channel (transparency), and \nRGB means Red, Green, Blue."
 				}
 

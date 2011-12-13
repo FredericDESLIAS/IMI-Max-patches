@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 4.0, 44.0, 483.0, 476.0 ],
+		"rect" : [ 1.0, 44.0, 483.0, 476.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 483.0, 476.0 ],
+		"defrect" : [ 1.0, 44.0, 483.0, 476.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 369.0, 409.0, 106.0, 34.0 ],
+					"patching_rect" : [ 369.0, 413.0, 106.0, 34.0 ],
 					"text" : "faster version for bigger databases"
 				}
 
@@ -638,13 +638,13 @@
 ,
 					"patching_rect" : [ 21.985199, 398.173462, 144.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 14.0,
-						"fontsize" : 14.0
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p compare_coll"
@@ -830,8 +830,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"patching_rect" : [ 23.0, 110.0, 235.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.0, 149.0, 474.0, 183.0 ],
-					"text" : "dfdfdfdf vow hello jfdkf dfdfl dlfkdlf dlfkdflk "
+					"presentation_rect" : [ 125.0, 149.0, 474.0, 183.0 ]
 				}
 
 			}

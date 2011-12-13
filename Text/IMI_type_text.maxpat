@@ -200,13 +200,13 @@
 ,
 					"patching_rect" : [ 392.0, 595.0, 103.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 14.0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"fontname" : "Arial"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p lcd_version"
@@ -345,13 +345,13 @@
 ,
 					"patching_rect" : [ 42.0, 227.0, 53.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 14.0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"fontname" : "Arial"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p to_lcd"
@@ -869,15 +869,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 168.0, 534.0, 102.0, 20.0 ],
+					"patching_rect" : [ 160.0, 532.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -893,7 +893,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 167.574097, 562.0, 88.0, 20.0 ],
+					"patching_rect" : [ 159.574097, 560.0, 88.0, 20.0 ],
 					"text" : "jit.window test"
 				}
 
@@ -1121,7 +1121,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 52.0, 506.0, 64.0, 20.0 ],
+					"patching_rect" : [ 56.0, 504.0, 64.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1135,7 +1135,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 29.0, 562.0, 60.0, 20.0 ],
+					"patching_rect" : [ 33.0, 560.0, 60.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -1147,7 +1147,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 29.0, 506.0, 20.0, 20.0 ]
+					"patching_rect" : [ 33.0, 504.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1160,7 +1160,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 29.0, 534.0, 68.0, 20.0 ],
+					"patching_rect" : [ 33.0, 532.0, 68.0, 20.0 ],
 					"text" : "qmetro 20"
 				}
 
@@ -1174,7 +1174,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 29.0, 595.0, 227.0, 20.0 ],
+					"patching_rect" : [ 33.0, 593.0, 227.0, 20.0 ],
 					"text" : "jit.gl.render test @erase_color 0. 0. 0. 1."
 				}
 
@@ -1224,6 +1224,19 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-15",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 28.0, 498.0, 240.147247, 120.0 ],
+					"rounded" : 30
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 180.0,
 					"background" : 1,
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1261,7 +1274,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 79.5, 586.0, 38.5, 586.0 ],
+					"midpoints" : [ 83.5, 584.0, 42.5, 584.0 ],
 					"source" : [ "obj-13", 1 ]
 				}
 

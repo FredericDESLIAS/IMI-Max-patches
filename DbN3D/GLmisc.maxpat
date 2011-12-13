@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 193.0, 91.0, 18.0 ],
+					"patching_rect" : [ 5.0, 196.0, 91.0, 18.0 ],
 					"text" : "help jit.gl.model"
 				}
 
@@ -88,8 +88,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 193.0, 89.0, 18.0 ],
-					"text" : "help jit.gl.graph"
+					"patching_rect" : [ 5.0, 197.0, 81.0, 18.0 ],
+					"text" : "load GLgraph"
 				}
 
 			}
@@ -169,7 +169,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 160.0, 97.0, 29.0 ],
+					"patching_rect" : [ 270.0, 160.0, 100.0, 29.0 ],
 					"text" : "generates geometry from existing data"
 				}
 

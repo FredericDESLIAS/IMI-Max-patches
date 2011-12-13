@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 25.0, 69.0, 242.0, 293.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 2.0, 44.0, 242.0, 293.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 25.0, 69.0, 242.0, 293.0 ],
+		"defrect" : [ 2.0, 44.0, 242.0, 293.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -29,9 +35,15 @@
 					"outlettype" : [ "jit_matrix" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 274.0, 63.0, 224.0, 285.0 ],
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
+						"rect" : [ 253.0, 44.0, 224.0, 285.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 274.0, 63.0, 224.0, 285.0 ],
+						"defrect" : [ 253.0, 44.0, 224.0, 285.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -168,12 +180,12 @@
 					"patching_rect" : [ 28.0, 83.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 12.0,
-						"fontsize" : 12.0
+						"fontface" : 0,
+						"globalpatchername" : "",
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p ms-to-matrix"
@@ -191,6 +203,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 25.0, 69.0, 249.0, 350.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 69.0, 249.0, 350.0 ],
@@ -630,12 +648,12 @@
 					"patching_rect" : [ 28.0, 55.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 12.0,
-						"fontsize" : 12.0
+						"fontface" : 0,
+						"globalpatchername" : "",
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p gen-values"

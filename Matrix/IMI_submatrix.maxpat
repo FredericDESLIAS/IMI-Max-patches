@@ -34,7 +34,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 173.0, 92.0, 32.5, 18.0 ],
-					"presentation_rect" : [ 173.0, 92.0, 0.0, 0.0 ],
 					"text" : "stop"
 				}
 
@@ -157,7 +156,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 11.0, 207.0, 303.0, 23.0 ],
+					"patching_rect" : [ 11.0, 208.0, 303.0, 23.0 ],
 					"text" : "jit.submatrix @dim 320 240 @offset 100 100"
 				}
 
@@ -271,7 +270,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 32.0, 221.0, 21.0 ],
+					"patching_rect" : [ 4.0, 30.0, 221.0, 21.0 ],
 					"text" : "Reference a sub-region of a matrix.",
 					"textcolor" : [ 0.836942, 0.836942, 0.836942, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -289,7 +288,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 416.0, 51.0 ],
+					"patching_rect" : [ 2.0, 3.0, 416.0, 49.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 4.0, 44.0, 395.0, 397.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 4.0, 44.0, 387.0, 376.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 395.0, 397.0 ],
+		"defrect" : [ 4.0, 44.0, 387.0, 376.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -31,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 320.0, 367.5, 60.0, 20.0 ],
+					"patching_rect" : [ 315.0, 348.5, 60.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 701.0, 253.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -50,7 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 229.0, 371.0, 87.0, 16.0 ],
+					"patching_rect" : [ 288.0, 352.0, 87.0, 16.0 ],
 					"text" : "help jit.fill.maxpat"
 				}
 
@@ -65,7 +71,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 173.0, 368.0, 52.0, 20.0 ],
+					"patching_rect" : [ 289.0, 349.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -80,7 +86,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.0, 180.0, 140.0, 20.0 ],
+					"patching_rect" : [ 237.0, 161.0, 140.0, 20.0 ],
 					"text" : "loadmess rowheight 54"
 				}
 
@@ -95,7 +101,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.0, 203.0, 129.0, 20.0 ],
+					"patching_rect" : [ 237.0, 184.0, 129.0, 20.0 ],
 					"text" : "loadmess colwidth 54"
 				}
 
@@ -110,7 +116,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 8.0, 150.0, 30.0 ],
+					"patching_rect" : [ 4.0, 4.0, 150.0, 30.0 ],
 					"text" : "IMI jit.fill",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -125,7 +131,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 242.0, 137.0, 107.0, 27.0 ],
+					"patching_rect" : [ 237.0, 118.0, 107.0, 27.0 ],
 					"text" : "4 x 3 matrix"
 				}
 
@@ -147,7 +153,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 14.0, 179.0, 217.0, 160.0 ],
+					"patching_rect" : [ 9.0, 160.0, 217.0, 160.0 ],
 					"precision" : 4,
 					"rowheight" : 54,
 					"rows" : 3,
@@ -165,7 +171,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 14.0, 137.0, 214.0, 27.0 ],
+					"patching_rect" : [ 9.0, 118.0, 214.0, 27.0 ],
 					"text" : "jit.matrix here 1 char 4 3"
 				}
 
@@ -179,7 +185,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 99.0, 88.0, 27.0 ],
+					"patching_rect" : [ 9.0, 80.0, 88.0, 27.0 ],
 					"text" : "jit.fill here"
 				}
 
@@ -193,7 +199,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 62.0, 216.0, 25.0 ],
+					"patching_rect" : [ 9.0, 43.0, 216.0, 25.0 ],
 					"text" : "1 2 3 4 5 6 7 8 9 10 11 12"
 				}
 
@@ -209,7 +215,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 6.0, 383.0, 33.0 ],
+					"patching_rect" : [ 2.0, 2.0, 383.0, 33.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

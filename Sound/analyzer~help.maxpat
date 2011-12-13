@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 4.0, 44.0, 910.0, 709.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 4.0, 44.0, 910.0, 709.0 ],
@@ -666,6 +672,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 30.0, 48.0, 466.0, 722.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 30.0, 48.0, 466.0, 722.0 ],
@@ -1319,13 +1331,13 @@
 ,
 					"patching_rect" : [ 226.0, 482.0, 65.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p description"
@@ -1691,6 +1703,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 46.0, 82.0, 280.0, 529.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 46.0, 82.0, 280.0, 529.0 ],
@@ -1821,13 +1839,13 @@
 ,
 					"patching_rect" : [ 226.0, 501.0, 41.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p fiddle"
@@ -2513,11 +2531,10 @@
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-130",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 154.0, 419.0, 46.0, 31.0 ],
+					"patching_rect" : [ 152.0, 419.0, 51.0, 19.0 ],
 					"text" : "Loudness"
 				}
 

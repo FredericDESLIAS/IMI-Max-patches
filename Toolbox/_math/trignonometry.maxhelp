@@ -84,9 +84,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 406.0, 44.0, 390.0, 478.0 ],
+						"rect" : [ 802.0, 44.0, 390.0, 478.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 406.0, 44.0, 390.0, 478.0 ],
+						"defrect" : [ 802.0, 44.0, 390.0, 478.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -101,7 +101,6 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -279,13 +278,13 @@
 ,
 									"patching_rect" : [ 232.0, 424.0, 67.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 11.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 11.0,
-										"globalpatchername" : ""
+										"fontface" : 0,
+										"globalpatchername" : "",
+										"fontsize" : 11.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p 360wrap"
@@ -721,13 +720,13 @@
 ,
 									"patching_rect" : [ 133.0, 190.0, 134.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 14.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 14.0,
-										"globalpatchername" : ""
+										"fontface" : 0,
+										"globalpatchername" : "",
+										"fontsize" : 14.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p pythagoras-2"
@@ -1031,13 +1030,13 @@
 ,
 									"patching_rect" : [ 133.0, 58.0, 134.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 14.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 14.0,
-										"globalpatchername" : ""
+										"fontface" : 0,
+										"globalpatchername" : "",
+										"fontsize" : 14.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p pythagoras"
@@ -1170,13 +1169,13 @@
 ,
 					"patching_rect" : [ 8.0, 436.0, 95.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"globalpatchername" : ""
+						"fontface" : 0,
+						"globalpatchername" : "",
+						"fontsize" : 14.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p pythagoras"

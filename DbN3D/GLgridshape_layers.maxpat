@@ -116,13 +116,13 @@
 ,
 					"patching_rect" : [ 746.0, 469.638458, 46.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p tips"
@@ -628,13 +628,13 @@
 ,
 					"patching_rect" : [ 11.953674, 422.662506, 99.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -651,7 +651,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.953674, 449.638458, 124.0, 39.0 ],
+					"patching_rect" : [ 11.953674, 449.638458, 127.0, 39.0 ],
 					"text" : "jit.window output @depthbuffer 0"
 				}
 
@@ -1164,7 +1164,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 298.0, 135.147247, 196.0 ],
+					"patching_rect" : [ 5.0, 296.0, 140.147247, 198.0 ],
 					"rounded" : 30
 				}
 

@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 3.0, 44.0, 403.0, 205.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 3.0, 44.0, 397.0, 205.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 44.0, 403.0, 205.0 ],
+		"defrect" : [ 3.0, 44.0, 397.0, 205.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -26,7 +32,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 31.0, 170.0, 33.0, 20.0 ],
+					"patching_rect" : [ 28.0, 167.0, 33.0, 20.0 ],
 					"text" : "sent"
 				}
 
@@ -38,7 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 9.0, 171.0, 20.0, 20.0 ]
+					"patching_rect" : [ 6.0, 168.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -51,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 140.0, 50.0, 23.0 ],
+					"patching_rect" : [ 6.0, 137.0, 50.0, 23.0 ],
 					"text" : "twitter"
 				}
 
@@ -66,7 +72,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 5.0, 171.0, 31.0 ],
+					"patching_rect" : [ 2.0, 2.0, 171.0, 31.0 ],
 					"text" : "Twitter post",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -82,7 +88,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 32.0, 334.0, 21.0 ],
+					"patching_rect" : [ 3.0, 29.0, 334.0, 21.0 ],
 					"text" : "Post to a twitter account using the unix CURL command. ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -97,7 +103,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 68.0, 114.0, 20.0 ],
+					"patching_rect" : [ 6.0, 65.0, 114.0, 20.0 ],
 					"text" : "then your message "
 				}
 
@@ -110,7 +116,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 69.0, 163.0, 20.0 ],
+					"patching_rect" : [ 224.0, 66.0, 163.0, 20.0 ],
 					"text" : "put your username:password"
 				}
 
@@ -124,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 92.0, 101.0, 18.0 ],
+					"patching_rect" : [ 6.0, 89.0, 101.0, 18.0 ],
 					"text" : "using twitter post"
 				}
 
@@ -138,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 227.0, 93.0, 119.0, 18.0 ],
+					"patching_rect" : [ 224.0, 90.0, 119.0, 18.0 ],
 					"text" : "username:password"
 				}
 
@@ -154,7 +160,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 5.0, 393.0, 51.0 ],
+					"patching_rect" : [ 2.0, 2.0, 393.0, 51.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -173,7 +179,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 236.5, 125.0, 49.5, 125.0 ],
+					"midpoints" : [ 233.5, 122.0, 46.5, 122.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

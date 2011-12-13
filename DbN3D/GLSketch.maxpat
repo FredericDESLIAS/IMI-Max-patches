@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 3.0, 44.0, 440.0, 404.0 ],
+		"rect" : [ 3.0, 44.0, 438.0, 394.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 44.0, 440.0, 404.0 ],
+		"defrect" : [ 3.0, 44.0, 438.0, 394.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -77,13 +77,13 @@
 ,
 					"patching_rect" : [ 9.0, 362.0, 100.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 14.0,
-						"default_fontsize" : 14.0
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p gl_primitives"

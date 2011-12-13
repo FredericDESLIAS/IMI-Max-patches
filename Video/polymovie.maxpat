@@ -63,7 +63,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 416.0, 104.0, 170.0, 18.0 ],
+					"patching_rect" : [ 416.0, 100.0, 170.0, 18.0 ],
 					"text" : "target 2, read hapticanna.mov"
 				}
 
@@ -104,7 +104,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 441.0, 179.0, 59.0, 20.0 ],
+					"patching_rect" : [ 441.0, 175.0, 59.0, 20.0 ],
 					"text" : "s to_poly"
 				}
 
@@ -118,7 +118,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 441.0, 132.0, 148.0, 18.0 ],
+					"patching_rect" : [ 441.0, 128.0, 148.0, 18.0 ],
 					"text" : "target 1, read sophie.mov"
 				}
 
@@ -544,13 +544,13 @@
 ,
 					"patching_rect" : [ 416.0, 301.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p folder2poly"

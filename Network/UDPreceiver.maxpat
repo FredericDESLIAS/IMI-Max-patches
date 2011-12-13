@@ -32,7 +32,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 132.0, 238.0, 118.0, 23.0 ],
+					"patching_rect" : [ 123.0, 238.0, 118.0, 23.0 ],
 					"text" : "then route /clipnr"
 				}
 
@@ -60,7 +60,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.0, 192.0, 188.0, 39.0 ],
+					"patching_rect" : [ 193.0, 192.0, 181.0, 39.0 ],
 					"text" : "route the messages coming \nfrom /moviesource101/"
 				}
 
@@ -121,7 +121,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 68.0, 154.0, 175.0, 21.0 ],
-					"text" : "/moviesource101/clipnr 4"
+					"text" : "/moviesource101/scrub 0"
 				}
 
 			}
@@ -162,7 +162,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 15.0, 273.0, 50.0, 23.0 ]
+					"patching_rect" : [ 11.0, 273.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -175,7 +175,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 238.0, 110.0, 23.0 ],
+					"patching_rect" : [ 11.0, 238.0, 110.0, 23.0 ],
 					"text" : "osc-route /clipnr"
 				}
 
@@ -189,7 +189,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 192.0, 179.0, 23.0 ],
+					"patching_rect" : [ 11.0, 192.0, 179.0, 23.0 ],
 					"text" : "osc-route /moviesource101"
 				}
 
@@ -224,7 +224,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"hidden" : 0,
-					"midpoints" : [  ],
+					"midpoints" : [ 72.0, 142.0, 20.5, 142.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 

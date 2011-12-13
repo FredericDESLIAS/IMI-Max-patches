@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 7.0, 44.0, 574.0, 479.0 ],
+		"rect" : [ 1.0, 44.0, 574.0, 479.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 7.0, 44.0, 574.0, 479.0 ],
+		"defrect" : [ 1.0, 44.0, 574.0, 479.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -457,13 +457,13 @@
 ,
 									"patching_rect" : [ 296.0, 333.0, 81.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
 										"default_fontsize" : 14.0,
 										"fontname" : "Arial",
 										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
 										"fontface" : 0,
-										"fontsize" : 14.0,
-										"default_fontface" : 0
+										"fontsize" : 14.0
 									}
 ,
 									"text" : "p count+read"
@@ -868,13 +868,13 @@
 ,
 					"patching_rect" : [ 2.0, 128.0, 119.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p uldl2regexp"
@@ -1134,13 +1134,13 @@
 ,
 					"patching_rect" : [ 430.0, 95.0, 103.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p examples"
@@ -1266,13 +1266,13 @@
 ,
 					"patching_rect" : [ 211.0, 329.0, 48.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p clear"
@@ -1529,13 +1529,13 @@
 ,
 					"patching_rect" : [ 162.0, 233.0, 115.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p description_count"
@@ -1625,7 +1625,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2.0, 66.0, 531.0, 21.0 ],
+					"patching_rect" : [ 2.0, 62.0, 531.0, 21.0 ],
 					"text" : "download http://twitter.com/statuses/user_timeline.xml?screen_name=nnimar matrix"
 				}
 

@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 1.0, 44.0, 568.0, 601.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 1.0, 44.0, 568.0, 601.0 ],
@@ -193,6 +199,12 @@
 					"outlettype" : [ "signal", "float", "float" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 25.0, 69.0, 207.0, 307.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 69.0, 207.0, 307.0 ],
@@ -287,6 +299,12 @@
 									"outlettype" : [ "signal", "", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 626.0, 181.0, 715.0, 628.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 626.0, 181.0, 715.0, 628.0 ],
@@ -767,13 +785,13 @@
 ,
 									"patching_rect" : [ 36.0, 100.0, 93.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"globalpatchername" : ""
+										"fontface" : 0,
+										"globalpatchername" : "",
+										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p wavescale"
@@ -945,13 +963,13 @@
 ,
 					"patching_rect" : [ 20.0, 237.0, 49.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"globalpatchername" : ""
+						"fontface" : 0,
+						"globalpatchername" : "",
+						"fontsize" : 14.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p wave"
@@ -1338,6 +1356,12 @@
 					"outlettype" : [ "signal", "bang" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 477.0, 124.0, 758.0, 509.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 477.0, 124.0, 758.0, 509.0 ],
@@ -1985,13 +2009,13 @@
 ,
 					"patching_rect" : [ 20.0, 201.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"fontface" : 0,
+						"globalpatchername" : "",
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p wave_select"

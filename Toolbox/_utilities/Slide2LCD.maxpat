@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 7.0, 44.0, 469.0, 529.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 7.0, 44.0, 469.0, 529.0 ],
@@ -25,7 +31,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 204.0, 411.0, 80.0, 80.0 ]
+					"patching_rect" : [ 161.0, 411.0, 80.0, 80.0 ]
 				}
 
 			}
@@ -63,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 161.0, 48.0, 79.0, 20.0 ],
+					"patching_rect" : [ 161.0, 54.0, 79.0, 20.0 ],
 					"text" : "qmetro 1000"
 				}
 
@@ -85,7 +91,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-19",
 					"maxclass" : "newobj",
@@ -156,7 +162,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
@@ -247,7 +253,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 170.5, 404.5, 213.5, 404.5 ],
+					"midpoints" : [ 170.5, 404.5, 170.5, 404.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 

@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 1.0, 44.0, 626.0, 629.0 ],
+		"rect" : [ 1.0, 44.0, 612.0, 627.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1.0, 44.0, 626.0, 629.0 ],
+		"defrect" : [ 1.0, 44.0, 612.0, 627.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -210,15 +210,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 580.0, 59.0, 40.0, 23.0 ],
+					"patching_rect" : [ 568.0, 59.0, 40.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 14.0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"fontname" : "Arial"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p init"
@@ -238,7 +238,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 527.0, 597.5, 86.0, 20.0 ],
+					"patching_rect" : [ 521.0, 597.5, 86.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 626.0, 178.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -258,7 +258,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 566.5, 118.0, 27.0 ],
+					"patching_rect" : [ 489.0, 566.5, 118.0, 27.0 ],
 					"text" : "load IMI_text_alpha+.maxpat"
 				}
 
@@ -273,7 +273,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 493.0, 562.5, 52.0, 20.0 ],
+					"patching_rect" : [ 487.0, 562.5, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -539,7 +539,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 621.0, 47.0 ],
+					"patching_rect" : [ 2.0, 2.0, 607.0, 47.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

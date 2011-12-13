@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 0.0, 44.0, 767.0, 762.0 ],
+		"rect" : [ 0.0, 44.0, 766.0, 759.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 44.0, 767.0, 762.0 ],
+		"defrect" : [ 0.0, 44.0, 766.0, 759.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -37,27 +37,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 490.0, 734.5, 83.0, 20.0 ],
+					"patching_rect" : [ 490.0, 731.5, 83.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 415.0, 735.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
 					"text" : "a-jit.human",
 					"texton" : "Stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-38",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 713.0, 122.0, 16.0 ],
-					"text" : "load a-jit.humans.maxpat"
 				}
 
 			}
@@ -74,27 +59,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 668.0, 734.5, 83.0, 20.0 ],
+					"patching_rect" : [ 668.0, 731.5, 83.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 529.0, 746.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
 					"text" : "jit.convolve",
 					"texton" : "Stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-47",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 580.0, 713.0, 130.0, 16.0 ],
-					"text" : "load jit.convolve-morphop2"
 				}
 
 			}
@@ -111,42 +81,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 579.0, 734.5, 83.0, 20.0 ],
+					"patching_rect" : [ 579.0, 731.5, 83.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
 					"text" : "cv.jit.close",
 					"texton" : "Stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-37",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 580.0, 713.0, 113.0, 16.0 ],
-					"text" : "help cv.jit.close.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.595187,
-					"hidden" : 1,
-					"id" : "obj-46",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 579.0, 690.0, 52.0, 20.0 ],
-					"text" : "pcontrol"
 				}
 
 			}
@@ -701,6 +641,66 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 280.0, 174.0, 431.0, 20.0 ],
 					"text" : "using named matrix charlie to efficiently merge alpha channel in jit.pack below"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-38",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 490.0, 734.0, 122.0, 16.0 ],
+					"text" : "load a-jit.humans.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-47",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 580.0, 734.0, 130.0, 16.0 ],
+					"text" : "load jit.convolve-morphop2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-37",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 580.0, 734.0, 113.0, 16.0 ],
+					"text" : "help cv.jit.close.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 579.0, 732.0, 52.0, 20.0 ],
+					"text" : "pcontrol"
 				}
 
 			}
