@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 0.0, 44.0, 615.0, 414.0 ],
+		"rect" : [ 2.0, 44.0, 615.0, 414.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 44.0, 615.0, 414.0 ],
+		"defrect" : [ 2.0, 44.0, 615.0, 414.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -167,8 +167,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 419.0, 123.0, 155.0, 30.0 ],
-					"text" : "/Applications/Max5/examples/IMIpatches/z/IMIsensors.scpt"
+					"patching_rect" : [ 305.0, 123.0, 298.0, 30.0 ],
+					"text" : "arch -i386 osascript /Applications/Max5/examples/IMIpatches/z/SSensorsA.scpt"
 				}
 
 			}
@@ -420,11 +420,11 @@
 ,
 					"patching_rect" : [ 19.0, 341.0, 81.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0
 					}
@@ -745,11 +745,11 @@
 ,
 									"patching_rect" : [ 50.0, 146.0, 52.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"fontname" : "Arial",
 										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -889,11 +889,11 @@
 ,
 					"patching_rect" : [ 37.0, 151.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0
 					}
@@ -907,7 +907,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"items" : [ "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
+					"items" : [ "Bluetooth-PDA-Sync", ",", "Bluetooth-Modem" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

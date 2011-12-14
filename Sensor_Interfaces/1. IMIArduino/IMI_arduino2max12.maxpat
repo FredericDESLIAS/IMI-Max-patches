@@ -248,11 +248,11 @@
 ,
 					"patching_rect" : [ 11.0, 346.0, 80.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0
 					}
@@ -301,8 +301,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 351.0, 138.0, 187.0, 42.0 ],
-					"text" : "osascript /Applications/Max5/examples/IMIpatches/z/IMIsensors.scpt"
+					"patching_rect" : [ 344.0, 131.0, 192.0, 42.0 ],
+					"text" : "arch -i386 osascript /Applications/Max5/examples/IMIpatches/z/SSensorsA.scpt"
 				}
 
 			}
@@ -636,11 +636,11 @@
 ,
 									"patching_rect" : [ 10.0, 58.0, 52.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"fontname" : "Arial",
 										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -780,11 +780,11 @@
 ,
 					"patching_rect" : [ 57.0, 159.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0
 					}
@@ -798,7 +798,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-60",
-					"items" : [ "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
+					"items" : [ "Bluetooth-PDA-Sync", ",", "Bluetooth-Modem" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
