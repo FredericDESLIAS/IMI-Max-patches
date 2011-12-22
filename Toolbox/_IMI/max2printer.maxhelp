@@ -57,7 +57,6 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
@@ -264,13 +263,13 @@
 ,
 									"patching_rect" : [ 98.0, 390.0, 94.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 14.0,
-										"default_fontsize" : 14.0,
-										"fontname" : "Arial",
 										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 14.0,
 										"globalpatchername" : "",
-										"default_fontname" : "Arial"
+										"fontface" : 0,
+										"fontsize" : 14.0
 									}
 ,
 									"text" : "p shell2menu"
@@ -859,15 +858,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 389.0, 316.0, 125.0, 23.0 ],
+					"patching_rect" : [ 389.0, 315.0, 125.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
 						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"globalpatchername" : "",
-						"default_fontname" : "Arial"
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p print_in_practice"
@@ -884,7 +883,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 4.0, 179.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 179.0, 30.0 ],
 					"text" : "Max2printer",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -900,7 +899,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 204.0, 21.0 ],
+					"patching_rect" : [ 3.0, 29.0, 204.0, 21.0 ],
 					"text" : "send a document to the printer",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -915,7 +914,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 191.0, 379.0, 23.0 ],
+					"patching_rect" : [ 128.0, 190.0, 379.0, 23.0 ],
 					"text" : "format the message (LPR is the print command in Unix)"
 				}
 
@@ -928,7 +927,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.0, 234.624451, 54.0, 23.0 ],
+					"patching_rect" : [ 263.0, 233.624451, 54.0, 23.0 ],
 					"text" : "output"
 				}
 
@@ -941,7 +940,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 154.0, 234.0, 23.0 ],
+					"patching_rect" : [ 128.0, 153.0, 234.0, 23.0 ],
 					"text" : "trigger bang string (the file name)"
 				}
 
@@ -955,7 +954,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 62.0, 155.0, 59.5, 23.0 ],
+					"patching_rect" : [ 62.0, 154.0, 59.5, 23.0 ],
 					"text" : "t b s"
 				}
 
@@ -969,7 +968,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 116.0, 130.0, 21.0 ],
+					"patching_rect" : [ 12.0, 115.0, 130.0, 21.0 ],
 					"text" : "/Users/imi/Desktop/"
 				}
 
@@ -982,7 +981,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 114.383255, 194.0, 23.0 ],
+					"patching_rect" : [ 218.0, 113.383255, 194.0, 23.0 ],
 					"text" : "insert directory +  file name"
 				}
 
@@ -996,7 +995,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.313873, 234.624451, 224.0, 21.0 ],
+					"patching_rect" : [ 30.313873, 233.624451, 224.0, 21.0 ],
 					"text" : "lpr /Users/imi/Desktop/zoo.rtf"
 				}
 
@@ -1010,7 +1009,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 157.099152, 115.383255, 57.0, 21.0 ],
+					"patching_rect" : [ 157.099152, 114.383255, 57.0, 21.0 ],
 					"text" : "zoo.rtf"
 				}
 
@@ -1024,7 +1023,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.857941, 192.088104, 110.0, 23.0 ],
+					"patching_rect" : [ 11.857941, 191.088104, 110.0, 23.0 ],
 					"text" : "sprintf lpr %s%s"
 				}
 
@@ -1036,7 +1035,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 12.0, 61.5, 30.0, 30.0 ]
+					"patching_rect" : [ 12.0, 60.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -1049,7 +1048,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 274.5, 68.0, 23.0 ],
+					"patching_rect" : [ 12.0, 273.5, 68.0, 23.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -1063,7 +1062,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 12.0, 313.0, 51.0, 27.0 ],
+					"patching_rect" : [ 12.0, 312.0, 51.0, 27.0 ],
 					"text" : "shell"
 				}
 
@@ -1079,7 +1078,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 519.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 519.0, 49.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1089,7 +1088,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 166.599152, 149.69162, 71.5, 149.69162 ],
+					"midpoints" : [ 166.599152, 148.69162, 71.5, 148.69162 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1116,7 +1115,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 71.5, 185.544052, 21.357941, 185.544052 ],
+					"midpoints" : [ 71.5, 184.544052, 21.357941, 184.544052 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -1134,7 +1133,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 21.5, 102.44162, 166.599152, 102.44162 ],
+					"midpoints" : [ 21.5, 101.44162, 166.599152, 101.44162 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1143,7 +1142,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 21.5, 102.75, 21.5, 102.75 ],
+					"midpoints" : [ 21.5, 101.75, 21.5, 101.75 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1152,7 +1151,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 21.357941, 226.856262, 244.813873, 226.856262 ],
+					"midpoints" : [ 21.357941, 225.856262, 244.813873, 225.856262 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

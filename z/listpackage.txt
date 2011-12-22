@@ -8,7 +8,7 @@ coll, "store and edit a collection of different messages";
 coll_tools, "the iter object vs the group object";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 jit.cellblock, "two-dimensional storage and viewing";
-matrix2cell, "copy matrix to a cellblock";
+cell2number, "copy matrix to a cellblock";
 coll2cellblock, "copy a coll into a cellblock";
 cellblock2csv, "copy a cellblock into a csv file";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";

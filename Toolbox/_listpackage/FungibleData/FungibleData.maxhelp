@@ -175,7 +175,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 154.0, 89.0, 204.0, 17.0 ],
-									"text" : "This should really be \"lscale\" froom the lobjects."
+									"text" : "This should really be \"lscale\" from the lobjects."
 								}
 
 							}
@@ -248,13 +248,13 @@
 ,
 					"patching_rect" : [ 943.0, 186.0, 65.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
 						"fontsize" : 9.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 9.0
+						"default_fontsize" : 9.0,
+						"fontface" : 0
 					}
 ,
 					"text" : "p List_Scale"
@@ -288,13 +288,13 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 11.0, 511.0, 92.0, 21.0 ],
 					"saved_object_attributes" : 					{
+						"notename" : 0,
 						"name" : "chevron",
 						"size" : 128,
-						"range" : 128,
 						"showeditor" : 0,
+						"range" : 128,
 						"signed" : 0,
-						"embed" : 1,
-						"notename" : 0
+						"embed" : 1
 					}
 ,
 					"showeditor" : 0,
@@ -687,13 +687,13 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 11.0, 487.0, 84.0, 21.0 ],
 					"saved_object_attributes" : 					{
+						"notename" : 0,
 						"name" : "shorty",
 						"size" : 32,
-						"range" : 128,
 						"showeditor" : 0,
+						"range" : 128,
 						"signed" : 0,
-						"embed" : 1,
-						"notename" : 0
+						"embed" : 1
 					}
 ,
 					"showeditor" : 0,
@@ -972,13 +972,13 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 179.0, 458.0, 75.0, 21.0 ],
 					"saved_object_attributes" : 					{
+						"notename" : 0,
 						"name" : "temp",
 						"size" : 128,
-						"range" : 128,
 						"showeditor" : 0,
+						"range" : 128,
 						"signed" : 0,
-						"embed" : 0,
-						"notename" : 0
+						"embed" : 0
 					}
 ,
 					"showeditor" : 0,
@@ -998,13 +998,13 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 11.0, 463.0, 76.0, 21.0 ],
 					"saved_object_attributes" : 					{
+						"notename" : 0,
 						"name" : "SinFn",
 						"size" : 128,
-						"range" : 128,
 						"showeditor" : 0,
+						"range" : 128,
 						"signed" : 0,
-						"embed" : 1,
-						"notename" : 0
+						"embed" : 1
 					}
 ,
 					"showeditor" : 0,
@@ -1234,13 +1234,13 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 179.0, 508.0, 84.0, 21.0 ],
 					"saved_object_attributes" : 					{
+						"notename" : 0,
 						"name" : "output",
 						"size" : 128,
-						"range" : 128,
 						"showeditor" : 0,
+						"range" : 128,
 						"signed" : 0,
-						"embed" : 1,
-						"notename" : 0
+						"embed" : 1
 					}
 ,
 					"showeditor" : 0,
@@ -1389,13 +1389,13 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 11.0, 439.0, 112.0, 21.0 ],
 					"saved_object_attributes" : 					{
+						"notename" : 0,
 						"name" : "myIntegers",
 						"size" : 128,
-						"range" : 128,
 						"showeditor" : 0,
+						"range" : 128,
 						"signed" : 0,
-						"embed" : 1,
-						"notename" : 0
+						"embed" : 1
 					}
 ,
 					"showeditor" : 0,

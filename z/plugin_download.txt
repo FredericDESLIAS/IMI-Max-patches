@@ -11,7 +11,7 @@ http://www.greyfade.com/joe/maxmsp.html, "jb.utilities";
 http://cycling74.com/toolbox/bernstein-shell/, "Max to Unix";
 http://www.iamas.ac.jp/~aka/max/#aka_shell, "Max to Unix (aka)";
 http://www.iamas.ac.jp/~aka/max/#aka_wiiremote, "connect the Wii";
-http://www.nr74.org/c74.html, "iPhone plugin";
+http://nr74.org/nr74_software/c74.html, "iPhone plugin";
 行行行行行行行行行行行行行行行行行行行行行,"";
 http://syphon.v002.info/, "GL sharing";
 http://hcgilje.wordpress.com/vpt/, "VPT 5";

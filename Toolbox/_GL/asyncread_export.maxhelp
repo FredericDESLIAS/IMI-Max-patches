@@ -194,13 +194,13 @@
 ,
 					"patching_rect" : [ 210.0, 245.0, 46.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p dims"
@@ -255,7 +255,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.0, 456.0, 93.0, 20.0 ],
+					"patching_rect" : [ 49.0, 450.0, 93.0, 20.0 ],
 					"text" : "busy recording"
 				}
 
@@ -585,7 +585,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 30.0, 274.0, 291.0, 18.0 ],
-									"text" : "exportimage /Users/nnimar/Desktop/image00 jpeg"
+									"text" : "exportimage /Users/hubbles/Desktop/image00 jpeg"
 								}
 
 							}
@@ -613,7 +613,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 551.0, 292.0, 336.0, 18.0 ],
-									"text" : "write /Users/nnimar/Desktop/video.mov 25. dvpal max 600"
+									"text" : "write /Users/hubbles/Desktop/video.mov 25. dvpal max 600"
 								}
 
 							}
@@ -1029,13 +1029,13 @@
 ,
 					"patching_rect" : [ 11.0, 412.0, 130.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p asyncread_export"
@@ -1609,13 +1609,13 @@
 ,
 					"patching_rect" : [ 13.0, 302.662506, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -1941,8 +1941,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 73.0, 138.147247, 292.0 ],
-					"rounded" : 30,
-					"shadow" : 3
+					"rounded" : 30
 				}
 
 			}
@@ -1957,8 +1956,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 776.0, 64.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 3.0, 2.0, 776.0, 64.0 ]
 				}
 
 			}

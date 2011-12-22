@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 4.0, 44.0, 649.0, 475.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 4.0, 44.0, 649.0, 475.0 ],
@@ -45,8 +51,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 445.0, 513.0, 25.0 ],
-					"text" : ";\rmax launchbrowser \"\\\"file://////Applications/Max5/_abstract/IMIpatches/Sensor_Interfaces/10. Wii/Wiimote2Max_simple.oscd\\\"\""
+					"patching_rect" : [ 123.0, 443.0, 513.0, 25.0 ],
+					"text" : ";\rmax launchbrowser \"\\\"file://////Applications/Max5/examples/IMIpatches/Sensor_Interfaces/10. Wii/Wiimote2Max_simple.oscd\\\"\""
 				}
 
 			}
@@ -193,6 +199,12 @@
 					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 472.0, 44.0, 263.0, 266.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 472.0, 44.0, 263.0, 266.0 ],
@@ -291,13 +303,13 @@
 ,
 					"patching_rect" : [ 349.0, 186.0, 72.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontname" : "Arial"
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p acceldata"
@@ -507,6 +519,12 @@
 					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 4.0, 125.0, 640.0, 407.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 4.0, 125.0, 640.0, 407.0 ],
@@ -605,13 +623,13 @@
 ,
 					"patching_rect" : [ 36.0, 186.0, 72.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontname" : "Arial"
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p acceldata"

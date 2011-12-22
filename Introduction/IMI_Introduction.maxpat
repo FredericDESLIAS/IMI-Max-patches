@@ -355,13 +355,13 @@
 ,
 					"patching_rect" : [ 328.0, 470.0, 75.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
+						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p messages"
@@ -487,9 +487,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 485.0, 297.0, 406.0, 255.0 ],
+						"rect" : [ 486.0, 44.0, 406.0, 255.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 485.0, 297.0, 406.0, 255.0 ],
+						"defrect" : [ 486.0, 44.0, 406.0, 255.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -712,13 +712,13 @@
 ,
 					"patching_rect" : [ 418.0, 471.0, 45.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
+						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p logic"

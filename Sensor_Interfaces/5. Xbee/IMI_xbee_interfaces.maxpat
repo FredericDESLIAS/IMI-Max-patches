@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 0.0, 44.0, 536.0, 471.0 ],
+		"rect" : [ 2.0, 44.0, 537.0, 451.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 44.0, 536.0, 471.0 ],
+		"defrect" : [ 2.0, 44.0, 537.0, 451.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -51,7 +51,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 375.0, 306.0, 29.0 ],
+					"patching_rect" : [ 18.0, 373.0, 306.0, 29.0 ],
 					"text" : ";\rmax launchbrowser http://blog.lib.umn.edu/ali/2009xbee/"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 309.0, 400.0, 85.0, 20.0 ],
+					"patching_rect" : [ 309.0, 381.0, 85.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 311.0, 418.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -107,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 235.0, 400.0, 64.0, 20.0 ],
+					"patching_rect" : [ 235.0, 381.0, 64.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 341.0, 419.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -129,7 +129,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 94.0, 400.0, 132.0, 20.0 ],
+					"patching_rect" : [ 94.0, 381.0, 132.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -159,12 +159,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-4",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 310.0, 189.0, 39.0 ],
-					"text" : "use the Xbee Arduino library\n(series 2)"
+					"patching_rect" : [ 256.0, 310.0, 263.0, 23.0 ],
+					"text" : "use the Xbee Arduino library (series 2)"
 				}
 
 			}
@@ -177,7 +176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 15.0, 299.0, 82.0, 20.0 ],
+					"patching_rect" : [ 15.0, 292.0, 82.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 189.0, 207.0, 100.0, 20.0 ],
 					"text" : "2. xbee_api"
@@ -208,7 +207,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 439.0, 421.0, 23.0 ],
+					"patching_rect" : [ 41.0, 410.0, 421.0, 23.0 ],
 					"text" : "It is recommended to read the article on the Xbee in the IMI Wiki !"
 				}
 
@@ -223,7 +222,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 112.0, 55.0, 19.0 ],
+					"patching_rect" : [ 16.0, 111.0, 55.0, 19.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -236,10 +235,10 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 16.0, 111.0, 33.0, 19.0 ],
-					"text" : "shell"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 16.0, 111.0, 56.0, 19.0 ],
+					"text" : "aka.shell"
 				}
 
 			}
@@ -310,7 +309,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 257.0, 93.0, 264.0, 39.0 ],
-					"text" : "see Applications>Max5>examples>\nIMIpatches > Sensor Interfaces"
+					"text" : "see Applications>Max5>examples\n>IMIpatches > Sensor Interfaces"
 				}
 
 			}
@@ -323,7 +322,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 256.0, 66.0, 261.0, 23.0 ],
-					"text" : "Click to open the Xbee interface folder"
+					"text" : "Click to open the sensor interface folder"
 				}
 
 			}
@@ -351,7 +350,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 322.0, 124.0, 18.0 ],
+					"patching_rect" : [ 17.0, 312.0, 124.0, 18.0 ],
 					"text" : "load xbee_api.maxpat"
 				}
 
@@ -366,7 +365,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 299.0, 52.0, 20.0 ],
+					"patching_rect" : [ 17.0, 292.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -398,7 +397,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 3.0, 229.0, 30.0 ],
-					"text" : "IMI Xbee interface",
+					"text" : "IMI Xbee interfaces",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -415,7 +414,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 86.0, 214.0, 42.0 ],
+					"patching_rect" : [ 16.0, 85.0, 158.0, 42.0 ],
 					"text" : "arch -i386 osascript /Applications/Max5/examples/IMIpatches/z/SSensorsA2.scpt"
 				}
 
@@ -431,7 +430,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 362.0, 530.0, 4.0 ],
+					"patching_rect" : [ 4.0, 350.0, 530.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -552,7 +551,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 26.5, 301.0, 26.5, 301.0 ],
+					"midpoints" : [ 26.5, 294.0, 26.5, 294.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

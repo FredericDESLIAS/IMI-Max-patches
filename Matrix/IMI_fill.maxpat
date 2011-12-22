@@ -86,7 +86,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 237.0, 161.0, 140.0, 20.0 ],
+					"patching_rect" : [ 237.0, 164.0, 140.0, 20.0 ],
 					"text" : "loadmess rowheight 54"
 				}
 
@@ -101,7 +101,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 237.0, 184.0, 129.0, 20.0 ],
+					"patching_rect" : [ 237.0, 187.0, 129.0, 20.0 ],
 					"text" : "loadmess colwidth 54"
 				}
 
@@ -131,7 +131,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 118.0, 107.0, 27.0 ],
+					"patching_rect" : [ 237.0, 121.0, 107.0, 27.0 ],
 					"text" : "4 x 3 matrix"
 				}
 
@@ -153,7 +153,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 9.0, 160.0, 217.0, 160.0 ],
+					"patching_rect" : [ 9.0, 163.0, 217.0, 160.0 ],
 					"precision" : 4,
 					"rowheight" : 54,
 					"rows" : 3,
@@ -171,7 +171,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 9.0, 118.0, 214.0, 27.0 ],
+					"patching_rect" : [ 9.0, 121.0, 214.0, 27.0 ],
 					"text" : "jit.matrix here 1 char 4 3"
 				}
 
@@ -185,7 +185,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 9.0, 80.0, 88.0, 27.0 ],
+					"patching_rect" : [ 9.0, 83.0, 88.0, 27.0 ],
 					"text" : "jit.fill here"
 				}
 
@@ -199,7 +199,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 43.0, 216.0, 25.0 ],
+					"patching_rect" : [ 9.0, 46.0, 216.0, 25.0 ],
 					"text" : "1 2 3 4 5 6 7 8 9 10 11 12"
 				}
 

@@ -418,7 +418,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 710.0, 541.0, 89.0, 19.0 ],
+					"patching_rect" : [ 710.0, 540.0, 89.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 223.0, 596.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -438,7 +438,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 710.0, 542.0, 81.0, 15.0 ],
-					"text" : "load GLmultiple+"
+					"text" : "load GL.multiple+"
 				}
 
 			}
@@ -473,9 +473,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 826.0, 373.0, 472.0, 170.0 ],
+						"rect" : [ 850.0, 373.0, 472.0, 170.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 826.0, 373.0, 472.0, 170.0 ],
+						"defrect" : [ 850.0, 373.0, 472.0, 170.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,

@@ -654,10 +654,10 @@
 ,
 									"patching_rect" : [ 102.0, 116.0, 95.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"fontname" : "Arial",
 										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 14.0,
 										"fontface" : 0,
 										"fontsize" : 14.0
@@ -800,10 +800,10 @@
 ,
 					"patching_rect" : [ 73.0, 170.0, 112.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0
@@ -823,7 +823,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 48.0, 254.0, 158.0, 18.0 ],
-					"text" : "clear, paintoval $1 $2 10 10"
+					"text" : "clear, paintoval $1 $2 20 20"
 				}
 
 			}

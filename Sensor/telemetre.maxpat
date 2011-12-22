@@ -1,15 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"appversion" : 		{
-			"major" : 5,
-			"minor" : 1,
-			"revision" : 9
-		}
-,
-		"rect" : [ 4.0, 44.0, 600.0, 458.0 ],
+		"rect" : [ 4.0, 44.0, 600.0, 480.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 600.0, 458.0 ],
+		"defrect" : [ 4.0, 44.0, 600.0, 480.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -35,7 +29,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 365.0, 130.0, 46.0, 20.0 ],
+					"patching_rect" : [ 365.0, 162.0, 46.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -51,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 456.0, 99.0, 38.0, 20.0 ],
+					"patching_rect" : [ 456.0, 131.0, 38.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -65,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
-					"patching_rect" : [ 365.0, 72.0, 110.0, 20.0 ],
+					"patching_rect" : [ 365.0, 95.0, 110.0, 20.0 ],
 					"text" : "telemetreSimple 1"
 				}
 
@@ -78,7 +72,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 496.0, 99.0, 100.0, 20.0 ],
+					"patching_rect" : [ 496.0, 131.0, 100.0, 20.0 ],
 					"text" : "Distance (metre)"
 				}
 
@@ -91,7 +85,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 321.0, 130.0, 41.0, 20.0 ],
+					"patching_rect" : [ 321.0, 162.0, 41.0, 20.0 ],
 					"text" : "Value"
 				}
 
@@ -122,12 +116,6 @@
 					"outlettype" : [ "float" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 5,
-							"minor" : 1,
-							"revision" : 9
-						}
-,
 						"rect" : [ 15.0, 55.0, 242.0, 360.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 15.0, 55.0, 242.0, 360.0 ],
@@ -378,15 +366,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 43.0, 294.0, 73.0, 20.0 ],
+					"patching_rect" : [ 43.0, 312.0, 73.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontsize" : 10.0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p minimum"
@@ -407,7 +395,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 43.0, 320.0, 198.0, 116.0 ],
+					"patching_rect" : [ 43.0, 338.0, 198.0, 116.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"setminmax" : [ 0.0, 4096.0 ],
 					"setstyle" : 3,
@@ -429,7 +417,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 96.0, 157.0, 198.0, 116.0 ],
+					"patching_rect" : [ 96.0, 175.0, 198.0, 116.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"setminmax" : [ 0.0, 4096.0 ],
 					"setstyle" : 3,
@@ -463,7 +451,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 52.0, 110.0, 35.0, 20.0 ],
+					"patching_rect" : [ 52.0, 128.0, 35.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -477,7 +465,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
-					"patching_rect" : [ 96.0, 72.0, 114.0, 20.0 ],
+					"patching_rect" : [ 96.0, 90.0, 114.0, 20.0 ],
 					"text" : "telemetreSimple 1"
 				}
 
@@ -490,7 +478,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 110.0, 40.0, 20.0 ],
+					"patching_rect" : [ 8.0, 128.0, 40.0, 20.0 ],
 					"text" : "Value"
 				}
 
@@ -543,7 +531,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 105.5, 143.0, 52.5, 143.0 ],
+					"midpoints" : [ 105.5, 161.0, 52.5, 161.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -561,7 +549,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 105.5, 100.5, 61.5, 100.5 ],
+					"midpoints" : [ 105.5, 118.5, 61.5, 118.5 ],
 					"source" : [ "obj-6", 0 ]
 				}
 

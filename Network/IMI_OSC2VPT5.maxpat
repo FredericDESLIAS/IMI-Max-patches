@@ -77,12 +77,12 @@
 ,
 					"patching_rect" : [ 643.829346, 282.557251, 88.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"globalpatchername" : ""
 					}
 ,
@@ -311,12 +311,12 @@
 ,
 					"patching_rect" : [ 598.829346, 401.557251, 134.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"globalpatchername" : ""
 					}
 ,
@@ -730,8 +730,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 176.0, 31.0 ],
-					"text" : "IMI OSC2VPT5",
+					"patching_rect" : [ 2.0, 3.0, 148.0, 31.0 ],
+					"text" : "IMI OSC2VPT",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}

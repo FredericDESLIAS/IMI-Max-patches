@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 2.0, 44.0, 491.0, 751.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 2.0, 44.0, 491.0, 751.0 ],
@@ -208,7 +214,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.0, 69.0, 43.0, 20.0 ],
+					"patching_rect" : [ 202.0, 66.0, 43.0, 20.0 ],
 					"text" : "speed"
 				}
 
@@ -222,7 +228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 162.0, 69.0, 39.0, 18.0 ]
+					"patching_rect" : [ 162.0, 66.0, 39.0, 18.0 ]
 				}
 
 			}
@@ -476,14 +482,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 9.0,
+					"fontsize" : 12.0,
 					"id" : "obj-12",
 					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 203.0, 90.0, 25.0 ],
+					"patching_rect" : [ 6.0, 201.0, 112.0, 32.0 ],
 					"text" : "clear, brgb 255 255 255, frgb 0 0 0"
 				}
 
@@ -499,6 +505,21 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 115.0, 494.0, 189.0, 27.0 ],
 					"text" : "jit.lcd 4 char 200 200"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 203.0, 65.0, 80.0, 20.0 ],
+					"text" : "loadmess 10"
 				}
 
 			}
@@ -838,6 +859,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 156.5, 480.0, 124.5, 480.0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}

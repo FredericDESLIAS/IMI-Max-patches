@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 0.0, 44.0, 747.0, 463.0 ],
+		"rect" : [ 0.0, 44.0, 746.0, 461.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 44.0, 747.0, 463.0 ],
+		"defrect" : [ 0.0, 44.0, 746.0, 461.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -249,15 +249,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 242.0, 200.0, 52.0, 23.0 ],
+					"patching_rect" : [ 241.0, 199.0, 52.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p multi"
@@ -273,7 +273,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 218.170593, 167.557251, 167.0, 21.0 ],
+					"patching_rect" : [ 217.170593, 166.557251, 167.0, 21.0 ],
 					"text" : "/moviesource101/scrub 0"
 				}
 
@@ -287,7 +287,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 200.170593, 136.557251, 148.0, 21.0 ],
+					"patching_rect" : [ 199.170593, 135.557251, 148.0, 21.0 ],
 					"text" : "/moviesource101/start"
 				}
 
@@ -301,7 +301,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.170593, 109.557251, 147.0, 21.0 ],
+					"patching_rect" : [ 184.170593, 108.557251, 147.0, 21.0 ],
 					"text" : "/moviesource101/stop"
 				}
 
@@ -357,15 +357,15 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 644.829346, 279.557251, 88.0, 23.0 ],
+					"patching_rect" : [ 643.829346, 278.557251, 88.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p OSC2VPT"
@@ -380,7 +380,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 296.0, 166.0, 20.0 ],
+					"patching_rect" : [ 223.0, 302.0, 166.0, 20.0 ],
 					"text" : "send text to the text module"
 				}
 
@@ -394,7 +394,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 276.0, 155.0, 18.0 ],
+					"patching_rect" : [ 209.0, 282.0, 155.0, 18.0 ],
 					"text" : "/text1/message remote text"
 				}
 
@@ -410,7 +410,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.094118, 0.113725, 0.137255, 0.568627 ],
-					"patching_rect" : [ 87.0, 248.0, 20.0, 20.0 ]
+					"patching_rect" : [ 86.0, 254.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -423,7 +423,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 87.0, 276.0, 115.0, 18.0 ],
+					"patching_rect" : [ 86.0, 282.0, 115.0, 18.0 ],
 					"text" : "/vpt/fullscreen bang"
 				}
 
@@ -441,7 +441,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 602.0, 433.0, 127.0, 20.0 ],
+					"patching_rect" : [ 601.0, 432.0, 127.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 611.0, 163.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -617,15 +617,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 599.829346, 401.557251, 134.0, 23.0 ],
+					"patching_rect" : [ 598.829346, 400.557251, 134.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p OSCroute_tutorial"
@@ -642,7 +642,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 603.0, 434.0, 122.0, 16.0 ],
+					"patching_rect" : [ 602.0, 433.0, 122.0, 16.0 ],
 					"text" : "load UDPreceiver.maxpat"
 				}
 
@@ -657,7 +657,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 602.0, 433.0, 52.0, 20.0 ],
+					"patching_rect" : [ 601.0, 432.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -670,7 +670,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 452.0, 282.0, 107.0, 23.0 ],
+					"patching_rect" : [ 451.0, 281.0, 107.0, 23.0 ],
 					"text" : "canvas (layerx)"
 				}
 
@@ -684,7 +684,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 275.0, 49.0, 23.0 ],
+					"patching_rect" : [ 28.0, 281.0, 49.0, 23.0 ],
 					"text" : "r layer"
 				}
 
@@ -697,7 +697,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 610.0, 220.0, 52.0, 23.0 ],
+					"patching_rect" : [ 609.0, 219.0, 52.0, 23.0 ],
 					"text" : "s layer"
 				}
 
@@ -711,7 +711,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 64.0, 279.0, 39.0 ],
+					"patching_rect" : [ 6.0, 61.0, 279.0, 39.0 ],
 					"text" : "choose a video source (moviesource_101) and a video for that source (clipnr x)"
 				}
 
@@ -725,7 +725,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 231.0, 396.0, 308.0, 55.0 ],
+					"patching_rect" : [ 230.0, 400.0, 308.0, 55.0 ],
 					"text" : "send OSC message over the network\n\"localhost\" is this computer (same as 127.0.0.1)\n\"6666\" is the port used by VPT"
 				}
 
@@ -738,7 +738,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 173.0, 357.0, 281.0, 23.0 ],
+					"patching_rect" : [ 172.0, 363.0, 281.0, 23.0 ],
 					"text" : "translate from Max to OSC network protocol"
 				}
 
@@ -752,7 +752,7 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 453.0, 224.0, 102.0, 21.0 ],
+					"patching_rect" : [ 452.0, 223.0, 102.0, 21.0 ],
 					"size" : 1.0
 				}
 
@@ -767,7 +767,7 @@
 					"numoutlets" : 1,
 					"orientation" : 2,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 611.0, 131.0, 39.0, 55.0 ],
+					"patching_rect" : [ 610.0, 130.0, 39.0, 55.0 ],
 					"size" : 2.0
 				}
 
@@ -782,7 +782,7 @@
 					"numoutlets" : 1,
 					"orientation" : 2,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 452.0, 131.0, 39.0, 55.0 ],
+					"patching_rect" : [ 451.0, 130.0, 39.0, 55.0 ],
 					"size" : 2.0
 				}
 
@@ -797,7 +797,7 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 610.0, 74.0, 102.0, 21.0 ],
+					"patching_rect" : [ 609.0, 73.0, 102.0, 21.0 ],
 					"size" : 2.0
 				}
 
@@ -812,7 +812,7 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.0, 75.0, 102.0, 21.0 ],
+					"patching_rect" : [ 450.0, 74.0, 102.0, 21.0 ],
 					"size" : 2.0
 				}
 
@@ -826,7 +826,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.170593, 109.557251, 166.0, 21.0 ],
+					"patching_rect" : [ 7.170593, 108.557251, 166.0, 21.0 ],
 					"text" : "/moviesource101/clipnr 1"
 				}
 
@@ -840,7 +840,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.170593, 140.557251, 166.0, 21.0 ],
+					"patching_rect" : [ 7.170593, 139.557251, 166.0, 21.0 ],
 					"text" : "/moviesource101/clipnr 2"
 				}
 
@@ -854,7 +854,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 453.170593, 250.557251, 103.0, 21.0 ],
+					"patching_rect" : [ 452.170593, 249.557251, 103.0, 21.0 ],
 					"text" : "/layer1/fade $1"
 				}
 
@@ -868,7 +868,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 611.170593, 192.557251, 123.0, 21.0 ],
+					"patching_rect" : [ 610.170593, 191.557251, 123.0, 21.0 ],
 					"text" : "/layer1/scale_y $1"
 				}
 
@@ -882,7 +882,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 610.170593, 101.557251, 123.0, 21.0 ],
+					"patching_rect" : [ 609.170593, 100.557251, 123.0, 21.0 ],
 					"text" : "/layer1/scale_x $1"
 				}
 
@@ -896,7 +896,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 452.170593, 192.557251, 113.0, 21.0 ],
+					"patching_rect" : [ 451.170593, 191.557251, 113.0, 21.0 ],
 					"text" : "/layer1/pos_y $1"
 				}
 
@@ -910,7 +910,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.170593, 102.557251, 113.0, 21.0 ],
+					"patching_rect" : [ 450.170593, 101.557251, 113.0, 21.0 ],
 					"text" : "/layer1/pos_x $1"
 				}
 
@@ -924,7 +924,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 318.0, 37.0, 23.0 ],
+					"patching_rect" : [ 7.0, 324.0, 37.0, 23.0 ],
 					"text" : "t b s"
 				}
 
@@ -938,7 +938,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.170593, 170.557251, 164.0, 21.0 ],
+					"patching_rect" : [ 7.170593, 169.557251, 164.0, 21.0 ],
 					"text" : "/moviesource101/clipnr 3"
 				}
 
@@ -952,7 +952,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "OSCTimeTag" ],
-					"patching_rect" : [ 16.0, 355.0, 154.0, 27.0 ],
+					"patching_rect" : [ 15.0, 361.0, 154.0, 27.0 ],
 					"text" : "opensoundcontrol"
 				}
 
@@ -966,7 +966,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.170593, 202.557251, 166.0, 21.0 ],
+					"patching_rect" : [ 7.170593, 201.557251, 166.0, 21.0 ],
 					"text" : "/moviesource101/clipnr 4"
 				}
 
@@ -979,7 +979,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.383881, 391.206085, 209.0, 28.0 ],
+					"patching_rect" : [ 15.383881, 397.206085, 209.0, 28.0 ],
 					"text" : "udpsend localhost 6666"
 				}
 
@@ -994,7 +994,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 148.0, 31.0 ],
+					"patching_rect" : [ 4.0, 2.0, 148.0, 31.0 ],
 					"text" : "IMI OSC2VPT",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -1010,7 +1010,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 638.0, 21.0 ],
+					"patching_rect" : [ 4.0, 29.0, 638.0, 21.0 ],
 					"text" : "send intructions to  hc gilje's video projection tool (VPT) using OSC, this patch works with version 6.0 of VPT.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1028,7 +1028,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 439.0, 65.0, 303.0, 241.0 ],
+					"patching_rect" : [ 438.0, 64.0, 303.0, 241.0 ],
 					"rounded" : 42,
 					"varname" : "autohelp_top_panel[1]"
 				}
@@ -1045,7 +1045,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 740.0, 50.0 ],
+					"patching_rect" : [ 3.0, 2.0, 740.0, 50.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -1100,7 +1100,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 96.5, 310.0, 17.5, 310.0 ],
+					"midpoints" : [ 95.5, 316.0, 16.5, 316.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -1109,7 +1109,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 219.5, 310.5, 17.5, 310.5 ],
+					"midpoints" : [ 218.5, 316.5, 16.5, 316.5 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -1154,7 +1154,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 194.670593, 239.778625, 17.5, 239.778625 ],
+					"midpoints" : [ 193.670593, 238.778625, 16.5, 238.778625 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -1163,7 +1163,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 38.5, 310.5, 17.5, 310.5 ],
+					"midpoints" : [ 37.5, 316.5, 16.5, 316.5 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -1244,7 +1244,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 209.670593, 239.278625, 17.5, 239.278625 ],
+					"midpoints" : [ 208.670593, 238.278625, 16.5, 238.278625 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -1262,7 +1262,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 227.670593, 239.778625, 17.5, 239.778625 ],
+					"midpoints" : [ 226.670593, 238.778625, 16.5, 238.778625 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -1271,7 +1271,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 251.5, 239.0, 17.5, 239.0 ],
+					"midpoints" : [ 250.5, 238.0, 16.5, 238.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -1289,7 +1289,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 17.670593, 248.278625, 17.5, 248.278625 ],
+					"midpoints" : [ 16.670593, 247.278625, 16.5, 247.278625 ],
 					"source" : [ "obj-7", 0 ]
 				}
 

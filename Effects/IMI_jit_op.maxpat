@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 3.0, 44.0, 939.0, 682.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 3.0, 44.0, 939.0, 682.0 ],
@@ -88,7 +94,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -96,10 +101,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 30.0, 528.0, 23.0 ],
-					"text" : "apply binary operators to matrixes (beware that the input is from 0-255 to 0. 1.",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title[1]"
+					"patching_rect" : [ 2.0, 30.0, 707.0, 23.0 ],
+					"text" : "apply binary operators to matrixes. Important : if the input matrix is char (0-255) the values will mapped to  0. 1.",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -130,6 +134,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 480.0, 44.0, 463.0, 608.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 480.0, 44.0, 463.0, 608.0 ],
@@ -348,13 +358,13 @@
 ,
 					"patching_rect" : [ 713.0, 64.0, 68.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p op_list"

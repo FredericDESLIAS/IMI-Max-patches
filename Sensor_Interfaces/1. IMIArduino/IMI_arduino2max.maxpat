@@ -34,7 +34,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 183.0, 220.0, 161.0, 30.0 ],
+					"patching_rect" : [ 179.0, 220.0, 161.0, 30.0 ],
 					"text" : "connect to the Arduino on the port usbserial-A6008hpd"
 				}
 
@@ -49,7 +49,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 259.0, 161.0, 30.0 ],
+					"patching_rect" : [ 140.0, 259.0, 161.0, 30.0 ],
 					"text" : "connects to port a (first one)\nat a speed of 9600 bauds"
 				}
 
@@ -64,7 +64,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 269.0, 227.0, 67.0, 20.0 ],
+					"patching_rect" : [ 268.0, 227.0, 67.0, 20.0 ],
 					"text" : "closebang"
 				}
 
@@ -78,7 +78,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 491.0, 385.0, 110.0, 21.0 ],
+					"patching_rect" : [ 490.0, 385.0, 110.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 81.0, 229.0, 100.0, 20.0 ],
 					"text" : "arduino2max 12"
@@ -93,7 +93,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 220.0, 186.0, 119.0, 20.0 ],
+					"patching_rect" : [ 216.0, 186.0, 119.0, 20.0 ],
 					"text" : "list available ports"
 				}
 
@@ -106,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 65.0, 304.0, 54.0, 20.0 ],
+					"patching_rect" : [ 61.0, 304.0, 54.0, 20.0 ],
 					"text" : "data ?"
 				}
 
@@ -121,7 +121,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.0, 385.0, 121.0, 16.0 ],
+					"patching_rect" : [ 490.0, 385.0, 121.0, 16.0 ],
 					"text" : "load IMI_arduino2max12"
 				}
 
@@ -136,7 +136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.0, 385.0, 52.0, 20.0 ],
+					"patching_rect" : [ 490.0, 385.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -151,7 +151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 419.0, 123.0, 55.0, 19.0 ],
+					"patching_rect" : [ 418.0, 123.0, 55.0, 19.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -167,7 +167,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 305.0, 123.0, 298.0, 30.0 ],
+					"patching_rect" : [ 304.0, 123.0, 298.0, 30.0 ],
 					"text" : "arch -i386 osascript /Applications/Max5/examples/IMIpatches/z/SSensorsA.scpt"
 				}
 
@@ -182,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 478.0, 124.0, 33.0, 19.0 ],
+					"patching_rect" : [ 477.0, 124.0, 33.0, 19.0 ],
 					"text" : "shell"
 				}
 
@@ -196,7 +196,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 419.0, 122.0, 129.0, 20.0 ],
+					"patching_rect" : [ 418.0, 122.0, 129.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 119.0, 322.0, 100.0, 20.0 ],
 					"text" : "Arduino programs"
@@ -213,7 +213,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 29.0, 519.0, 36.0 ],
+					"patching_rect" : [ 5.0, 29.0, 519.0, 36.0 ],
 					"text" : "monitor one analog input on the Arduino (install analog2max.pde on the Arduino),\nfor a button, use button2max.pde",
 					"textcolor" : [ 0.868223, 0.868086, 0.868238, 1.0 ]
 				}
@@ -418,12 +418,12 @@
  ]
 					}
 ,
-					"patching_rect" : [ 19.0, 341.0, 81.0, 20.0 ],
+					"patching_rect" : [ 15.0, 341.0, 81.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0
@@ -444,7 +444,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 19.0, 381.0, 67.0, 23.0 ],
+					"patching_rect" : [ 15.0, 381.0, 67.0, 23.0 ],
 					"triscale" : 0.9
 				}
 
@@ -459,7 +459,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 222.0, 192.0, 38.5, 20.0 ],
+					"patching_rect" : [ 218.0, 192.0, 38.5, 20.0 ],
 					"text" : "sel 0"
 				}
 
@@ -474,7 +474,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 222.0, 228.0, 42.0, 16.0 ],
+					"patching_rect" : [ 218.0, 228.0, 42.0, 16.0 ],
 					"text" : "close"
 				}
 
@@ -486,7 +486,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 40.0, 302.0, 24.0, 24.0 ]
+					"patching_rect" : [ 36.0, 302.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -747,8 +747,8 @@
 									"saved_object_attributes" : 									{
 										"globalpatchername" : "",
 										"default_fontface" : 0,
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0
@@ -887,12 +887,12 @@
  ]
 					}
 ,
-					"patching_rect" : [ 37.0, 151.0, 87.0, 20.0 ],
+					"patching_rect" : [ 33.0, 151.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0
@@ -907,12 +907,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"items" : [ "Bluetooth-PDA-Sync", ",", "Bluetooth-Modem" ],
+					"items" : [ "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "Bluetooth-PDA-Sync", ",", "FireFly-2573-SPP" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 37.0, 186.0, 179.0, 20.0 ],
+					"patching_rect" : [ 33.0, 186.0, 179.0, 20.0 ],
 					"pattrmode" : 1,
 					"types" : [  ]
 				}
@@ -925,7 +925,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 19.0, 74.0, 23.0, 23.0 ]
+					"patching_rect" : [ 15.0, 74.0, 23.0, 23.0 ]
 				}
 
 			}
@@ -938,7 +938,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 223.0, 141.0, 16.0 ],
+					"patching_rect" : [ 31.0, 223.0, 141.0, 16.0 ],
 					"text" : "port usbserial-A6008hpd"
 				}
 
@@ -953,7 +953,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 19.0, 114.0, 51.0, 20.0 ],
+					"patching_rect" : [ 15.0, 114.0, 51.0, 20.0 ],
 					"text" : "metro 5"
 				}
 
@@ -968,7 +968,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 19.0, 259.0, 118.0, 27.0 ],
+					"patching_rect" : [ 15.0, 259.0, 118.0, 27.0 ],
 					"text" : "serial a 9600"
 				}
 
@@ -982,7 +982,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 373.0, 94.0, 234.0, 171.0 ],
+					"patching_rect" : [ 372.0, 94.0, 234.0, 171.0 ],
 					"text" : "1. Install the program on the Arduino :\n\n\n\n2. Quit Max\n\n3. Check the arduino serial monitor.\n\n4. Quit the arduino application\n\n5. Relaunch Max"
 				}
 
@@ -997,7 +997,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 4.0, 201.0, 31.0 ],
+					"patching_rect" : [ 5.0, 4.0, 201.0, 31.0 ],
 					"text" : "IMI arduino2max",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -1011,7 +1011,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 368.0, 86.0, 238.0, 183.0 ],
+					"patching_rect" : [ 367.0, 86.0, 238.0, 183.0 ],
 					"rounded" : 29
 				}
 
@@ -1027,7 +1027,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 609.0, 62.0 ],
+					"patching_rect" : [ 2.0, 3.0, 609.0, 62.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -1046,7 +1046,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 44.5, 250.5, 28.5, 250.5 ],
+					"midpoints" : [ 40.5, 250.5, 24.5, 250.5 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -1064,7 +1064,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 28.5, 142.0, 28.5, 142.0 ],
+					"midpoints" : [ 24.5, 142.0, 24.5, 142.0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -1091,7 +1091,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 231.5, 250.5, 28.5, 250.5 ],
+					"midpoints" : [ 227.5, 250.5, 24.5, 250.5 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -1100,7 +1100,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 28.5, 293.0, 49.5, 293.0 ],
+					"midpoints" : [ 24.5, 293.0, 45.5, 293.0 ],
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -1145,7 +1145,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 28.5, 105.5, 231.5, 105.5 ],
+					"midpoints" : [ 24.5, 105.5, 227.5, 105.5 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1181,7 +1181,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 114.5, 178.5, 28.5, 178.5 ],
+					"midpoints" : [ 110.5, 178.5, 24.5, 178.5 ],
 					"source" : [ "obj-64", 1 ]
 				}
 
