@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 4.0, 44.0, 587.0, 616.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 1.0, 44.0, 582.0, 628.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 587.0, 616.0 ],
+		"defrect" : [ 1.0, 44.0, 582.0, 628.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -21,14 +27,29 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 470.0, 603.0, 96.0, 16.0 ],
+					"text" : "read soundtools.txt"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 520.0, 613.0, 60.0, 20.0 ],
+					"patching_rect" : [ 516.0, 603.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -43,23 +64,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 95.0, 39.0, 54.0, 18.0 ],
+					"patching_rect" : [ 91.0, 39.0, 54.0, 18.0 ],
 					"text" : "delay 500"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"hidden" : 1,
-					"id" : "obj-21",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 400.0, 613.0, 125.0, 18.0 ],
-					"text" : "read soundtools.txt"
 				}
 
 			}
@@ -75,6 +81,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 619.0, 44.0, 238.0, 329.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 619.0, 44.0, 238.0, 329.0 ],
@@ -213,15 +225,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 209.0, 39.0, 35.0, 18.0 ],
+					"patching_rect" : [ 205.0, 39.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
+						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p info"
@@ -238,7 +250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 39.0, 62.0, 18.0 ],
+					"patching_rect" : [ 336.0, 39.0, 62.0, 18.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -246,14 +258,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.0, 613.0, 112.0, 20.0 ],
+					"patching_rect" : [ 7.0, 603.0, 95.0, 18.0 ],
 					"text" : "sprintf %s.maxpat"
 				}
 
@@ -261,14 +273,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-33",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 613.0, 82.0, 20.0 ],
+					"patching_rect" : [ 31.0, 603.0, 70.0, 18.0 ],
 					"text" : "prepend load"
 				}
 
@@ -276,14 +288,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 283.0, 613.0, 54.0, 20.0 ],
+					"patching_rect" : [ 51.0, 603.0, 47.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -291,14 +303,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 613.0, 64.0, 20.0 ],
+					"patching_rect" : [ 4.0, 603.0, 55.0, 18.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -313,7 +325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 249.0, 40.0, 88.0, 16.0 ],
+					"patching_rect" : [ 245.0, 40.0, 88.0, 16.0 ],
 					"text" : "mode selmode $1"
 				}
 
@@ -328,8 +340,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 39.0, 73.0, 16.0 ],
-					"text" : "refer overview"
+					"patching_rect" : [ 4.0, 39.0, 71.0, 16.0 ],
+					"text" : "refer stoolbox"
 				}
 
 			}
@@ -343,154 +355,33 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 153.0, 39.0, 52.0, 18.0 ],
+					"patching_rect" : [ 149.0, 39.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"coll_data" : 					{
-						"count" : 29,
-						"data" : [ 							{
-								"key" : "ajm.overview",
-								"value" : [ "Music composition (AJM tools)" ]
-							}
-, 							{
-								"key" : "ajm.midi.programs",
-								"value" : [ "Midi programs for the AJM tools" ]
-							}
-, 							{
-								"key" : "analyzer~help",
-								"value" : [ "FFT-Based Perceptual Analysis (Pitch, Loudness, Brightness, Noisiness)" ]
-							}
-, 							{
-								"key" : "forbidden~planet",
-								"value" : [ "White, pink noise + filters" ]
-							}
-, 							{
-								"key" : "threshold_help~",
-								"value" : [ "outputs bangs when the signal exceeds a specified value" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "+CNMAT_MMJD_Overview",
-								"value" : [ "A depot of patches for Max/MSP/Jitter (CNMAT)" ]
-							}
-, 							{
-								"key" : "01-sinewaves",
-								"value" : [ "generates as many as 256 sine waves" ]
-							}
-, 							{
-								"key" : "02-sinusoids~",
-								"value" : [ "generates as many as 1024 sine waves" ]
-							}
-, 							{
-								"key" : "03-decaying-sinusoids~",
-								"value" : [ "generates sine waves that exponentially decay down to zero amplitude" ]
-							}
-, 							{
-								"key" : "04-resonators~",
-								"value" : [ "resonant filter bank" ]
-							}
-, 							{
-								"key" : "14-res-transform",
-								"value" : [ "transformations for Resonance Models" ]
-							}
-, 							{
-								"key" : "34-harmonics~",
-								"value" : [ "harmonics~ generates a number of harmonically related sinusoidal oscillators" ]
-							}
-, 							{
-								"key" : "35-oscillators~",
-								"value" : [ "oscillators~ works very much like sinusoids~" ]
-							}
-, 							{
-								"key" : "smooth-biquad~",
-								"value" : [ "Two-pole, two-zero filter (CNMAT version, smoothed)" ]
-							}
-, 							{
-								"key" : "sadam.rand~",
-								"value" : [ "Band-limited random signal" ]
-							}
-, 							{
-								"key" : "sc.crackle",
-								"value" : [ "A noise generator based on a chaotic function" ]
-							}
-, 							{
-								"key" : "sc.dust",
-								"value" : [ "Generates random impulses from 0 to +1" ]
-							}
-, 							{
-								"key" : "sc.dust2",
-								"value" : [ "Generates random impulses from -1. to +1" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "bargraf~",
-								"value" : [ "Draws and calculate the signal level" ]
-							}
-, 							{
-								"key" : "sfmarkers~",
-								"value" : [ "Returns the list of markers in a .wav or .aiff sound file" ]
-							}
-, 							{
-								"key" : "msg.surround",
-								"value" : [ "surround object" ]
-							}
-, 							{
-								"key" : "jscope_help~",
-								"value" : [ "signal-oscilloscope using jitter" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "buffer",
-								"value" : [ "the buffer~ object" ]
-							}
-, 							{
-								"key" : "GLbuffer~",
-								"value" : [ "show buffer~ data in OpenGL" ]
-							}
-, 							{
-								"key" : "1-freeze-frame.maxpat",
-								"value" : [ "freeze frame" ]
-							}
-, 							{
-								"key" : "2-stochastic-freeze-8frames",
-								"value" : [ "freeze 8 frames" ]
-							}
- ]
-					}
-,
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 337.0, 613.0, 79.0, 20.0 ],
+					"patching_rect" : [ 405.0, 603.0, 66.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 0
 					}
 ,
-					"text" : "coll overview"
+					"text" : "coll stoolbox"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"coldef" : [ [ 1, 468, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ], [ 0, 156, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+					"coldef" : [ [ 1, 468, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ], [ 0, 170, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
 					"cols" : 2,
 					"colwidth" : 120,
 					"fgcolor" : [ 0.0, 0.0, 0.0, 0.913725 ],
@@ -503,9 +394,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 8.0, 65.0, 572.0, 540.0 ],
+					"patching_rect" : [ 4.0, 62.0, 573.0, 557.0 ],
 					"rowhead" : 1,
-					"rows" : 29,
+					"rows" : 30,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -521,7 +412,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 5.0, 163.0, 30.0 ],
+					"patching_rect" : [ 5.0, 5.0, 163.0, 30.0 ],
 					"text" : "Sound toolbox",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -537,7 +428,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 33.0, 420.0, 21.0 ],
+					"patching_rect" : [ 5.0, 33.0, 420.0, 21.0 ],
 					"text" : "Useful tools for patching in Max/MSP (click on the object name to open)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -555,7 +446,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 4.0, 574.0, 52.0 ],
+					"patching_rect" : [ 3.0, 4.0, 575.0, 52.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -592,7 +483,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 218.5, 61.5, 17.5, 61.5 ],
+					"midpoints" : [ 214.5, 61.5, 13.5, 61.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -619,7 +510,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 258.5, 61.5, 17.5, 61.5 ],
+					"midpoints" : [ 254.5, 61.5, 13.5, 61.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 

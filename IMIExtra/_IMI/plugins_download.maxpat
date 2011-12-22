@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 0.0, 44.0, 589.0, 647.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 0.0, 44.0, 589.0, 647.0 ],
@@ -21,7 +27,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
@@ -29,6 +35,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -118,15 +130,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 70.0, 618.0, 43.0, 20.0 ],
+					"patching_rect" : [ 70.0, 618.0, 37.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p web"
@@ -136,14 +148,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 348.0, 618.0, 60.0, 20.0 ],
+					"patching_rect" : [ 348.0, 618.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -166,14 +178,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-21",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 202.0, 618.0, 144.0, 18.0 ],
+					"patching_rect" : [ 202.0, 618.0, 122.0, 16.0 ],
 					"text" : "read plugin_download.txt"
 				}
 
@@ -190,6 +202,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 619.0, 44.0, 238.0, 329.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 619.0, 44.0, 238.0, 329.0 ],
@@ -330,13 +348,13 @@
 ,
 					"patching_rect" : [ 205.0, 38.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p info"
@@ -361,14 +379,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 3.0, 618.0, 64.0, 20.0 ],
+					"patching_rect" : [ 3.0, 618.0, 55.0, 18.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -398,8 +416,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 38.0, 73.0, 16.0 ],
-					"text" : "refer overview"
+					"patching_rect" : [ 11.0, 38.0, 66.0, 16.0 ],
+					"text" : "refer plugins"
 				}
 
 			}
@@ -420,149 +438,20 @@
 			}
 , 			{
 				"box" : 				{
-					"coll_data" : 					{
-						"count" : 31,
-						"data" : [ 							{
-								"key" : "http://jmpelletier.com/cvjit/",
-								"value" : [ "computer vision (cv.jit)" ]
-							}
-, 							{
-								"key" : "http://2uptech.com/zip/2up.jit.centroids.03Nov08.zip",
-								"value" : [ "2up.jit.centroids" ]
-							}
-, 							{
-								"key" : "http://jmpelletier.com/freenect/",
-								"value" : [ "kinect" ]
-							}
-, 							{
-								"key" : "––––––––––––––––––––––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "http://www.idmil.org/software/digital_orchestra_toolbox",
-								"value" : [ "digital orchestra toolbox" ]
-							}
-, 							{
-								"key" : "http://code.google.com/p/maxtoolbox/downloads/list",
-								"value" : [ "maxtoolbox" ]
-							}
-, 							{
-								"key" : "http://www.fredrikolofsson.com/pages/code-max.html",
-								"value" : [ "f0 objects" ]
-							}
-, 							{
-								"key" : "http://www.martin-ritter.com/Software.html",
-								"value" : [ "Martin Ritter objects" ]
-							}
-, 							{
-								"key" : "http://www.alexanderjharker.co.uk/Software.html",
-								"value" : [ "ajh plugins" ]
-							}
-, 							{
-								"key" : "http://www.greyfade.com/joe/maxmsp.html",
-								"value" : [ "jb.utilities" ]
-							}
-, 							{
-								"key" : "http://cycling74.com/toolbox/bernstein-shell/",
-								"value" : [ "Max to Unix" ]
-							}
-, 							{
-								"key" : "http://www.iamas.ac.jp/~aka/max/#aka_shell",
-								"value" : [ "Max to Unix (aka)" ]
-							}
-, 							{
-								"key" : "http://www.iamas.ac.jp/~aka/max/#aka_wiiremote",
-								"value" : [ "connect the Wii" ]
-							}
-, 							{
-								"key" : "http://www.nr74.org/c74.html",
-								"value" : [ "iPhone plugin" ]
-							}
-, 							{
-								"key" : "––––––––––––––––––––––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "http://syphon.v002.info/",
-								"value" : [ "GL sharing" ]
-							}
-, 							{
-								"key" : "http://hcgilje.wordpress.com/vpt/",
-								"value" : [ "VPT 5" ]
-							}
-, 							{
-								"key" : "http://001.vade.info/v001/downloads/v001ShadersB2.zip",
-								"value" : [ "Vade's shaders beta 2" ]
-							}
-, 							{
-								"key" : "––––––––––––––––––––––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "http://www.allosphere.ucsb.edu/cosm/",
-								"value" : [ "cosm" ]
-							}
-, 							{
-								"key" : "http://www.zacharyseldess.com/z.glNav.html",
-								"value" : [ "z.glNav" ]
-							}
-, 							{
-								"key" : "http://www.moniker.name/software/xray-mac-UB.zip",
-								"value" : [ "xray" ]
-							}
-, 							{
-								"key" : "http://www.s373.net/code/boids_max_jitter_UB_1.1.zip",
-								"value" : [ "boid" ]
-							}
-, 							{
-								"key" : "http://nim.on.free.fr/index.php?id=software",
-								"value" : [ "mass spring damper library" ]
-							}
-, 							{
-								"key" : "http://charles.bascou.free.fr/box2d/dwn/box2d-max5-OSX-alpha3.zip",
-								"value" : [ "box2d alpha3" ]
-							}
-, 							{
-								"key" : "http://s373.net/code/a-objects/a-objects0x10b10ub.dmg.zip",
-								"value" : [ "a-objects" ]
-							}
-, 							{
-								"key" : "––––––––––––––––––––––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "http://jamoma.org/",
-								"value" : [ "janoma" ]
-							}
-, 							{
-								"key" : "http://ftm.ircam.fr/index.php/Download",
-								"value" : [ "FTM" ]
-							}
-, 							{
-								"key" : "http://cnmat.berkeley.edu/downloads",
-								"value" : [ "CNMAT tools" ]
-							}
-, 							{
-								"key" : "http://shop.electrotap.com/products/taptools",
-								"value" : [ "taptools (payware)" ]
-							}
- ]
-					}
-,
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 119.0, 618.0, 79.0, 20.0 ],
+					"patching_rect" : [ 119.0, 618.0, 60.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 0
 					}
 ,
-					"text" : "coll overview"
+					"text" : "coll plugins"
 				}
 
 			}
@@ -600,7 +489,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 4.0, 305.0, 30.0 ],
-					"text" : "plugins download for IMI",
+					"text" : "plugins download",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -615,8 +504,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 539.0, 21.0 ],
-					"text" : "click on the URL to download the objects and install them in Max folder.",
+					"patching_rect" : [ 4.0, 31.0, 420.0, 21.0 ],
+					"text" : "click on the URL to download the objects",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}

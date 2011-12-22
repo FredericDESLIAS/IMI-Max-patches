@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 1.0, 44.0, 582.0, 665.0 ],
+		"rect" : [ 1.0, 44.0, 583.0, 686.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1.0, 44.0, 582.0, 665.0 ],
+		"defrect" : [ 1.0, 44.0, 583.0, 686.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -34,7 +34,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 185.0, 640.0, 60.0, 18.0 ],
+					"patching_rect" : [ 233.0, 672.0, 60.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -64,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 188.0, 640.0, 81.0, 16.0 ],
+					"patching_rect" : [ 293.0, 672.0, 81.0, 16.0 ],
 					"text" : "read toolbox.txt"
 				}
 
@@ -229,11 +229,11 @@
 					"saved_object_attributes" : 					{
 						"fontface" : 0,
 						"fontsize" : 14.0,
+						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : ""
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p info"
@@ -265,7 +265,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 640.0, 96.0, 18.0 ],
+					"patching_rect" : [ 3.0, 672.0, 96.0, 18.0 ],
 					"text" : "sprintf %s.maxhelp"
 				}
 
@@ -280,7 +280,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.0, 640.0, 74.0, 18.0 ],
+					"patching_rect" : [ 97.0, 672.0, 74.0, 18.0 ],
 					"text" : "prepend load"
 				}
 
@@ -295,7 +295,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 98.0, 640.0, 54.0, 18.0 ],
+					"patching_rect" : [ 96.0, 672.0, 54.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -310,7 +310,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 3.0, 640.0, 64.0, 18.0 ],
+					"patching_rect" : [ 1.0, 672.0, 64.0, 18.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -341,7 +341,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 37.0, 73.0, 16.0 ],
-					"text" : "refer overview"
+					"text" : "refer itoolbox"
 				}
 
 			}
@@ -362,147 +362,6 @@
 			}
 , 			{
 				"box" : 				{
-					"coll_data" : 					{
-						"count" : 34,
-						"data" : [ 							{
-								"key" : "IMI_filtering_change",
-								"value" : [ "change to filter out repetitions" ]
-							}
-, 							{
-								"key" : "IMI_counter_uzi_line",
-								"value" : [ "various methods for counting in max" ]
-							}
-, 							{
-								"key" : "IMI_spray_cycle_gate",
-								"value" : [ "methods to pass numbers" ]
-							}
-, 							{
-								"key" : "IMI_modulo",
-								"value" : [ "usage of modulo %" ]
-							}
-, 							{
-								"key" : "IMI_max2printer",
-								"value" : [ "print from Max" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "imi.draw",
-								"value" : [ "lcd drawing tool : use with paintoval, frameoval, framerect, paintrect" ]
-							}
-, 							{
-								"key" : "imi.matrixinfo",
-								"value" : [ "get info on the matrix" ]
-							}
-, 							{
-								"key" : "imi.pushcount",
-								"value" : [ "when hits the threshold, send a bang after a delay" ]
-							}
-, 							{
-								"key" : "imi.slide",
-								"value" : [ "the slide object to connect two matrixes" ]
-							}
-, 							{
-								"key" : "imi.splitscale",
-								"value" : [ "a mix of the split object and the scale object" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "trignonometry",
-								"value" : [ "triangle, circle, degree, radian, …" ]
-							}
-, 							{
-								"key" : "polar_cartesian",
-								"value" : [ "2d poltocar, 3d cartopol" ]
-							}
-, 							{
-								"key" : "tweening",
-								"value" : [ "simple tweening" ]
-							}
-, 							{
-								"key" : "MAtsuitween",
-								"value" : [ "tweening in Max/MSP" ]
-							}
-, 							{
-								"key" : "LFO-fader",
-								"value" : [ "generate numbers using low frequency oscillation" ]
-							}
-, 							{
-								"key" : "function_interpolation",
-								"value" : [ "tweening using a function" ]
-							}
-, 							{
-								"key" : "Pattr_animation",
-								"value" : [ "use presets to make animation" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "z.urn",
-								"value" : [ "non-repeating random number generator (with changeable min and max)" ]
-							}
-, 							{
-								"key" : "dot.urn",
-								"value" : [ "like urn but you can put numbers back in the pot)" ]
-							}
-, 							{
-								"key" : "z.rand",
-								"value" : [ "random Int/Float Number Generator (with changeable min and max)" ]
-							}
-, 							{
-								"key" : "dot.for",
-								"value" : [ "a combination of uzi and counter, safer than uzi" ]
-							}
-, 							{
-								"key" : "z.metroUzi",
-								"value" : [ "like uzi but with a control on speed (metro+counter)" ]
-							}
-, 							{
-								"key" : "dot.probgate",
-								"value" : [ "A probabilistic gate with remote control" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "jitwebimage",
-								"value" : [ "load an image from the web" ]
-							}
-, 							{
-								"key" : "getpaths",
-								"value" : [ "get paths on a specific machine" ]
-							}
-, 							{
-								"key" : "path_patcher",
-								"value" : [ "get all patches in the same folder" ]
-							}
-, 							{
-								"key" : "shell",
-								"value" : [ "interface to the UNIX shell (printer, scanner)" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "asyncread_export",
-								"value" : [ "asyncread export (with antialiasing)" ]
-							}
-, 							{
-								"key" : "Jitter2Syphon",
-								"value" : [ "basic patch to use Syphon" ]
-							}
- ]
-					}
-,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"hidden" : 1,
@@ -511,12 +370,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 186.0, 640.0, 79.0, 18.0 ],
+					"patching_rect" : [ 171.0, 672.0, 63.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 0
 					}
 ,
-					"text" : "coll overview"
+					"text" : "coll itoolbox"
 				}
 
 			}
@@ -535,7 +394,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 3.0, 63.0, 575.0, 596.0 ],
+					"patching_rect" : [ 4.0, 59.0, 574.0, 616.0 ],
 					"rowhead" : 1,
 					"rows" : 34,
 					"savemode" : 1,
@@ -624,7 +483,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 213.5, 59.5, 12.5, 59.5 ],
+					"midpoints" : [ 213.5, 59.5, 13.5, 59.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -651,7 +510,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 253.5, 59.5, 12.5, 59.5 ],
+					"midpoints" : [ 253.5, 59.5, 13.5, 59.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 

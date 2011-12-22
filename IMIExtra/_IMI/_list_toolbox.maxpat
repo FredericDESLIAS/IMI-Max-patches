@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 3.0, 44.0, 508.0, 754.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 3.0, 44.0, 501.0, 652.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 44.0, 508.0, 754.0 ],
+		"defrect" : [ 3.0, 44.0, 501.0, 652.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,7 +34,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 434.0, 722.0, 60.0, 20.0 ],
+					"patching_rect" : [ 283.0, 626.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -43,7 +49,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 95.0, 39.0, 54.0, 18.0 ],
+					"patching_rect" : [ 92.0, 39.0, 54.0, 18.0 ],
 					"text" : "delay 500"
 				}
 
@@ -58,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 367.0, 722.0, 114.0, 18.0 ],
+					"patching_rect" : [ 282.0, 626.0, 114.0, 18.0 ],
 					"text" : "read listpackage.txt"
 				}
 
@@ -75,6 +81,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 619.0, 44.0, 238.0, 329.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 619.0, 44.0, 238.0, 329.0 ],
@@ -213,15 +225,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 209.0, 39.0, 35.0, 18.0 ],
+					"patching_rect" : [ 206.0, 39.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontface" : 0
 					}
 ,
 					"text" : "p info"
@@ -238,7 +250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 39.0, 62.0, 18.0 ],
+					"patching_rect" : [ 337.0, 39.0, 62.0, 18.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -253,7 +265,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.0, 722.0, 63.0, 20.0 ],
+					"patching_rect" : [ 6.0, 626.0, 63.0, 20.0 ],
 					"text" : "sprintf %s"
 				}
 
@@ -268,7 +280,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 722.0, 81.0, 20.0 ],
+					"patching_rect" : [ 5.0, 626.0, 81.0, 20.0 ],
 					"text" : "prepend help"
 				}
 
@@ -283,7 +295,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 231.0, 722.0, 54.0, 20.0 ],
+					"patching_rect" : [ 6.0, 626.0, 54.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -298,7 +310,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 722.0, 64.0, 20.0 ],
+					"patching_rect" : [ 5.0, 626.0, 64.0, 20.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -313,7 +325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 249.0, 40.0, 88.0, 16.0 ],
+					"patching_rect" : [ 246.0, 40.0, 88.0, 16.0 ],
 					"text" : "mode selmode $1"
 				}
 
@@ -328,8 +340,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 39.0, 73.0, 16.0 ],
-					"text" : "refer overview"
+					"patching_rect" : [ 12.0, 39.0, 73.0, 16.0 ],
+					"text" : "refer ltoolbox"
 				}
 
 			}
@@ -343,170 +355,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 153.0, 39.0, 52.0, 18.0 ],
+					"patching_rect" : [ 150.0, 39.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"coll_data" : 					{
-						"count" : 38,
-						"data" : [ 							{
-								"key" : "imi_zl",
-								"value" : [ "graphic overview of the ZL object" ]
-							}
-, 							{
-								"key" : "imi_sprintf",
-								"value" : [ "format a message of words and numbers" ]
-							}
-, 							{
-								"key" : "zlhelp",
-								"value" : [ "overview of the ZL object" ]
-							}
-, 							{
-								"key" : "thelistpackage",
-								"value" : [ "list package" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "coll",
-								"value" : [ "store and edit a collection of different messages" ]
-							}
-, 							{
-								"key" : "coll_tools",
-								"value" : [ "the iter object vs the group object" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "jit.cellblock",
-								"value" : [ "two-dimensional storage and viewing" ]
-							}
-, 							{
-								"key" : "coll2cellblock",
-								"value" : [ "copy a coll into a cellblock" ]
-							}
-, 							{
-								"key" : "cellblock2csv",
-								"value" : [ "copy a cellblock into a csv file" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "lh.bag",
-								"value" : [ "store a collection of messages" ]
-							}
-, 							{
-								"key" : "lh.collstore",
-								"value" : [ "save and load multiple [coll]s into one" ]
-							}
-, 							{
-								"key" : "lh.cycle",
-								"value" : [ "send lists to individual outlets" ]
-							}
-, 							{
-								"key" : "lh.delace",
-								"value" : [ "separates a list item by item" ]
-							}
-, 							{
-								"key" : "lh.lace",
-								"value" : [ "multiple input [print] object" ]
-							}
-, 							{
-								"key" : "lh.lookup",
-								"value" : [ "output specified elements from a list" ]
-							}
-, 							{
-								"key" : "lh.lsub",
-								"value" : [ "list processor like [zl sub] which reports all matches" ]
-							}
-, 							{
-								"key" : "lh.pre",
-								"value" : [ "mulitple destination prepender" ]
-							}
-, 							{
-								"key" : "lh.rotate",
-								"value" : [ "list rotation without looping" ]
-							}
-, 							{
-								"key" : "lh.slice",
-								"value" : [ "slice a list into uneven parts" ]
-							}
-, 							{
-								"key" : "lh.slicerep",
-								"value" : [ "slice a list into even parts" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "dot.reg",
-								"value" : [ "Like zl", "reg but right outlet bangs when empty" ]
-							}
-, 							{
-								"key" : "dot.listinterpolate",
-								"value" : [ "interpolates/extrapolates between two lists of equal length" ]
-							}
-, 							{
-								"key" : "dot.listinterpolate4",
-								"value" : [ "interpolates/extrapolates between four lists of equal length" ]
-							}
-, 							{
-								"key" : "dot.squeuedlim",
-								"value" : [ "limits the speed of messages passing through for list" ]
-							}
-, 							{
-								"key" : "zsa.dist",
-								"value" : [ "find the closest list" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "f0.l==",
-								"value" : [ "outputs 1 if two lists match" ]
-							}
-, 							{
-								"key" : "f0.s==",
-								"value" : [ "outputs 1 if two symbols match" ]
-							}
-, 							{
-								"key" : "f0.lchange",
-								"value" : [ "filter out repeated lists" ]
-							}
-, 							{
-								"key" : "f0.list_all_zero",
-								"value" : [ "outputs 1 if all numbers in a list are 0" ]
-							}
-, 							{
-								"key" : "f0.list_arpeggio",
-								"value" : [ "iterates over a list with a delay" ]
-							}
-, 							{
-								"key" : "f0.list_collect",
-								"value" : [ "builds a list of incoming messages" ]
-							}
-, 							{
-								"key" : "f0.list_first_nonzero",
-								"value" : [ "output index of first non-zero item in list" ]
-							}
-, 							{
-								"key" : "f0.list_num_nonzero",
-								"value" : [ "count number of non-zero items in a list" ]
-							}
- ]
-					}
-,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"hidden" : 1,
@@ -515,12 +370,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 285.0, 722.0, 79.0, 20.0 ],
+					"patching_rect" : [ 282.0, 626.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 0
 					}
 ,
-					"text" : "coll overview"
+					"text" : "coll ltoolbox"
 				}
 
 			}
@@ -539,9 +394,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 8.0, 59.0, 491.0, 684.0 ],
+					"patching_rect" : [ 5.0, 59.0, 492.0, 577.0 ],
 					"rowhead" : 1,
-					"rows" : 38,
+					"rows" : 31,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -557,7 +412,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 5.0, 302.0, 30.0 ],
+					"patching_rect" : [ 6.0, 5.0, 302.0, 30.0 ],
 					"text" : "list toolbox",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -573,7 +428,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 31.0, 420.0, 21.0 ],
+					"patching_rect" : [ 6.0, 31.0, 420.0, 21.0 ],
 					"text" : "Useful tools to use lists in Max/MSP (click on the object name to open)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -591,7 +446,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 4.0, 493.0, 50.0 ],
+					"patching_rect" : [ 4.0, 4.0, 493.0, 50.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -628,7 +483,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 218.5, 61.5, 17.5, 61.5 ],
+					"midpoints" : [ 215.5, 61.5, 14.5, 61.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -655,7 +510,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 258.5, 61.5, 17.5, 61.5 ],
+					"midpoints" : [ 255.5, 61.5, 14.5, 61.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 

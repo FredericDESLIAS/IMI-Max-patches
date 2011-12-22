@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 1.0, 44.0, 583.0, 610.0 ],
+		"rect" : [ 1.0, 44.0, 582.0, 628.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1.0, 44.0, 583.0, 610.0 ],
+		"defrect" : [ 1.0, 44.0, 582.0, 628.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,14 +27,29 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 470.0, 603.0, 96.0, 16.0 ],
+					"text" : "read soundtools.txt"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 516.0, 613.0, 60.0, 20.0 ],
+					"patching_rect" : [ 516.0, 603.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -51,21 +66,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 91.0, 39.0, 54.0, 18.0 ],
 					"text" : "delay 500"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"hidden" : 1,
-					"id" : "obj-21",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 396.0, 613.0, 125.0, 18.0 ],
-					"text" : "read soundtools.txt"
 				}
 
 			}
@@ -229,11 +229,11 @@
 					"saved_object_attributes" : 					{
 						"fontface" : 0,
 						"fontsize" : 14.0,
+						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : ""
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p info"
@@ -258,14 +258,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.0, 613.0, 112.0, 20.0 ],
+					"patching_rect" : [ 7.0, 603.0, 95.0, 18.0 ],
 					"text" : "sprintf %s.maxpat"
 				}
 
@@ -273,14 +273,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-33",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 193.0, 613.0, 82.0, 20.0 ],
+					"patching_rect" : [ 31.0, 603.0, 70.0, 18.0 ],
 					"text" : "prepend load"
 				}
 
@@ -288,14 +288,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 279.0, 613.0, 54.0, 20.0 ],
+					"patching_rect" : [ 51.0, 603.0, 47.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -303,14 +303,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 4.0, 613.0, 64.0, 20.0 ],
+					"patching_rect" : [ 4.0, 603.0, 55.0, 18.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -340,8 +340,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 39.0, 73.0, 16.0 ],
-					"text" : "refer overview"
+					"patching_rect" : [ 4.0, 39.0, 71.0, 16.0 ],
+					"text" : "refer stoolbox"
 				}
 
 			}
@@ -362,141 +362,20 @@
 			}
 , 			{
 				"box" : 				{
-					"coll_data" : 					{
-						"count" : 29,
-						"data" : [ 							{
-								"key" : "ajm.overview",
-								"value" : [ "Music composition (AJM tools)" ]
-							}
-, 							{
-								"key" : "ajm.midi.programs",
-								"value" : [ "Midi programs for the AJM tools" ]
-							}
-, 							{
-								"key" : "analyzer~help",
-								"value" : [ "FFT-Based Perceptual Analysis (Pitch, Loudness, Brightness, Noisiness)" ]
-							}
-, 							{
-								"key" : "forbidden~planet",
-								"value" : [ "White, pink noise + filters" ]
-							}
-, 							{
-								"key" : "threshold_help~",
-								"value" : [ "outputs bangs when the signal exceeds a specified value" ]
-							}
-, 							{
-								"key" : "spectral_transformation",
-								"value" : [ "J-F Charles' tutorials" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "+CNMAT_MMJD_Overview",
-								"value" : [ "A depot of patches for Max/MSP/Jitter (CNMAT)" ]
-							}
-, 							{
-								"key" : "01-sinewaves",
-								"value" : [ "generates as many as 256 sine waves" ]
-							}
-, 							{
-								"key" : "02-sinusoids~",
-								"value" : [ "generates as many as 1024 sine waves" ]
-							}
-, 							{
-								"key" : "03-decaying-sinusoids~",
-								"value" : [ "generates sine waves that exponentially decay down to zero amplitude" ]
-							}
-, 							{
-								"key" : "04-resonators~",
-								"value" : [ "resonant filter bank" ]
-							}
-, 							{
-								"key" : "14-res-transform",
-								"value" : [ "transformations for Resonance Models" ]
-							}
-, 							{
-								"key" : "34-harmonics~",
-								"value" : [ "generates a number of harmonically related sinusoidal oscillators" ]
-							}
-, 							{
-								"key" : "35-oscillators~",
-								"value" : [ "oscillators~ works very much like sinusoids~" ]
-							}
-, 							{
-								"key" : "smooth-biquad~",
-								"value" : [ "Two-pole, two-zero filter (CNMAT version, smoothed)" ]
-							}
-, 							{
-								"key" : "sc.crackle",
-								"value" : [ "A noise generator based on a chaotic function" ]
-							}
-, 							{
-								"key" : "sc.dust",
-								"value" : [ "Generates random impulses from 0 to +1" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "ExamplesOverview",
-								"value" : [ "Cycling'74's examples" ]
-							}
-, 							{
-								"key" : "X.FM~",
-								"value" : [ "FM/AM Synthesizer" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "bargraf~",
-								"value" : [ "Draws and calculate the signal level" ]
-							}
-, 							{
-								"key" : "sfmarkers~",
-								"value" : [ "Returns the list of markers in a .wav or .aiff sound file" ]
-							}
-, 							{
-								"key" : "msg.surround",
-								"value" : [ "surround object" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "jscope_help~",
-								"value" : [ "signal-oscilloscope using jitter" ]
-							}
-, 							{
-								"key" : "buffer_help~",
-								"value" : [ "the buffer~ object" ]
-							}
-, 							{
-								"key" : "GLbuffer~",
-								"value" : [ "show buffer~ data in OpenGL" ]
-							}
- ]
-					}
-,
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 333.0, 613.0, 79.0, 20.0 ],
+					"patching_rect" : [ 405.0, 603.0, 66.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 0
 					}
 ,
-					"text" : "coll overview"
+					"text" : "coll stoolbox"
 				}
 
 			}
@@ -515,9 +394,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 4.0, 65.0, 572.0, 540.0 ],
+					"patching_rect" : [ 4.0, 62.0, 573.0, 557.0 ],
 					"rowhead" : 1,
-					"rows" : 29,
+					"rows" : 30,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -567,7 +446,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 574.0, 52.0 ],
+					"patching_rect" : [ 3.0, 4.0, 575.0, 52.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

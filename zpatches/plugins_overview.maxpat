@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 9.0, 44.0, 593.0, 574.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 9.0, 44.0, 582.0, 571.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 9.0, 44.0, 593.0, 574.0 ],
+		"defrect" : [ 9.0, 44.0, 582.0, 571.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,7 +34,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 408.0, 38.0, 88.0, 18.0 ],
+					"patching_rect" : [ 404.0, 37.0, 88.0, 18.0 ],
 					"text" : "col 0 width 160"
 				}
 
@@ -36,14 +42,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 520.0, 546.0, 60.0, 20.0 ],
+					"patching_rect" : [ 516.0, 545.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -58,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 95.0, 39.0, 54.0, 18.0 ],
+					"patching_rect" : [ 91.0, 38.0, 54.0, 18.0 ],
 					"text" : "delay 500"
 				}
 
@@ -66,14 +72,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-21",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 427.0, 546.0, 111.0, 18.0 ],
+					"patching_rect" : [ 423.0, 545.0, 94.0, 16.0 ],
 					"text" : "read plugins.txt"
 				}
 
@@ -90,6 +96,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 619.0, 44.0, 238.0, 329.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 619.0, 44.0, 238.0, 329.0 ],
@@ -228,15 +240,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 209.0, 39.0, 35.0, 18.0 ],
+					"patching_rect" : [ 205.0, 38.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
+						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p info"
@@ -253,7 +265,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 39.0, 62.0, 18.0 ],
+					"patching_rect" : [ 336.0, 38.0, 62.0, 18.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -261,14 +273,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 82.0, 544.0, 112.0, 20.0 ],
+					"patching_rect" : [ 7.0, 544.0, 95.0, 18.0 ],
 					"text" : "sprintf %s.maxhelp"
 				}
 
@@ -276,14 +288,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-33",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 544.0, 82.0, 20.0 ],
+					"patching_rect" : [ 102.0, 545.0, 70.0, 18.0 ],
 					"text" : "prepend load"
 				}
 
@@ -291,14 +303,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 283.0, 544.0, 54.0, 20.0 ],
+					"patching_rect" : [ 124.0, 545.0, 47.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -306,14 +318,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 544.0, 64.0, 20.0 ],
+					"patching_rect" : [ 4.0, 543.0, 55.0, 18.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -328,7 +340,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 249.0, 40.0, 88.0, 16.0 ],
+					"patching_rect" : [ 245.0, 39.0, 88.0, 16.0 ],
 					"text" : "mode selmode $1"
 				}
 
@@ -343,8 +355,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 39.0, 73.0, 16.0 ],
-					"text" : "refer overview"
+					"patching_rect" : [ 4.0, 38.0, 81.0, 16.0 ],
+					"text" : "refer ploverview"
 				}
 
 			}
@@ -358,140 +370,27 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 153.0, 39.0, 52.0, 18.0 ],
+					"patching_rect" : [ 149.0, 38.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"coll_data" : 					{
-						"count" : 27,
-						"data" : [ 							{
-								"key" : "boids2d_jitter",
-								"value" : [ "Boids is a bird flight and animal flock simulator" ]
-							}
-, 							{
-								"key" : "jit.boids3d",
-								"value" : [ "Boids is a bird flight and animal flock simulator (3D)" ]
-							}
-, 							{
-								"key" : "boidroids-example",
-								"value" : [ "boidroids-example" ]
-							}
-, 							{
-								"key" : "boidroids-example2",
-								"value" : [ "boidroids-example" ]
-							}
-, 							{
-								"key" : "springoid-example",
-								"value" : [ "simple(and physically inaccurate) spring like simulation" ]
-							}
-, 							{
-								"key" : "springoidgrid-example",
-								"value" : [ "similar to the springoid, but in a grid. whacko physics" ]
-							}
-, 							{
-								"key" : "springoidgrid3d-example",
-								"value" : [ "springoid 3D (using Nurbs)" ]
-							}
-, 							{
-								"key" : "springoidgrid3d-example2",
-								"value" : [ "springoid 3D (using Nurbs)" ]
-							}
-, 							{
-								"key" : "box2D",
-								"value" : [ "2D rigid body simulation engine" ]
-							}
-, 							{
-								"key" : "msd",
-								"value" : [ "mass springer damper" ]
-							}
-, 							{
-								"key" : "msd2D",
-								"value" : [ "mass springer damper 2D" ]
-							}
-, 							{
-								"key" : "msd3D",
-								"value" : [ "mass springer damper 3D" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "cosm",
-								"value" : [ "Virtual worlds in Jitter: 6DoF, stereographics, ambisonics, collisions" ]
-							}
-, 							{
-								"key" : "chemotaxis",
-								"value" : [ "Basis of a cosm world" ]
-							}
-, 							{
-								"key" : "z.glNav1b",
-								"value" : [ "3d navigation" ]
-							}
-, 							{
-								"key" : "z.glNav2b",
-								"value" : [ "3d navigation" ]
-							}
-, 							{
-								"key" : "z.wii.glNav_quad",
-								"value" : [ "3D navigation with the Wii" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "p.jit.gl.shader",
-								"value" : [ "a wrapper for GL Shader (Pelado)" ]
-							}
-, 							{
-								"key" : "jitter_lighting",
-								"value" : [ "help with lighting (Pelado)" ]
-							}
-, 							{
-								"key" : "lighting_with_sketch",
-								"value" : [ "help with lighting in sketch (Pelado)" ]
-							}
-, 							{
-								"key" : "–––––––––––––––––––––––",
-								"value" : [ "" ]
-							}
-, 							{
-								"key" : "1-Mouse2Audio",
-								"value" : [ "gesture tutorial : mouse to audio" ]
-							}
-, 							{
-								"key" : "2-Mouse2Video",
-								"value" : [ "gesture tutorial : mouse to video" ]
-							}
-, 							{
-								"key" : "jit.freenect.grab",
-								"value" : [ "Kinect driver" ]
-							}
-, 							{
-								"key" : "2up.jit.centroids",
-								"value" : [ "subpixel-accurate centroids of intensity" ]
-							}
- ]
-					}
-,
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 344.0, 544.0, 79.0, 20.0 ],
+					"patching_rect" : [ 340.0, 543.0, 76.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 0
 					}
 ,
-					"text" : "coll overview"
+					"text" : "coll ploverview"
 				}
 
 			}
@@ -510,7 +409,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 8.0, 65.0, 574.0, 501.0 ],
+					"patching_rect" : [ 4.0, 60.0, 574.0, 501.0 ],
 					"rowhead" : 1,
 					"rows" : 27,
 					"savemode" : 1,
@@ -528,7 +427,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 5.0, 239.0, 30.0 ],
+					"patching_rect" : [ 5.0, 4.0, 239.0, 30.0 ],
 					"text" : "Plugins overview",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -544,7 +443,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 32.0, 443.0, 21.0 ],
+					"patching_rect" : [ 5.0, 31.0, 443.0, 21.0 ],
 					"text" : "Useful plugins for animating in Max/MSP (click on the object name to open)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -562,7 +461,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 4.0, 576.0, 52.0 ],
+					"patching_rect" : [ 3.0, 3.0, 576.0, 52.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -599,7 +498,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 218.5, 61.5, 17.5, 61.5 ],
+					"midpoints" : [ 214.5, 60.5, 13.5, 60.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -626,7 +525,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 258.5, 61.5, 17.5, 61.5 ],
+					"midpoints" : [ 254.5, 60.5, 13.5, 60.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
