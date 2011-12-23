@@ -109,8 +109,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 11.0, 39.0, 77.0, 23.0 ],
-									"text" : "matrix2cell"
+									"patching_rect" : [ 11.0, 39.0, 99.0, 23.0 ],
+									"text" : "imi.matrix2cell"
 								}
 
 							}
@@ -138,13 +138,13 @@
 ,
 					"patching_rect" : [ 710.0, 479.0, 89.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"fontface" : 0
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p matrix2cell"
@@ -392,13 +392,13 @@
 ,
 					"patching_rect" : [ 746.0, 124.0, 61.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"fontface" : 0
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p camera"
@@ -418,7 +418,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 710.0, 540.0, 89.0, 19.0 ],
+					"patching_rect" : [ 710.0, 541.0, 89.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 223.0, 596.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -438,7 +438,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 710.0, 542.0, 81.0, 15.0 ],
-					"text" : "load GL.multiple+"
+					"text" : "load GLmultiple+"
 				}
 
 			}
@@ -473,9 +473,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 850.0, 373.0, 472.0, 170.0 ],
+						"rect" : [ 826.0, 373.0, 472.0, 170.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 850.0, 373.0, 472.0, 170.0 ],
+						"defrect" : [ 826.0, 373.0, 472.0, 170.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -714,13 +714,13 @@
 ,
 					"patching_rect" : [ 710.0, 509.0, 101.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"fontface" : 0
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p multiple_text"
@@ -1475,13 +1475,13 @@
 ,
 					"patching_rect" : [ 685.0, 191.0, 99.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontface" : 0
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
