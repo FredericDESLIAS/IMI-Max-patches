@@ -5,6 +5,7 @@ IMI_modulo, "usage of modulo %";
 IMI_max2printer, "print from Max";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 imi.draw, "lcd drawing tool : use with paintoval, frameoval, framerect, paintrect";
+imi.matrix2cell, "copy matrix to cellblock";
 imi.matrixinfo, "get info on the matrix";
 imi.pushcount, "when hits the threshold, send a bang after a delay";
 imi.slide, "the slide object to connect two matrixes";

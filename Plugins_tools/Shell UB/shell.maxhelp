@@ -699,12 +699,12 @@
 ,
 													"patching_rect" : [ 9.0, 160.0, 51.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontface" : 0,
 														"fontsize" : 14.0,
 														"default_fontsize" : 14.0,
 														"fontname" : "Arial",
-														"default_fontface" : 0,
 														"globalpatchername" : "",
+														"default_fontface" : 0,
+														"fontface" : 0,
 														"default_fontname" : "Arial"
 													}
 ,
@@ -819,12 +819,12 @@
 ,
 									"patching_rect" : [ 578.0, 449.0, 65.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
 										"fontsize" : 14.0,
 										"default_fontsize" : 14.0,
 										"fontname" : "Arial",
-										"default_fontface" : 0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"fontface" : 0,
 										"default_fontname" : "Arial"
 									}
 ,
@@ -1232,12 +1232,12 @@
 ,
 					"patching_rect" : [ 304.0, 298.0, 73.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"fontface" : 0,
 						"default_fontname" : "Arial"
 					}
 ,
@@ -1709,8 +1709,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.0, 370.0, 85.0, 16.0 ],
-					"text" : "help Max2printer"
+					"patching_rect" : [ 425.0, 370.0, 105.0, 16.0 ],
+					"text" : "help IMI_Max2printer"
 				}
 
 			}
@@ -1725,8 +1725,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 627.0, 47.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 627.0, 46.0 ]
 				}
 
 			}

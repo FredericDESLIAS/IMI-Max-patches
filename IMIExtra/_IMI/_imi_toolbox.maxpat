@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 1.0, 44.0, 583.0, 686.0 ],
+		"rect" : [ 1.0, 44.0, 583.0, 710.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1.0, 44.0, 583.0, 686.0 ],
+		"defrect" : [ 1.0, 44.0, 583.0, 710.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -25,21 +25,6 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 233.0, 672.0, 60.0, 18.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -64,7 +49,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 293.0, 672.0, 81.0, 16.0 ],
+					"patching_rect" : [ 171.0, 691.0, 81.0, 16.0 ],
 					"text" : "read toolbox.txt"
 				}
 
@@ -227,13 +212,13 @@
 ,
 					"patching_rect" : [ 204.0, 37.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
 						"fontsize" : 14.0,
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0
+						"fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p info"
@@ -265,7 +250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 672.0, 96.0, 18.0 ],
+					"patching_rect" : [ 3.0, 689.0, 96.0, 18.0 ],
 					"text" : "sprintf %s.maxhelp"
 				}
 
@@ -280,7 +265,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.0, 672.0, 74.0, 18.0 ],
+					"patching_rect" : [ 97.0, 689.0, 74.0, 18.0 ],
 					"text" : "prepend load"
 				}
 
@@ -295,7 +280,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 672.0, 54.0, 18.0 ],
+					"patching_rect" : [ 96.0, 688.0, 54.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -310,7 +295,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1.0, 672.0, 64.0, 18.0 ],
+					"patching_rect" : [ 1.0, 688.0, 64.0, 18.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -370,7 +355,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 171.0, 672.0, 63.0, 18.0 ],
+					"patching_rect" : [ 171.0, 688.0, 63.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -394,9 +379,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 4.0, 59.0, 574.0, 616.0 ],
+					"patching_rect" : [ 4.0, 59.0, 574.0, 647.0 ],
 					"rowhead" : 1,
-					"rows" : 34,
+					"rows" : 35,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -432,6 +417,21 @@
 					"text" : "Useful tools for patching in Max/MSP (click on the object name to open)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 171.0, 673.0, 60.0, 18.0 ],
+					"text" : "loadbang"
 				}
 
 			}
