@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 4.0, 44.0, 495.0, 618.0 ],
+		"rect" : [ 4.0, 44.0, 490.0, 627.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 495.0, 618.0 ],
+		"defrect" : [ 4.0, 44.0, 490.0, 627.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -27,13 +27,29 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 12.754705,
+					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 3.0, 29.0, 367.0, 21.0 ],
+					"text" : "taken from Peter Elsea's tutorial on Jitter",
+					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"varname" : "autohelp_top_digest[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 13.0, 174.0, 115.0, 20.0 ],
+					"patching_rect" : [ 9.0, 185.0, 115.0, 20.0 ],
 					"text" : "jit.qt.movie 320 240"
 				}
 
@@ -47,7 +63,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.0, 137.0, 84.0, 18.0 ],
+					"patching_rect" : [ 34.0, 148.0, 84.0, 18.0 ],
 					"text" : "read tom.mov"
 				}
 
@@ -60,7 +76,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 147.0, 332.0, 241.0, 20.0 ],
+					"patching_rect" : [ 143.0, 343.0, 241.0, 20.0 ],
 					"text" : "matrix goes in the loop, one frame later"
 				}
 
@@ -74,7 +90,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 39.0, 330.0, 102.0, 23.0 ],
+					"patching_rect" : [ 35.0, 341.0, 102.0, 23.0 ],
 					"text" : "jit.matrix loop"
 				}
 
@@ -89,7 +105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 338.0, 586.0, 117.0, 16.0 ],
+					"patching_rect" : [ 334.0, 597.0, 117.0, 16.0 ],
 					"text" : "load matrix_feedback02"
 				}
 
@@ -107,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 399.0, 557.5, 88.0, 20.0 ],
+					"patching_rect" : [ 395.0, 568.5, 88.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 686.0, 238.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -129,7 +145,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 398.0, 583.5, 89.0, 20.0 ],
+					"patching_rect" : [ 394.0, 594.5, 89.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 671.0, 223.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -148,7 +164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 338.0, 586.0, 117.0, 16.0 ],
+					"patching_rect" : [ 334.0, 597.0, 117.0, 16.0 ],
 					"text" : "load matrix_feedback03"
 				}
 
@@ -163,7 +179,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 338.0, 583.0, 52.0, 20.0 ],
+					"patching_rect" : [ 334.0, 594.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -178,8 +194,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 433.0, 30.0 ],
-					"text" : "IMI Matrix feedback using jit.qt.movie",
+					"patching_rect" : [ 2.0, 2.0, 392.0, 30.0 ],
+					"text" : "Matrix feedback using jit.qt.movie",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -194,7 +210,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 207.0, 186.0, 48.0, 20.0 ]
+					"patching_rect" : [ 203.0, 197.0, 48.0, 20.0 ]
 				}
 
 			}
@@ -207,7 +223,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.0, 214.0, 90.0, 18.0 ],
+					"patching_rect" : [ 203.0, 225.0, 90.0, 18.0 ],
 					"text" : "val 1 $1 $1 $1"
 				}
 
@@ -221,7 +237,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 153.0, 242.0, 73.0, 20.0 ],
+					"patching_rect" : [ 149.0, 253.0, 73.0, 20.0 ],
 					"text" : "jit.op @op *"
 				}
 
@@ -235,7 +251,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 153.0, 137.0, 204.0, 23.0 ],
+					"patching_rect" : [ 149.0, 148.0, 204.0, 23.0 ],
 					"text" : "jit.matrix loop 4 char 320 240"
 				}
 
@@ -247,7 +263,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 13.0, 369.0, 320.0, 240.0 ],
+					"patching_rect" : [ 9.0, 380.0, 320.0, 240.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ]
 				}
 
@@ -261,7 +277,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 13.0, 294.0, 75.0, 20.0 ],
+					"patching_rect" : [ 9.0, 305.0, 75.0, 20.0 ],
 					"text" : "jit.op @op +"
 				}
 
@@ -273,7 +289,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 13.0, 47.0, 25.0, 25.0 ]
+					"patching_rect" : [ 9.0, 58.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -286,7 +302,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 13.0, 83.0, 58.0, 20.0 ],
+					"patching_rect" : [ 9.0, 94.0, 58.0, 20.0 ],
 					"text" : "metro 30"
 				}
 
@@ -297,13 +313,13 @@
 					"background" : 1,
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-30",
+					"id" : "obj-11",
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 489.0, 33.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 485.0, 49.0 ],
+					"varname" : "autohelp_top_panel[2]"
 				}
 
 			}
@@ -312,7 +328,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 22.5, 115.0, 162.5, 115.0 ],
+					"midpoints" : [ 18.5, 126.0, 158.5, 126.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -348,7 +364,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 162.5, 281.0, 78.5, 281.0 ],
+					"midpoints" : [ 158.5, 292.0, 74.5, 292.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 

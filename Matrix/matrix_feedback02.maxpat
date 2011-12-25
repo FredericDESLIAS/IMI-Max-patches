@@ -138,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 4.0, 433.0, 30.0 ],
-					"text" : "IMI Matrix feedback using LCD / part 02",
+					"text" : "Matrix feedback using LCD / part 02",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -480,13 +480,13 @@
 ,
 					"patching_rect" : [ 34.0, 135.0, 69.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 18.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 18.0
+						"globalpatchername" : "",
+						"default_fontsize" : 18.0,
+						"fontface" : 0,
+						"fontsize" : 18.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p genovals"
