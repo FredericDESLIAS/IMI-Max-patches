@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 0.0, 44.0, 630.0, 445.0 ],
+		"rect" : [ 0.0, 44.0, 563.0, 458.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 44.0, 630.0, 445.0 ],
+		"defrect" : [ 0.0, 44.0, 563.0, 458.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -107,8 +107,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 81.0, 58.0, 18.0 ],
-									"text" : "matrix2cell"
+									"patching_rect" : [ 16.0, 81.0, 74.0, 18.0 ],
+									"text" : "imi.matrix2cell"
 								}
 
 							}
@@ -190,10 +190,10 @@
 					"saved_object_attributes" : 					{
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
+						"globalpatchername" : "",
 						"fontface" : 0
 					}
 ,
@@ -214,7 +214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 505.0, 386.078186, 113.0, 20.0 ],
+					"patching_rect" : [ 438.0, 402.078186, 113.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 506.0, 373.078186, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -236,7 +236,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 505.0, 414.078186, 113.0, 20.0 ],
+					"patching_rect" : [ 438.0, 430.078186, 113.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 761.0, 313.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -255,7 +255,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 506.0, 419.078186, 43.0, 17.0 ],
+					"patching_rect" : [ 439.0, 435.078186, 43.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -270,7 +270,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 508.0, 420.078186, 100.0, 16.0 ],
+					"patching_rect" : [ 441.0, 436.078186, 100.0, 16.0 ],
 					"text" : "load GLnurbs_video"
 				}
 
@@ -300,7 +300,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 505.0, 420.078186, 103.0, 16.0 ],
+					"patching_rect" : [ 438.0, 436.078186, 103.0, 16.0 ],
 					"text" : "load GLnurbs_sound"
 				}
 
@@ -438,7 +438,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 325.0, 291.0, 34.0 ],
+					"patching_rect" : [ 119.0, 329.0, 291.0, 34.0 ],
 					"text" : "Copies the matrix to a  control point matrix. \nWorks with a matrix of 3-4 planes (float32 or float64)."
 				}
 
@@ -460,9 +460,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 640.0, 376.0, 481.0, 372.0 ],
+						"rect" : [ 570.0, 374.0, 481.0, 372.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 640.0, 376.0, 481.0, 372.0 ],
+						"defrect" : [ 570.0, 374.0, 481.0, 372.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -611,7 +611,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 164.0, 134.0, 65.0, 17.0 ],
-									"text" : "pos 640 45"
+									"text" : "pos 570 45"
 								}
 
 							}
@@ -940,14 +940,14 @@
  ]
 					}
 ,
-					"patching_rect" : [ 512.0, 199.662506, 102.0, 20.0 ],
+					"patching_rect" : [ 448.0, 199.662506, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0
 					}
 ,
@@ -964,7 +964,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 511.574097, 228.822479, 84.0, 20.0 ],
+					"patching_rect" : [ 447.574097, 228.822479, 84.0, 20.0 ],
 					"text" : "jit.window foo"
 				}
 
@@ -1018,7 +1018,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 510.894409, 70.002342, 21.565218, 21.565218 ]
+					"patching_rect" : [ 446.894409, 70.002342, 21.565218, 21.565218 ]
 				}
 
 			}
@@ -1031,7 +1031,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 510.894409, 101.77597, 65.0, 20.0 ],
+					"patching_rect" : [ 446.894409, 101.77597, 65.0, 20.0 ],
 					"text" : "qmetro 20"
 				}
 
@@ -1045,7 +1045,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "erase", "bang" ],
-					"patching_rect" : [ 510.894409, 126.594543, 60.173912, 20.0 ],
+					"patching_rect" : [ 446.894409, 126.594543, 60.173912, 20.0 ],
 					"text" : "t erase b"
 				}
 
@@ -1059,7 +1059,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 510.894409, 157.822479, 89.559006, 20.0 ],
+					"patching_rect" : [ 446.894409, 157.822479, 89.559006, 20.0 ],
 					"text" : "jit.gl.render foo"
 				}
 
@@ -1097,11 +1097,12 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-15",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 9.850922, 412.078186, 465.0, 23.0 ],
+					"patching_rect" : [ 9.850922, 406.078186, 282.0, 39.0 ],
 					"text" : "jit.gl.nurbs foo @order 3 3 @lighting_enable 1 @color 0.7 0.5 0.2 1."
 				}
 
@@ -1116,7 +1117,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 494.0, 61.0, 128.147247, 201.0 ],
+					"patching_rect" : [ 438.0, 61.0, 121.147247, 201.0 ],
 					"rounded" : 30
 				}
 
@@ -1132,7 +1133,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 624.0, 51.0 ],
+					"patching_rect" : [ 2.0, 2.0, 557.0, 50.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1259,7 +1260,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 37.282623, 402.718994, 19.350922, 402.718994 ],
+					"midpoints" : [ 37.282623, 399.718994, 19.350922, 399.718994 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1295,7 +1296,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 561.568298, 151.708511, 520.394409, 151.708511 ],
+					"midpoints" : [ 497.568329, 151.708511, 456.394409, 151.708511 ],
 					"source" : [ "obj-7", 1 ]
 				}
 

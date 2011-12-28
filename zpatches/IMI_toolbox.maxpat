@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 1.0, 44.0, 584.0, 708.0 ],
+		"rect" : [ 0.0, 44.0, 585.0, 732.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1.0, 44.0, 584.0, 708.0 ],
+		"defrect" : [ 0.0, 44.0, 585.0, 732.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -34,7 +34,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 233.0, 672.0, 60.0, 18.0 ],
+					"patching_rect" : [ 233.0, 708.0, 60.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -64,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 293.0, 672.0, 81.0, 16.0 ],
+					"patching_rect" : [ 293.0, 708.0, 81.0, 16.0 ],
 					"text" : "read toolbox.txt"
 				}
 
@@ -227,13 +227,13 @@
 ,
 					"patching_rect" : [ 204.0, 37.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 14.0,
-						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontsize" : 14.0,
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p info"
@@ -265,7 +265,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 672.0, 96.0, 18.0 ],
+					"patching_rect" : [ 3.0, 708.0, 96.0, 18.0 ],
 					"text" : "sprintf %s.maxhelp"
 				}
 
@@ -280,7 +280,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.0, 672.0, 74.0, 18.0 ],
+					"patching_rect" : [ 97.0, 708.0, 74.0, 18.0 ],
 					"text" : "prepend load"
 				}
 
@@ -295,7 +295,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 672.0, 54.0, 18.0 ],
+					"patching_rect" : [ 96.0, 708.0, 48.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -310,7 +310,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1.0, 672.0, 64.0, 18.0 ],
+					"patching_rect" : [ 3.0, 709.0, 50.0, 18.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -370,7 +370,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 171.0, 672.0, 63.0, 18.0 ],
+					"patching_rect" : [ 171.0, 708.0, 63.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -394,9 +394,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 4.0, 59.0, 576.0, 646.0 ],
+					"patching_rect" : [ 4.0, 59.0, 577.0, 666.0 ],
 					"rowhead" : 1,
-					"rows" : 35,
+					"rows" : 36,
 					"savemode" : 1,
 					"vscroll" : 0
 				}

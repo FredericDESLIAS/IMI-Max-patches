@@ -40,9 +40,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 401.0, 44.0, 440.0, 231.0 ],
+						"rect" : [ 401.0, 44.0, 248.0, 205.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 401.0, 44.0, 440.0, 231.0 ],
+						"defrect" : [ 401.0, 44.0, 248.0, 205.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -90,7 +90,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
 									"outmode" : 2,
-									"patching_rect" : [ 11.0, 93.0, 425.0, 102.0 ],
+									"patching_rect" : [ 11.0, 93.0, 224.0, 101.0 ],
 									"precision" : 0,
 									"rowheight" : 20,
 									"rows" : 1,
@@ -141,11 +141,11 @@
 					"saved_object_attributes" : 					{
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0
+						"default_fontsize" : 14.0,
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p matrix2cell"

@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 642.0, 44.0, 522.0, 346.0 ],
+		"rect" : [ 642.0, 44.0, 523.0, 346.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 642.0, 44.0, 522.0, 346.0 ],
+		"defrect" : [ 642.0, 44.0, 523.0, 346.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -263,13 +263,13 @@
 ,
 									"patching_rect" : [ 98.0, 390.0, 94.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
+										"fontsize" : 14.0,
 										"default_fontsize" : 14.0,
+										"fontname" : "Arial",
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"fontface" : 0,
-										"fontsize" : 14.0
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p shell2menu"
@@ -429,7 +429,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 342.0, 337.0, 185.0, 23.0 ],
+									"patching_rect" : [ 342.0, 338.0, 185.0, 23.0 ],
 									"text" : "path to the user's desktop"
 								}
 
@@ -860,13 +860,13 @@
 ,
 					"patching_rect" : [ 389.0, 315.0, 125.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
+						"fontsize" : 14.0,
 						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p print_in_practice"
@@ -914,7 +914,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 190.0, 379.0, 23.0 ],
+					"patching_rect" : [ 128.0, 191.088104, 379.0, 23.0 ],
 					"text" : "format the message (LPR is the print command in Unix)"
 				}
 
@@ -927,7 +927,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.0, 233.624451, 54.0, 23.0 ],
+					"patching_rect" : [ 263.0, 237.624451, 54.0, 23.0 ],
 					"text" : "output"
 				}
 
@@ -940,7 +940,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 153.0, 234.0, 23.0 ],
+					"patching_rect" : [ 128.0, 154.0, 234.0, 23.0 ],
 					"text" : "trigger bang string (the file name)"
 				}
 
@@ -981,7 +981,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 113.383255, 194.0, 23.0 ],
+					"patching_rect" : [ 218.0, 115.0, 194.0, 23.0 ],
 					"text" : "insert directory +  file name"
 				}
 
@@ -995,7 +995,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.313873, 233.624451, 224.0, 21.0 ],
+					"patching_rect" : [ 30.313873, 237.624451, 224.0, 21.0 ],
 					"text" : "lpr /Users/imi/Desktop/zoo.rtf"
 				}
 
@@ -1009,7 +1009,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 157.099152, 114.383255, 57.0, 21.0 ],
+					"patching_rect" : [ 157.099152, 115.0, 57.0, 21.0 ],
 					"text" : "zoo.rtf"
 				}
 
@@ -1151,7 +1151,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 21.357941, 225.856262, 244.813873, 225.856262 ],
+					"midpoints" : [ 21.357941, 228.856262, 244.813873, 228.856262 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

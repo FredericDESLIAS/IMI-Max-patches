@@ -785,12 +785,12 @@
 ,
 									"patching_rect" : [ 36.0, 100.0, 93.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"fontface" : 0,
-										"globalpatchername" : "",
 										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontface" : 0,
+										"fontface" : 0,
 										"default_fontname" : "Arial"
 									}
 ,
@@ -963,12 +963,12 @@
 ,
 					"patching_rect" : [ 20.0, 237.0, 49.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"fontface" : 0,
-						"globalpatchername" : "",
 						"fontsize" : 14.0,
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"fontface" : 0,
 						"default_fontname" : "Arial"
 					}
 ,
@@ -1134,7 +1134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 290.0, 304.0, 50.0, 20.0 ],
+					"patching_rect" : [ 290.0, 304.0, 39.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 235.0, 144.0, 50.0, 20.0 ],
 					"triangle" : 0
@@ -2009,12 +2009,12 @@
 ,
 					"patching_rect" : [ 20.0, 201.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"globalpatchername" : "",
 						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"fontface" : 0,
 						"default_fontname" : "Arial"
 					}
 ,
@@ -2046,16 +2046,16 @@
 					"arrowframe" : 0,
 					"arrowlink" : 0,
 					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
+					"fontsize" : 14.0,
 					"id" : "obj-65",
 					"items" : [ "1n", ",", "1nd", ",", "1nt", ",", "2n", ",", "2nd", ",", "2nt", ",", "4n", ",", "4nd", ",", "4nt", ",", "8n", ",", "8nd", ",", "8nt", ",", "16n", ",", "16nd", ",", "16nt", ",", "32n", ",", "32nd", ",", "32nt", ",", "64n", ",", "64nd", ",", "64nt", ",", "128n", ",", "128nd", ",", "128nt" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 11.0, 67.0, 34.0, 18.0 ],
+					"patching_rect" : [ 11.0, 67.0, 34.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 29.0, 60.0, 18.0 ],
+					"presentation_rect" : [ 41.0, 29.0, 60.0, 23.0 ],
 					"types" : [  ]
 				}
 

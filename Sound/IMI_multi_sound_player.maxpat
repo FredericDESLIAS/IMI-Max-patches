@@ -446,13 +446,13 @@
 ,
 					"patching_rect" : [ 403.0, 343.0, 51.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p drivers"
@@ -1300,13 +1300,13 @@
 ,
 					"patching_rect" : [ 196.0, 410.0, 112.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 18.0,
 						"globalpatchername" : "",
+						"default_fontsize" : 18.0,
 						"fontface" : 0,
-						"fontsize" : 18.0
+						"fontsize" : 18.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p multi_sound+"
@@ -1332,7 +1332,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"id" : "obj-2",
@@ -1341,8 +1341,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 29.0, 719.0, 21.0 ],
 					"text" : "Play sounds from a cuelist named play (1), one by one (2) or randomly (3) and add auto fade in / fade out (4)",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest[1]"
+					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ]
 				}
 
 			}

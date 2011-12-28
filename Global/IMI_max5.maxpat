@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 5.0, 44.0, 549.0, 296.0 ],
+		"rect" : [ 1.0, 44.0, 549.0, 296.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 5.0, 44.0, 549.0, 296.0 ],
+		"defrect" : [ 1.0, 44.0, 549.0, 296.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -26,18 +26,16 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial MT",
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 205.0, 20.0 ],
+					"patching_rect" : [ 3.0, 28.0, 205.0, 20.0 ],
 					"text" : "choose your max object by theme",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title[1]"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}

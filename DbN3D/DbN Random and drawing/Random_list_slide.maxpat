@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 504.0, 44.0, 637.0, 638.0 ],
+		"rect" : [ 496.0, 44.0, 637.0, 638.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 504.0, 44.0, 637.0, 638.0 ],
+		"defrect" : [ 496.0, 44.0, 637.0, 638.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -217,13 +217,13 @@
 ,
 									"patching_rect" : [ 139.0, 514.0, 108.0, 23.0 ],
 									"saved_object_attributes" : 									{
+										"fontsize" : 14.0,
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 14.0,
-										"fontface" : 0,
-										"fontsize" : 14.0,
-										"default_fontface" : 0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"fontface" : 0
 									}
 ,
 									"text" : "p into_numbers"
@@ -532,13 +532,13 @@
 ,
 					"patching_rect" : [ 531.0, 49.0, 95.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 14.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"globalpatchername" : ""
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p slide_demo"

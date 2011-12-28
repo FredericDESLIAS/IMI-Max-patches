@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 3.0, 44.0, 584.0, 451.0 ],
+		"rect" : [ 3.0, 44.0, 580.0, 419.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 44.0, 584.0, 451.0 ],
+		"defrect" : [ 3.0, 44.0, 580.0, 419.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -457,13 +457,13 @@
 ,
 									"patching_rect" : [ 296.0, 333.0, 81.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 14.0,
+										"fontname" : "Arial",
+										"default_fontface" : 0,
 										"globalpatchername" : "",
+										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 14.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"fontname" : "Arial"
+										"default_fontsize" : 14.0
 									}
 ,
 									"text" : "p count+read"
@@ -866,15 +866,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 132.0, 119.0, 27.0 ],
+					"patching_rect" : [ 8.0, 131.0, 119.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p uldl2regexp"
@@ -894,7 +894,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 476.0, 418.0, 84.0, 21.0 ],
+					"patching_rect" : [ 489.0, 391.0, 84.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 641.0, 193.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -913,7 +913,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 450.0, 37.0, 16.0 ],
+					"patching_rect" : [ 490.0, 394.0, 37.0, 16.0 ],
 					"text" : "twitter"
 				}
 
@@ -928,7 +928,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 408.0, 447.0, 69.0, 18.0 ],
+					"patching_rect" : [ 490.0, 393.0, 69.0, 18.0 ],
 					"text" : "prepend help"
 				}
 
@@ -946,7 +946,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 475.0, 391.0, 86.0, 21.0 ],
+					"patching_rect" : [ 488.0, 364.0, 86.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -965,7 +965,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 449.5, 98.0, 16.0 ],
+					"patching_rect" : [ 477.0, 366.5, 98.0, 16.0 ],
 					"text" : "twitter_read.maxpat"
 				}
 
@@ -980,7 +980,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 409.0, 447.5, 69.0, 18.0 ],
+					"patching_rect" : [ 489.0, 365.5, 69.0, 18.0 ],
 					"text" : "prepend load"
 				}
 
@@ -995,7 +995,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.0, 447.5, 46.0, 18.0 ],
+					"patching_rect" : [ 489.0, 392.5, 46.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1121,15 +1121,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 147.0, 96.0, 116.0, 27.0 ],
+					"patching_rect" : [ 146.0, 95.0, 116.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p other feeds"
@@ -1232,15 +1232,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 235.0, 313.0, 48.0, 20.0 ],
+					"patching_rect" : [ 234.0, 312.0, 48.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p clear"
@@ -1256,7 +1256,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 359.0, 38.0, 21.0 ],
+					"patching_rect" : [ 5.0, 358.0, 38.0, 21.0 ],
 					"text" : "prev"
 				}
 
@@ -1270,7 +1270,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 49.0, 359.0, 37.0, 21.0 ],
+					"patching_rect" : [ 48.0, 358.0, 37.0, 21.0 ],
 					"text" : "next"
 				}
 
@@ -1284,7 +1284,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 186.0, 343.0, 79.0, 20.0 ],
+					"patching_rect" : [ 185.0, 342.0, 79.0, 20.0 ],
 					"text" : "route symbol"
 				}
 
@@ -1298,7 +1298,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2.0, 388.0, 433.0, 25.0 ],
+					"patching_rect" : [ 1.0, 387.0, 433.0, 25.0 ],
 					"text" : "\"Harvard man named Tibetan exile leader\""
 				}
 
@@ -1312,7 +1312,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 186.0, 285.0, 51.0, 20.0 ],
+					"patching_rect" : [ 185.0, 284.0, 51.0, 20.0 ],
 					"text" : "pack i s"
 				}
 
@@ -1326,7 +1326,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 186.0, 313.0, 45.0, 20.0 ],
+					"patching_rect" : [ 185.0, 312.0, 45.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -1494,15 +1494,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 186.0, 229.0, 115.0, 20.0 ],
+					"patching_rect" : [ 185.0, 228.0, 115.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p description_count"
@@ -1518,7 +1518,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 186.0, 256.0, 40.0, 20.0 ]
+					"patching_rect" : [ 185.0, 255.0, 40.0, 20.0 ]
 				}
 
 			}
@@ -1531,7 +1531,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 263.0, 179.0, 177.0, 23.0 ],
+					"patching_rect" : [ 262.0, 178.0, 177.0, 23.0 ],
 					"text" : "regexp <title>(.*?)</title>"
 				}
 
@@ -1546,7 +1546,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 4.0, 392.0, 31.0 ],
+					"patching_rect" : [ 3.0, 3.0, 392.0, 31.0 ],
 					"text" : "BBCnews (read and parse v1.2)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -1562,7 +1562,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 32.0, 554.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 554.0, 21.0 ],
 					"text" : "Read BBCnews using the jit.uldl and parse the text using regexp (remove xml tags)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1578,7 +1578,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 9.0, 97.0, 119.0, 27.0 ],
+					"patching_rect" : [ 8.0, 96.0, 119.0, 27.0 ],
 					"text" : "jit.uldl"
 				}
 
@@ -1592,7 +1592,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 65.0, 562.0, 21.0 ],
+					"patching_rect" : [ 8.0, 64.0, 562.0, 21.0 ],
 					"text" : "download http://newsrss.bbc.co.uk/rss/newsonline_world_edition/americas/rss.xml matrix"
 				}
 
@@ -1608,7 +1608,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 4.0, 575.0, 51.0 ],
+					"patching_rect" : [ 3.0, 3.0, 575.0, 51.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -1627,7 +1627,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 195.5, 285.0, 195.5, 285.0 ],
+					"midpoints" : [ 194.5, 284.0, 194.5, 284.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1645,7 +1645,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 195.5, 377.0, 425.5, 377.0 ],
+					"midpoints" : [ 194.5, 376.0, 424.5, 376.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -1672,7 +1672,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 58.5, 384.0, 100.0, 384.0, 100.0, 309.0, 195.5, 309.0 ],
+					"midpoints" : [ 57.5, 383.0, 99.0, 383.0, 99.0, 308.0, 194.5, 308.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -1690,7 +1690,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 15.5, 384.0, 100.5, 384.0, 100.5, 309.0, 195.5, 309.0 ],
+					"midpoints" : [ 14.5, 383.0, 99.5, 383.0, 99.5, 308.0, 194.5, 308.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -1717,7 +1717,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 18.5, 168.5, 272.5, 168.5 ],
+					"midpoints" : [ 17.5, 167.5, 271.5, 167.5 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -1726,7 +1726,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 312.0, 210.0, 195.5, 210.0 ],
+					"midpoints" : [ 311.0, 209.0, 194.5, 209.0 ],
 					"source" : [ "obj-38", 1 ]
 				}
 
@@ -1735,7 +1735,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-83", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 312.0, 279.0, 227.5, 279.0 ],
+					"midpoints" : [ 311.0, 278.0, 226.5, 278.0 ],
 					"source" : [ "obj-38", 1 ]
 				}
 

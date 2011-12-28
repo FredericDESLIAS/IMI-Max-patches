@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 3.0, 44.0, 735.0, 269.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 3.0, 44.0, 735.0, 269.0 ],
@@ -24,13 +30,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
-					"items" : [ "Copy file (shell).maxpat", ",", "detecting LR and speed.maxpat", ",", "Mail.maxpat", ",", "Path this patcher.maxpat", ",", "Pattr_animation.maxhelp", ",", "Slide2LCD.maxpat" ],
+					"items" : [ "Copy file (shell).maxpat", ",", "detecting LR and speed.maxpat", ",", "path_patcher.maxhelp", ",", "Pattr_animation.maxhelp", ",", "preset_namer.maxpat", ",", "sane.maxpat", ",", "Slide2LCD.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 88.0, 199.0, 258.0, 20.0 ],
-					"prefix" : "are-u-human:/Applications/Max5/_abstract/IMIpatches/Toolbox/_utilities/",
+					"prefix" : "are-u-human:/Applications/Max5/examples/IMIpatches/Toolbox/_utilities/",
 					"types" : "JSON"
 				}
 
@@ -44,7 +50,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 28.0, 64.0, 55.0, 20.0 ],
+					"patching_rect" : [ 28.0, 69.0, 55.0, 20.0 ],
 					"text" : "del 1900"
 				}
 
@@ -144,7 +150,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 358.0, 199.0, 317.0, 31.0 ],
-					"text" : "are-u-human:/Applications/Max5/_abstract/IMIpatches/Toolbox/_utilities/"
+					"text" : "are-u-human:/Applications/Max5/examples/IMIpatches/Toolbox/_utilities/"
 				}
 
 			}
@@ -157,7 +163,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 99.0, 31.0, 18.0 ],
+					"patching_rect" : [ 28.0, 98.0, 31.0, 18.0 ],
 					"text" : "path"
 				}
 

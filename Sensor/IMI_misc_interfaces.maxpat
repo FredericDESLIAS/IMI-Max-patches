@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 2.0, 44.0, 536.0, 568.0 ],
+		"rect" : [ 1.0, 44.0, 538.0, 589.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 2.0, 44.0, 536.0, 568.0 ],
+		"defrect" : [ 1.0, 44.0, 538.0, 589.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -25,6 +25,53 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-70",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 226.0, 531.0, 215.0, 23.0 ],
+					"text" : "mapping osc"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"border" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-66",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 12.0, 531.0, 57.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 33.0, 550.0, 100.0, 20.0 ],
+					"text" : "mapper"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"border" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-65",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 76.0, 531.0, 108.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 114.0, 541.0, 100.0, 20.0 ],
+					"text" : "mapperGUI 2.4"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -259,7 +306,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 13.0, 531.0, 136.0, 21.0 ],
+					"patching_rect" : [ 13.0, 558.0, 136.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 387.0, 419.0, 100.0, 20.0 ],
 					"text" : "Open Sound Control"
@@ -276,7 +323,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 13.0, 423.0, 75.0, 20.0 ],
+					"patching_rect" : [ 14.0, 423.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 155.0, 416.0, 100.0, 20.0 ],
 					"text" : "OSC2VPT"
@@ -291,7 +338,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 367.0, 110.0, 23.0 ],
+					"patching_rect" : [ 226.0, 369.0, 110.0, 23.0 ],
 					"text" : "Bluetooth Witilt"
 				}
 
@@ -305,7 +352,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 12.0, 367.0, 71.0, 19.0 ],
+					"patching_rect" : [ 12.0, 369.0, 71.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 526.0, 100.0, 20.0 ],
 					"text" : "Witilt"
@@ -322,7 +369,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 367.0, 58.0, 18.0 ],
+					"patching_rect" : [ 12.0, 369.0, 58.0, 18.0 ],
 					"text" : "load witilt"
 				}
 
@@ -337,7 +384,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 370.0, 52.0, 20.0 ],
+					"patching_rect" : [ 12.0, 372.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -409,7 +456,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 531.0, 215.0, 23.0 ],
+					"patching_rect" : [ 226.0, 558.0, 215.0, 23.0 ],
 					"text" : "osc tools (osc java for max)"
 				}
 
@@ -513,7 +560,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 531.0, 93.0, 16.0 ],
+					"patching_rect" : [ 12.0, 558.0, 93.0, 16.0 ],
 					"text" : "load 00-OSC_intro"
 				}
 
@@ -904,6 +951,37 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-67",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 13.0, 532.0, 75.0, 18.0 ],
+					"text" : "help mapper"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"hidden" : 1,
+					"id" : "obj-69",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 16.0, 531.0, 486.0, 25.0 ],
+					"text" : ";\rmax launchbrowser \"\\\"file://////Applications/Max5/examples/IMIpatches/Plugins_communication/mapperGUI 2.4.0.app\\\"\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 180.0,
 					"background" : 1,
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1194,7 +1272,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 21.5, 373.0, 21.5, 373.0 ],
+					"midpoints" : [ 21.5, 375.0, 21.5, 375.0 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -1250,6 +1328,33 @@
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-66", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-67", 0 ]
 				}
 
 			}

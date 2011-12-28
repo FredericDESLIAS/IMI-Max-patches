@@ -107,7 +107,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 48.0, 48.0, 380.0, 25.0 ],
-					"text" : ";\rmax launchbrowser \\\"file:////Applications/VPT6/VPT_6r05m.app\\\""
+					"text" : ";\rmax launchbrowser \\\"file:////Applications/VPT6/VPT_6r09m.app\\\""
 				}
 
 			}

@@ -1,10 +1,16 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 599.0, 44.0, 629.0, 695.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 592.0, 44.0, 629.0, 695.0 ],
 		"bgcolor" : [ 1.0, 1.0, 0.929412, 1.0 ],
 		"bglocked" : 1,
-		"defrect" : [ 599.0, 44.0, 629.0, 695.0 ],
+		"defrect" : [ 592.0, 44.0, 629.0, 695.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.595187,
@@ -41,6 +47,12 @@
 					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 1052.0, 44.0, 174.0, 374.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 1052.0, 44.0, 174.0, 374.0 ],
@@ -307,13 +319,13 @@
 ,
 					"patching_rect" : [ 322.0, 477.0, 99.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p wind simulation"

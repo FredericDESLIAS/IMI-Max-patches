@@ -37,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 327.0, 538.0, 99.0, 20.0 ],
+					"patching_rect" : [ 329.0, 538.0, 99.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 389.0, 726.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -56,7 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 296.0, 527.0, 133.0, 16.0 ],
+					"patching_rect" : [ 296.0, 538.0, 133.0, 16.0 ],
 					"text" : "load function_curve.maxpat"
 				}
 
@@ -71,7 +71,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 295.0, 530.0, 52.0, 20.0 ],
+					"patching_rect" : [ 295.0, 538.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -174,13 +174,13 @@
 ,
 					"patching_rect" : [ 212.0, 90.0, 53.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p color"
@@ -1096,13 +1096,13 @@
 ,
 					"patching_rect" : [ 18.0, 82.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p processsing"
@@ -1151,7 +1151,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"hint" : "x 43 y 0",
+					"hint" : "x 88 y 0",
 					"id" : "obj-1",
 					"linecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"maxclass" : "itable",
@@ -1163,7 +1163,7 @@
 					"pointcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"range" : 128,
 					"size" : 128,
-					"table_data" : [ 0, 0, 2, 3, 5, 7, 9, 11, 13, 14, 16, 18, 19, 21, 22, 24, 25, 27, 28, 29, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 47, 48, 49, 50, 51, 51, 52, 53, 53, 54, 55, 55, 56, 56, 57, 57, 58, 58, 59, 59, 60, 60, 60, 61, 61, 61, 62, 62, 62, 63, 63, 63, 63, 64, 64, 64, 64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 64, 64, 64, 64, 64, 64, 64, 63, 63, 63, 63, 63, 63, 62, 62, 62, 62, 62, 61, 61, 61 ]
+					"table_data" : [ 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126 ]
 				}
 
 			}
