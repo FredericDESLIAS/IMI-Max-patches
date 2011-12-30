@@ -250,13 +250,13 @@
 ,
 					"patching_rect" : [ 29.0, 196.0, 52.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 14.0,
+						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
-						"fontname" : "Arial"
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p camera"
@@ -342,7 +342,6 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -602,13 +601,13 @@
 ,
 					"patching_rect" : [ 9.0, 252.0, 84.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 14.0,
+						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
-						"fontname" : "Arial"
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p CalcGLHeight"
@@ -1185,13 +1184,13 @@
 ,
 					"patching_rect" : [ 17.0, 341.662506, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
