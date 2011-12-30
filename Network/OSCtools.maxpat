@@ -37,11 +37,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 222.0, 201.5, 98.0, 21.0 ],
+					"patching_rect" : [ 221.0, 202.5, 101.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 190.0, 240.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "303Loop",
+					"text" : "303Loop patch",
 					"texton" : "Stop"
 				}
 
@@ -74,7 +74,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 327.0, 201.5, 98.0, 21.0 ],
+					"patching_rect" : [ 327.0, 202.5, 98.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 196.5, 79.0, 17.0 ],
 					"rounded" : 20.0,

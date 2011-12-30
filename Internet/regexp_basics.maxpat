@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 421.0, 44.0, 783.0, 657.0 ],
+		"rect" : [ 370.0, 44.0, 783.0, 657.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 421.0, 44.0, 783.0, 657.0 ],
+		"defrect" : [ 370.0, 44.0, 783.0, 657.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -173,8 +173,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 135.0, 50.0, 21.0 ],
-					"text" : "apple"
+					"patching_rect" : [ 464.0, 135.0, 50.0, 21.0 ]
 				}
 
 			}
@@ -215,7 +214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 201.0, 69.0, 175.0, 23.0 ],
-					"text" : "search for apc + 2 or 4 + 0"
+					"text" : "search for abc + 2 or 4 + 0"
 				}
 
 			}
@@ -820,6 +819,21 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"hidden" : 1,
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 464.0, 102.0, 93.0, 23.0 ],
+					"text" : "loadmess set"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 180.0,
 					"background" : 1,
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1093,6 +1107,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-44", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}

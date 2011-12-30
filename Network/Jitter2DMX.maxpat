@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 14.0, 44.0, 670.0, 568.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ -1.0, 44.0, 615.0, 535.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 14.0, 44.0, 670.0, 568.0 ],
+		"defrect" : [ -1.0, 44.0, 615.0, 535.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -27,7 +33,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 515.0, 150.0, 34.0 ],
+					"patching_rect" : [ 99.0, 493.0, 150.0, 34.0 ],
 					"text" : "For a look at different DMX externals see here,"
 				}
 
@@ -43,6 +49,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 263.0, 164.0, 945.0, 498.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 263.0, 164.0, 945.0, 498.0 ],
@@ -565,6 +577,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -767,13 +785,13 @@
 ,
 									"patching_rect" : [ 710.0, 160.0, 135.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p AddChannelNumbers"
@@ -843,7 +861,8 @@
 									"id" : "obj-15",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 0,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 250.0, 290.0, 49.0, 20.0 ],
 									"text" : "uDMX"
 								}
@@ -885,8 +904,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-4",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 0,
+									"numinlets" : 4,
+									"numoutlets" : 1,
+									"outlettype" : [ "FullPacket" ],
 									"patching_rect" : [ 480.0, 290.0, 139.0, 20.0 ],
 									"text" : "lcudp-pack 254 202"
 								}
@@ -1222,15 +1242,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 25.0, 515.0, 88.0, 20.0 ],
+					"patching_rect" : [ 9.0, 493.0, 88.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p DMXObjects"
@@ -1248,6 +1268,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 606.0, 262.0, 622.0, 492.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 606.0, 262.0, 622.0, 492.0 ],
@@ -1732,15 +1758,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 435.0, 405.0, 130.0, 20.0 ],
+					"patching_rect" : [ 419.0, 383.0, 130.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p HTPandLTP"
@@ -1758,6 +1784,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 553.0, 171.0, 723.0, 324.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 553.0, 171.0, 723.0, 324.0 ],
@@ -3344,15 +3376,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 435.0, 435.0, 130.0, 20.0 ],
+					"patching_rect" : [ 419.0, 413.0, 130.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p SimpleLightingDesk"
@@ -3370,6 +3402,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 554.0, 141.0, 651.0, 521.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 554.0, 141.0, 651.0, 521.0 ],
@@ -3807,15 +3845,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 435.0, 465.0, 130.0, 20.0 ],
+					"patching_rect" : [ 419.0, 443.0, 130.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Networking"
@@ -3831,7 +3869,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 265.0, 135.0, 110.0, 62.0 ],
+					"patching_rect" : [ 249.0, 113.0, 110.0, 62.0 ],
 					"text" : "See 'MultipleLocations' for an explanation of this metro."
 				}
 
@@ -3845,7 +3883,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 205.0, 115.0, 72.0, 20.0 ],
+					"patching_rect" : [ 189.0, 93.0, 72.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -3857,7 +3895,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 205.0, 145.0, 20.0, 20.0 ]
+					"patching_rect" : [ 189.0, 123.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -3870,7 +3908,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 205.0, 175.0, 58.0, 20.0 ],
+					"patching_rect" : [ 189.0, 153.0, 58.0, 20.0 ],
 					"text" : "metro 20"
 				}
 
@@ -3884,7 +3922,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.0, 55.0, 230.0, 21.0 ],
+					"patching_rect" : [ 369.0, 33.0, 230.0, 21.0 ],
 					"text" : "by David Butler",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -3902,6 +3940,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 541.0, 169.0, 542.0, 514.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 541.0, 169.0, 542.0, 514.0 ],
@@ -4464,15 +4508,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 435.0, 315.0, 130.0, 20.0 ],
+					"patching_rect" : [ 419.0, 293.0, 130.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p MultipleLocations"
@@ -4490,6 +4534,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 606.0, 262.0, 622.0, 492.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 606.0, 262.0, 622.0, 492.0 ],
@@ -5046,15 +5096,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 435.0, 375.0, 130.0, 20.0 ],
+					"patching_rect" : [ 419.0, 353.0, 130.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p DMXCrossfade"
@@ -5072,6 +5122,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 505.0, 213.0, 646.0, 485.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 505.0, 213.0, 646.0, 485.0 ],
@@ -5447,15 +5503,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 435.0, 495.0, 130.0, 20.0 ],
+					"patching_rect" : [ 419.0, 473.0, 130.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p VideoToDMX"
@@ -5473,6 +5529,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 430.0, 176.0, 699.0, 497.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 430.0, 176.0, 699.0, 497.0 ],
@@ -5861,6 +5923,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 817.0, 137.0, 242.0, 375.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 817.0, 137.0, 242.0, 375.0 ],
@@ -6125,13 +6193,13 @@
 ,
 									"patching_rect" : [ 10.0, 180.0, 89.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p RGB2CMY"
@@ -6473,15 +6541,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 435.0, 345.0, 130.0, 20.0 ],
+					"patching_rect" : [ 419.0, 323.0, 130.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p DealingWithFixtures"
@@ -6497,7 +6565,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.0, 85.0, 240.0, 131.0 ],
+					"patching_rect" : [ 369.0, 63.0, 240.0, 131.0 ],
 					"text" : "By using a Jitter matrix to hold your DMX data, a lot of new possibilities are opened up. You can use all Jitter's matrix math and logic objects. You can write into a central data store from multiple patches. It even makes it very easy to process quicktime video files onto a DMX universe. The main benefit however is that it takes away a lot of the tedious list processing issues."
 				}
 
@@ -6512,7 +6580,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.0, 25.0, 230.0, 30.0 ],
+					"patching_rect" : [ 369.0, 3.0, 230.0, 30.0 ],
 					"text" : "Using Jitter for DMX",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -6528,7 +6596,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 175.0, 45.0, 100.0, 62.0 ],
+					"patching_rect" : [ 159.0, 23.0, 100.0, 62.0 ],
 					"text" : "This multislider will affect the whole DMX universe of data."
 				}
 
@@ -6542,7 +6610,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 385.0, 141.0, 62.0 ],
+					"patching_rect" : [ 179.0, 363.0, 141.0, 62.0 ],
 					"text" : "...but it makes more visual sense if formatted into multiple lines with scanwrap."
 				}
 
@@ -6556,7 +6624,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 385.0, 130.0, 48.0 ],
+					"patching_rect" : [ 29.0, 363.0, 130.0, 48.0 ],
 					"text" : "The matrix data can be easily viewed on a pwindow..."
 				}
 
@@ -6568,7 +6636,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 195.0, 305.0, 140.0, 80.0 ]
+					"patching_rect" : [ 179.0, 283.0, 140.0, 80.0 ]
 				}
 
 			}
@@ -6581,7 +6649,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 195.0, 275.0, 144.0, 20.0 ],
+					"patching_rect" : [ 179.0, 253.0, 144.0, 20.0 ],
 					"text" : "jit.scanwrap 1 char 32 16"
 				}
 
@@ -6595,7 +6663,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 475.0, 225.0, 34.0 ],
+					"patching_rect" : [ 39.0, 453.0, 225.0, 34.0 ],
 					"text" : "To convert the matrix back into a list to send to a DMX object use jit.spill."
 				}
 
@@ -6609,7 +6677,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 145.0, 155.0, 34.0 ],
+					"patching_rect" : [ 19.0, 123.0, 155.0, 34.0 ],
 					"text" : "To write list values into the matrix use jit.fill."
 				}
 
@@ -6621,7 +6689,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 45.0, 305.0, 140.0, 80.0 ]
+					"patching_rect" : [ 29.0, 283.0, 140.0, 80.0 ]
 				}
 
 			}
@@ -6633,7 +6701,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 25.0, 35.0, 140.0, 90.0 ],
+					"patching_rect" : [ 9.0, 13.0, 140.0, 90.0 ],
 					"setminmax" : [ 0.0, 255.0 ],
 					"settype" : 0,
 					"size" : 512
@@ -6649,7 +6717,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 25.0, 185.0, 93.0, 20.0 ],
+					"patching_rect" : [ 9.0, 163.0, 93.0, 20.0 ],
 					"text" : "jit.fill dmxdata 0"
 				}
 
@@ -6663,7 +6731,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.0, 215.0, 243.0, 89.0 ],
+					"patching_rect" : [ 369.0, 193.0, 243.0, 89.0 ],
 					"text" : "To define a jitter matrix for a single universe of DMX data, you need a 1 plane char matrix with 512 values. Of course if you're using only part of a universe, you can use a smaller matrix. However all these examples use a full universe."
 				}
 
@@ -6678,7 +6746,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 25.0, 225.0, 175.0, 20.0 ],
+					"patching_rect" : [ 9.0, 203.0, 175.0, 20.0 ],
 					"text" : "jit.matrix dmxdata 1 char 512 1"
 				}
 
@@ -6692,7 +6760,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 25.0, 455.0, 184.0, 20.0 ],
+					"patching_rect" : [ 9.0, 433.0, 184.0, 20.0 ],
 					"text" : "jit.spill @plane 0 @listlength 512"
 				}
 
@@ -6707,7 +6775,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.0, 25.0, 240.0, 50.0 ],
+					"patching_rect" : [ 369.0, 3.0, 240.0, 50.0 ],
 					"varname" : "autohelp_top_panel"
 				}
 
@@ -6744,7 +6812,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 34.5, 265.0, 204.5, 265.0 ],
+					"midpoints" : [ 18.5, 243.0, 188.5, 243.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -6753,7 +6821,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 34.5, 265.0, 54.5, 265.0 ],
+					"midpoints" : [ 18.5, 243.0, 38.5, 243.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -6780,7 +6848,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 214.5, 216.0, 34.5, 216.0 ],
+					"midpoints" : [ 198.5, 194.0, 18.5, 194.0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 

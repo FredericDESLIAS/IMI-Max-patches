@@ -11,6 +11,7 @@ jit.cellblock, "two-dimensional storage and viewing";
 imi.matrix2cell, "copy matrix to a cellblock";
 coll2cellblock, "copy a coll into a cellblock";
 cellblock2csv, "copy a cellblock into a csv file";
+csv2coll, "a simple csv to coll patch";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 lh.cycle, "send lists to individual outlets";
 lh.pre, "mulitple destination prepender";

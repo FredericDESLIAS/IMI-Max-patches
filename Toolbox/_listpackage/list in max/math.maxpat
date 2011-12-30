@@ -33,8 +33,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 616.0, 102.0, 50.0, 21.0 ],
-					"text" : "4.5"
+					"patching_rect" : [ 616.0, 102.0, 50.0, 21.0 ]
 				}
 
 			}
@@ -75,7 +74,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 443.0, 318.0, 116.0, 21.0 ]
+					"patching_rect" : [ 443.0, 318.0, 116.0, 21.0 ],
+					"text" : "7 8 9 10"
 				}
 
 			}
@@ -164,9 +164,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 25.0, 69.0, 362.0, 370.0 ],
+						"rect" : [ 516.0, 44.0, 362.0, 370.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 25.0, 69.0, 362.0, 370.0 ],
+						"defrect" : [ 516.0, 44.0, 362.0, 370.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -181,6 +181,7 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -189,7 +190,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 70.0, 263.0, 195.0, 23.0 ],
+									"patching_rect" : [ 70.0, 268.0, 195.0, 23.0 ],
 									"text" : "raises to the power"
 								}
 
@@ -202,7 +203,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 70.0, 319.0, 230.0, 23.0 ],
+									"patching_rect" : [ 70.0, 324.0, 230.0, 23.0 ],
 									"text" : "reports the lower value of the two"
 								}
 
@@ -215,7 +216,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 70.0, 291.0, 230.0, 23.0 ],
+									"patching_rect" : [ 70.0, 296.0, 230.0, 23.0 ],
 									"text" : "reports the higher value of the two"
 								}
 
@@ -228,7 +229,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 70.0, 234.0, 195.0, 23.0 ],
+									"patching_rect" : [ 70.0, 239.0, 195.0, 23.0 ],
 									"text" : "provides the absolute value "
 								}
 
@@ -241,7 +242,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 70.0, 206.0, 266.0, 23.0 ],
+									"patching_rect" : [ 70.0, 211.0, 266.0, 23.0 ],
 									"text" : "divides the stored list by the input list"
 								}
 
@@ -254,7 +255,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 70.0, 178.0, 266.0, 23.0 ],
+									"patching_rect" : [ 70.0, 183.0, 266.0, 23.0 ],
 									"text" : "same as Ldiv but outputs the remainders"
 								}
 
@@ -267,7 +268,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 70.0, 150.0, 250.0, 23.0 ],
+									"patching_rect" : [ 70.0, 155.0, 250.0, 23.0 ],
 									"text" : "divides the input list by the stored list"
 								}
 
@@ -280,7 +281,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 70.0, 121.0, 124.0, 23.0 ],
+									"patching_rect" : [ 70.0, 126.0, 124.0, 23.0 ],
 									"text" : "multiplies the lists"
 								}
 
@@ -293,7 +294,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 70.0, 93.0, 274.0, 23.0 ],
+									"patching_rect" : [ 70.0, 98.0, 274.0, 23.0 ],
 									"text" : "subtracts the input list from the stored list"
 								}
 
@@ -306,7 +307,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 70.0, 65.0, 274.0, 23.0 ],
+									"patching_rect" : [ 70.0, 70.0, 274.0, 23.0 ],
 									"text" : "subtracts the stored list from the input list"
 								}
 
@@ -319,7 +320,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 70.0, 36.0, 122.0, 23.0 ],
+									"patching_rect" : [ 70.0, 41.0, 122.0, 23.0 ],
 									"text" : "add two lists"
 								}
 
@@ -333,7 +334,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 319.0, 41.0, 23.0 ],
+									"patching_rect" : [ 10.0, 324.0, 41.0, 23.0 ],
 									"text" : "Lmin"
 								}
 
@@ -347,7 +348,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 291.0, 45.0, 23.0 ],
+									"patching_rect" : [ 10.0, 296.0, 45.0, 23.0 ],
 									"text" : "Lmax"
 								}
 
@@ -361,7 +362,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 263.0, 44.0, 23.0 ],
+									"patching_rect" : [ 10.0, 268.0, 44.0, 23.0 ],
 									"text" : "Lpow"
 								}
 
@@ -375,7 +376,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 234.0, 41.0, 23.0 ],
+									"patching_rect" : [ 10.0, 239.0, 41.0, 23.0 ],
 									"text" : "Labs"
 								}
 
@@ -389,7 +390,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 206.0, 53.0, 23.0 ],
+									"patching_rect" : [ 10.0, 211.0, 53.0, 23.0 ],
 									"text" : "Linvert"
 								}
 
@@ -403,7 +404,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 178.0, 42.0, 23.0 ],
+									"patching_rect" : [ 10.0, 183.0, 42.0, 23.0 ],
 									"text" : "Lrem"
 								}
 
@@ -417,7 +418,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 150.0, 36.0, 23.0 ],
+									"patching_rect" : [ 10.0, 155.0, 36.0, 23.0 ],
 									"text" : "Ldiv"
 								}
 
@@ -431,7 +432,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 121.0, 45.0, 23.0 ],
+									"patching_rect" : [ 10.0, 126.0, 45.0, 23.0 ],
 									"text" : "Lmult"
 								}
 
@@ -445,7 +446,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 93.0, 53.0, 23.0 ],
+									"patching_rect" : [ 10.0, 98.0, 53.0, 23.0 ],
 									"text" : "Lcomp"
 								}
 
@@ -459,7 +460,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 65.0, 41.0, 23.0 ],
+									"patching_rect" : [ 10.0, 70.0, 41.0, 23.0 ],
 									"text" : "Lsub"
 								}
 
@@ -473,20 +474,20 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 36.0, 42.0, 23.0 ],
+									"patching_rect" : [ 10.0, 41.0, 42.0, 23.0 ],
 									"text" : "Ladd"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 14.0,
+									"fontname" : "Arial Bold",
+									"fontsize" : 18.0,
 									"id" : "obj-17",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 5.0, 183.0, 23.0 ],
+									"patching_rect" : [ 9.0, 5.0, 211.0, 27.0 ],
 									"text" : "Lobjects - basic math"
 								}
 
@@ -498,12 +499,12 @@
 					"patching_rect" : [ 633.0, 318.0, 94.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p basic_math"
@@ -602,7 +603,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 437.0, 211.0, 131.0, 21.0 ]
+					"patching_rect" : [ 437.0, 211.0, 131.0, 21.0 ],
+					"text" : "1 6 11 16 21"
 				}
 
 			}
@@ -1041,6 +1043,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-3", 0 ]

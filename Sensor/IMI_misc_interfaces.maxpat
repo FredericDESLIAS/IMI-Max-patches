@@ -32,8 +32,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 531.0, 215.0, 23.0 ],
-					"text" : "mapping osc"
+					"patching_rect" : [ 225.0, 531.0, 236.0, 23.0 ],
+					"text" : "mapping osc (digital orchestra tools)"
 				}
 
 			}
@@ -170,7 +170,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 452.0, 107.0, 16.0 ],
+					"patching_rect" : [ 15.0, 450.0, 107.0, 16.0 ],
 					"text" : "load OSCseq.maxpat"
 				}
 
@@ -456,7 +456,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 558.0, 215.0, 23.0 ],
+					"patching_rect" : [ 226.0, 504.0, 183.0, 23.0 ],
 					"text" : "osc tools (osc java for max)"
 				}
 
@@ -586,8 +586,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 504.0, 236.0, 23.0 ],
-					"text" : "osc tutorial"
+					"patching_rect" : [ 226.0, 558.0, 142.0, 23.0 ],
+					"text" : "osc tutorial (CNMAT)"
 				}
 
 			}

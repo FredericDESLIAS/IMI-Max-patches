@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 4.0, 44.0, 491.0, 229.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 1.0, 44.0, 491.0, 229.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 491.0, 229.0 ],
+		"defrect" : [ 1.0, 44.0, 491.0, 229.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -27,7 +33,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 44.0, 180.0, 55.0, 27.0 ]
+					"patching_rect" : [ 26.0, 173.0, 55.0, 27.0 ]
 				}
 
 			}
@@ -40,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 44.0, 97.0, 50.0, 27.0 ]
+					"patching_rect" : [ 26.0, 90.0, 50.0, 27.0 ]
 				}
 
 			}
@@ -53,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 44.0, 137.0, 243.0, 27.0 ],
+					"patching_rect" : [ 26.0, 130.0, 243.0, 27.0 ],
 					"text" : "imi.splitscale 500 50 0.1 0.75"
 				}
 
@@ -103,7 +109,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 486.0, 70.0 ],
+					"patching_rect" : [ 1.0, 2.0, 486.0, 67.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 3.0, 44.0, 501.0, 652.0 ],
+		"rect" : [ 3.0, 44.0, 502.0, 653.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 44.0, 501.0, 652.0 ],
+		"defrect" : [ 3.0, 44.0, 502.0, 653.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -227,13 +227,13 @@
 ,
 					"patching_rect" : [ 206.0, 39.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"fontface" : 0
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p info"
@@ -394,9 +394,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 5.0, 59.0, 492.0, 577.0 ],
+					"patching_rect" : [ 5.0, 59.0, 492.0, 591.0 ],
 					"rowhead" : 1,
-					"rows" : 31,
+					"rows" : 32,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
