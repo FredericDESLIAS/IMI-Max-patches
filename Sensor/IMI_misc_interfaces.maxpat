@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 1.0, 44.0, 538.0, 589.0 ],
+		"rect" : [ 1.0, 44.0, 546.0, 589.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1.0, 44.0, 538.0, 589.0 ],
+		"defrect" : [ 1.0, 44.0, 546.0, 589.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -32,25 +32,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 531.0, 236.0, 23.0 ],
-					"text" : "mapping osc (digital orchestra tools)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-66",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 12.0, 531.0, 57.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 33.0, 550.0, 100.0, 20.0 ],
-					"text" : "mapper"
+					"patching_rect" : [ 226.0, 531.0, 143.0, 23.0 ],
+					"text" : "osc test application"
 				}
 
 			}
@@ -64,10 +47,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 76.0, 531.0, 108.0, 20.0 ],
+					"patching_rect" : [ 12.0, 531.0, 94.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 114.0, 541.0, 100.0, 20.0 ],
-					"text" : "mapperGUI 2.4"
+					"text" : "OSCTestApp"
 				}
 
 			}
@@ -138,7 +121,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 450.0, 226.0, 23.0 ],
+					"patching_rect" : [ 226.0, 450.0, 177.0, 23.0 ],
 					"text" : "OSCseq (OSC sequencer)"
 				}
 
@@ -153,7 +136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 13.0, 450.0, 60.0, 19.0 ],
+					"patching_rect" : [ 12.0, 450.0, 60.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 141.0, 408.0, 100.0, 20.0 ],
 					"text" : "OSCseq"
@@ -170,7 +153,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 450.0, 107.0, 16.0 ],
+					"patching_rect" : [ 12.0, 450.0, 107.0, 16.0 ],
 					"text" : "load OSCseq.maxpat"
 				}
 
@@ -306,7 +289,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 13.0, 558.0, 136.0, 21.0 ],
+					"patching_rect" : [ 12.0, 558.0, 136.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 387.0, 419.0, 100.0, 20.0 ],
 					"text" : "Open Sound Control"
@@ -323,7 +306,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 14.0, 423.0, 75.0, 20.0 ],
+					"patching_rect" : [ 12.0, 423.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 155.0, 416.0, 100.0, 20.0 ],
 					"text" : "OSC2VPT"
@@ -601,7 +584,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 13.0, 476.0, 116.0, 22.0 ],
+					"patching_rect" : [ 12.0, 476.0, 116.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 42.0, 494.0, 100.0, 20.0 ],
 					"text" : "OSC2Processing"
@@ -929,7 +912,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 504.0, 67.0, 15.0 ],
+					"patching_rect" : [ 12.0, 504.0, 67.0, 15.0 ],
 					"text" : "load OSCtools"
 				}
 
@@ -952,21 +935,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
-					"hidden" : 1,
-					"id" : "obj-67",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 532.0, 75.0, 18.0 ],
-					"text" : "help mapper"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-69",
@@ -975,8 +943,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 531.0, 486.0, 25.0 ],
-					"text" : ";\rmax launchbrowser \"\\\"file://////Applications/Max5/examples/IMIpatches/Plugins_communication/mapperGUI 2.4.0.app\\\"\""
+					"patching_rect" : [ 12.0, 523.0, 473.0, 25.0 ],
+					"text" : ";\rmax launchbrowser \\\"file://////Applications/Max5/examples/IMIpatches/Plugins_communication/OSCTestApp.app\\\""
 				}
 
 			}
@@ -991,7 +959,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 322.0, 530.0, 4.0 ],
+					"patching_rect" : [ 12.0, 322.0, 530.0, 4.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -1007,7 +975,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 403.0, 530.0, 4.0 ],
+					"patching_rect" : [ 12.0, 403.0, 530.0, 4.0 ],
 					"varname" : "autohelp_top_panel[4]"
 				}
 
@@ -1023,7 +991,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 245.0, 530.0, 4.0 ],
+					"patching_rect" : [ 12.0, 245.0, 530.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -1039,7 +1007,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 165.0, 530.0, 4.0 ],
+					"patching_rect" : [ 12.0, 165.0, 530.0, 4.0 ],
 					"varname" : "autohelp_top_panel[5]"
 				}
 
@@ -1055,7 +1023,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 533.0, 33.0 ],
+					"patching_rect" : [ 2.0, 2.0, 541.0, 32.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1337,24 +1305,6 @@
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-65", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-67", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-66", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-67", 0 ]
 				}
 
 			}
