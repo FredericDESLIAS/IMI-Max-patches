@@ -366,13 +366,13 @@
 ,
 					"patching_rect" : [ 9.0, 626.5, 99.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 18.0,
-						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 18.0
+						"fontsize" : 18.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 18.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p example"
@@ -438,9 +438,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 832.0, 335.0, 287.0, 188.0 ],
+						"rect" : [ 1028.0, 333.0, 287.0, 188.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 832.0, 335.0, 287.0, 188.0 ],
+						"defrect" : [ 1028.0, 333.0, 287.0, 188.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -513,13 +513,13 @@
 ,
 					"patching_rect" : [ 490.0, 269.0, 119.0, 31.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p image-size"

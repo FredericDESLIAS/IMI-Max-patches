@@ -457,13 +457,13 @@
 ,
 									"patching_rect" : [ 296.0, 333.0, 81.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
 										"default_fontface" : 0,
-										"globalpatchername" : "",
+										"fontname" : "Arial",
 										"default_fontname" : "Arial",
+										"globalpatchername" : "",
+										"default_fontsize" : 14.0,
 										"fontface" : 0,
-										"fontsize" : 14.0,
-										"default_fontsize" : 14.0
+										"fontsize" : 14.0
 									}
 ,
 									"text" : "p count+read"
@@ -868,13 +868,13 @@
 ,
 					"patching_rect" : [ 8.0, 131.0, 119.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontsize" : 14.0
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p uldl2regexp"
@@ -1017,9 +1017,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 608.0, 44.0, 435.0, 335.0 ],
+						"rect" : [ 588.0, 44.0, 340.0, 238.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 608.0, 44.0, 435.0, 335.0 ],
+						"defrect" : [ 588.0, 44.0, 340.0, 238.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -1044,7 +1044,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 74.0, 199.0, 287.0, 32.0 ],
+									"patching_rect" : [ 38.0, 108.0, 287.0, 32.0 ],
 									"text" : "download http://feeds.bbci.co.uk/news/business/rss.xml matrix"
 								}
 
@@ -1059,7 +1059,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 65.0, 153.0, 290.0, 32.0 ],
+									"patching_rect" : [ 29.0, 62.0, 290.0, 32.0 ],
 									"text" : "download http://feeds.bbci.co.uk/news/world/rss.xml matrix"
 								}
 
@@ -1074,7 +1074,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 274.0, 32.0 ],
+									"patching_rect" : [ 14.0, 9.0, 274.0, 32.0 ],
 									"text" : "download http://feeds.bbci.co.uk/news/uk/rss.xml matrix"
 								}
 
@@ -1086,7 +1086,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 291.0, 25.0, 25.0 ]
+									"patching_rect" : [ 12.0, 200.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1123,13 +1123,13 @@
 ,
 					"patching_rect" : [ 146.0, 95.0, 116.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontsize" : 14.0
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p other feeds"
@@ -1234,13 +1234,13 @@
 ,
 					"patching_rect" : [ 234.0, 312.0, 48.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontsize" : 14.0
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p clear"
@@ -1496,13 +1496,13 @@
 ,
 					"patching_rect" : [ 185.0, 228.0, 115.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontsize" : 14.0
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p description_count"

@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 7.0, 44.0, 1028.0, 894.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 1.0, 44.0, 1028.0, 894.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 7.0, 44.0, 1028.0, 894.0 ],
+		"defrect" : [ 1.0, 44.0, 1028.0, 894.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -29,6 +35,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 25.0, 69.0, 304.0, 266.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 69.0, 304.0, 266.0 ],
@@ -219,13 +231,13 @@
 ,
 					"patching_rect" : [ 104.0, 628.0, 65.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p imi_debug"
@@ -243,6 +255,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 25.0, 69.0, 304.0, 266.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 69.0, 304.0, 266.0 ],
@@ -433,13 +451,13 @@
 ,
 					"patching_rect" : [ 595.0, 519.0, 65.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p imi_debug"
@@ -484,6 +502,12 @@
 					"outlettype" : [ "", "float", "float" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 1098.0, 533.0, 498.0, 423.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 1098.0, 533.0, 498.0, 423.0 ],
@@ -1127,13 +1151,13 @@
 ,
 					"patching_rect" : [ 553.0, 248.0, 140.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p imi_frame_converter"
@@ -1245,9 +1269,15 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 1065.0, 366.0, 481.0, 372.0 ],
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
+						"rect" : [ 1041.0, 359.0, 481.0, 372.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 1065.0, 366.0, 481.0, 372.0 ],
+						"defrect" : [ 1041.0, 359.0, 481.0, 372.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1396,7 +1426,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 164.0, 134.0, 71.0, 17.0 ],
-									"text" : "pos 1065 45"
+									"text" : "pos 1040 45"
 								}
 
 							}
@@ -1727,13 +1757,13 @@
 ,
 					"patching_rect" : [ 167.0, 725.0, 86.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -1966,6 +1996,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 25.0, 69.0, 304.0, 266.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 69.0, 304.0, 266.0 ],
@@ -2156,13 +2192,13 @@
 ,
 					"patching_rect" : [ 682.0, 644.0, 65.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p imi_debug"
@@ -2468,6 +2504,12 @@
 					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 25.0, 69.0, 488.0, 305.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 69.0, 488.0, 305.0 ],
@@ -2629,13 +2671,13 @@
 ,
 					"patching_rect" : [ 18.0, 345.0, 81.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p serial_read"
@@ -2694,6 +2736,12 @@
 					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 25.0, 69.0, 250.0, 377.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 69.0, 250.0, 377.0 ],
@@ -2747,6 +2795,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 10.0, 59.0, 381.0, 284.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 10.0, 59.0, 381.0, 284.0 ],
@@ -2926,13 +2980,13 @@
 ,
 									"patching_rect" : [ 50.0, 146.0, 52.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"globalpatchername" : "",
-										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p devices"
@@ -3070,13 +3124,13 @@
 ,
 					"patching_rect" : [ 64.0, 161.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p serial_select"
@@ -3088,7 +3142,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
-					"items" : [ "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
+					"items" : [ "FireFly-2573-SPP", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "Bluetooth-PDA-Sync" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

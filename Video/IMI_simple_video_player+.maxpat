@@ -250,13 +250,13 @@
 ,
 					"patching_rect" : [ 29.0, 196.0, 52.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p camera"
@@ -325,9 +325,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 778.0, 721.0, 273.0, 225.0 ],
+						"rect" : [ 514.0, 357.0, 273.0, 225.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 778.0, 721.0, 273.0, 225.0 ],
+						"defrect" : [ 514.0, 357.0, 273.0, 225.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -342,6 +342,7 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -601,13 +602,13 @@
 ,
 					"patching_rect" : [ 9.0, 252.0, 84.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p CalcGLHeight"
@@ -1184,13 +1185,13 @@
 ,
 					"patching_rect" : [ 17.0, 341.662506, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p ESC-fullscreen"

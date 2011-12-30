@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 416.0, 127.0, 18.0 ],
+					"patching_rect" : [ 11.0, 415.0, 127.0, 18.0 ],
 					"text" : "load texture2GLsketch"
 				}
 
@@ -87,11 +87,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 10.0, 366.5, 103.0, 20.0 ],
+					"patching_rect" : [ 10.0, 366.5, 119.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 129.0, 268.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "GLsketchpad+",
+					"text" : "GLsketchpad_alt",
 					"texton" : "Stop"
 				}
 
@@ -106,8 +106,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 414.0, 111.0, 18.0 ],
-					"text" : "load GLsketchpad+"
+					"patching_rect" : [ 9.0, 414.0, 123.0, 18.0 ],
+					"text" : "load GLsketchpad_alt"
 				}
 
 			}
@@ -164,13 +164,13 @@
 ,
 					"patching_rect" : [ 9.0, 410.0, 100.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p gl_primitives"
