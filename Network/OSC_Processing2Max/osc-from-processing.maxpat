@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 545.0, 44.0, 357.0, 242.0 ],
+		"rect" : [ 553.0, 44.0, 357.0, 242.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 545.0, 44.0, 357.0, 242.0 ],
+		"defrect" : [ 553.0, 44.0, 357.0, 242.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -196,8 +196,8 @@
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 53.0, 121.0, 94.0, 20.0 ],
 					"text" : "OSC-route /test"
 				}
@@ -224,8 +224,8 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "OSCTimeTag" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 9.0, 90.0, 106.0, 20.0 ],
 					"text" : "opensoundcontrol"
 				}

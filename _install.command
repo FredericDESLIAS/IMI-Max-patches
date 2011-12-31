@@ -44,6 +44,7 @@ function doInstallation {
 		cp -R "$InstallFolder/Internet" "$IMIpatches" && echo -ne "... Internet.\n";
 		cp -R "$InstallFolder/Introduction" "$IMIpatches" && echo -ne "... Introduction.\n";
 		cp -R "$InstallFolder/LCD" "$IMIpatches" && echo -ne "... LCD.\n";
+		cp -R "$InstallFolder/Matrix" "$IMIpatches" && echo -ne "... Matrix.\n";
 		cp -R "$InstallFolder/Network" "$IMIpatches" && echo -ne "... Network.\n";
 		cp -R "$InstallFolder/Plugins_tools" "$IMIpatches" && echo -ne "... Plugins_tools.\n";
 		cp -R "$InstallFolder/Projection" "$IMIpatches" && echo -ne "... Projection.\n";

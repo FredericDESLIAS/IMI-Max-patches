@@ -74,7 +74,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 462.0, 36.0 ],
+					"patching_rect" : [ 4.0, 29.0, 462.0, 36.0 ],
 					"text" : "takes an init value (500) and a range value (50) and strictly map to values of the output  (0.1 to 0.75 in the example). ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -91,7 +91,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 4.0, 153.0, 30.0 ],
+					"patching_rect" : [ 4.0, 3.0, 153.0, 30.0 ],
 					"text" : "imi.splitscale",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -109,7 +109,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 486.0, 67.0 ],
+					"patching_rect" : [ 1.0, 2.0, 488.0, 63.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

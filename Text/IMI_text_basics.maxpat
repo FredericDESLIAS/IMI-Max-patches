@@ -91,7 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 625.0, 430.0, 32.5, 16.0 ],
+					"patching_rect" : [ 625.0, 428.0, 32.5, 16.0 ],
 					"text" : "itoa"
 				}
 
@@ -134,7 +134,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 625.0, 427.0, 32.5, 16.0 ],
+					"patching_rect" : [ 625.0, 428.0, 32.5, 16.0 ],
 					"text" : "atoi"
 				}
 
@@ -330,7 +330,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.0, 424.0, 69.0, 18.0 ],
+					"patching_rect" : [ 478.0, 425.0, 69.0, 18.0 ],
 					"text" : "prepend load"
 				}
 
@@ -345,7 +345,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 626.0, 427.0, 32.5, 16.0 ],
+					"patching_rect" : [ 626.0, 428.0, 32.5, 16.0 ],
 					"text" : "spell"
 				}
 
@@ -438,8 +438,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.0, 407.0, 60.0, 16.0 ],
-					"text" : "regexphelp"
+					"patching_rect" : [ 629.0, 428.0, 94.0, 16.0 ],
+					"text" : "regexp_tutorial"
 				}
 
 			}
@@ -483,8 +483,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.0, 406.0, 57.0, 16.0 ],
-					"text" : "IMI_sprintf"
+					"patching_rect" : [ 626.0, 428.0, 56.0, 16.0 ],
+					"text" : "imi_sprintf"
 				}
 
 			}
@@ -498,7 +498,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 623.0, 427.0, 43.0, 16.0 ],
+					"patching_rect" : [ 623.0, 428.0, 43.0, 16.0 ],
 					"text" : "textedit"
 				}
 
@@ -513,7 +513,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.0, 405.0, 56.0, 16.0 ],
+					"patching_rect" : [ 626.0, 428.0, 56.0, 16.0 ],
 					"text" : "IMI_jit_lcd"
 				}
 
@@ -906,7 +906,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-9", 0 ]

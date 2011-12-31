@@ -34,8 +34,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.0, 701.5, 113.0, 16.0 ],
-					"text" : "load polymovie.maxpat"
+					"patching_rect" : [ 497.0, 701.5, 113.0, 16.0 ],
+					"text" : "load polymove.maxpat"
 				}
 
 			}
