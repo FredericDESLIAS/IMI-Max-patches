@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 0.0, 44.0, 689.0, 516.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 0.0, 44.0, 689.0, 516.0 ],
@@ -26,7 +32,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.0, 67.0, 111.0, 23.0 ],
+					"patching_rect" : [ 311.0, 102.0, 111.0, 23.0 ],
 					"text" : "(1) read movie"
 				}
 
@@ -42,6 +48,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 699.0, 367.0, 465.0, 325.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 699.0, 367.0, 465.0, 325.0 ],
@@ -524,13 +536,13 @@
 ,
 					"patching_rect" : [ 13.0, 459.662506, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -560,7 +572,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 140.0, 107.0, 53.0, 20.0 ],
+					"patching_rect" : [ 140.0, 102.0, 53.0, 20.0 ],
 					"text" : "r bangs"
 				}
 
@@ -736,7 +748,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 202.0, 107.0, 105.0, 18.0 ],
+					"patching_rect" : [ 202.0, 102.0, 105.0, 18.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -746,11 +758,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 346.0, 130.0, 241.0, 18.0 ],
+					"patching_rect" : [ 437.0, 130.0, 130.0, 32.0 ],
 					"text" : "dstdimstart 0 0 $1, dstdimend 511 511 $1"
 				}
 
@@ -765,7 +778,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 346.0, 102.0, 86.0, 20.0 ],
+					"patching_rect" : [ 437.0, 102.0, 86.0, 20.0 ],
 					"text" : "counter 0 31"
 				}
 
@@ -964,7 +977,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 355.5, 236.0, 211.5, 236.0 ],
+					"midpoints" : [ 446.5, 236.0, 211.5, 236.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -1018,7 +1031,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 25.5, 90.5, 355.5, 90.5 ],
+					"midpoints" : [ 25.5, 90.5, 446.5, 90.5 ],
 					"source" : [ "obj-25", 0 ]
 				}
 

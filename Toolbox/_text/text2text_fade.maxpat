@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 2.0, 44.0, 691.0, 590.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 2.0, 44.0, 691.0, 590.0 ],
@@ -42,6 +48,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 703.0, 375.0, 465.0, 325.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 703.0, 375.0, 465.0, 325.0 ],
@@ -524,13 +536,13 @@
 ,
 					"patching_rect" : [ 20.0, 315.662476, 115.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -607,7 +619,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 21.0, 251.0, 60.0, 38.0 ]
+					"patching_rect" : [ 21.0, 251.0, 74.0, 38.0 ]
 				}
 
 			}
@@ -634,7 +646,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 21.0, 218.0, 130.0, 23.0 ],
+					"patching_rect" : [ 21.0, 218.0, 108.0, 23.0 ],
 					"text" : "jit.gl.render text"
 				}
 

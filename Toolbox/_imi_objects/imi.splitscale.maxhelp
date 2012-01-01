@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 1.0, 44.0, 491.0, 229.0 ],
+		"rect" : [ 1.0, 44.0, 490.0, 220.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1.0, 44.0, 491.0, 229.0 ],
+		"defrect" : [ 1.0, 44.0, 490.0, 220.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -74,8 +74,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 462.0, 36.0 ],
-					"text" : "takes an init value (500) and a range value (50) and strictly map to values of the output  (0.1 to 0.75 in the example). ",
+					"patching_rect" : [ 4.0, 29.0, 457.0, 36.0 ],
+					"text" : "takes an init value (500) and a range value (450-500) and strictly map to values of the output  (0.1 to 0.75 in the example). ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}

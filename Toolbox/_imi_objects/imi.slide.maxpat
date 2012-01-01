@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 637.0, 372.0, 361.0, 263.0 ],
+		"rect" : [ 436.0, 44.0, 361.0, 263.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 637.0, 372.0, 361.0, 263.0 ],
+		"defrect" : [ 436.0, 44.0, 361.0, 263.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -72,7 +72,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 201.0, 20.0, 25.0, 25.0 ]
 				}
 
@@ -151,7 +151,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 19.0, 21.0, 25.0, 25.0 ]
 				}
 
