@@ -251,10 +251,10 @@
 					"patching_rect" : [ 29.0, 196.0, 52.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0
 					}
@@ -271,7 +271,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 74.0, 296.0, 35.0, 17.0 ],
+					"patching_rect" : [ 77.0, 296.0, 35.0, 17.0 ],
 					"text" : "height"
 				}
 
@@ -287,7 +287,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 9.0, 276.0, 39.0, 19.0 ],
+					"patching_rect" : [ 13.0, 276.0, 39.0, 19.0 ],
 					"triscale" : 0.9
 				}
 
@@ -303,7 +303,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 74.0, 276.0, 39.0, 19.0 ],
+					"patching_rect" : [ 78.0, 276.0, 39.0, 19.0 ],
 					"triscale" : 0.9
 				}
 
@@ -599,13 +599,13 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 252.0, 84.0, 18.0 ],
+					"patching_rect" : [ 13.0, 252.0, 84.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0
 					}
@@ -622,7 +622,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 296.0, 35.0, 17.0 ],
+					"patching_rect" : [ 13.0, 296.0, 35.0, 17.0 ],
 					"text" : "width"
 				}
 
@@ -1185,10 +1185,10 @@
 					"patching_rect" : [ 17.0, 341.662506, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -1581,7 +1581,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 106.5, 248.393738, 18.5, 248.393738 ],
+					"midpoints" : [ 106.5, 248.393738, 22.5, 248.393738 ],
 					"source" : [ "obj-101", 1 ]
 				}
 
