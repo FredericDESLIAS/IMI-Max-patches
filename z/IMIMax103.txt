@@ -25,7 +25,7 @@
 
 30, -----------------------;
 31, <category> 4 DbN2D;
-32, IMI_jit_lcd+ "LCD sketch";
+32, IMI_lcd_space "using the LCD space";
 33, IMI_lcd_motion "motion using counter";
 34, IMI_lcd_oscillation "oscillation using sin/cos";
 35, IMI_noise2lcd "noise to jit.sketch position";
