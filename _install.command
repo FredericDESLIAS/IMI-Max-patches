@@ -3,7 +3,7 @@
 # Based on the eijes installer, thanks !
 
 ####################################
-# IMI Max patches Installation v1.1
+# IMI Max patches Installation v1.2
 # Nicolas Marechal
 # n.marechal@lcc.arts.ac.uk
 ####################################
@@ -116,15 +116,6 @@ if [ -e "/Applications/Max5/_abstract/IMIpatches" ]; then
 	whichVersion=2; # alumni version
 fi
 
-if [ -e "/Applications/Max6" ]; then
-	if [[ $whichVersion == 1 || $whichVersion == 2 ]]; then
-		whichVersion=4;	# got Max 5 and 6
-	else
-		whichVersion=3; # got Max 6 only
-	fi
-
-fi
-
 if [[ $whichVersion == 0 ]]; then
 	echo "Max 5 is not installed in the Applications folder. The automatic installation is not possible.";
 	exit 1;
@@ -150,33 +141,6 @@ if [[ $whichVersion == 2 ]]; then
 	maxAppFolder="/Applications/Max5";
 	C74Examples="$maxAppFolder/examples";
 	IMIpatches="$maxAppFolder/_abstract/IMIpatches";
-	IMIextra="$maxAppFolder/patches/extras/";
-	do5Installation;
-fi
-
-if [[ $whichVersion == 4 ]]; then
-
-	echo "Max 5 and 6 are installed.";
-	echo ""
-	maxAppFolder="/Applications/Max5";
-	C74Examples="$maxAppFolder/examples/";
-	IMIpatches="$maxAppFolder/examples/IMIpatches";
-	IMIextra="$maxAppFolder/patches/extras/";
-	do5Installation;
-	maxAppFolder="/Applications/Max6";
-	C74Examples="$maxAppFolder/examples/";
-	IMIpatches="$maxAppFolder/examples/IMIpatches";
-	IMIextra="$maxAppFolder/patches/extras/";
-	do5Installation;
-fi
-
-if [[ $whichVersion == 3 ]]; then
-
-	echo "Max 6 is installed.";
-	echo ""
-	maxAppFolder="/Applications/Max6";
-	C74Examples="$maxAppFolder/examples/";
-	IMIpatches="$maxAppFolder/examples/IMIpatches";
 	IMIextra="$maxAppFolder/patches/extras/";
 	do5Installation;
 fi

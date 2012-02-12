@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 544.0, 44.0, 429.0, 230.0 ],
+		"rect" : [ 556.0, 44.0, 429.0, 230.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 544.0, 44.0, 429.0, 230.0 ],
+		"defrect" : [ 556.0, 44.0, 429.0, 230.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,

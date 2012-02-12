@@ -77,7 +77,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -86,9 +86,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 114.0, 44.0, 437.0, 307.0 ],
+						"rect" : [ 159.0, 45.0, 386.0, 251.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 114.0, 44.0, 437.0, 307.0 ],
+						"defrect" : [ 159.0, 45.0, 386.0, 251.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -105,6 +105,20 @@
 						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 172.0, 73.0, 20.0 ],
+									"text" : "fromsymbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 0.67451, 0.270588, 0.270588, 0.0 ],
 									"fontname" : "Helvetica",
 									"fontsize" : 12.0,
@@ -112,7 +126,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 116.0, 166.0, 298.0, 18.0 ],
+									"patching_rect" : [ 81.0, 134.0, 298.0, 18.0 ],
 									"text" : "convert the ASCII numbers into letters and numbers"
 								}
 
@@ -127,7 +141,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 116.0, 102.0, 203.0, 30.0 ],
+									"patching_rect" : [ 81.0, 70.0, 203.0, 30.0 ],
 									"text" : "when 'enter' (ASCII : 13) is pressed, make a group of data"
 								}
 
@@ -141,7 +155,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 55.0, 20.0 ],
+									"patching_rect" : [ 15.0, 68.0, 55.0, 20.0 ],
 									"text" : "route 13"
 								}
 
@@ -155,7 +169,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 131.0, 53.0, 20.0 ],
+									"patching_rect" : [ 15.0, 99.0, 53.0, 20.0 ],
 									"text" : "zl group"
 								}
 
@@ -169,7 +183,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 50.0, 165.0, 36.0, 20.0 ],
+									"patching_rect" : [ 15.0, 133.0, 36.0, 20.0 ],
 									"text" : "itoa"
 								}
 
@@ -182,7 +196,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+									"patching_rect" : [ 15.0, 8.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -193,7 +207,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 245.0, 25.0, 25.0 ]
+									"patching_rect" : [ 15.0, 213.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -230,6 +244,15 @@
 									"destination" : [ "obj-14", 0 ],
 									"hidden" : 0,
 									"midpoints" : [  ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -249,12 +272,12 @@
 					"patching_rect" : [ 11.0, 334.0, 80.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p serial_read"
@@ -637,12 +660,12 @@
 									"patching_rect" : [ 10.0, 58.0, 52.0, 18.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontsize" : 12.0,
+										"fontname" : "Arial",
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"fontname" : "Arial"
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p devices"
@@ -781,12 +804,12 @@
 					"patching_rect" : [ 57.0, 147.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p serial_select"
@@ -798,7 +821,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-60",
-					"items" : [ "Bluetooth-PDA-Sync", ",", "Bluetooth-Modem" ],
+					"items" : [ "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

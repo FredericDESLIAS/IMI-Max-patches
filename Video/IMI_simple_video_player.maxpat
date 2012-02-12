@@ -205,13 +205,13 @@
 ,
 					"patching_rect" : [ 244.0, 393.0, 65.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p load&hide"
@@ -297,7 +297,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 123.0, 5.0, 55.0, 20.0 ],
-									"presentation_rect" : [ 101.0, 6.0, 0.0, 0.0 ],
 									"text" : "remote"
 								}
 
@@ -305,26 +304,26 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 10.0,
+									"fontsize" : 11.0,
 									"id" : "obj-10",
 									"maxclass" : "number",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 85.0, 111.0, 50.0, 18.0 ]
+									"patching_rect" : [ 85.0, 111.0, 50.0, 19.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 10.0,
+									"fontsize" : 11.0,
 									"id" : "obj-4",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 55.0, 136.0, 79.0, 18.0 ],
+									"patching_rect" : [ 55.0, 136.0, 79.0, 19.0 ],
 									"text" : "pak pos 0 45"
 								}
 
@@ -337,8 +336,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 251.0, 51.0, 20.0 ],
-									"text" : "rev. 003"
+									"patching_rect" : [ 6.0, 253.0, 51.0, 20.0 ],
+									"text" : "rev. 004"
 								}
 
 							}
@@ -363,9 +362,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 23.0, 69.0, 63.0, 20.0 ],
-									"text" : "delay 200"
+									"text" : "pipe 200"
 								}
 
 							}
@@ -812,13 +811,13 @@
 ,
 					"patching_rect" : [ 6.0, 269.662506, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"

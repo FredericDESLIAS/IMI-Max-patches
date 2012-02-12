@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 2.0, 44.0, 627.0, 246.0 ],
+		"rect" : [ 2.0, 44.0, 628.0, 292.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 2.0, 44.0, 627.0, 246.0 ],
+		"defrect" : [ 2.0, 44.0, 628.0, 292.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -26,6 +26,56 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 186.0, 196.5, 334.0, 23.0 ],
+					"text" : "a very complete tracking solution (Zachary Seldess)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-15",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 11.0, 196.5, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 108.0, 224.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "Kinect Tracker",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-14",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 11.0, 196.5, 142.0, 18.0 ],
+					"text" : "load KVL_Kinect_Tracker"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -37,7 +87,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 11.0, 200.5, 90.0, 20.0 ],
+					"patching_rect" : [ 11.0, 246.5, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 199.0, 316.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -56,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 200.5, 79.0, 18.0 ],
+					"patching_rect" : [ 11.0, 246.5, 79.0, 18.0 ],
 					"text" : "load synapse"
 				}
 
@@ -70,7 +120,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 185.0, 198.5, 432.0, 39.0 ],
+					"patching_rect" : [ 185.0, 244.5, 436.0, 39.0 ],
 					"text" : "synapse is an OF application that sends the kinect's skeleton to Max\n(launch the application from the patch then do the \"psy\" position)"
 				}
 
@@ -170,7 +220,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 164.5, 113.0, 18.0 ],
+					"patching_rect" : [ 11.0, 163.5, 113.0, 18.0 ],
 					"text" : "load freenect_nurbs"
 				}
 
@@ -235,7 +285,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 223.0, 55.0, 20.0 ],
+					"patching_rect" : [ 11.0, 269.0, 55.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -363,6 +413,24 @@
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}

@@ -316,13 +316,13 @@
 ,
 					"patching_rect" : [ 252.0, 188.0, 229.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial"
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p tween"
@@ -364,7 +364,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 13.0, 46.0, 20.0, 20.0 ]
+					"patching_rect" : [ 13.0, 44.0, 20.0, 20.0 ]
 				}
 
 			}

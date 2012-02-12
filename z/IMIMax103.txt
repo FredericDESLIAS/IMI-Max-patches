@@ -9,9 +9,9 @@
 11, <category> 2 Exhibition;
 12, IMI_video_twoscreens "video player for multi screens";
 14, IMI_multi-layered_video "multi-layered video";
-15, IMI_space_mapping "a very light space mapping";
+15, IMI_space_mapping "space mapping for multi screens";
 16, IMI_iCinema "iCinema";
-17, IMI_OSC2VPT "control VPT from Max";
+17, IMI_OSControl "control VPT/Resolume from Max";
 18, VPT_start "Video Projection Tool";
 
 20, -----------------------;

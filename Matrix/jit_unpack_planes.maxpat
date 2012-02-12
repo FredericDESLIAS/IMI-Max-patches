@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 6.0, 44.0, 669.0, 713.0 ],
+		"rect" : [ -1.0, 44.0, 669.0, 713.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 6.0, 44.0, 669.0, 713.0 ],
+		"defrect" : [ -1.0, 44.0, 669.0, 713.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -439,12 +439,27 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-31",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.0, 188.0, 272.0, 87.0 ],
-					"text" : "In Jitter, video/image data typically has four planes: alpha, red, green, blue. This single four plane matrix may be split into four single plane matrices, processed and recombined."
+					"patching_rect" : [ 199.0, 176.0, 279.0, 103.0 ],
+					"text" : "In Jitter, a video/image has four planes: alpha, red, green, blue (ARGB)\n\nThis single four plane matrix may be split into four single plane matrices, processed then recombined."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 589.0, 485.0, 64.0, 18.0 ],
+					"text" : "loadmess 1."
 				}
 
 			}
@@ -553,7 +568,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 1.0, 0.360784, 0.682353, 1.0 ],
+					"color" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
 					"destination" : [ "obj-17", 0 ],
 					"hidden" : 0,
 					"midpoints" : [ 49.25, 341.0, 183.5, 341.0 ],
@@ -586,6 +601,33 @@
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}

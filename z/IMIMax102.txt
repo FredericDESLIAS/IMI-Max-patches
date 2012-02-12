@@ -23,9 +23,9 @@
 32, IMI_compositing_modes "methods for compositing";
 33, IMI_video_delay "video delay";
 34, transfer_modes "photoshop transfer modes";
-35, jit.gl.imageunit.maxhelp "apple image unit in Max";
-36, shader_overview_v001 "easy to use shaders";
-37, BadTV "badTV effect";
+35, shader_overview_v001 "easy to use shaders";
+36, BadTV "badTV effect";
+37, h.lines "generate a mesh of lines from a movie";
 40, -----------------------;
 41, <category> 5 Computer_Vision;
 42, IMI_colourtrack "track a colour with jit.findbounds";

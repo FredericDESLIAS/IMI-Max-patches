@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 3.0, 44.0, 604.0, 833.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 3.0, 44.0, 604.0, 833.0 ],
@@ -510,7 +516,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 109.0, 100.0, 196.0, 21.0 ],
+					"patching_rect" : [ 109.0, 100.0, 158.0, 21.0 ],
 					"text" : "importmovie sunset.jpg"
 				}
 
